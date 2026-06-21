@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Wordmark } from "./Wordmark";
 import type { OrderingModel } from "@/types";
 import type { Prefs } from "@/lib/api";
@@ -26,6 +26,10 @@ export function BriefScreen({
   const [text, setText] = useState("");
   const [model, setModel] = useState<OrderingModel>("shared");
   const [drink, setDrink] = useState<Drink>("wine");
+  // Compute the date on the client only — using new Date() during render causes a
+  // server/client hydration mismatch that can break the controlled textarea.
+  const [today, setToday] = useState("");
+  useEffect(() => setToday(dateLabel()), []);
 
   function submit() {
     const prefs: Prefs = {
@@ -39,7 +43,9 @@ export function BriefScreen({
     <div className="flex min-h-screen flex-col px-6 pb-8 pt-5">
       <div className="flex items-center justify-between">
         <Wordmark />
-        <span className="label tnum">{dateLabel()}</span>
+        <span className="label tnum" suppressHydrationWarning>
+          {today}
+        </span>
       </div>
       <hr className="hairline mt-3.5" />
 
