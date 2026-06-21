@@ -1,0 +1,3772 @@
+{
+  "spinasse": {
+    "name": "Spinasse",
+    "neighborhood": "Capitol Hill",
+    "website_url": "https://www.spinasse.com",
+    "cuisine_primary": "Italian",
+    "cuisine_secondary": "Piedmontese",
+    "price_tier": 4,
+    "tags": [
+      "cozy",
+      "romantic",
+      "handmade-pasta"
+    ],
+    "description": "Cascina Spinasse is Capitol Hill's temple to Piedmontese cooking, famous for tajarin — hand-cut egg pasta in butter and sage, almost translucent. The room is small, candlelit, and unapologetically romantic: the place you book when the night is supposed to matter.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "Tock/Direct",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Romantic",
+      "Candlelit",
+      "Intimate"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 5,
+    "hero_dishes": [
+      "Tajarin al burro e salvia",
+      "Agnolotti dal plin"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "artusi": {
+    "name": "Artusi",
+    "neighborhood": "Capitol Hill",
+    "website_url": "https://www.artusibar.com",
+    "cuisine_primary": "Italian",
+    "cuisine_secondary": "Aperitivo/Small plates",
+    "price_tier": 2,
+    "tags": [
+      "cocktails",
+      "intimate"
+    ],
+    "description": "Artusi is Spinasse's next-door aperitivo bar, grown into its own draw — negronis, Italian small plates, and a buzzy 21-and-over room. Walk in for a pre-dinner spritz or stay the night; it's flirtier and louder than its sibling, built for a date with momentum.",
+    "venue_type": "Bar",
+    "reservations": "Walk-in",
+    "reservation_platform": "Walk-in (res 3+)",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Lively",
+      "Stylish",
+      "Date-friendly"
+    ],
+    "noise_level": "Loud",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Negroni",
+      "Seasonal cicchetti"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "taurusox": {
+    "name": "Taurus Ox",
+    "neighborhood": "Capitol Hill",
+    "website_url": "https://www.taurusox.com",
+    "cuisine_primary": "Laotian",
+    "cuisine_secondary": "Laotian",
+    "price_tier": 2,
+    "tags": [
+      "spicy",
+      "hip"
+    ],
+    "description": "Taurus Ox brings Laotian cooking rarely found in Seattle to a petite Capitol Hill room — fermented, herbal, chili-bright. Lao sausage, braised pork-belly thom khem, a cult Lao burger. No reservations and a little tight on tables; right for a casual, adventurous date.",
+    "venue_type": "Restaurant",
+    "reservations": "Walk-in",
+    "reservation_platform": "Waitlist at door",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Hip",
+      "Cozy",
+      "Casual"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 3,
+    "hero_dishes": [
+      "Lao sausage",
+      "Thom khem (braised pork belly)"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "momiji": {
+    "name": "Momiji",
+    "neighborhood": "Capitol Hill",
+    "website_url": "https://www.momijiseattle.com",
+    "cuisine_primary": "Japanese/Sushi",
+    "cuisine_secondary": "Sushi/Omakase",
+    "price_tier": 3,
+    "tags": [
+      "garden",
+      "cozy"
+    ],
+    "description": "Momiji hides a serene courtyard garden behind a busy Capitol Hill block — the rare sushi room that feels like an escape. Order omakase or work the roll list; the back patio under string lights is one of the neighborhood's quietly romantic seats. Open late for a spontaneous night.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Garden patio",
+      "Cozy",
+      "Romantic"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Omakase",
+      "Capitol Hill Roll"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "terraplata": {
+    "name": "Terra Plata",
+    "neighborhood": "Capitol Hill",
+    "website_url": "https://www.terraplata.com",
+    "cuisine_primary": "Pacific NW",
+    "cuisine_secondary": "Farm-to-table/Mediterranean",
+    "price_tier": 3,
+    "tags": [
+      "rooftop",
+      "seasonal"
+    ],
+    "description": "Terra Plata is Tamara Murphy's earth-to-plate room crowned by a covered, heated rooftop garden — greenery, herbs, and one of Capitol Hill's best al-fresco perches. The menu shifts with the season and leans Mediterranean; Monday paella night is the local ritual. Book the roof when weather turns.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Rooftop garden",
+      "Charming",
+      "Seasonal"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Paella (Mon night)",
+      "Seasonal market plates"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "rionexiii": {
+    "name": "Rione XIII",
+    "neighborhood": "Capitol Hill",
+    "website_url": "https://www.ethanstowellrestaurants.com",
+    "cuisine_primary": "Italian",
+    "cuisine_secondary": "Roman",
+    "price_tier": 3,
+    "tags": [
+      "neighborhood",
+      "wine"
+    ],
+    "description": "Rione XIII channels Rome's Trastevere on 15th Ave — fried artichokes, cacio e pepe, carbonara, and blistered Roman pizza, with a wine list to match. It's the Ethan Stowell room that feels most like a neighborhood trattoria: lively, warm, and easy to linger in. Reservations smooth the wait.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Neighborhood",
+      "Warm",
+      "Wine-focused"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Cacio e pepe",
+      "Roman-style pizza"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "altura": {
+    "name": "Altura",
+    "neighborhood": "Capitol Hill",
+    "website_url": "https://www.alturarestaurant.com",
+    "cuisine_primary": "Italian Tasting Menu",
+    "cuisine_secondary": "Italian-PNW tasting",
+    "price_tier": 4,
+    "tags": [
+      "tasting-menu",
+      "special-occasion"
+    ],
+    "description": "Altura is Capitol Hill's special-occasion summit — Nathan Lockwood's weekly-changing Italian-Pacific Northwest tasting menu in a hushed, candlelit room over a long, unhurried evening. At $137 a person it's a commitment, and the kind of night you book when the occasion deserves one. Reserve directly.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "Direct (not OpenTable)",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Romantic",
+      "Hushed",
+      "Special-occasion"
+    ],
+    "noise_level": "Quiet",
+    "date_night_score": 5,
+    "hero_dishes": [
+      "Chef's tasting menu",
+      "Handmade pasta course"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "jeffrysformerlybateau": {
+    "name": "Jeffry's (formerly Bateau)",
+    "neighborhood": "Capitol Hill",
+    "website_url": "https://www.sea-creatures.com/",
+    "cuisine_primary": "Steakhouse",
+    "cuisine_secondary": "Dry-aged steakhouse",
+    "price_tier": 3,
+    "tags": [
+      "craft-butchery",
+      "romantic"
+    ],
+    "description": "Jeffry's is the 2026 reboot of Renee Erickson's beloved Bateau — same in-house dry-aged beef, leaner and more approachable, with a 'Humble Cuts' menu of lesser-known cuts. The intimate Union St room still reads like a date-night steakhouse, just with a friendlier check. Wednesday through Sunday only.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "Resy",
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Intimate",
+      "Romantic",
+      "Refined"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Dry-aged steak",
+      "Humble Cuts selection"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "stateside": {
+    "name": "Stateside",
+    "neighborhood": "Capitol Hill",
+    "website_url": "https://www.statesideseattle.com",
+    "cuisine_primary": "Vietnamese-French",
+    "cuisine_secondary": null,
+    "price_tier": null,
+    "tags": [
+      "bright",
+      "date-friendly"
+    ],
+    "description": null,
+    "venue_type": "Restaurant",
+    "reservations": null,
+    "reservation_platform": null,
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [],
+    "noise_level": null,
+    "date_night_score": null,
+    "hero_dishes": [],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": null,
+    "enrichment_status": "CLOSED - drop"
+  },
+  "witness": {
+    "name": "Witness",
+    "neighborhood": "Capitol Hill",
+    "website_url": "https://www.witnessbar.com",
+    "cuisine_primary": "Southern",
+    "cuisine_secondary": null,
+    "price_tier": null,
+    "tags": [
+      "cocktails",
+      "intimate"
+    ],
+    "description": null,
+    "venue_type": "Restaurant",
+    "reservations": null,
+    "reservation_platform": null,
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [],
+    "noise_level": null,
+    "date_night_score": null,
+    "hero_dishes": [],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": null,
+    "enrichment_status": "CLOSED - drop"
+  },
+  "sanfermo": {
+    "name": "San Fermo",
+    "neighborhood": "Ballard",
+    "website_url": "https://www.sanfermo.com",
+    "cuisine_primary": "Italian",
+    "cuisine_secondary": "Northern Italian",
+    "price_tier": 3,
+    "tags": [
+      "cozy",
+      "romantic"
+    ],
+    "description": "San Fermo is a candlelit cottage on Ballard Ave doing rustic, ingredient-driven Italian — handmade pasta like strozzapreti amatriciana, burrata to start, olive oil cake to finish. The old house feels intimate and a little hidden, the kind of cozy that makes a two-top feel like the only table. Reserve ahead.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Cozy",
+      "Candlelit",
+      "Romantic"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Strozzapreti amatriciana",
+      "Burrata"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "thewalrusandthecarpenter": {
+    "name": "The Walrus and the Carpenter",
+    "neighborhood": "Ballard",
+    "website_url": "https://www.thewalrusbar.com",
+    "cuisine_primary": "Seafood",
+    "cuisine_secondary": "Oyster/Raw bar",
+    "price_tier": 3,
+    "tags": [
+      "oysters",
+      "intimate"
+    ],
+    "description": "The Walrus and the Carpenter is Renee Erickson's iconic oyster bar — a tiny, candlelit room where the night is built around freshly shucked oysters, steak tartare, and crisp wine. First-come only and always a little buzzy; arrive early and let a date unfold over a tower of ice and a bottle of Muscadet.",
+    "venue_type": "Restaurant",
+    "reservations": "Walk-in",
+    "reservation_platform": "First-come, no res",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Intimate",
+      "Buzzy",
+      "Romantic"
+    ],
+    "noise_level": "Loud",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Fresh oysters",
+      "Steak tartare"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "stoneburner": {
+    "name": "Stoneburner",
+    "neighborhood": "Ballard",
+    "website_url": "https://www.stoneburnerseattle.com",
+    "cuisine_primary": "Italian",
+    "cuisine_secondary": "Italian-PNW; wood-fired",
+    "price_tier": 3,
+    "tags": [
+      "wood-fired",
+      "warm"
+    ],
+    "description": "Stoneburner pairs rustic Italian technique with Pacific Northwest ingredients inside Hotel Ballard — wood-fired vegetables, handmade pasta, blistered pizza in a warm, high-ceilinged room. It's lively without being loud and easy to book, a dependable date that works for a casual Tuesday or a dressed-up Saturday alike.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Warm",
+      "Wood-fired",
+      "Easy"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Handmade pasta",
+      "Wood-fired pizza"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "bastillecafe": {
+    "name": "Bastille Café",
+    "neighborhood": "Ballard",
+    "website_url": "https://www.bastilleseattle.com",
+    "cuisine_primary": "French",
+    "cuisine_secondary": null,
+    "price_tier": null,
+    "tags": [
+      "patio",
+      "romantic"
+    ],
+    "description": null,
+    "venue_type": "Restaurant",
+    "reservations": null,
+    "reservation_platform": null,
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [],
+    "noise_level": null,
+    "date_night_score": null,
+    "hero_dishes": [],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "CLOSED - drop"
+  },
+  "lacartadeoaxaca": {
+    "name": "La Carta de Oaxaca",
+    "neighborhood": "Ballard",
+    "website_url": "https://www.lacartadeoaxaca.com",
+    "cuisine_primary": "Mexican",
+    "cuisine_secondary": "Oaxacan",
+    "price_tier": 2,
+    "tags": [
+      "lively",
+      "authentic"
+    ],
+    "description": "La Carta de Oaxaca has anchored Ballard Ave since 2003 with the city's benchmark mole negro, handmade tortillas, and mezcal. It's lively, family-run, and walk-in only, so expect a wait at the bar — part of the charm. A spirited, unfussy date over shared plates and a good cocktail.",
+    "venue_type": "Restaurant",
+    "reservations": "Walk-in",
+    "reservation_platform": "No res (popular)",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Lively",
+      "Authentic",
+      "Festive"
+    ],
+    "noise_level": "Loud",
+    "date_night_score": 3,
+    "hero_dishes": [
+      "Mole negro",
+      "Tacos al pastor"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "ruammitthai": {
+    "name": "Ruam Mit Thai",
+    "neighborhood": "Ballard",
+    "website_url": "https://www.ruammitthai.com",
+    "cuisine_primary": "Thai",
+    "cuisine_secondary": null,
+    "price_tier": null,
+    "tags": [
+      "casual-date"
+    ],
+    "description": null,
+    "venue_type": "Restaurant",
+    "reservations": null,
+    "reservation_platform": null,
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [],
+    "noise_level": null,
+    "date_night_score": null,
+    "hero_dishes": [],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "CLOSED - drop"
+  },
+  "sawyer": {
+    "name": "Sawyer",
+    "neighborhood": "Ballard",
+    "website_url": "https://www.sawyerseattle.com",
+    "cuisine_primary": "American",
+    "cuisine_secondary": null,
+    "price_tier": null,
+    "tags": [
+      "creative",
+      "fun"
+    ],
+    "description": null,
+    "venue_type": "Restaurant",
+    "reservations": null,
+    "reservation_platform": null,
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [],
+    "noise_level": null,
+    "date_night_score": null,
+    "hero_dishes": [],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "CLOSED - drop"
+  },
+  "theballardcut": {
+    "name": "The Ballard Cut",
+    "neighborhood": "Ballard",
+    "website_url": "https://www.ballardcut.com",
+    "cuisine_primary": "Steakhouse",
+    "cuisine_secondary": "Steakhouse/New American; whiskey bar",
+    "price_tier": 3,
+    "tags": [
+      "whiskey",
+      "intimate"
+    ],
+    "description": "The Ballard Cut is a moody steakhouse-meets-whiskey-bar with a 1,200-bottle list — tomahawks, aged New York strip, and a sleeper-hit spicy arrabbiata. Low light, dark wood, and a serious pour make it a grown-up date: order a dry-aged cut, let someone walk you through the rye, and settle in.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Moody",
+      "Whiskey",
+      "Intimate"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Aged New York strip",
+      "Spicy arrabbiata"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "ocho": {
+    "name": "Ocho",
+    "neighborhood": "Ballard",
+    "website_url": "https://www.ochoseattle.com",
+    "cuisine_primary": "Spanish",
+    "cuisine_secondary": "Spanish tapas",
+    "price_tier": 2,
+    "tags": [
+      "tapas",
+      "romantic"
+    ],
+    "description": "Ocho is a tiny Ballard tapas bar built for grazing — patatas bravas, tortilla española, sherried mushrooms on toast, and a deep bench of Spanish wine and sherry. No reservations and elbow-to-elbow, which is exactly why it works for a date: order a dozen small things, share everything, stay late.",
+    "venue_type": "Bar",
+    "reservations": "Walk-in",
+    "reservation_platform": "No res (text-when-ready)",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Tiny",
+      "Romantic",
+      "Late-night"
+    ],
+    "noise_level": "Loud",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Patatas bravas",
+      "Tortilla española"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "shiros": {
+    "name": "Shiro's",
+    "neighborhood": "Belltown",
+    "website_url": "https://www.shiros.com",
+    "cuisine_primary": "Japanese/Sushi",
+    "cuisine_secondary": "Edomae sushi/Omakase",
+    "price_tier": 4,
+    "tags": [
+      "classic",
+      "chef-driven"
+    ],
+    "description": "Shiro's is Seattle's Edomae sushi institution, founded by the master who put the city's raw-fish scene on the map. Sit at the bar for omakase and watch each piece set down one at a time. Spare, classic, and serious about fish — a refined date for two who'd rather talk over nigiri than noise.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "Resy",
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Classic",
+      "Chef-driven",
+      "Refined"
+    ],
+    "noise_level": "Quiet",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Omakase",
+      "Nigiri sushi course"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "elgaucho": {
+    "name": "El Gaucho",
+    "neighborhood": "Belltown",
+    "website_url": "https://www.elgaucho.com",
+    "cuisine_primary": "Steakhouse",
+    "cuisine_secondary": "Dry-aged steakhouse",
+    "price_tier": 4,
+    "tags": [
+      "classic",
+      "music"
+    ],
+    "description": "El Gaucho is old-school supper-club theater — tuxedoed servers, tableside Caesar and bananas Foster, 28-day dry-aged beef over a charcoal grill, often a piano in the background. It's a splurge built for an occasion; book a booth, dress up, and lean into the romance of a steakhouse that still performs.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "SevenRooms",
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Classic",
+      "Theatrical",
+      "Special-occasion"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 5,
+    "hero_dishes": [
+      "Steak El Gaucho (filet + lobster)",
+      "Bananas Foster (tableside)"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "list": {
+    "name": "List",
+    "neighborhood": "Belltown",
+    "website_url": "https://www.listbelltown.com",
+    "cuisine_primary": "Italian",
+    "cuisine_secondary": null,
+    "price_tier": null,
+    "tags": [
+      "small-plates",
+      "sexy"
+    ],
+    "description": null,
+    "venue_type": "Restaurant",
+    "reservations": null,
+    "reservation_platform": null,
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [],
+    "noise_level": null,
+    "date_night_score": null,
+    "hero_dishes": [],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Review"
+  },
+  "tilikumplacecafe": {
+    "name": "Tilikum Place Café",
+    "neighborhood": "Belltown",
+    "website_url": "https://www.tilikumplacecafe.com",
+    "cuisine_primary": "European",
+    "cuisine_secondary": "European/New American",
+    "price_tier": 3,
+    "tags": [
+      "cozy",
+      "brunch-date"
+    ],
+    "description": "Tilikum Place Café is a tucked-away little room by the Chief Sealth fountain, beloved for its giant Dutch baby pancake but quietly excellent at dinner — a short, seasonal European-leaning menu in a warm, intimate space. Dinner runs Thursday through Saturday only, so landing a table feels like a small secret.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Cozy",
+      "Charming",
+      "Intimate"
+    ],
+    "noise_level": "Quiet",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Seared halibut",
+      "Dutch baby (brunch)"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "umisakehouse": {
+    "name": "Umi Sake House",
+    "neighborhood": "Belltown",
+    "website_url": "https://www.umisakehouse.com",
+    "cuisine_primary": "Japanese/Sushi",
+    "cuisine_secondary": "Izakaya/Sushi",
+    "price_tier": 3,
+    "tags": [
+      "loungey",
+      "late-night"
+    ],
+    "description": "Umi Sake House is a buzzy Belltown izakaya — a sprawling sushi list, 60-plus sakes, and a hidden tropical back patio that's the seat to request. It's loud, fun, and open late, the kind of high-energy date where you order too many rolls, work through the sake menu, and stay longer than planned.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Loungey",
+      "Late-night",
+      "Buzzy"
+    ],
+    "noise_level": "Loud",
+    "date_night_score": 3,
+    "hero_dishes": [
+      "Specialty rolls",
+      "Izakaya small plates"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "shakerspear": {
+    "name": "Shaker + Spear",
+    "neighborhood": "Belltown",
+    "website_url": "https://www.shakerandspear.com",
+    "cuisine_primary": "Seafood",
+    "cuisine_secondary": "Pacific NW seafood",
+    "price_tier": 3,
+    "tags": [
+      "modern",
+      "hotel-date"
+    ],
+    "description": "Shaker + Spear is a polished, market-driven seafood room inside the Kimpton Palladian — Northwest fish, seasonal plates, and a cocktail list worth lingering over in a handsome 1910 building. It's a calm, grown-up hotel-restaurant date: easy to book, quietly stylish, and reliably good without the wait of Ballard's oyster bars.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Modern",
+      "Polished",
+      "Hotel-date"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Seasonal whole fish",
+      "Seafood tower"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "local360": {
+    "name": "Local 360",
+    "neighborhood": "Belltown",
+    "website_url": "https://www.local360.org",
+    "cuisine_primary": "American",
+    "cuisine_secondary": null,
+    "price_tier": null,
+    "tags": [
+      "farm-to-table"
+    ],
+    "description": null,
+    "venue_type": "Restaurant",
+    "reservations": null,
+    "reservation_platform": null,
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [],
+    "noise_level": null,
+    "date_night_score": null,
+    "hero_dishes": [],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "CLOSED - drop"
+  },
+  "blackbottle": {
+    "name": "Black Bottle",
+    "neighborhood": "Belltown",
+    "website_url": "https://www.blackbottleseattle.com",
+    "cuisine_primary": "Gastropub",
+    "cuisine_secondary": "Gastropub/shared plates",
+    "price_tier": 2,
+    "tags": [
+      "lively",
+      "shareable"
+    ],
+    "description": "Black Bottle calls itself Seattle's first gastropub — a 21-plus Belltown gastrotavern of shareable plates and craft cocktails: smoked wild boar ribs, bacon-lemon scallops, Spanish-fried olives. Unfussy, lively, and easy on the wallet, it's a low-stakes date that rewards ordering a stack of small plates and a couple of stiff drinks.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Lively",
+      "Shareable",
+      "Casual"
+    ],
+    "noise_level": "Loud",
+    "date_night_score": 3,
+    "hero_dishes": [
+      "Smoked wild boar ribs",
+      "Bacon-lemon scallops"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "robroy": {
+    "name": "Rob Roy",
+    "neighborhood": "Belltown",
+    "website_url": "https://www.robroyseattle.com",
+    "cuisine_primary": "Cocktail Bar",
+    "cuisine_secondary": null,
+    "price_tier": null,
+    "tags": [
+      "dark",
+      "romantic"
+    ],
+    "description": null,
+    "venue_type": "Bar",
+    "reservations": null,
+    "reservation_platform": null,
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [],
+    "noise_level": null,
+    "date_night_score": null,
+    "hero_dishes": [],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Review"
+  },
+  "revel": {
+    "name": "Revel",
+    "neighborhood": "Fremont",
+    "website_url": "https://www.revelseattle.com",
+    "cuisine_primary": "Korean-Fusion",
+    "cuisine_secondary": "Korean-American",
+    "price_tier": 2,
+    "tags": [
+      "fun",
+      "creative"
+    ],
+    "description": "Revel is Fremont's modern Korean kitchen — short-rib dumplings, scallion-and-kimchi pancakes, and rice and noodle bowls off a menu that turns over monthly. The room is communal and energetic with a sharp cocktail bar attached, a lively, creative date where the food is adventurous but the vibe stays easygoing.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Creative",
+      "Communal",
+      "Energetic"
+    ],
+    "noise_level": "Loud",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Kimchi-scallion pancake",
+      "Short rib dumplings"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "lecoin": {
+    "name": "Le Coin",
+    "neighborhood": "Fremont",
+    "website_url": "https://www.lecoinseattle.com",
+    "cuisine_primary": "French",
+    "cuisine_secondary": "French/PNW seafood",
+    "price_tier": 3,
+    "tags": [
+      "romantic",
+      "neighborhood"
+    ],
+    "description": "Le Coin turned the old Buckaroo Tavern into a buzzy French-leaning bistro — Northwest seafood and game, a great caviar service, and Brussels sprouts people cross town for. Romantic without being stiff, the kind of neighborhood spot that feels like an occasion. Reservations drop on the 15th for the next month, so plan ahead.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "Tock",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Romantic",
+      "Neighborhood-chic",
+      "Lively"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Caviar service",
+      "Crispy Brussels sprouts"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "pomerol": {
+    "name": "Pomerol",
+    "neighborhood": "Fremont",
+    "website_url": "https://www.pomerolrestaurant.com",
+    "cuisine_primary": "French",
+    "cuisine_secondary": null,
+    "price_tier": null,
+    "tags": [
+      "wood-fired",
+      "intimate"
+    ],
+    "description": null,
+    "venue_type": "Restaurant",
+    "reservations": null,
+    "reservation_platform": null,
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [],
+    "noise_level": null,
+    "date_night_score": null,
+    "hero_dishes": [],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "CLOSED - drop"
+  },
+  "rockcreek": {
+    "name": "RockCreek",
+    "neighborhood": "Fremont",
+    "website_url": "https://www.rockcreekseattle.com",
+    "cuisine_primary": "Seafood",
+    "cuisine_secondary": "Global seafood",
+    "price_tier": 3,
+    "tags": [
+      "cozy",
+      "date-night"
+    ],
+    "description": "RockCreek is a soaring A-frame packed with globally sourced fish — Northwest oysters and crab alongside Hawaiian ono and East Coast striped bass, all arriving daily. Warm, a little loud, and consistently excellent, the reliable Fremont seafood date when you want range beyond the usual oysters and a deep cocktail list.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Cozy",
+      "Bustling",
+      "Date-night"
+    ],
+    "noise_level": "Loud",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Oysters & shellfish",
+      "Daily fresh fish"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "manolin": {
+    "name": "Manolin",
+    "neighborhood": "Fremont",
+    "website_url": "https://www.manolinseattle.com",
+    "cuisine_primary": "Seafood",
+    "cuisine_secondary": null,
+    "price_tier": null,
+    "tags": [
+      "tropical",
+      "bar"
+    ],
+    "description": null,
+    "venue_type": "Restaurant",
+    "reservations": null,
+    "reservation_platform": null,
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [],
+    "noise_level": null,
+    "date_night_score": null,
+    "hero_dishes": [],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "CLOSED - drop"
+  },
+  "paseo": {
+    "name": "Paseo",
+    "neighborhood": "Fremont",
+    "website_url": "https://www.paseorestaurants.com",
+    "cuisine_primary": "Caribbean",
+    "cuisine_secondary": "Caribbean sandwiches",
+    "price_tier": 1,
+    "tags": [
+      "casual-date"
+    ],
+    "description": "Paseo is a Seattle rite of passage — Caribbean sandwiches piled with caramelized onions and slow-roasted pork that inspire citywide devotion. It's a counter-service hole-in-the-wall, not a sit-down affair, but for a casual, messy, deeply happy date over the famous Caribbean Roast, few things beat it.",
+    "venue_type": "Restaurant",
+    "reservations": "No",
+    "reservation_platform": "Counter service",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Casual",
+      "Iconic",
+      "No-frills"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 2,
+    "hero_dishes": [
+      "Caribbean Roast sandwich",
+      "Pork platos"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "agrodolce": {
+    "name": "Agrodolce",
+    "neighborhood": "Fremont",
+    "website_url": "https://www.agrodolceseattle.com",
+    "cuisine_primary": "Italian",
+    "cuisine_secondary": null,
+    "price_tier": null,
+    "tags": [
+      "organic",
+      "romantic"
+    ],
+    "description": null,
+    "venue_type": "Restaurant",
+    "reservations": null,
+    "reservation_platform": null,
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [],
+    "noise_level": null,
+    "date_night_score": null,
+    "hero_dishes": [],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Review"
+  },
+  "redstartacobar": {
+    "name": "Red Star Taco Bar",
+    "neighborhood": "Fremont",
+    "website_url": "https://www.redstartacobar.com",
+    "cuisine_primary": "Mexican",
+    "cuisine_secondary": "Tacos/Tequila",
+    "price_tier": 2,
+    "tags": [
+      "casual",
+      "fun"
+    ],
+    "description": "Red Star Taco Bar is a 21-plus Fremont taqueria built around eclectic tacos and a serious tequila and frozen-margarita program — carnitas next to Korean BBQ and Bang Bang cauliflower. Loud, fun, and open late, an unpretentious date for two who'd rather split a dozen tacos and a pitcher than dress up.",
+    "venue_type": "Restaurant",
+    "reservations": "Walk-in",
+    "reservation_platform": "Walk-in (21+)",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Fun",
+      "Casual",
+      "Late-night"
+    ],
+    "noise_level": "Loud",
+    "date_night_score": 3,
+    "hero_dishes": [
+      "Carnitas tacos",
+      "Frozen margarita"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "fiasco": {
+    "name": "Fiasco",
+    "neighborhood": "Fremont",
+    "website_url": "https://www.fiascoseattle.com",
+    "cuisine_primary": "Italian",
+    "cuisine_secondary": null,
+    "price_tier": null,
+    "tags": [
+      "neighborhood",
+      "wine"
+    ],
+    "description": null,
+    "venue_type": "Restaurant",
+    "reservations": null,
+    "reservation_platform": null,
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [],
+    "noise_level": null,
+    "date_night_score": null,
+    "hero_dishes": [],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Review"
+  },
+  "thewhalewins": {
+    "name": "The Whale Wins",
+    "neighborhood": "Fremont",
+    "website_url": "https://www.thewhalewins.com",
+    "cuisine_primary": "Pacific NW",
+    "cuisine_secondary": null,
+    "price_tier": null,
+    "tags": [
+      "bright",
+      "seasonal"
+    ],
+    "description": null,
+    "venue_type": "Restaurant",
+    "reservations": null,
+    "reservation_platform": null,
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [],
+    "noise_level": null,
+    "date_night_score": null,
+    "hero_dishes": [],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "CLOSED - drop"
+  },
+  "thecapitalgrille": {
+    "name": "The Capital Grille",
+    "neighborhood": "Downtown",
+    "website_url": "https://www.thecapitalgrille.com",
+    "cuisine_primary": "Steakhouse",
+    "cuisine_secondary": "Dry-aged steakhouse",
+    "price_tier": 4,
+    "tags": [
+      "classic",
+      "special-occasion"
+    ],
+    "description": "The Capital Grille is the polished, clubby steakhouse downtown leans on for occasions — dry-aged steaks hand-cut in house, a 350-label wine list, and dark-wood booths made for lingering. It's a chain, but a serious one; for a dressed-up date or a celebration near the theaters, it delivers exactly what it promises.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Clubby",
+      "Classic",
+      "Special-occasion"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Dry-aged bone-in ribeye",
+      "Lobster mac & cheese"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "thegeorgeformerlythegeorgian": {
+    "name": "The George (formerly The Georgian)",
+    "neighborhood": "Downtown",
+    "website_url": "https://www.thegeorgeseattle.com/",
+    "cuisine_primary": "Pacific NW/American",
+    "cuisine_secondary": "American brasserie",
+    "price_tier": 4,
+    "tags": [
+      "grand",
+      "romantic"
+    ],
+    "description": "The George - the reborn Georgian inside the Fairmont Olympic - is the grandest room downtown, all soaring ceilings and chandeliers, now an American brasserie of local seafood, handmade pasta, and signature cuts. It's pure old-world occasion: book it for an anniversary, dress the part, and let the ballroom grandeur do the romancing.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Grand",
+      "Opulent",
+      "Romantic"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 5,
+    "hero_dishes": [
+      "Local seafood",
+      "Handmade pasta"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "purplecafe": {
+    "name": "Purple Café",
+    "neighborhood": "Downtown",
+    "website_url": "https://www.thepurplecafe.com",
+    "cuisine_primary": "American",
+    "cuisine_secondary": "Wine bar",
+    "price_tier": 3,
+    "tags": [
+      "wine",
+      "date-night"
+    ],
+    "description": "Purple Café is built around a four-story spiral wine tower - a downtown wine bar and New American kitchen with a list deep enough to make choosing the evening's bottle the main event. Handsome and central, easy for a pre-theater or after-work date where the wine leads and the shared plates keep pace.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Wine-focused",
+      "Lively",
+      "Central"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 3,
+    "hero_dishes": [
+      "Cheese & charcuterie",
+      "Seasonal entrees"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "cafecampagne": {
+    "name": "Café Campagne",
+    "neighborhood": "Pike Place",
+    "website_url": "https://www.cafecampagne.com",
+    "cuisine_primary": "French",
+    "cuisine_secondary": "French bistro",
+    "price_tier": 3,
+    "tags": [
+      "romantic",
+      "classic"
+    ],
+    "description": "Café Campagne has been Seattle's classic French bistro since 1994, tucked into Post Alley below the Market bustle - steak frites, escargot, a proper apero hour, and the kind of unhurried Gallic warmth that makes a table feel like Paris. Reliably romantic, especially in the early evening before the crowds.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Romantic",
+      "Classic",
+      "Parisian"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Steak frites",
+      "Escargot"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "mattsinthemarket": {
+    "name": "Matt’s in the Market",
+    "neighborhood": "Pike Place",
+    "website_url": "https://www.mattsinthemarket.com",
+    "cuisine_primary": "Pacific NW",
+    "cuisine_secondary": "Pacific NW seafood",
+    "price_tier": 3,
+    "tags": [
+      "market-view",
+      "romantic"
+    ],
+    "description": "Matt's in the Market is the insider's Pike Place room - a small, light-filled space overlooking the Market clock, serving Northwest seafood that changes with the day's catch. Intimate and unfussy, the kind of place locals send out-of-towners and then quietly keep for their own date nights. Book the window.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Market-view",
+      "Intimate",
+      "Romantic"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Seafood stew",
+      "Seasonal fresh fish"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "thepinkdoor": {
+    "name": "The Pink Door",
+    "neighborhood": "Pike Place",
+    "website_url": "https://www.thepinkdoor.net",
+    "cuisine_primary": "Italian-American",
+    "cuisine_secondary": "Italian-American",
+    "price_tier": 3,
+    "tags": [
+      "cabaret",
+      "romantic"
+    ],
+    "description": "The Pink Door is Seattle's theatrical Italian institution - no sign, just a pink door off Post Alley opening onto pasta, Elliott Bay views from the deck, and live cabaret, trapeze, and tarot most nights. Romantic and a little bit circus, an unforgettable date when you want dinner to come with a show.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "Tock",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Theatrical",
+      "Romantic",
+      "Iconic"
+    ],
+    "noise_level": "Loud",
+    "date_night_score": 5,
+    "hero_dishes": [
+      "Linguine alle vongole",
+      "Lasagna"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "ilbistro": {
+    "name": "Il Bistro",
+    "neighborhood": "Pike Place",
+    "website_url": "https://www.ilbistro.net",
+    "cuisine_primary": "Italian",
+    "cuisine_secondary": "Italian",
+    "price_tier": 3,
+    "tags": [
+      "candlelit",
+      "romantic"
+    ],
+    "description": "Il Bistro has hidden beneath Pike Place on a cobblestone lane since 1975 - candlelit, low-ceilinged, and unapologetically romantic, pouring Barolo alongside house-made gnocchi and a famous rack of lamb. The date you book when you want dim light and an old-school Italian hush, with the bar pouring until 2am for the lingering type.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Candlelit",
+      "Romantic",
+      "Classic"
+    ],
+    "noise_level": "Quiet",
+    "date_night_score": 5,
+    "hero_dishes": [
+      "Rack of lamb",
+      "House-made gnocchi"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "cutterscrabhouse": {
+    "name": "Cutters Crabhouse",
+    "neighborhood": "Pike Place",
+    "website_url": "https://www.cutterscrabhouse.com",
+    "cuisine_primary": "Seafood",
+    "cuisine_secondary": "Seafood/waterfront",
+    "price_tier": 3,
+    "tags": [
+      "waterfront",
+      "view"
+    ],
+    "description": "Cutters Crabhouse trades on one of the best dinner views in the city - floor-to-ceiling windows over Elliott Bay and the ferries - paired with Dungeness crab, Northwest seafood, and even sushi. It leans a touch touristy, but for a sunset date with the water glowing pink, the room earns it. Ask for a window table.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Waterfront",
+      "View",
+      "Lively"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 3,
+    "hero_dishes": [
+      "Dungeness crab",
+      "Crab & artichoke dip"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "radiatorwhiskey": {
+    "name": "Radiator Whiskey",
+    "neighborhood": "Pike Place",
+    "website_url": "https://www.radiatorwhiskey.com",
+    "cuisine_primary": "American",
+    "cuisine_secondary": "Whiskey bar/smoked meats",
+    "price_tier": 3,
+    "tags": [
+      "bar",
+      "fun"
+    ],
+    "description": "Radiator Whiskey is a rowdy, meat-forward 21-plus den on the top floor of the Corner Market - bourbon flights, a whole smoked pig's head for the table, brisket and cornbread. Loud, fun, and a little carnivorous, a date for two who'd rather split a pile of smoked meat and a whiskey list than whisper over candlelight.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Rowdy",
+      "Fun",
+      "Carnivorous"
+    ],
+    "noise_level": "Loud",
+    "date_night_score": 3,
+    "hero_dishes": [
+      "Smoked pig head (for 2)",
+      "Beef brisket"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "howtocookawolf": {
+    "name": "How to Cook a Wolf",
+    "neighborhood": "Queen Anne",
+    "website_url": "https://howtocookawolf.com/",
+    "cuisine_primary": "Italian",
+    "cuisine_secondary": "Italian small plates",
+    "price_tier": 3,
+    "tags": [
+      "intimate",
+      "romantic"
+    ],
+    "description": "How to Cook a Wolf is Ethan Stowell's moody Queen Anne flagship - a tight menu of handmade pasta and Italian-inflected small plates on Northwest ingredients, poured alongside bold wines in a dim, intimate room. A long-running date-night favorite for good reason: refined, unhurried, and made for sharing four or five plates.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Moody",
+      "Intimate",
+      "Refined"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Handmade pasta",
+      "Seasonal small plates"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "edenhill": {
+    "name": "Eden Hill",
+    "neighborhood": "Queen Anne",
+    "website_url": "https://www.edenhillrestaurant.com",
+    "cuisine_primary": "Pacific NW",
+    "cuisine_secondary": null,
+    "price_tier": null,
+    "tags": [
+      "tasting-menu",
+      "special"
+    ],
+    "description": null,
+    "venue_type": "Restaurant",
+    "reservations": null,
+    "reservation_platform": null,
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [],
+    "noise_level": null,
+    "date_night_score": null,
+    "hero_dishes": [],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "CLOSED - drop"
+  },
+  "toulousepetit": {
+    "name": "Toulouse Petit",
+    "neighborhood": "Queen Anne",
+    "website_url": "https://www.toulousepetit.com",
+    "cuisine_primary": "Cajun",
+    "cuisine_secondary": "Cajun/Creole",
+    "price_tier": 3,
+    "tags": [
+      "lively",
+      "brunch-date"
+    ],
+    "description": "Toulouse Petit brings the French Quarter to Lower Queen Anne - a dim, ornate room of New Orleans cooking, gumbo and beignets and one of the city's best happy hours, open late. Lively rather than hushed, a fun, slightly raucous date before a show at the Seattle Center across the street.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Lively",
+      "Ornate",
+      "Festive"
+    ],
+    "noise_level": "Loud",
+    "date_night_score": 3,
+    "hero_dishes": [
+      "Shrimp & grits",
+      "Beignets"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "taylorshellfishoysterbar": {
+    "name": "Taylor Shellfish Oyster Bar",
+    "neighborhood": "Queen Anne",
+    "website_url": "https://www.taylorshellfishfarms.com",
+    "cuisine_primary": "Seafood",
+    "cuisine_secondary": "Oyster bar/Shellfish",
+    "price_tier": 3,
+    "tags": [
+      "oysters",
+      "casual-date"
+    ],
+    "description": "Taylor Shellfish's Queen Anne oyster bar is tide-to-table at its most direct - oysters, clams, and geoduck from the family's own farms, shucked while you watch, steps from the Space Needle. Casual and counter-driven, first-come only, a breezy, briny date over a dozen on the half shell and a crisp white.",
+    "venue_type": "Restaurant",
+    "reservations": "Walk-in",
+    "reservation_platform": "First-come",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Casual",
+      "Fresh",
+      "Patio"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 3,
+    "hero_dishes": [
+      "Oysters on the half shell",
+      "Geoduck"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "viatribunali": {
+    "name": "Via Tribunali",
+    "neighborhood": "Queen Anne",
+    "website_url": "https://www.viatribunali.com",
+    "cuisine_primary": "Italian",
+    "cuisine_secondary": "Neapolitan pizza",
+    "price_tier": 2,
+    "tags": [
+      "pizza",
+      "cozy"
+    ],
+    "description": "Via Tribunali fires certified Neapolitan pizza in a dark, candle-and-brick room atop Queen Anne - blistered margherita, clam-and-mussel frutti di mare, a short list of antipasti. Cozy and low-key, the easy weeknight date where you split a couple of pies and a Chianti without fuss or a big bill.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Cozy",
+      "Candlelit",
+      "Casual"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 3,
+    "hero_dishes": [
+      "Margherita pizza",
+      "Frutti di mare pizza"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "grappa": {
+    "name": "Grappa",
+    "neighborhood": "Queen Anne",
+    "website_url": "https://www.grappaseattle.com",
+    "cuisine_primary": "Mediterranean",
+    "cuisine_secondary": "Mediterranean/Italian",
+    "price_tier": 3,
+    "tags": [
+      "romantic",
+      "wine"
+    ],
+    "description": "Grappa is a casual-elegant Mediterranean room at the top of Queen Anne - shareable mezze and small plates, handmade pasta, and a deep grappa and wine list. A reliable pre-theater date before McCaw Hall, warm and unfussy, the kind of neighborhood spot that's easy to book and hard to fault.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Casual-elegant",
+      "Romantic",
+      "Warm"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Mezze small plates",
+      "Handmade pasta"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "pesos": {
+    "name": "Peso’s",
+    "neighborhood": "Queen Anne",
+    "website_url": "https://www.pesoskitchen.com",
+    "cuisine_primary": "Latin",
+    "cuisine_secondary": null,
+    "price_tier": null,
+    "tags": [
+      "late-night",
+      "bar"
+    ],
+    "description": null,
+    "venue_type": "Restaurant",
+    "reservations": null,
+    "reservation_platform": null,
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [],
+    "noise_level": null,
+    "date_night_score": null,
+    "hero_dishes": [],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "CLOSED - drop"
+  },
+  "citizen": {
+    "name": "Citizen",
+    "neighborhood": "Queen Anne",
+    "website_url": "https://www.citizencoffee.com",
+    "cuisine_primary": "American",
+    "cuisine_secondary": "Cafe/Crepes",
+    "price_tier": 2,
+    "tags": [
+      "patio",
+      "casual-date"
+    ],
+    "description": "Citizen is a Lower Queen Anne cafe that stretches into the evening - crepes, Vietnamese-style sandwiches, salads, and a short cocktail list, with a sunny patio near the Seattle Center. A low-key, casual date, better for a relaxed early bite than a big night, but easy and friendly with something for most appetites.",
+    "venue_type": "Cafe",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Casual",
+      "Patio",
+      "Relaxed"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 2,
+    "hero_dishes": [
+      "Savory crepes",
+      "Vietnamese-style sandwich"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "streamlinetavern": {
+    "name": "Streamline Tavern",
+    "neighborhood": "Queen Anne",
+    "website_url": "https://www.streamlinetavern.com",
+    "cuisine_primary": "Bar",
+    "cuisine_secondary": "Pub/comfort food",
+    "price_tier": 1,
+    "tags": [
+      "divey",
+      "fun"
+    ],
+    "description": "Streamline Tavern is the quintessential Queen Anne dive - light-up sign, free peanuts, pool and darts in back, and unfussy comfort food like the Porkenstein dog and taco baskets. Not a fancy date, a fun one: cheap beer, Taco Thursdays, and zero pretense for two who'd rather play pool than read a wine list.",
+    "venue_type": "Bar",
+    "reservations": "Walk-in",
+    "reservation_platform": "Walk-in",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Divey",
+      "Fun",
+      "Casual"
+    ],
+    "noise_level": "Loud",
+    "date_night_score": 2,
+    "hero_dishes": [
+      "Porkenstein dog",
+      "Taco basket"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "barrioqueenanne": {
+    "name": "Barrio Queen Anne",
+    "neighborhood": "Queen Anne",
+    "website_url": "https://www.barriorestaurant.com",
+    "cuisine_primary": "Mexican",
+    "cuisine_secondary": null,
+    "price_tier": null,
+    "tags": [
+      "lively",
+      "cocktails"
+    ],
+    "description": null,
+    "venue_type": "Restaurant",
+    "reservations": null,
+    "reservation_platform": null,
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [],
+    "noise_level": null,
+    "date_night_score": null,
+    "hero_dishes": [],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "CLOSED - drop"
+  },
+  "tilth": {
+    "name": "Tilth",
+    "neighborhood": "Wallingford",
+    "website_url": "https://www.tilthrestaurant.com",
+    "cuisine_primary": "Pacific NW",
+    "cuisine_secondary": null,
+    "price_tier": null,
+    "tags": [
+      "romantic",
+      "organic"
+    ],
+    "description": null,
+    "venue_type": "Restaurant",
+    "reservations": null,
+    "reservation_platform": null,
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [],
+    "noise_level": null,
+    "date_night_score": null,
+    "hero_dishes": [],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "CLOSED - drop"
+  },
+  "cantinetta": {
+    "name": "Cantinetta",
+    "neighborhood": "Wallingford",
+    "website_url": "https://www.cantinettaseattle.com",
+    "cuisine_primary": "Italian",
+    "cuisine_secondary": "Tuscan",
+    "price_tier": 3,
+    "tags": [
+      "candlelit",
+      "romantic"
+    ],
+    "description": "Cantinetta is a warm, candlelit Tuscan room in the heart of Wallingford - daily handmade pasta (the tagliatelle and ricotta agnolotti have a following), burrata, chanterelle risotto, and a tidy Italian wine list. Quietly romantic and consistently excellent, a neighborhood date that punches above its unassuming storefront.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Candlelit",
+      "Romantic",
+      "Warm"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Tagliatelle",
+      "Ricotta agnolotti"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "joule": {
+    "name": "Joule",
+    "neighborhood": "Wallingford",
+    "website_url": "https://www.joulerestaurant.com",
+    "cuisine_primary": "Korean-Fusion",
+    "cuisine_secondary": "Korean steakhouse/fusion",
+    "price_tier": 3,
+    "tags": [
+      "creative",
+      "date-night"
+    ],
+    "description": "Joule is Rachel Yang's modern Korean steakhouse - short rib in chili-anchovy butter, spicy rice cakes, beef tartare, and a famous brunch, all bold and bass-forward. The room is lively and design-y, a creative, energetic date for two who want their Korean fusion adventurous and their cocktails sharp.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Creative",
+      "Lively",
+      "Design-y"
+    ],
+    "noise_level": "Loud",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Short rib steak",
+      "Spicy rice cakes"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "koreantofuhouse": {
+    "name": "Korean Tofu House",
+    "neighborhood": "U District",
+    "website_url": "https://www.koreantofuhouse.com",
+    "cuisine_primary": "Korean",
+    "cuisine_secondary": "Korean/Soondubu",
+    "price_tier": 2,
+    "tags": [
+      "casual-date"
+    ],
+    "description": "Korean Tofu House is the U District's go-to for bubbling soondubu - soft-tofu stews that arrive volcanic at the table, with banchan and a hot stone bowl of rice. Cozy, cheap, and deeply comforting, a casual cold-weather date when you want something warming and unfussy near campus.",
+    "venue_type": "Restaurant",
+    "reservations": "Walk-in",
+    "reservation_platform": "Walk-in",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Cozy",
+      "Casual",
+      "Comforting"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 2,
+    "hero_dishes": [
+      "Soondubu (soft tofu stew)",
+      "Bibimbap"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "pamscaribbeankitchen": {
+    "name": "Pam's Caribbean Kitchen",
+    "neighborhood": "Wallingford",
+    "website_url": "https://www.pams-kitchen.com",
+    "cuisine_primary": "Caribbean",
+    "cuisine_secondary": "Trinidadian/Caribbean",
+    "price_tier": 2,
+    "tags": [
+      "warm",
+      "cozy"
+    ],
+    "description": "Pam's Caribbean Kitchen is a warm, family-run Wallingford spot for Trinidadian home cooking - jerk chicken, curry goat, roti, and slow-simmered curries made fresh daily, with strong vegan and gluten-free options. Casual and generous rather than romantic, a cozy, flavorful date that won't break the bank. Wednesday is all-you-can-eat.",
+    "venue_type": "Restaurant",
+    "reservations": "Walk-in",
+    "reservation_platform": "Walk-in",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Warm",
+      "Cozy",
+      "Casual"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 3,
+    "hero_dishes": [
+      "Curry goat",
+      "Jerk chicken"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "musashis": {
+    "name": "Musashi's",
+    "neighborhood": "Wallingford",
+    "website_url": "https://musashis-3.wheree.com/",
+    "cuisine_primary": "Japanese/Sushi",
+    "cuisine_secondary": "Casual sushi",
+    "price_tier": 1,
+    "tags": [
+      "intimate",
+      "chef-driven"
+    ],
+    "description": "Musashi's is the cult cheap-sushi counter of Wallingford - fresh, generous rolls and nigiri at prices that have drawn lines for decades. Tiny, no-frills, and cash-friendly, not a special-occasion room but a beloved everyday one. A low-key, budget-happy date when you just want good fish without ceremony.",
+    "venue_type": "Restaurant",
+    "reservations": "Walk-in",
+    "reservation_platform": "Walk-in (cash-friendly)",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Casual",
+      "No-frills",
+      "Cheap"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 2,
+    "hero_dishes": [
+      "Sushi rolls",
+      "Nigiri sets"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "bizzarroitaliancafe": {
+    "name": "Bizzarro Italian Café",
+    "neighborhood": "Wallingford",
+    "website_url": "https://www.bizarroitaliancafe.com",
+    "cuisine_primary": "Italian",
+    "cuisine_secondary": "Eclectic Italian",
+    "price_tier": 2,
+    "tags": [
+      "quirky",
+      "romantic"
+    ],
+    "description": "Bizzarro is Wallingford's beloved oddball - nearly 40 years of eclectic, art-cluttered rooms (furniture hangs from the ceiling) and seriously good house-made pasta. Quirky and candlelit at once, a fun, unpretentious date with real cooking behind the kitsch. Sundays are spaghetti-and-meatballs by tradition.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Quirky",
+      "Romantic",
+      "Fun"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "House-made pasta",
+      "Spaghetti & meatballs (Sun)"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "kisaku": {
+    "name": "Kisaku",
+    "neighborhood": "Wallingford",
+    "website_url": "https://www.kisaku.com",
+    "cuisine_primary": "Japanese/Sushi",
+    "cuisine_secondary": "Sushi/Nigiri",
+    "price_tier": 3,
+    "tags": [
+      "classic",
+      "quiet"
+    ],
+    "description": "Kisaku is Tangletown's quietly excellent sushi house - pristine nigiri, a short list of clever rolls like the Green Lake, and white-tablecloth calm by night. An under-the-radar date spot, refined but unpretentious, the kind of neighborhood sushi bar regulars guard. Sit at the bar and let the chef steer.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Quiet",
+      "Refined",
+      "Under-the-radar"
+    ],
+    "noise_level": "Quiet",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Nigiri assortment",
+      "Green Lake Roll"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "unionsaloon": {
+    "name": "Union Saloon",
+    "neighborhood": "Wallingford",
+    "website_url": "https://www.unionsaloon.com",
+    "cuisine_primary": "American",
+    "cuisine_secondary": "American comfort/cocktail bar",
+    "price_tier": 2,
+    "tags": [
+      "neighborhood",
+      "cozy"
+    ],
+    "description": "Union Saloon is a snug Wallingford corner of craft beer, affordable wine, and re-envisioned comfort food that changes constantly. The horseshoe bar and easy menu make it more neighborhood-hangout than grand night out, but it's a relaxed, friendly date with cooking that takes itself just seriously enough.",
+    "venue_type": "Restaurant",
+    "reservations": "Walk-in",
+    "reservation_platform": "Walk-in",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Cozy",
+      "Neighborhood",
+      "Relaxed"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 3,
+    "hero_dishes": [
+      "Rotating comfort plates",
+      "Burger"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "redcow": {
+    "name": "Red Cow",
+    "neighborhood": "Madrona",
+    "website_url": "https://ethanstowellrestaurants.com/restaurants/red-cow-madrona-seattle",
+    "cuisine_primary": "Steakhouse",
+    "cuisine_secondary": "French steakhouse/bistro",
+    "price_tier": 3,
+    "tags": [
+      "romantic",
+      "classic"
+    ],
+    "description": "Red Cow is Ethan Stowell's snug French steakhouse in Madrona - steak frites, house-butchered cuts, escargot, and bold reds in a dim, brick-walled bistro. Romantic in the old Parisian way, intimate and unfussy, the neighborhood date you book when you want red wine, red meat, and low candlelight.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Romantic",
+      "Classic",
+      "Intimate"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Steak frites",
+      "Escargot"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "vendemmia": {
+    "name": "Vendemmia",
+    "neighborhood": "Madrona",
+    "website_url": "https://www.vendemmia.com",
+    "cuisine_primary": "Italian",
+    "cuisine_secondary": "Italian/New American",
+    "price_tier": 3,
+    "tags": [
+      "intimate",
+      "romantic"
+    ],
+    "description": "Vendemmia is Brian Clevenger's intimate Madrona Italian - silky handmade pastas (the squash agnolotti is the signature), beef tartare, seared scallops, and a thoughtful wine list in a small, serene room. Quietly romantic and reliably refined, a date built for lingering over four courses. The patio happy hour is a local secret.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Intimate",
+      "Romantic",
+      "Refined"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Squash agnolotti",
+      "Beef tartare"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "bottlehouse": {
+    "name": "Bottlehouse",
+    "neighborhood": "Madrona",
+    "website_url": "https://www.bottlehouseseattle.com",
+    "cuisine_primary": "Bar/Wine",
+    "cuisine_secondary": "Wine bar/small plates",
+    "price_tier": 2,
+    "tags": [
+      "garden",
+      "romantic"
+    ],
+    "description": "Bottlehouse is a wine bar in a 1905 Craftsman with a string-lit garden that's pure Madrona romance - natural wines by the flight, a serious cheese-and-charcuterie program, and small plates for grazing. Relaxed and intimate, the date for two who'd rather discover an obscure bottle and share a board than commit to a tasting menu.",
+    "venue_type": "Bar",
+    "reservations": "Yes",
+    "reservation_platform": "Resy",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Garden",
+      "Romantic",
+      "Cozy"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Cheese & charcuterie board",
+      "Seasonal small plates"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "hispotcafe": {
+    "name": "Hi Spot Café",
+    "neighborhood": "Madrona",
+    "website_url": "https://www.hispotcafe.com",
+    "cuisine_primary": "American",
+    "cuisine_secondary": null,
+    "price_tier": null,
+    "tags": [
+      "brunch-date"
+    ],
+    "description": null,
+    "venue_type": "Restaurant",
+    "reservations": null,
+    "reservation_platform": null,
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [],
+    "noise_level": null,
+    "date_night_score": null,
+    "hero_dishes": [],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Review"
+  },
+  "madronaarms": {
+    "name": "Madrona Arms",
+    "neighborhood": "Madrona",
+    "website_url": "https://www.madronaarms.com",
+    "cuisine_primary": "Gastropub",
+    "cuisine_secondary": "British/Irish gastropub",
+    "price_tier": 2,
+    "tags": [
+      "casual",
+      "neighborhood"
+    ],
+    "description": "Madrona Arms is a proper British-Irish corner pub - Guinness on tap, fish and chips, bangers and mash, shepherd's pie, and a Madrona burger locals swear by. Warm, woody, and unpretentious, a low-key date for two who want a pint and comfort food rather than a scene. Walk in and settle into a booth.",
+    "venue_type": "Restaurant",
+    "reservations": "Walk-in",
+    "reservation_platform": "Walk-in",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Cozy",
+      "Neighborhood",
+      "Pub"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 3,
+    "hero_dishes": [
+      "Fish and chips",
+      "Bangers and mash"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "nirmals": {
+    "name": "Nirmal's",
+    "neighborhood": "Madrona-adjacent",
+    "website_url": "https://www.nirmalseattle.com",
+    "cuisine_primary": "Indian",
+    "cuisine_secondary": "Regional Indian",
+    "price_tier": 3,
+    "tags": [
+      "romantic",
+      "refined"
+    ],
+    "description": "Nirmal's brings polished, regional Indian to a handsome Pioneer Square room - goat curry, dal makhani, kofta, and one of the city's best vegetarian and vegan rosters, plated with real care. Refined without being stuffy, a romantic date that proves Indian cooking belongs in the special-occasion conversation.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Refined",
+      "Romantic",
+      "Upscale"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Goat curry",
+      "Dal makhani"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "cafesoleil": {
+    "name": "Cafe Soleil",
+    "neighborhood": "Madrona",
+    "website_url": "https://www.cafesoleil.com",
+    "cuisine_primary": "Ethiopian",
+    "cuisine_secondary": "Ethiopian",
+    "price_tier": 2,
+    "tags": [
+      "cozy",
+      "casual-date"
+    ],
+    "description": "Cafe Soleil has served Madrona for three decades with a split personality - American brunch by day, authentic Ethiopian by night. Dinner means communal platters of doro wat and vegetarian combos scooped up with injera, the kind of hands-on, shared meal that makes for a warm, conversational date. Cozy, casual, and deeply veg-friendly.",
+    "venue_type": "Restaurant",
+    "reservations": "Walk-in",
+    "reservation_platform": "Walk-in",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Cozy",
+      "Casual",
+      "Communal"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 3,
+    "hero_dishes": [
+      "Doro wat",
+      "Vegetarian combo"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "stclouds": {
+    "name": "St. Clouds",
+    "neighborhood": "Madrona",
+    "website_url": "https://www.stclouds.com",
+    "cuisine_primary": "American",
+    "cuisine_secondary": null,
+    "price_tier": null,
+    "tags": [
+      "neighborhood",
+      "warm"
+    ],
+    "description": null,
+    "venue_type": "Restaurant",
+    "reservations": null,
+    "reservation_platform": null,
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [],
+    "noise_level": null,
+    "date_night_score": null,
+    "hero_dishes": [],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "CLOSED - drop"
+  },
+  "theharvestvine": {
+    "name": "The Harvest Vine",
+    "neighborhood": "Madrona-adjacent",
+    "website_url": "https://www.harvestvine.com",
+    "cuisine_primary": "Spanish",
+    "cuisine_secondary": "Basque/Spanish tapas",
+    "price_tier": 3,
+    "tags": [
+      "tapas",
+      "romantic"
+    ],
+    "description": "The Harvest Vine is Seattle's enduring Basque tapas room - sit at the copper chef's counter and watch plate after plate of grilled prawns, jamon, and seasonal pintxos emerge, paired with an all-Spanish cellar. Snug, candlelit, and built for two, one of the most quietly romantic counters in the city. Book the kitchen bar.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "Tock",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Intimate",
+      "Romantic",
+      "Chef's counter"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 5,
+    "hero_dishes": [
+      "Grilled prawns",
+      "Seasonal pintxos"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "loursin": {
+    "name": "L'Oursin",
+    "neighborhood": "Madrona-adjacent",
+    "website_url": "https://www.loursinseattle.com",
+    "cuisine_primary": "French",
+    "cuisine_secondary": "French seafood/natural wine",
+    "price_tier": 3,
+    "tags": [
+      "wine",
+      "romantic"
+    ],
+    "description": "L'Oursin pairs French seafood with a deep natural-wine list in an intimate Central District room - oysters, raw scallops, a rotating peche du jour, and snacks like harissa panisse. A wine-lover's date, low-lit and unhurried, where the bottle is half the conversation. Walk-ins welcome at the bar and patio.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "Resy",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Intimate",
+      "Wine-forward",
+      "Romantic"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Oysters",
+      "Peche du jour"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "theblueglass": {
+    "name": "The Blue Glass",
+    "neighborhood": "Phinney Ridge",
+    "website_url": "https://www.theblueglass.com",
+    "cuisine_primary": "American",
+    "cuisine_secondary": "New American/seafood-steak",
+    "price_tier": 3,
+    "tags": [
+      "cozy",
+      "neighborhood"
+    ],
+    "description": "The Blue Glass is a cozy 21-plus garden house on the Phinney-Ballard line - elevated global comfort food, seafood and steak, craft cocktails, and a covered front patio strung for evenings. Intimate and a little hidden, the kind of relaxed neighborhood date where the cocktails are serious and the room never gets too loud.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Cozy",
+      "Garden patio",
+      "Intimate"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Seafood plates",
+      "Steak"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "cornuto": {
+    "name": "Cornuto",
+    "neighborhood": "Phinney Ridge",
+    "website_url": "https://www.cornutopizzeria.com",
+    "cuisine_primary": "Italian",
+    "cuisine_secondary": "Neapolitan pizza",
+    "price_tier": 2,
+    "tags": [
+      "pizza",
+      "romantic"
+    ],
+    "description": "Cornuto is Via Tribunali's Phinney Ridge pizzeria - proper wood-fired Neapolitan pies (the Bufalina DOC is the order), a tight cocktail list, and tiramisu worth saving room for. Small and candle-warm, an easy, affordable date where you split a couple of blistered pizzas and a bottle of Italian red.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Cozy",
+      "Candlelit",
+      "Casual"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 3,
+    "hero_dishes": [
+      "Bufalina DOC pizza",
+      "Tiramisu"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "windycitypie": {
+    "name": "Windy City Pie",
+    "neighborhood": "Phinney Ridge",
+    "website_url": "https://www.windycitypie.com",
+    "cuisine_primary": "Pizza",
+    "cuisine_secondary": "Chicago deep-dish pizza",
+    "price_tier": 2,
+    "tags": [
+      "casual-date"
+    ],
+    "description": "Windy City Pie makes the deep dish Seattle argues about - a caramelized-crust Chicago pie heavy enough to anchor a table, plus tavern-thin slices and a little digestif bar. You preorder your bake time, which makes it a planned-out casual date: show up, claim a booth, and split a pie that could feed three.",
+    "venue_type": "Restaurant",
+    "reservations": "No",
+    "reservation_platform": "Preorder online",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Casual",
+      "Cult",
+      "Laid-back"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 3,
+    "hero_dishes": [
+      "Deep-dish pizza",
+      "Tavern thin-crust"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "oliveandgrape": {
+    "name": "Olive and Grape",
+    "neighborhood": "Phinney Ridge",
+    "website_url": "https://www.theoliveandgrape.com",
+    "cuisine_primary": "Mediterranean",
+    "cuisine_secondary": null,
+    "price_tier": null,
+    "tags": [
+      "warm",
+      "romantic"
+    ],
+    "description": null,
+    "venue_type": "Restaurant",
+    "reservations": null,
+    "reservation_platform": null,
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [],
+    "noise_level": null,
+    "date_night_score": null,
+    "hero_dishes": [],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "CLOSED - drop"
+  },
+  "hecho": {
+    "name": "Hecho",
+    "neighborhood": "Greenwood",
+    "website_url": "https://www.hechoseattle.com",
+    "cuisine_primary": "Mexican",
+    "cuisine_secondary": null,
+    "price_tier": null,
+    "tags": [
+      "lively",
+      "fun"
+    ],
+    "description": null,
+    "venue_type": "Restaurant",
+    "reservations": null,
+    "reservation_platform": null,
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [],
+    "noise_level": null,
+    "date_night_score": null,
+    "hero_dishes": [],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "CLOSED - drop"
+  },
+  "opusco": {
+    "name": "Opus Co.",
+    "neighborhood": "Phinney Ridge",
+    "website_url": "https://www.opuscorestaurant.com",
+    "cuisine_primary": "Pacific NW",
+    "cuisine_secondary": null,
+    "price_tier": null,
+    "tags": [
+      "tasting-menu",
+      "intimate"
+    ],
+    "description": null,
+    "venue_type": "Restaurant",
+    "reservations": null,
+    "reservation_platform": null,
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [],
+    "noise_level": null,
+    "date_night_score": null,
+    "hero_dishes": [],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Review"
+  },
+  "theyardcafe": {
+    "name": "The Yard Café",
+    "neighborhood": "Greenwood",
+    "website_url": "https://www.theyardcafe.com",
+    "cuisine_primary": "Latin",
+    "cuisine_secondary": "Latin comfort food",
+    "price_tier": 2,
+    "tags": [
+      "casual",
+      "patio"
+    ],
+    "description": "The Yard Cafe does Latin-inflected comfort food with a wall of rotating drafts and scratch margaritas - duck-leg confit, shrimp tacos, a solid burger - in a laid-back Greenwood room with a patio. A fun, unfussy date built around good cocktails and shareable plates rather than ceremony.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Casual",
+      "Fun",
+      "Patio"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 3,
+    "hero_dishes": [
+      "Duck leg confit",
+      "Shrimp tacos"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "nakedcitybrewery": {
+    "name": "Naked City Brewery",
+    "neighborhood": "Greenwood",
+    "website_url": "https://www.nakedcitybrewing.com",
+    "cuisine_primary": "Gastropub",
+    "cuisine_secondary": null,
+    "price_tier": null,
+    "tags": [
+      "casual",
+      "events"
+    ],
+    "description": null,
+    "venue_type": "Brewery",
+    "reservations": null,
+    "reservation_platform": null,
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [],
+    "noise_level": null,
+    "date_night_score": null,
+    "hero_dishes": [],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "CLOSED - drop"
+  },
+  "bongos": {
+    "name": "Bongos",
+    "neighborhood": "Greenwood",
+    "website_url": "https://www.bongosseattle.com",
+    "cuisine_primary": "Caribbean",
+    "cuisine_secondary": "Cuban/Caribbean",
+    "price_tier": 1,
+    "tags": [
+      "beachy",
+      "fun"
+    ],
+    "description": "Bongos is a Caribbean playground in a repurposed Aurora gas station near Green Lake - Cuban sandwiches, jerk plates, plantains, and frozen drinks on a sunny patio. Cheap, breezy, and cash-easy, less a date-night destination than a fun, sunshine-y casual bite when you want island flavors without a fuss.",
+    "venue_type": "Restaurant",
+    "reservations": "Walk-in",
+    "reservation_platform": "Walk-in",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Casual",
+      "Breezy",
+      "Patio"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 2,
+    "hero_dishes": [
+      "Cuban sandwich",
+      "Jerk plate"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "saltoro": {
+    "name": "Saltoro",
+    "neighborhood": "Greenwood",
+    "website_url": "https://www.saltororestaurant.com",
+    "cuisine_primary": "American",
+    "cuisine_secondary": "American/Mediterranean/Italian",
+    "price_tier": 3,
+    "tags": [
+      "romantic",
+      "neighborhood"
+    ],
+    "description": "Saltoro is North Greenwood's polished all-rounder - handmade pasta, steak frites, a cult lamb burger, and truffle fries in a warm, grown-up room that's drawn locals for 15 years. The dependable neighborhood date that does a bit of everything well, easy to book and hard to disappoint.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Warm",
+      "Neighborhood",
+      "Romantic"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Steak frites",
+      "Lamb burger"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "morsel": {
+    "name": "Morsel",
+    "neighborhood": "U District",
+    "website_url": "https://www.morselseattle.com",
+    "cuisine_primary": "American",
+    "cuisine_secondary": null,
+    "price_tier": null,
+    "tags": [
+      "breakfast-date"
+    ],
+    "description": null,
+    "venue_type": "Restaurant",
+    "reservations": null,
+    "reservation_platform": null,
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [],
+    "noise_level": null,
+    "date_night_score": null,
+    "hero_dishes": [],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Review"
+  },
+  "xiannoodles": {
+    "name": "Xi’an Noodles",
+    "neighborhood": "U District",
+    "website_url": "https://www.xiannoodles.com",
+    "cuisine_primary": "Chinese",
+    "cuisine_secondary": "Shaanxi Chinese",
+    "price_tier": 1,
+    "tags": [
+      "casual-date"
+    ],
+    "description": "Xi'an Noodles slings hand-ripped biang biang noodles in a bare-bones U District room - spicy cumin lamb, tingly beef, chili oil everywhere. Cheap, fast, and gloriously messy, not a romance setting but a fun, low-stakes date for two who bond over numbing spice and a pile of noodles.",
+    "venue_type": "Restaurant",
+    "reservations": "Walk-in",
+    "reservation_platform": "Walk-in",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Casual",
+      "Cheap",
+      "Spicy"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 2,
+    "hero_dishes": [
+      "Spicy cumin lamb noodles",
+      "Tingly beef noodles"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "aguaverdecafe": {
+    "name": "Agua Verde Café",
+    "neighborhood": "U District",
+    "website_url": "https://www.aguaverdecafe.com",
+    "cuisine_primary": "Mexican",
+    "cuisine_secondary": "Baja Mexican",
+    "price_tier": 2,
+    "tags": [
+      "waterfront",
+      "fun"
+    ],
+    "description": "Agua Verde Cafe sits right on Portage Bay - Baja-style tacos and margaritas with a sunny waterfront deck and kayaks for rent below. A U District favorite since 1998, fun and breezy rather than fancy: grab the deck on a warm evening for a casual, sun-soaked date over fish tacos.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Waterfront",
+      "Fun",
+      "Casual"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 3,
+    "hero_dishes": [
+      "Fish tacos",
+      "Margaritas"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "shultzys": {
+    "name": "Shultzy's",
+    "neighborhood": "U District",
+    "website_url": "https://www.shultzys.com",
+    "cuisine_primary": "German",
+    "cuisine_secondary": "German sausage/pub",
+    "price_tier": 2,
+    "tags": [
+      "casual",
+      "beer"
+    ],
+    "description": "Shultzy's has griddled house-made sausages and poured craft beer on the Ave since 1988 - bratwurst, cheesesteaks, burgers, and a long tap list in a rowdy, collegiate bar. A casual, beer-soaked date for two who want a sausage, a stein, and zero pretense near campus.",
+    "venue_type": "Bar",
+    "reservations": "Walk-in",
+    "reservation_platform": "Walk-in",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Casual",
+      "Collegiate",
+      "Beer bar"
+    ],
+    "noise_level": "Loud",
+    "date_night_score": 2,
+    "hero_dishes": [
+      "Bratwurst",
+      "Cheesesteak"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "udon": {
+    "name": "U:Don",
+    "neighborhood": "U District",
+    "website_url": "https://www.udonfresh.com",
+    "cuisine_primary": "Japanese",
+    "cuisine_secondary": "Japanese udon",
+    "price_tier": 1,
+    "tags": [
+      "casual",
+      "quick-date"
+    ],
+    "description": "U:Don makes fresh, hand-cut udon to order in a cafeteria-style U District shop - chewy noodles in dashi, crisp tempura you grab on the way to the register. Fast, cheap, and satisfying, an everyday casual bite rather than a date destination, but a cozy, slurpable stop on a budget.",
+    "venue_type": "Restaurant",
+    "reservations": "Walk-in",
+    "reservation_platform": "Counter/cafeteria",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Casual",
+      "Quick",
+      "Cheap"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 2,
+    "hero_dishes": [
+      "Udon in dashi",
+      "Tempura"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "tasteofxian": {
+    "name": "Taste of Xi'an",
+    "neighborhood": "U District",
+    "website_url": "https://www.tasteofxian.com",
+    "cuisine_primary": "Chinese",
+    "cuisine_secondary": "Shaanxi Chinese",
+    "price_tier": 1,
+    "tags": [
+      "casual",
+      "spicy"
+    ],
+    "description": "Taste of Xi'an brings Shaanxi street food to the Ave - hand-pulled noodles, cumin lamb burgers, and bold, rustic Northern Chinese plates. Casual and inexpensive like its neighbors, a fun, spicy, fill-up-for-cheap date for two who'd rather chase flavor than ambience.",
+    "venue_type": "Restaurant",
+    "reservations": "Walk-in",
+    "reservation_platform": "Walk-in",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Casual",
+      "Cheap",
+      "Spicy"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 2,
+    "hero_dishes": [
+      "Hand-pulled noodles",
+      "Cumin lamb burger"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "mammamelina": {
+    "name": "Mamma Melina",
+    "neighborhood": "U District",
+    "website_url": "https://www.mammamelina.com",
+    "cuisine_primary": "Italian",
+    "cuisine_secondary": "Italian/Pizzeria",
+    "price_tier": 3,
+    "tags": [
+      "romantic",
+      "classic"
+    ],
+    "description": "Mamma Melina is the U District's warm, white-tablecloth Italian - fresh pasta, wood-fired pizza, and regional wines in a convivial room with a patio. Family-run and a notch dressier than the student spots nearby, an easy, friendly date for handmade pasta and a bottle without trekking downtown.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Convivial",
+      "Family",
+      "Warm"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 3,
+    "hero_dishes": [
+      "Handmade pasta",
+      "Wood-fired pizza"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "dintaifung": {
+    "name": "Din Tai Fung",
+    "neighborhood": "U District",
+    "website_url": "https://www.dintaifungusa.com",
+    "cuisine_primary": "Taiwanese",
+    "cuisine_secondary": "Taiwanese/Dumplings",
+    "price_tier": 2,
+    "tags": [
+      "popular",
+      "fun"
+    ],
+    "description": "Din Tai Fung is the soup-dumpling juggernaut at University Village - watch the pleating through the glass, then demolish a steamer of kurobuta xiao long bao with chicken dumplings and garlicky greens. Bustling and walk-in only with a wait, a fun, animated date over endless dumplings rather than a quiet one.",
+    "venue_type": "Restaurant",
+    "reservations": "Walk-in",
+    "reservation_platform": "Walk-in (waitlist)",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Bustling",
+      "Fun",
+      "Popular"
+    ],
+    "noise_level": "Loud",
+    "date_night_score": 3,
+    "hero_dishes": [
+      "Kurobuta xiao long bao",
+      "Chicken dumplings"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "sushikappotamura": {
+    "name": "Sushi Kappo Tamura",
+    "neighborhood": "U District",
+    "website_url": "https://www.sushikappotamura.com",
+    "cuisine_primary": "Japanese/Sushi",
+    "cuisine_secondary": "Kappo/Sushi/Omakase",
+    "price_tier": 4,
+    "tags": [
+      "sustainable",
+      "romantic"
+    ],
+    "description": "Sushi Kappo Tamura is chef Taichi Kitamura's kappo-style temple to Northwest fish - omakase and seasonal small plates served fast from an open kitchen in a lively room. Serious sushi without the hush, refined but warm, a date for two who want top-tier fish and a bit of kitchen theater.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Refined",
+      "Lively",
+      "Open-kitchen"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Omakase",
+      "Seasonal sashimi"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "canlis": {
+    "name": "Canlis",
+    "neighborhood": "Queen Anne",
+    "website_url": "https://canlis.com/",
+    "cuisine_primary": "Pacific NW/American",
+    "cuisine_secondary": "Fine dining/PNW",
+    "price_tier": 4,
+    "tags": [
+      "iconic",
+      "special-occasion",
+      "view"
+    ],
+    "description": "Canlis is the standard every other Seattle special-occasion dinner is measured against - a 1950 mid-century landmark perched over Lake Union, with a four-course menu, flawless service, and the kind of view proposals are built around. A splurge and a ritual; book weeks out and treat it as the main event.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "Tock",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Iconic",
+      "Grand",
+      "Romantic",
+      "View"
+    ],
+    "noise_level": "Quiet",
+    "date_night_score": 5,
+    "hero_dishes": [
+      "Four-course tasting",
+      "Canlis salad"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "sushikashiba": {
+    "name": "Sushi Kashiba",
+    "neighborhood": "Pike Place",
+    "website_url": "https://sushikashiba.com/",
+    "cuisine_primary": "Japanese/Sushi",
+    "cuisine_secondary": "Edomae omakase",
+    "price_tier": 4,
+    "tags": [
+      "omakase",
+      "iconic",
+      "chef-driven"
+    ],
+    "description": "Sushi Kashiba is Shiro Kashiba's masterwork - the Jiro-trained legend behind the counter, turning out 20-plus-course omakase of pristine, market-driven fish near Pike Place. Sit at the bar and put yourself in his hands. The city's benchmark sushi date: precise, unhurried, and worth the wait for a counter seat.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable (+ walk-in counter)",
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Iconic",
+      "Refined",
+      "Counter",
+      "Romantic"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 5,
+    "hero_dishes": [
+      "Chef's omakase",
+      "Seasonal nigiri"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "lark": {
+    "name": "Lark",
+    "neighborhood": "Capitol Hill",
+    "website_url": "https://www.larkseattle.com/",
+    "cuisine_primary": "Pacific NW/American",
+    "cuisine_secondary": "New American/PNW",
+    "price_tier": 3,
+    "tags": [
+      "fine-dining",
+      "seasonal",
+      "romantic"
+    ],
+    "description": "Lark is John Sundstrom's quietly elegant Capitol Hill room - a four-course, market-driven New American menu of foraged mushrooms, wild salmon, and seasonal small plates in a warm, airy space. Refined without being fussy, a grown-up date for two who want serious cooking and an unhurried evening. The bar takes walk-ins.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Refined",
+      "Intimate",
+      "Romantic"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Four-course seasonal menu",
+      "Wild king salmon"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "flatstickpub": {
+    "name": "Flatstick Pub",
+    "neighborhood": "South Lake Union",
+    "website_url": "https://flatstickpub.com/south-lake-union/",
+    "cuisine_primary": "Pub/Pizza",
+    "cuisine_secondary": "Mini-golf + craft beer",
+    "price_tier": 2,
+    "tags": [
+      "activity",
+      "mini-golf",
+      "beer"
+    ],
+    "description": "Flatstick Pub turns a date into a game - indoor mini-golf and the invented-here Duffleboard alongside Washington-only craft beer and brick-oven pizza. Loud, cheap, and genuinely fun, the antidote to a sit-and-stare dinner. The South Lake Union and Pioneer Square spots both work for a playful, low-pressure night.",
+    "venue_type": "Bar",
+    "reservations": "No",
+    "reservation_platform": "Walk-in",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Activity",
+      "Fun",
+      "Casual"
+    ],
+    "noise_level": "Loud",
+    "date_night_score": 2,
+    "hero_dishes": [
+      "Brick-oven pizza",
+      "Bavarian pretzel"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "thegarage": {
+    "name": "The Garage",
+    "neighborhood": "Capitol Hill",
+    "website_url": "https://www.bowlero.com/location/garage",
+    "cuisine_primary": "American",
+    "cuisine_secondary": "Bowling/billiards pub",
+    "price_tier": 2,
+    "tags": [
+      "activity",
+      "bowling",
+      "billiards",
+      "21+"
+    ],
+    "description": "The Garage is Capitol Hill's grown-up arcade - 20 bowling lanes, 25 pool tables, weekend karaoke, and a fire-pit patio, with above-average pub food (truffle chips, poutine). A 21-plus, no-pressure date for two who'd rather bowl a frame and split a pitcher than make reservations. Walk in and grab a lane.",
+    "venue_type": "Bar",
+    "reservations": "No",
+    "reservation_platform": "Walk-in (21+)",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Activity",
+      "Fun",
+      "Playful"
+    ],
+    "noise_level": "Loud",
+    "date_night_score": 2,
+    "hero_dishes": [
+      "Truffle potato chips",
+      "Poutine"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "meetkoreanbbq": {
+    "name": "Meet Korean BBQ",
+    "neighborhood": "Capitol Hill",
+    "website_url": "https://meetkoreanbbq.com/",
+    "cuisine_primary": "Korean",
+    "cuisine_secondary": "Korean BBQ (tabletop grill)",
+    "price_tier": 3,
+    "tags": [
+      "activity",
+      "grill-at-table",
+      "kbbq"
+    ],
+    "description": "Meet Korean BBQ makes you part of the cooking - premium cuts (Prime Angus, A5 Wagyu, Kurobuta) seared over a tabletop grill, with banchan and a lively Capitol Hill room. The hands-on grilling is the date: interactive, a little smoky, and built for two who'd rather do dinner than just order it.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "Resy",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Interactive",
+      "Lively",
+      "Hands-on"
+    ],
+    "noise_level": "Loud",
+    "date_night_score": 3,
+    "hero_dishes": [
+      "Galbi (short rib)",
+      "Bulgogi"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "theloupelounge": {
+    "name": "The Loupe Lounge",
+    "neighborhood": "Queen Anne",
+    "website_url": "https://www.spaceneedle.com/lounge",
+    "cuisine_primary": "American",
+    "cuisine_secondary": "Cocktails + culinary towers",
+    "price_tier": 4,
+    "tags": [
+      "activity",
+      "view",
+      "revolving",
+      "21+",
+      "seasonal"
+    ],
+    "description": "The Loupe Lounge floats 500 feet up inside the Space Needle, on the world's only revolving glass floor - a 21-plus experience of cocktail mixology and multi-course culinary towers as the city turns beneath your feet. Spectacle over cuisine, but as a one-of-a-kind date it's unmatched. Seasonal: reopens around September.",
+    "venue_type": "Bar",
+    "reservations": "Yes",
+    "reservation_platform": "Tock",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Experience",
+      "View",
+      "Iconic"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Culinary tower",
+      "Craft cocktails"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "aquabyelgaucho": {
+    "name": "AQUA by El Gaucho",
+    "neighborhood": "Belltown",
+    "website_url": "https://aquabyelgaucho.com/",
+    "cuisine_primary": "Seafood",
+    "cuisine_secondary": "Seafood/steak; waterfront",
+    "price_tier": 4,
+    "tags": [
+      "waterfront",
+      "view",
+      "romantic",
+      "special-occasion"
+    ],
+    "description": "AQUA by El Gaucho sits at the tip of Pier 70 with walls of glass over Elliott Bay - polished seafood and steak, an 85-foot lighted bar, and a deck made for summer sunsets. The waterfront splurge: book a window at golden hour and let the Olympics and the ferries do half the work.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "SevenRooms",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Waterfront",
+      "View",
+      "Romantic",
+      "Special-occasion"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 5,
+    "hero_dishes": [
+      "Seafood tower",
+      "Filet & lobster"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "aerlume": {
+    "name": "Aerlume",
+    "neighborhood": "Belltown",
+    "website_url": "https://aerlumeseattle.com/",
+    "cuisine_primary": "Pacific NW/American",
+    "cuisine_secondary": "New American; Puget Sound views",
+    "price_tier": 3,
+    "tags": [
+      "waterfront",
+      "view",
+      "fire-table",
+      "romantic"
+    ],
+    "description": "Aerlume opens onto a sweeping Puget Sound view from above the waterfront, warmed by a dramatic indoor fire table - a handsome New American room of live-fire cooking and big windows. A quietly impressive date just off Pike Place, less famous than the pier spots but easier to book and just as romantic at sunset.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "SevenRooms",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "View",
+      "Romantic",
+      "Fire-table"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Live-fire entrees",
+      "Shareable plates"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "bangrakmarket": {
+    "name": "Bangrak Market",
+    "neighborhood": "Belltown",
+    "website_url": "https://www.bangrakmarketseattle.com/",
+    "cuisine_primary": "Thai",
+    "cuisine_secondary": "Thai street food + bar",
+    "price_tier": 2,
+    "tags": [
+      "thai",
+      "lively",
+      "late-night"
+    ],
+    "description": "Bangrak Market recreates a Bangkok night market in Belltown - khao soi, crying tiger, som tum, and crab wontons under string lights, with a serious cocktail and bar program. Loud, fun, and open late, a high-energy Thai date for two who want bold spice and a buzzy room rather than quiet.",
+    "venue_type": "Restaurant",
+    "reservations": "Walk-in",
+    "reservation_platform": "Walk-in",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Lively",
+      "Fun",
+      "Late-night"
+    ],
+    "noise_level": "Loud",
+    "date_night_score": 3,
+    "hero_dishes": [
+      "Khao soi",
+      "Crying tiger"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "monsoon": {
+    "name": "Monsoon",
+    "neighborhood": "Capitol Hill",
+    "website_url": "https://www.monsoonrestaurants.com/seattle",
+    "cuisine_primary": "Vietnamese",
+    "cuisine_secondary": "Contemporary Vietnamese",
+    "price_tier": 3,
+    "tags": [
+      "vietnamese",
+      "upscale",
+      "romantic"
+    ],
+    "description": "Monsoon has served contemporary Vietnamese on Capitol Hill for 25 years - drunken chicken, beef wrapped in la lot leaves, claypot catfish, and a famous coconut creme caramel, plus weekend dim sum. Polished but warm, the date that elevates Vietnamese beyond pho into something worth dressing up a little for.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "Toast",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Refined",
+      "Warm",
+      "Date-friendly"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Beef la lot",
+      "Drunken chicken"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "tamarindtree": {
+    "name": "Tamarind Tree",
+    "neighborhood": "International District",
+    "website_url": "https://tamarindtreerestaurant.com/",
+    "cuisine_primary": "Vietnamese",
+    "cuisine_secondary": "Provincial Vietnamese",
+    "price_tier": 2,
+    "tags": [
+      "vietnamese",
+      "hidden-gem",
+      "courtyard"
+    ],
+    "description": "Tamarind Tree is the International District's not-so-secret gem - provincial Vietnamese cooking on a hidden courtyard off Jackson Street, from seven-courses-of-beef to fresh spring rolls. Tucked away and lantern-lit, a surprisingly romantic date for two willing to look past the strip-mall entrance.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Hidden-gem",
+      "Lantern-lit",
+      "Romantic"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Seven courses of beef",
+      "Fresh spring rolls"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "jadegarden": {
+    "name": "Jade Garden",
+    "neighborhood": "International District",
+    "website_url": "https://www.jadegardenseattle.com/",
+    "cuisine_primary": "Chinese",
+    "cuisine_secondary": "Cantonese/Dim sum",
+    "price_tier": 2,
+    "tags": [
+      "dim-sum",
+      "chinese",
+      "bustling"
+    ],
+    "description": "Jade Garden is Seattle's benchmark dim sum hall - carts and round tables piled with har gow, BBQ pork buns, and honey-walnut prawns in a perpetually packed Chinatown room. Bustling and cheap, not a quiet date but a fun, point-and-share one, especially good with a hungry pair on a weekend.",
+    "venue_type": "Restaurant",
+    "reservations": "Walk-in",
+    "reservation_platform": "Walk-in",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Bustling",
+      "Casual",
+      "Classic"
+    ],
+    "noise_level": "Loud",
+    "date_night_score": 2,
+    "hero_dishes": [
+      "Har gow",
+      "Honey-walnut prawns"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "maximilien": {
+    "name": "Maximilien",
+    "neighborhood": "Pike Place",
+    "website_url": "https://www.maximilienrestaurant.com/",
+    "cuisine_primary": "French",
+    "cuisine_secondary": "French bistro",
+    "price_tier": 3,
+    "tags": [
+      "french",
+      "waterfront-view",
+      "romantic",
+      "classic"
+    ],
+    "description": "Maximilien is a tucked-away French room inside Pike Place with a wall of windows over Elliott Bay - moules, steak frites, and classic bistro fare served with old-world polish since 1977. Intimate and a little hidden, a romantic date where the sunset over the Sound is part of the menu.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Romantic",
+      "Classic",
+      "Water-view"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Moules frites",
+      "Steak frites"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "sixseven": {
+    "name": "Six Seven",
+    "neighborhood": "Belltown",
+    "website_url": "https://www.edgewaterhotel.com/dine/six-seven-restaurant/",
+    "cuisine_primary": "Pacific NW/American",
+    "cuisine_secondary": "PNW seafood; waterfront",
+    "price_tier": 4,
+    "tags": [
+      "waterfront",
+      "view",
+      "romantic",
+      "special-occasion"
+    ],
+    "description": "Six Seven juts out over Elliott Bay from the Edgewater Hotel's Pier 67 - floor-to-ceiling water views, Northwest seafood, and the most over-the-water dining room in the city. It leans special-occasion, the waterfront date where seals sometimes surface beside the windows and the sunset does the heavy lifting.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "Resy",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Waterfront",
+      "View",
+      "Romantic",
+      "Special-occasion"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 5,
+    "hero_dishes": [
+      "Northwest seafood",
+      "Seasonal fish"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "ilterrazzocarmine": {
+    "name": "Il Terrazzo Carmine",
+    "neighborhood": "Pioneer Square",
+    "website_url": "https://ilterrazzocarmine.com/",
+    "cuisine_primary": "Italian",
+    "cuisine_secondary": "Classic Italian",
+    "price_tier": 4,
+    "tags": [
+      "italian",
+      "classic",
+      "special-occasion",
+      "romantic"
+    ],
+    "description": "Il Terrazzo Carmine has been Pioneer Square's grand Italian institution since 1984 - white tablecloths, veal and house pasta and zuppa di pesce, served with the kind of tableside warmth that's vanishing elsewhere. A dressed-up, old-school romantic date, the place Seattle families have marked anniversaries for forty years.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Romantic",
+      "Classic",
+      "Special-occasion"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 5,
+    "hero_dishes": [
+      "Veal (Suprema di pollo)",
+      "Zuppa di pesce"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "thecorsonbuilding": {
+    "name": "The Corson Building",
+    "neighborhood": "Georgetown",
+    "website_url": "https://www.thecorsonbuilding.com/",
+    "cuisine_primary": "Pacific NW/American",
+    "cuisine_secondary": "Seasonal New American",
+    "price_tier": 4,
+    "tags": [
+      "garden",
+      "set-menu",
+      "special-occasion",
+      "romantic"
+    ],
+    "description": "The Corson Building is one of Seattle's most magical dinners - a 1910 Italianate cottage and lush garden in industrial Georgetown, where chef Emily Crawford Dann serves seasonal set menus in a covered, heated garden. Intimate, a little theatrical, and utterly romantic; a destination date worth the trek south.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "Resy",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Garden",
+      "Magical",
+      "Romantic",
+      "Special-occasion"
+    ],
+    "noise_level": "Quiet",
+    "date_night_score": 5,
+    "hero_dishes": [
+      "Seasonal set menu",
+      "Garden-driven courses"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "kamonegi": {
+    "name": "Kamonegi",
+    "neighborhood": "Fremont",
+    "website_url": "https://www.kamonegiseattle.com/",
+    "cuisine_primary": "Japanese",
+    "cuisine_secondary": "Handmade soba/tempura",
+    "price_tier": 3,
+    "tags": [
+      "soba",
+      "tempura",
+      "intimate",
+      "acclaimed"
+    ],
+    "description": "Kamonegi is Mutsuko Soma's tiny Fremont soba house - handmade buckwheat noodles and seasonal tempura that earned her national acclaim. The room seats barely two dozen, intimate and a little hushed, and the duck-and-negi seiro is the order. A quietly special date for two who'd rather slurp world-class soba than make a scene.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "Tock",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Intimate",
+      "Refined",
+      "Tiny"
+    ],
+    "noise_level": "Quiet",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Duck & negi seiro soba",
+      "Seasonal tempura"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "moxboardinghouse": {
+    "name": "Mox Boarding House",
+    "neighborhood": "Ballard",
+    "website_url": "https://www.moxboardinghouse.com/pages/seattle",
+    "cuisine_primary": "American",
+    "cuisine_secondary": "Pub/American (board-game cafe)",
+    "price_tier": 2,
+    "tags": [
+      "activity",
+      "board-games",
+      "fun"
+    ],
+    "description": "Mox Boarding House is a board-game cafe, restaurant, and game shop under one Ballard roof - pull any title off the wall of 2,000+ games to play free while you eat genuinely good pub food and cocktails. The ultimate low-pressure, high-fun date: order a burger, learn a new game, and stay till close.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "Walk-in/Resy",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Activity",
+      "Fun",
+      "Playful"
+    ],
+    "noise_level": "Loud",
+    "date_night_score": 3,
+    "hero_dishes": [
+      "Burger",
+      "Shareable pub plates"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Enriched"
+  },
+  "artofthetable": {
+    "name": "Art of the Table",
+    "neighborhood": "Wallingford",
+    "website_url": "https://www.artofthetable.net/",
+    "cuisine_primary": "Pacific NW/American",
+    "cuisine_secondary": "New American tasting",
+    "price_tier": 4,
+    "tags": [
+      "tasting-menu",
+      "chef-driven",
+      "special-occasion"
+    ],
+    "description": "Art of the Table is Shota Nakajima's ambitious Wallingford tasting-menu room - hyper-seasonal, Japanese-inflected New American cooking from a nationally known chef, in a window-wrapped space with a chef's counter. A refined, splurge-worthy date.",
+    "venue_type": "Restaurant",
+    "reservations": "Yes",
+    "reservation_platform": "Tock",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Refined",
+      "Chef-driven",
+      "Special-occasion"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "hero_dishes": [
+      "Chef's tasting menu",
+      "Seasonal a la carte"
+    ],
+    "latitude": null,
+    "longitude": null,
+    "verified_at": "2026-06-19",
+    "enrichment_status": "Review"
+  }
+}
