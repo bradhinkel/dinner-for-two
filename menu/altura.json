@@ -1,0 +1,18 @@
+{
+  "restaurant": "Altura",
+  "neighborhood": "Capitol Hill",
+  "cuisine": "Italian Tasting Menu",
+  "venue_format": "tasting-only",
+  "menu_completeness": "experience-only",
+  "source_url": "https://alturarestaurant.com/dinnermenu",
+  "captured_at": "2026-06-20",
+  "menu_status": "none-by-design",
+  "menu_volatility": "daily",
+  "extraction_method": "html (description only) + sample-menu PDF not parsed",
+  "notes": "No a la carte menu exists by design. Single seasonal tasting menu, $175/person, ~3 hours. 'Plates will be described when served, and a menu will be provided at the end of the meal' — so there is no fixed dish list to publish or capture. Only a dated 'Sample Menu' PDF (s/MASTER-03112026.pdf) hints at structure. CANONICAL tasting-only case: composer must NOT fabricate courses; present the experience + price + pairing, route to recommendation/curation mode. Sister restaurant Carrello (across the street) is the a-la-carte option.",
+  "tasting_price_cents": 17500,
+  "approx_duration_min": 180,
+  "sample_menu_pdf": "https://alturarestaurant.com/s/MASTER-03112026.pdf",
+  "dishes": [],
+  "beverages": []
+}

@@ -1,0 +1,15 @@
+{
+  "restaurant": "The Walrus and the Carpenter",
+  "neighborhood": "Ballard",
+  "cuisine": "Seafood / Oyster bar",
+  "venue_format": "share-plate",
+  "menu_completeness": "experience-only",
+  "source_url": "https://thewalrusbar.com/menu",
+  "captured_at": "2026-06-20",
+  "menu_status": "partial-blocked",
+  "menu_volatility": "daily",
+  "extraction_method": "pdf (fetch timed out)",
+  "notes": "Menu page states 'our menu changes daily.' Food and Beverage menus are dated PDFs (Walrus-Food-Menu-6.18.pdf) hosted on DigitalOcean Spaces. PDF fetch timed out at 180s — no dish data extracted. TWO compounding error cases: (a) PDF extraction needed (download + parse, or render), and (b) daily-rotating menu means any snapshot is stale within 24h. Share-plate oyster bar: store as a high-volatility row, capture a representative menu + capture date, and lean on category-level composition ('a meal to share') rather than specific dish IDs. Corkage $40/750mL.",
+  "dishes": [],
+  "beverages": []
+}

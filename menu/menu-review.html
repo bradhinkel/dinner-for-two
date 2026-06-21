@@ -1,0 +1,122 @@
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
+<title>Menu Pull — QA Review</title>
+<style>
+ body{font-family:'Inter Tight',system-ui,-apple-system,sans-serif;max-width:1040px;margin:0 auto;padding:28px;color:#1a1a1a;background:#faf8f5;line-height:1.5}
+ h1{font-family:'Cormorant Garamond',Georgia,serif;font-size:34px;margin:0 0 4px}
+ .lede{color:#57606a;margin:0 0 24px}
+ .badge{color:#fff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:20px;letter-spacing:.02em;vertical-align:middle}
+ table{border-collapse:collapse;width:100%;font-size:13px;margin:8px 0 4px}
+ .summary th,.summary td{text-align:left;padding:8px 10px;border-bottom:1px solid #e6e1d8;vertical-align:top}
+ .summary thead th{background:#efe9e0;font-size:12px}
+ .sub{color:#8a7d6a;font-size:12px}
+ .card{background:#fff;border:1px solid #e6e1d8;border-radius:12px;padding:20px 22px;margin:18px 0;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+ .chead h2{font-size:21px;margin:0 0 6px}
+ .meta{font-size:12.5px;color:#57606a;margin:2px 0}
+ .notes{background:#fbf6ee;border-left:3px solid #c08a3e;padding:10px 14px;border-radius:4px;font-size:13px;margin:14px 0}
+ .kv{font-size:13px}
+ .mt th,.mt td{text-align:left;padding:5px 8px;border-bottom:1px solid #f0ece4;vertical-align:top}
+ .mt thead th{background:#f5f1ea;font-size:11.5px;text-transform:uppercase;letter-spacing:.03em;color:#6b6151}
+ .ct{color:#9a6700;font-size:11px;text-transform:uppercase;white-space:nowrap}
+ .desc{color:#444;max-width:420px} .note{color:#bc4c00;font-size:11px} .empty{color:#999;font-style:italic;font-size:13px}
+ h3{font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:#6b6151;margin:18px 0 2px;border-bottom:1px solid #eee;padding-bottom:3px}
+ a{color:#9a3b2f}
+</style></head><body>
+<h1>Menu Pull — QA Review</h1>
+<p class=lede>First menu-pull pilot (5 restaurants, captured 2026-06-20). Open each <b>Source</b> link and eyeball the structured data below against the live page. The spread was chosen to stress-test extraction, not to be easy — each row broke in a different way.</p>
+<h3>Summary</h3>
+<table class=summary><thead><tr><th>Restaurant</th><th>venue_format</th><th>status</th><th>volatility</th><th>extraction</th><th>captured</th></tr></thead><tbody>
+<tr>
+      <td><b>The Pink Door</b><br><span class=sub>Belltown / Pike Place Market · Italian-American</span></td>
+      <td>full-menu</td>
+      <td><span class="badge" style="background:#1a7f37">complete</span></td>
+      <td>seasonal</td>
+      <td>html</td>
+      <td>32 dishes / 13 bevs</td>
+    </tr><tr>
+      <td><b>Altura</b><br><span class=sub>Capitol Hill · Italian Tasting Menu</span></td>
+      <td>tasting-only</td>
+      <td><span class="badge" style="background:#9a6700">none-by-design</span></td>
+      <td>daily</td>
+      <td>html (description only) + sample-menu PDF not parsed</td>
+      <td>0 dishes / 0 bevs</td>
+    </tr><tr>
+      <td><b>The Walrus and the Carpenter</b><br><span class=sub>Ballard · Seafood / Oyster bar</span></td>
+      <td>share-plate</td>
+      <td><span class="badge" style="background:#bc4c00">partial-blocked</span></td>
+      <td>daily</td>
+      <td>pdf (fetch timed out)</td>
+      <td>0 dishes / 0 bevs</td>
+    </tr><tr>
+      <td><b>Spinasse</b><br><span class=sub>Capitol Hill · Northern Italian</span></td>
+      <td>full-menu</td>
+      <td><span class="badge" style="background:#cf222e">none-accessible</span></td>
+      <td>unknown</td>
+      <td>none (no menu on site)</td>
+      <td>0 dishes / 0 bevs</td>
+    </tr><tr>
+      <td><b>Rob Roy</b><br><span class=sub>Belltown · Cocktail bar</span></td>
+      <td>activity / beverage-led (candidate for exclusion)</td>
+      <td><span class="badge" style="background:#bc4c00">image-only</span></td>
+      <td>unknown</td>
+      <td>image (7 PNG menu scans, no text)</td>
+      <td>0 dishes / 0 bevs</td>
+    </tr>
+</tbody></table>
+
+    <section class=card id="the-pink-door">
+      <div class=chead>
+        <h2>The Pink Door <span class="badge" style="background:#1a7f37">complete</span></h2>
+        <div class=meta>Belltown / Pike Place Market · Italian-American · <b>venue_format:</b> full-menu · <b>volatility:</b> seasonal</div>
+        <div class=meta><b>Source:</b> <a href="https://www.thepinkdoor.net/menus" target=_blank>https://www.thepinkdoor.net/menus</a> · <b>extraction:</b> html · <b>captured:</b> 2026-06-20</div>
+      </div>
+      <p class=notes>Clean server-rendered (Framer) site; full dinner, dessert, wine and cocktail menus extracted. Spring/seasonal menu. Two MP (market price) fish items have no fixed price. A few items list two sizes (e.g. 24/18). Cabaret entertainment on site (venue has an &#x27;activity&#x27; dimension worth tagging). Full bottle wine list (~150 SKUs) NOT captured — only by-the-glass + cocktails, which is what composition pairs against.</p>
+      
+      <h3>Dishes</h3><table class=mt><thead><tr><th>Course</th><th>Name</th><th>Description</th><th>Price</th><th>Diet</th></tr></thead><tbody><tr><td class=ct>appetizer</td><td><b>Crostini</b></td><td class=desc>English pea purée, mint, fresh Northwest Dungeness crab</td><td>$28</td><td></td></tr><tr><td class=ct>appetizer</td><td><b>Blistered Asparagus</b></td><td class=desc>hard cooked egg, pine nuts, very good olive oil</td><td>$18</td><td>VEG, GF</td></tr><tr><td class=ct>appetizer</td><td><b>Ahi Tuna Crudo</b></td><td class=desc>fried capers, Castelvetrano olives, microgreens, orange citrus vinaigrette</td><td>$23</td><td>GF</td></tr><tr><td class=ct>appetizer</td><td><b>Arancini</b></td><td class=desc>fried rice balls stuffed with caciocavallo, mozzarella, spicy Calabrian chili sauce</td><td>$19</td><td>VEG</td></tr><tr><td class=ct>appetizer</td><td><b>Prosciutto di Parma</b></td><td class=desc>fresh Pecorino cheese</td><td>$26</td><td></td></tr><tr><td class=ct>appetizer</td><td><b>Antipasto of the House</b></td><td class=desc>prosciutto, Tuscan bean salad, fresh mozzarella, tapenade, grilled vegetables, salumi and more</td><td>$24 <span class=note>(24 / 18 (two sizes))</span></td><td>GF</td></tr><tr><td class=ct>entree</td><td><b>Ravioli</b></td><td class=desc>stuffed with asparagus and Fontina cheese, chive butter, lemon zest</td><td>$31</td><td>VEG</td></tr><tr><td class=ct>entree</td><td><b>Bucatini Alla Carbonara</b></td><td class=desc>guanciale, egg yolk, black pepper, pecorino romano</td><td>$28</td><td></td></tr><tr><td class=ct>entree</td><td><b>Linguine Alle Vongole</b></td><td class=desc>baby clams in their shell, pancetta, garlic, chilis and white wine</td><td>$30</td><td></td></tr><tr><td class=ct>entree</td><td><b>Lasagna Pink Door</b></td><td class=desc>fresh spinach pasta layered with besciamella, pesto, topped with marinara</td><td>$27</td><td>VEG</td></tr><tr><td class=ct>entree</td><td><b>Pappardelle al Ragù Bolognese</b></td><td class=desc>slow-simmered meat sauce, Parmigiano-Reggiano</td><td>$29</td><td></td></tr><tr><td class=ct>entree</td><td><b>Rigatoni and Mama&#x27;s Meatballs</b></td><td class=desc>with marinara sauce and fresh basil</td><td>$28</td><td></td></tr><tr><td class=ct>entree</td><td><b>Risotto</b></td><td class=desc>fresh spring peas, Astoria bay shrimp, mascarpone, mint</td><td>$32</td><td>GF</td></tr><tr><td class=ct>entree</td><td><b>Clams and Mussels</b></td><td class=desc>white vermouth, garlic, parsley and a touch of cream, garlic toast</td><td>$32</td><td>GF</td></tr><tr><td class=ct>entree</td><td><b>Cioppino</b></td><td class=desc>prawns, rockfish, mussels, clams, calamari in a spicy tomato-white wine broth, garlic toast</td><td>$34</td><td>GF</td></tr><tr><td class=ct>entree</td><td><b>&#x27;Branzino Style&#x27; Whole White Fish of the Day</b></td><td class=desc>grilled, salsa verde and cranberry beans</td><td>— <span class=note>(MP (market price))</span></td><td>GF</td></tr><tr><td class=ct>entree</td><td><b>Northwest Fish of the Day</b></td><td class=desc>chef Dylan Giordan&#x27;s spring creation</td><td>— <span class=note>(MP (market price))</span></td><td></td></tr><tr><td class=ct>entree</td><td><b>Roasted Half Chicken al Mattone</b></td><td class=desc>foraged morel mushrooms and fava ragout, soft polenta</td><td>$34</td><td>GF</td></tr><tr><td class=ct>entree</td><td><b>Grilled Rack of Lamb Scottadito</b></td><td class=desc>fried lemon slices, artichokes and potatoes, mint-parsley sauce</td><td>$52</td><td></td></tr><tr><td class=ct>entree</td><td><b>Lan-Roc 11oz Bone-In Pork Chop</b></td><td class=desc>rhubarb mostarda, grilled asparagus, green garlic mashers</td><td>$38</td><td>GF</td></tr><tr><td class=ct>salad</td><td><b>Everything Green</b></td><td class=desc>Bibb lettuce, English peas, asparagus, favas, pistachios, creamy tarragon dressing</td><td>$17</td><td>VEG, GF</td></tr><tr><td class=ct>salad</td><td><b>Misticanza</b></td><td class=desc>tender organic lettuces, carrots, radish and soft herbs</td><td>$15 <span class=note>(15 / 19 (two sizes))</span></td><td>VEG, GF</td></tr><tr><td class=ct>salad</td><td><b>Pink Door Caesar</b></td><td class=desc>with fennel-dusted croutons</td><td>$15 <span class=note>(15 / 19 (two sizes))</span></td><td></td></tr><tr><td class=ct>side</td><td><b>Vignarola &#x27;Spring on a Plate&#x27;</b></td><td class=desc>braise of peas, favas, spring onions, baby lettuce, asparagus, mint on lemon-ricotta</td><td>$17</td><td>VEG, GF</td></tr><tr><td class=ct>side</td><td><b>Grilled Romaine</b></td><td class=desc>al bagna cauda sauce</td><td>$15</td><td>GF</td></tr><tr><td class=ct>side</td><td><b>Three of Mama&#x27;s Meatballs</b></td><td class=desc>marinara sauce</td><td>$21</td><td></td></tr><tr><td class=ct>side</td><td><b>Tuscan Fries, Fried Herbs</b></td><td class=desc>aioli</td><td>$15</td><td>VEG, GF</td></tr><tr><td class=ct>side</td><td><b>La Fettunta</b></td><td class=desc>grilled garlic bread with the finest of olive oils</td><td>$9</td><td>VEG</td></tr><tr><td class=ct>dessert</td><td><b>Rhubarb Shortcake</b></td><td class=desc>with the most tender biscuit you&#x27;ll ever eat</td><td>$15</td><td></td></tr><tr><td class=ct>dessert</td><td><b>Warm Fried-to-Order Ricotta Zeppole</b></td><td class=desc>puréed N.W. huckleberry sauce</td><td>$15</td><td></td></tr><tr><td class=ct>dessert</td><td><b>Chocolate Cake Squisito!</b></td><td class=desc>layered milk chocolate cake, ganache and caramel sauce</td><td>$16</td><td></td></tr><tr><td class=ct>dessert</td><td><b>Housemade Semi-Freddo &amp; Soft Lemon Amaretto Cookie</b></td><td class=desc>frozen St-Germain elderflower cream with lemon zest</td><td>$14</td><td></td></tr></tbody></table>
+      <h3>Beverages</h3><table class=mt><thead><tr><th>Type</th><th>Name</th><th>Style</th><th>Glass</th><th>Region · Vintage</th></tr></thead><tbody><tr><td class=ct>cocktail</td><td><b>There&#x27;s No Basement in the Alamo</b></td><td class=desc>tequila, Ancho Reyes, dry curaçao, grapefruit, lime</td><td>$17</td><td></td></tr><tr><td class=ct>cocktail</td><td><b>Stay Loose</b></td><td class=desc>rye whiskey, Nonino Amaro, Carpano Antica, Lillet, Angostura bitters</td><td>$17</td><td></td></tr><tr><td class=ct>cocktail</td><td><b>Hope Springs Eternal</b></td><td class=desc>prosecco, crème de violette, St-Germain</td><td>$16</td><td></td></tr><tr><td class=ct>cocktail</td><td><b>The Celery Made Me Do It</b></td><td class=desc>Madrona Gin, fresh celery juice, lime, mint, cherry bitters, Amarena cherry</td><td>$16</td><td></td></tr><tr><td class=ct>cocktail</td><td><b>Blushing Rhubarb</b></td><td class=desc>Ten To One Dark Rum, Manzanilla sherry, rhubarb syrup, lime</td><td>$17</td><td></td></tr><tr><td class=ct>wine</td><td><b>Carricante, Le Sabbie Dell&#x27;Etna (Firriato)</b></td><td class=desc>white</td><td>$15</td><td>Sicilia · 2024</td></tr><tr><td class=ct>wine</td><td><b>Sauvignon Blanc (Marchesi di Gresy)</b></td><td class=desc>white</td><td>$17</td><td>Piemonte · 2024</td></tr><tr><td class=ct>wine</td><td><b>Prosecco Brut (Zardetto)</b></td><td class=desc>sparkling</td><td>$15</td><td>Veneto · NV</td></tr><tr><td class=ct>wine</td><td><b>Franciacorta Extra Brut (Berlucchi)</b></td><td class=desc>sparkling</td><td>$18</td><td>Lombardia · NV</td></tr><tr><td class=ct>wine</td><td><b>Blushing Bear Rosé (Pursued By Bear)</b></td><td class=desc>rosé</td><td>$16</td><td>Columbia Valley WA · 2025</td></tr><tr><td class=ct>wine</td><td><b>Primitivo, Orion (Masseria Li Veli)</b></td><td class=desc>red</td><td>$15</td><td>Puglia · 2024</td></tr><tr><td class=ct>wine</td><td><b>Langhe Nebbiolo (Marchesi di Gresy)</b></td><td class=desc>red</td><td>$16</td><td>Piemonte · 2024</td></tr><tr><td class=ct>wine</td><td><b>Pinot Noir, Cuvée Miette (Illahe)</b></td><td class=desc>red</td><td>$17</td><td>Willamette Valley OR · 2024</td></tr></tbody></table>
+    </section>
+    <section class=card id="altura">
+      <div class=chead>
+        <h2>Altura <span class="badge" style="background:#9a6700">none-by-design</span></h2>
+        <div class=meta>Capitol Hill · Italian Tasting Menu · <b>venue_format:</b> tasting-only · <b>volatility:</b> daily</div>
+        <div class=meta><b>Source:</b> <a href="https://alturarestaurant.com/dinnermenu" target=_blank>https://alturarestaurant.com/dinnermenu</a> · <b>extraction:</b> html (description only) + sample-menu PDF not parsed · <b>captured:</b> 2026-06-20</div>
+      </div>
+      <p class=notes>No a la carte menu exists by design. Single seasonal tasting menu, $175/person, ~3 hours. &#x27;Plates will be described when served, and a menu will be provided at the end of the meal&#x27; — so there is no fixed dish list to publish or capture. Only a dated &#x27;Sample Menu&#x27; PDF (s/MASTER-03112026.pdf) hints at structure. CANONICAL tasting-only case: composer must NOT fabricate courses; present the experience + price + pairing, route to recommendation/curation mode. Sister restaurant Carrello (across the street) is the a-la-carte option.</p>
+      <p class=kv><b>Tasting price:</b> $175/person · ~180 min · <a href="https://alturarestaurant.com/s/MASTER-03112026.pdf" target=_blank>sample menu PDF</a></p>
+      <h3>Dishes</h3><p class=empty>No structured dishes extracted.</p>
+      <h3>Beverages</h3><p class=empty>No structured beverages extracted.</p>
+    </section>
+    <section class=card id="the-walrus-and-the-carpenter">
+      <div class=chead>
+        <h2>The Walrus and the Carpenter <span class="badge" style="background:#bc4c00">partial-blocked</span></h2>
+        <div class=meta>Ballard · Seafood / Oyster bar · <b>venue_format:</b> share-plate · <b>volatility:</b> daily</div>
+        <div class=meta><b>Source:</b> <a href="https://thewalrusbar.com/menu" target=_blank>https://thewalrusbar.com/menu</a> · <b>extraction:</b> pdf (fetch timed out) · <b>captured:</b> 2026-06-20</div>
+      </div>
+      <p class=notes>Menu page states &#x27;our menu changes daily.&#x27; Food and Beverage menus are dated PDFs (Walrus-Food-Menu-6.18.pdf) hosted on DigitalOcean Spaces. PDF fetch timed out at 180s — no dish data extracted. TWO compounding error cases: (a) PDF extraction needed (download + parse, or render), and (b) daily-rotating menu means any snapshot is stale within 24h. Share-plate oyster bar: store as a high-volatility row, capture a representative menu + capture date, and lean on category-level composition (&#x27;a meal to share&#x27;) rather than specific dish IDs. Corkage $40/750mL.</p>
+      
+      <h3>Dishes</h3><p class=empty>No structured dishes extracted.</p>
+      <h3>Beverages</h3><p class=empty>No structured beverages extracted.</p>
+    </section>
+    <section class=card id="spinasse">
+      <div class=chead>
+        <h2>Spinasse <span class="badge" style="background:#cf222e">none-accessible</span></h2>
+        <div class=meta>Capitol Hill · Northern Italian · <b>venue_format:</b> full-menu · <b>volatility:</b> unknown</div>
+        <div class=meta><b>Source:</b> <a href="https://www.spinasse.com" target=_blank>https://www.spinasse.com</a> · <b>extraction:</b> none (no menu on site) · <b>captured:</b> 2026-06-20</div>
+      </div>
+      <p class=notes>Website appears to be a static 2016 page (press blurbs + &#x27;Site Design ... 2016&#x27;). /menu returned empty; no menu link or PDF found on the public site. Famous for hand-cut tajarin egg pasta. ERROR CASE: a strong, well-known restaurant with NO usable online menu. Resolution options: source menu from a reservation platform (Tock/Resy), a recent press/photo source, or flag for manual entry. Do NOT block the catalog on it — this is exactly the kind of row that needs a human-entry fallback path.</p>
+      
+      <h3>Dishes</h3><p class=empty>No structured dishes extracted.</p>
+      <h3>Beverages</h3><p class=empty>No structured beverages extracted.</p>
+    </section>
+    <section class=card id="rob-roy">
+      <div class=chead>
+        <h2>Rob Roy <span class="badge" style="background:#bc4c00">image-only</span></h2>
+        <div class=meta>Belltown · Cocktail bar · <b>venue_format:</b> activity / beverage-led (candidate for exclusion) · <b>volatility:</b> unknown</div>
+        <div class=meta><b>Source:</b> <a href="https://www.robroyseattle.com/menu" target=_blank>https://www.robroyseattle.com/menu</a> · <b>extraction:</b> image (7 PNG menu scans, no text) · <b>captured:</b> 2026-06-20</div>
+      </div>
+      <p class=notes>Menu published as 7 flat PNG image scans (RR-ONLINE_MENU-01..07.png) — no machine-readable text. 21+ classic cocktail bar; little/no dinner food. TWO issues: (a) image-only menu requires OCR/vision to extract, and (b) this may not belong in a DINNER spread at all — beverage-led venue. Decision needed (ties to §9 open question): cap or exclude pure cocktail bars from a meal-centric spread, or only admit as a ≤1 &#x27;activity/nightcap&#x27; slot.</p>
+      
+      <h3>Dishes</h3><p class=empty>No structured dishes extracted.</p>
+      <h3>Beverages</h3><p class=empty>No structured beverages extracted.</p>
+    </section>
+<p class=lede style="margin-top:28px">Files: one JSON per restaurant in <code>/menu</code>, conforming to the <code>dishes</code> / <code>beverages</code> schema in project_plan.md §2.</p>
+</body></html>

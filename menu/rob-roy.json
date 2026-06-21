@@ -1,0 +1,15 @@
+{
+  "restaurant": "Rob Roy",
+  "neighborhood": "Belltown",
+  "cuisine": "Cocktail bar",
+  "venue_format": "activity",
+  "menu_completeness": "experience-only",
+  "source_url": "https://www.robroyseattle.com/menu",
+  "captured_at": "2026-06-20",
+  "menu_status": "image-only",
+  "menu_volatility": "unknown",
+  "extraction_method": "image (7 PNG menu scans, no text)",
+  "notes": "Menu published as 7 flat PNG image scans (RR-ONLINE_MENU-01..07.png) — no machine-readable text. 21+ classic cocktail bar; little/no dinner food. TWO issues: (a) image-only menu requires OCR/vision to extract, and (b) this may not belong in a DINNER spread at all — beverage-led venue. Decision needed (ties to §9 open question): cap or exclude pure cocktail bars from a meal-centric spread, or only admit as a ≤1 'activity/nightcap' slot.",
+  "dishes": [],
+  "beverages": []
+}

@@ -1,0 +1,42 @@
+{
+  "restaurant": "Revel",
+  "neighborhood": "Fremont",
+  "cuisine": "Modern Korean",
+  "venue_format": "share-plate",
+  "menu_completeness": "full",
+  "source_url": "https://www.revelseattle.com/menu",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "html",
+  "notes": "Full dinner menu + cocktails captured. Modern Korean small/large plates meant to share -> venue_format share-plate; favorites and small plates tagged course_type 'plate', large plates as 'entree'. Menu marks NF (nut-free), SF (soy-free), DF (dairy-free), V/VEG (vegetarian), GF; a triangle (shown as ▲) on the source means available-as-modification. Only firm (non-modifiable) VEG/GF marks are recorded in dietary_tags. Grilled Asparagus showed no price on the page (price_cents null). Wine-by-the-glass sold as a flat $10 pour by color (red/white/pink/bubbles).",
+  "dishes": [
+    {"course_type": "plate", "name": "Kimchi Pancake", "description": "kimcheese, furikake.", "price_cents": 1600, "price_note": null, "dietary_tags": ["GF"], "key_ingredients": [], "weight_score": null, "richness_score": null},
+    {"course_type": "plate", "name": "Short Rib Wontons", "description": "garlic crunch, chili oil.", "price_cents": 1600, "price_note": null, "dietary_tags": [], "key_ingredients": [], "weight_score": null, "richness_score": null},
+    {"course_type": "plate", "name": "Dungeness Crab Noodle", "description": "house seaweed noodle, red curry, crème fraiche.", "price_cents": 2600, "price_note": null, "dietary_tags": [], "key_ingredients": [], "weight_score": null, "richness_score": null},
+    {"course_type": "entree", "name": "Short Rib Rice Plate", "description": "mustard greens, daikon sambal.", "price_cents": 2900, "price_note": null, "dietary_tags": [], "key_ingredients": [], "weight_score": null, "richness_score": null},
+    {"course_type": "plate", "name": "4 Kimchi Sampler", "description": "napa, daikon, fennel, seasonal.", "price_cents": 1200, "price_note": null, "dietary_tags": ["GF"], "key_ingredients": [], "weight_score": null, "richness_score": null},
+    {"course_type": "salad", "name": "Spring Gem", "description": "spring onion, yuja green goddess vinaigrette.", "price_cents": 1500, "price_note": null, "dietary_tags": ["VEG", "GF"], "key_ingredients": [], "weight_score": null, "richness_score": null},
+    {"course_type": "plate", "name": "Chinese Broccoli", "description": "kecap manis, hazelnut, garlic confit.", "price_cents": 1400, "price_note": null, "dietary_tags": ["VEG"], "key_ingredients": [], "weight_score": null, "richness_score": null},
+    {"course_type": "plate", "name": "Korean Fried Chicken", "description": "gochujang hot honey, daikon pickle.", "price_cents": 1500, "price_note": null, "dietary_tags": [], "key_ingredients": [], "weight_score": null, "richness_score": null},
+    {"course_type": "plate", "name": "Grilled Asparagus", "description": "cured egg yolk gribiche, olive chili oil.", "price_cents": null, "price_note": "price not listed", "dietary_tags": [], "key_ingredients": [], "weight_score": null, "richness_score": null},
+    {"course_type": "plate", "name": "Mushroom Egg Souffle", "description": "with mushroom butter, sauce, pickle.", "price_cents": 1500, "price_note": null, "dietary_tags": ["VEG", "GF"], "key_ingredients": [], "weight_score": null, "richness_score": null},
+    {"course_type": "entree", "name": "Jaengban Noodle", "description": "marinated tofu, shiitake xo, bibimjang.", "price_cents": 2200, "price_note": null, "dietary_tags": [], "key_ingredients": [], "weight_score": null, "richness_score": null},
+    {"course_type": "entree", "name": "Chicken Rice Cakes", "description": "mala gochujang, charred cabbage.", "price_cents": 2400, "price_note": null, "dietary_tags": [], "key_ingredients": [], "weight_score": null, "richness_score": null},
+    {"course_type": "entree", "name": "Braised Black Cod", "description": "kohlrabi, English peas.", "price_cents": 3000, "price_note": null, "dietary_tags": ["GF"], "key_ingredients": [], "weight_score": null, "richness_score": null},
+    {"course_type": "entree", "name": "Coulotte Steak", "description": "truffled black garlic sauce, radish, red shiso. 12oz.", "price_cents": 5000, "price_note": "12oz", "dietary_tags": ["GF"], "key_ingredients": [], "weight_score": null, "richness_score": null},
+    {"course_type": "entree", "name": "Rye's Meal (Kids)", "description": "rice, wontons, Chinese broccoli.", "price_cents": 1400, "price_note": null, "dietary_tags": [], "key_ingredients": [], "weight_score": null, "richness_score": null},
+    {"course_type": "dessert", "name": "Basque Hojicha Cheesecake", "description": "misugaru crust, yuja whip.", "price_cents": 1200, "price_note": null, "dietary_tags": ["GF"], "key_ingredients": [], "weight_score": null, "richness_score": null},
+    {"course_type": "dessert", "name": "Chocolate Layer Cake", "description": "kasu caramel, walnut praline, malt whip.", "price_cents": 1000, "price_note": null, "dietary_tags": [], "key_ingredients": [], "weight_score": null, "richness_score": null},
+    {"course_type": "dessert", "name": "Jasmine Tea Panna Cotta", "description": "rhubarb, hibiscus.", "price_cents": 900, "price_note": null, "dietary_tags": ["VEG", "GF"], "key_ingredients": [], "weight_score": null, "richness_score": null}
+  ],
+  "beverages": [
+    {"type": "cocktail", "name": "Kyoto Calling", "style": "Japanese vodka, fermented cranberry, yuzu curacao, hibiscus, lime", "glass_cents": 1600, "bottle_cents": null, "region": null, "vintage": null, "flavor_tags": []},
+    {"type": "cocktail", "name": "Lemongrass Vesper", "style": "Japanese gin, soju, quina vermouth, lemongrass", "glass_cents": 1800, "bottle_cents": null, "region": null, "vintage": null, "flavor_tags": []},
+    {"type": "cocktail", "name": "Pink Cadillac", "style": "La Gritona Tequila Reposado, curacao, coconut, raspberry", "glass_cents": 1700, "bottle_cents": null, "region": null, "vintage": null, "flavor_tags": []},
+    {"type": "cocktail", "name": "Smoke Break", "style": "mezcal, rum, aperol, acidified POG, li hing mui", "glass_cents": 1600, "bottle_cents": null, "region": null, "vintage": null, "flavor_tags": []},
+    {"type": "cocktail", "name": "Seoul 1927", "style": "Toki whiskey, Koronan, soju, vermouth", "glass_cents": 1800, "bottle_cents": null, "region": null, "vintage": null, "flavor_tags": []},
+    {"type": "cocktail", "name": "Maesil Old Fashioned", "style": "Knob Creek rye, cognac, plum soju, creme de noyaux bitter", "glass_cents": 1900, "bottle_cents": null, "region": null, "vintage": null, "flavor_tags": []},
+    {"type": "wine", "name": "By-the-glass pour (red / white / pink / bubbles)", "style": "rotating by color", "glass_cents": 1000, "bottle_cents": null, "region": null, "vintage": null, "flavor_tags": []}
+  ]
+}

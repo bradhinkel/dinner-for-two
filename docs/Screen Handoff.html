@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Dinner for Two — Screen Handoff</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+  rel="stylesheet"
+/>
+
+<style>
+  :root {
+    --paper: #F4ECDF;
+    --paper-deep: #EBE0CC;
+    --paper-card: #F8F1E4;
+    --ink: #1F1410;
+    --ink-soft: #3D2C22;
+    --ink-mute: #8C7868;
+    --rule: #C9B89C;
+    --rule-soft: #DCCDB4;
+    --oxblood: #7A1F23;
+    --serif: "Cormorant Garamond", Georgia, serif;
+    --sans: "Inter Tight", system-ui, sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, monospace;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #2a201a; }
+  body { font-family: var(--sans); color: var(--ink); -webkit-font-smoothing: antialiased; }
+
+  .page {
+    background: var(--paper);
+    width: 8.5in;
+    min-height: 11in;
+    margin: 24px auto;
+    padding: 0.7in;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.4);
+    position: relative;
+    page-break-after: always;
+  }
+  .page:last-child { page-break-after: auto; }
+  @media print {
+    html, body { background: var(--paper); }
+    .page { box-shadow: none; margin: 0; width: auto; padding: 0.5in; }
+  }
+
+  .label {
+    font-family: var(--sans);
+    font-size: 9.5px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    font-weight: 500;
+  }
+  h1.display, h2.display {
+    font-family: var(--serif);
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.015em;
+    color: var(--ink);
+    margin: 0;
+  }
+  h1.display { font-size: 64px; }
+  h2.display { font-size: 40px; }
+  h2.display .accent { color: var(--oxblood); }
+
+  .pg-head {
+    display: flex; justify-content: space-between; align-items: center;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 10px;
+    margin-bottom: 22px;
+  }
+  .pg-num { font-family: var(--serif); font-style: italic; font-size: 20px; color: var(--oxblood); }
+
+  p, li {
+    font-size: 11px;
+    line-height: 1.55;
+    color: var(--ink-soft);
+    text-wrap: pretty;
+  }
+  strong { color: var(--ink); font-weight: 600; }
+
+  /* spec card */
+  .spec {
+    border: 1px solid var(--rule);
+    background: var(--paper-card);
+    padding: 18px 20px;
+    margin-bottom: 14px;
+  }
+  .spec h3 {
+    margin: 0 0 4px;
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 22px;
+    color: var(--ink);
+  }
+  .spec .purpose {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 14px;
+    color: var(--ink-soft);
+    margin-bottom: 12px;
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 12px;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--rule-soft);
+    font-size: 11px;
+  }
+  .row:last-child { border-bottom: none; }
+  .row .k { font-family: var(--sans); font-size: 9px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink-mute); padding-top: 2px; }
+  .row .v { color: var(--ink-soft); line-height: 1.5; }
+  .row .v code { font-family: var(--mono); font-size: 10px; color: var(--ink); background: rgba(122,31,35,0.07); padding: 1px 5px; border-radius: 2px; }
+
+  .copy {
+    margin-top: 10px;
+    padding: 12px 14px;
+    background: var(--paper);
+    border-left: 2px solid var(--oxblood);
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--ink);
+  }
+  .copy .key {
+    font-family: var(--mono);
+    font-style: normal;
+    font-size: 10px;
+    color: var(--ink-mute);
+    letter-spacing: 0.06em;
+    display: block;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+  }
+
+  .states {
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .state {
+    border: 1px solid var(--rule);
+    padding: 8px 10px;
+    background: white;
+  }
+  .state .n { font-family: var(--serif); font-style: italic; font-size: 13px; color: var(--ink); }
+  .state .d { font-size: 10px; color: var(--ink-soft); margin-top: 2px; line-height: 1.4; }
+
+  pre.code {
+    font-family: var(--mono);
+    font-size: 10px;
+    background: #1F1410;
+    color: #F4ECDF;
+    padding: 14px;
+    margin: 8px 0 0;
+    line-height: 1.55;
+    overflow-x: auto;
+    border-radius: 0;
+    white-space: pre;
+  }
+  pre.code .c { color: #8C7868; }
+  pre.code .s { color: #C9A78C; }
+  pre.code .k { color: #E9A0A0; }
+
+  .pill {
+    display: inline-block;
+    padding: 3px 8px;
+    font-size: 9px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    border-radius: 999px;
+    border: 1px solid var(--rule);
+    color: var(--ink-soft);
+    margin-right: 4px;
+  }
+  .pill.priority { color: #fff; background: var(--oxblood); border-color: var(--oxblood); }
+  .pill.deferred { color: var(--ink-mute); }
+
+  .toc-row {
+    display: flex; align-items: baseline; padding: 8px 0;
+    border-bottom: 1px solid var(--rule-soft);
+    gap: 10px;
+  }
+  .toc-row .num { font-family: var(--serif); font-style: italic; font-size: 16px; color: var(--oxblood); width: 28px; }
+  .toc-row .title { font-family: var(--serif); font-style: italic; font-size: 18px; color: var(--ink); white-space: nowrap; }
+  .toc-row .dots { flex: 1; border-bottom: 1px dotted var(--rule); transform: translateY(-4px); }
+  .toc-row .pg { font-family: var(--sans); font-size: 10px; color: var(--ink-mute); }
+
+  .ornament { display: flex; align-items: center; gap: 10px; color: var(--rule); margin: 16px 0; }
+  .ornament .l { flex: 1; height: 1px; background: currentColor; }
+
+  .pg-foot {
+    position: absolute;
+    bottom: 0.4in; left: 0.7in; right: 0.7in;
+    display: flex; justify-content: space-between;
+    border-top: 1px solid var(--rule);
+    padding-top: 8px;
+  }
+  .pg-foot .label { white-space: nowrap; }
+  .spec h3 { line-height: 1.15; }
+  .spec h3 + p { margin-top: 6px; }
+
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+</style>
+</head>
+<body>
+
+<!-- ====== COVER ====== -->
+<section class="page" style="display: flex; flex-direction: column; justify-content: space-between; min-height: 9.6in">
+  <div style="display: flex; justify-content: space-between; align-items: center">
+    <div style="display: flex; align-items: center; gap: 10px">
+      <span style="width: 26px; height: 26px; border-radius: 50%; border: 1px solid var(--ink); display: inline-flex; align-items: center; justify-content: center; font-family: var(--serif); font-style: italic; font-size: 16px">d</span>
+      <span class="label" style="letter-spacing:0.32em">Dinner / Two</span>
+    </div>
+    <span class="label">Screen handoff · for Claude Code</span>
+  </div>
+
+  <div style="margin-top: 60px">
+    <span class="label">Companion to Project Plan v2</span>
+    <h1 class="display" style="font-size: 88px; line-height: 0.92; margin-top: 18px">
+      Build<br />
+      from <span style="color: var(--oxblood)">these.</span>
+    </h1>
+    <p style="margin-top: 24px; font-family: var(--serif); font-style: italic; font-size: 20px; color: var(--ink-soft); max-width: 5in; line-height: 1.45">
+      Six screens, fully specified. Tokens, copy, layout, states, and
+      interactions. Two minor screens are intentionally left light —
+      resolve them in code from the system.
+    </p>
+  </div>
+
+  <div>
+    <div class="ornament"><div class="l"></div><span>✦</span><div class="l"></div></div>
+    <div class="grid-3" style="font-size: 11px; color: var(--ink-soft)">
+      <div><span class="label">Stack</span><div style="font-family: var(--serif); font-style: italic; font-size: 16px; color: var(--ink); margin-top: 4px">Next.js · Tailwind · Vercel</div></div>
+      <div><span class="label">Baseline</span><div style="font-family: var(--serif); font-style: italic; font-size: 16px; color: var(--ink); margin-top: 4px">390 × 844 mobile</div></div>
+      <div><span class="label">Reference</span><div style="font-family: var(--serif); font-style: italic; font-size: 16px; color: var(--ink); margin-top: 4px">Dinner for Two.html</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== TOC + TOKENS ====== -->
+<section class="page">
+  <div class="pg-head"><span class="label">Contents &amp; tokens</span><span class="pg-num">02</span></div>
+
+  <h2 class="display">In one <span class="accent">sitting.</span></h2>
+
+  <div style="margin-top: 18px">
+    <div class="toc-row"><span class="num">00</span><span class="title">First launch</span><span class="dots"></span><span class="pg">04</span></div>
+    <div class="toc-row"><span class="num">01</span><span class="title">Brief</span><span class="dots"></span><span class="pg">05</span></div>
+    <div class="toc-row"><span class="num">02</span><span class="title">Composing</span><span class="dots"></span><span class="pg">06</span></div>
+    <div class="toc-row"><span class="num">03</span><span class="title">Evening (hero)</span><span class="dots"></span><span class="pg">07</span></div>
+    <div class="toc-row"><span class="num">04</span><span class="title">Different room</span><span class="dots"></span><span class="pg">09</span></div>
+    <div class="toc-row"><span class="num">05</span><span class="title">Share view</span><span class="dots"></span><span class="pg">10</span></div>
+    <div class="toc-row"><span class="num">06</span><span class="title">Deferred screens (resolve in code)</span><span class="dots"></span><span class="pg">11</span></div>
+  </div>
+
+  <div class="ornament"><div class="l"></div><span>✦</span><div class="l"></div></div>
+
+  <h2 class="display" style="font-size: 28px">Tokens, ready to paste</h2>
+
+  <pre class="code"><span class="c">/* tailwind.config — extend.colors */</span>
+colors: {
+  paper: <span class="s">"#F4ECDF"</span>,
+  <span class="s">"paper-deep"</span>: <span class="s">"#EBE0CC"</span>,
+  <span class="s">"paper-card"</span>: <span class="s">"#F8F1E4"</span>,
+  ink: <span class="s">"#1F1410"</span>,
+  <span class="s">"ink-soft"</span>: <span class="s">"#3D2C22"</span>,
+  <span class="s">"ink-mute"</span>: <span class="s">"#8C7868"</span>,
+  rule: <span class="s">"#C9B89C"</span>,
+  <span class="s">"rule-soft"</span>: <span class="s">"#DCCDB4"</span>,
+  oxblood: <span class="s">"#7A1F23"</span>,
+  <span class="s">"oxblood-deep"</span>: <span class="s">"#5C1518"</span>,
+}
+
+<span class="c">/* fonts (Google Fonts) */</span>
+<span class="k">import</span> { Cormorant_Garamond, Inter_Tight } <span class="k">from</span> <span class="s">"next/font/google"</span>;
+<span class="k">const</span> serif = Cormorant_Garamond({ weight: [<span class="s">"400"</span>,<span class="s">"500"</span>,<span class="s">"600"</span>], style: [<span class="s">"normal"</span>,<span class="s">"italic"</span>] });
+<span class="k">const</span> sans  = Inter_Tight({ weight: [<span class="s">"400"</span>,<span class="s">"500"</span>,<span class="s">"600"</span>] });
+
+<span class="c">/* type scale (px / line-height) */</span>
+display-hero    56 / 0.95   italic Cormorant
+display-screen  44 / 1.00   italic Cormorant
+display-section 32 / 1.05   italic Cormorant
+display-item    26 / 1.10   italic Cormorant
+italic-body     17 / 1.50   italic Cormorant
+ui-button       12 / 1.50   Inter Tight 500, uppercase 0.18em
+ui-body         13 / 1.50   Inter Tight 400
+label           10 / 1.20   Inter Tight 500, uppercase 0.22em
+
+<span class="c">/* numerals — always tabular */</span>
+font-variant-numeric: tabular-nums;</pre>
+
+  <div class="pg-foot"><span class="label">Dinner for Two · Screen handoff</span><span class="label">Tokens</span></div>
+</section>
+
+<!-- ====== 00 EMPTY ====== -->
+<section class="page">
+  <div class="pg-head"><span class="label">00 · First launch</span><span class="pg-num">04</span></div>
+
+  <div style="display: grid; grid-template-columns: 1.4fr 1fr; gap: 24px; align-items: start">
+    <div>
+      <h2 class="display">First <span class="accent">touch.</span></h2>
+      <p class="purpose" style="font-family: var(--serif); font-style: italic; font-size: 16px; color: var(--ink-soft); margin-top: 6px">
+        Atmospheric, image-led splash. Sets the tone before any input.
+        Cold-start only — never shown after a brief is composed.
+      </p>
+
+      <div class="spec">
+        <h3>Layout</h3>
+        <div class="row"><div class="k">Frame</div><div class="v">Full 390 × 844. Status bar 44px. No scroll.</div></div>
+        <div class="row"><div class="k">Hero</div><div class="v">Full-bleed candlelit gradient (seed 1) <code>height: 500px</code>. Wordmark top-left over photo, copy bottom-left.</div></div>
+        <div class="row"><div class="k">Footer</div><div class="v">Solid <code>paper</code> band, 144px tall, contains primary CTA + meta line.</div></div>
+        <div class="row"><div class="k">CTA</div><div class="v">Full-width <code>oxblood</code> fill, &ldquo;Set the mood &rarr;&rdquo;, navigates to <strong>01 Brief</strong>.</div></div>
+      </div>
+
+      <div class="spec">
+        <h3>Copy</h3>
+        <div class="copy">
+          <span class="key">eyebrow.label</span>
+          A concierge for date night
+        </div>
+        <div class="copy">
+          <span class="key">hero.display</span>
+          Dinner,<br />composed<br />for two.
+        </div>
+        <div class="copy">
+          <span class="key">hero.lede</span>
+          Tell us the kind of evening you're after. We'll set the room,
+          the four courses, and what you'll drink.
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="spec">
+        <h3>States</h3>
+        <div class="states">
+          <div class="state"><div class="n">Cold start</div><div class="d">Default; full atmospheric hero.</div></div>
+          <div class="state"><div class="n">Returning</div><div class="d">Skipped — go straight to 01 Brief.</div></div>
+        </div>
+      </div>
+
+      <div class="spec">
+        <h3>Interactions</h3>
+        <ul style="margin: 0; padding-left: 16px">
+          <li>Tap CTA &rarr; cross-fade to 01 Brief (250ms).</li>
+          <li>No swipe. No carousel.</li>
+          <li>Hero photo loads progressively from a 4kb blurred preview.</li>
+        </ul>
+      </div>
+
+      <div class="spec">
+        <h3>Tokens used</h3>
+        <span class="pill">paper</span>
+        <span class="pill">ink</span>
+        <span class="pill" style="background:#7A1F23; color:#fff; border-color:#7A1F23">oxblood</span>
+        <span class="pill">label</span>
+        <span class="pill">display-hero</span>
+      </div>
+
+      <div class="spec">
+        <h3>Priority</h3>
+        <span class="pill priority">High fidelity</span>
+        <p style="margin: 8px 0 0">Match the reference exactly — this is the first impression.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pg-foot"><span class="label">Dinner for Two · Screen handoff</span><span class="label">00 · First launch</span></div>
+</section>
+
+<!-- ====== 01 BRIEF ====== -->
+<section class="page">
+  <div class="pg-head"><span class="label">01 · Brief</span><span class="pg-num">05</span></div>
+
+  <div style="display: grid; grid-template-columns: 1.4fr 1fr; gap: 24px; align-items: start">
+    <div>
+      <h2 class="display">Set the <span class="accent">mood.</span></h2>
+      <p class="purpose" style="font-family: var(--serif); font-style: italic; font-size: 16px; color: var(--ink-soft); margin-top: 6px">
+        Free-text brief plus structured controls. Submit triggers parse +
+        match + compose pipeline.
+      </p>
+
+      <div class="spec">
+        <h3>Layout (top-down)</h3>
+        <div class="row"><div class="k">Wordmark</div><div class="v">22px circle &lsquo;d&rsquo; mark + &ldquo;Dinner / Two&rdquo; label, top-left. Date label top-right (e.g. &ldquo;SEA · TUE 28&rdquo;).</div></div>
+        <div class="row"><div class="k">Hairline</div><div class="v">1px <code>rule</code>, full-width.</div></div>
+        <div class="row"><div class="k">Hero question</div><div class="v">Three-line italic display 44px: &ldquo;What kind of <span style="color:var(--oxblood);font-style:italic">evening</span> are you after?&rdquo; The middle word <strong>oxblood</strong>.</div></div>
+        <div class="row"><div class="k">Textarea</div><div class="v">22px italic Cormorant. Transparent bg, no border, single hairline below. Rows: 4. <code>maxLength: 500</code>. Char counter bottom-right.</div></div>
+        <div class="row"><div class="k">Model toggle</div><div class="v">Two-cell segmented, full-width. &ldquo;Shared courses&rdquo; / &ldquo;Two entrées&rdquo; with subtitle.</div></div>
+        <div class="row"><div class="k">Drink pills</div><div class="v">Single-select pills: <strong>wine · cocktails · beer · none</strong>. Active = oxblood fill.</div></div>
+        <div class="row"><div class="k">Compose CTA</div><div class="v">Full-width <code>ink</code> fill, label &ldquo;Compose&rdquo; + &ldquo;~ 8 SEC&rdquo; secondary tag.</div></div>
+        <div class="row"><div class="k">Footer meta</div><div class="v"><code>label</code>: &ldquo;38 rooms · Seattle&rdquo; · &ldquo;Verified Q1 / 2026&rdquo;.</div></div>
+      </div>
+
+      <div class="spec">
+        <h3>Copy</h3>
+        <div class="copy">
+          <span class="key">brief.placeholder</span>
+          Moderately priced Mexican, romantic and candlelit, we like to share courses. It's our anniversary.
+        </div>
+        <div class="copy">
+          <span class="key">field.helper</span>
+          Mood, cuisine, budget — anything
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="spec">
+        <h3>States</h3>
+        <div class="states">
+          <div class="state"><div class="n">Empty</div><div class="d">Placeholder text in italic at 60% opacity.</div></div>
+          <div class="state"><div class="n">Typing</div><div class="d">Counter updates live; CTA stays enabled even at 0 chars (LLM picks a default).</div></div>
+          <div class="state"><div class="n">Submitting</div><div class="d">CTA fills with subtle oxblood pulse for ~600ms before navigation.</div></div>
+          <div class="state"><div class="n">Error</div><div class="d">Hairline below textarea turns oxblood; one-line error in oxblood italic.</div></div>
+        </div>
+      </div>
+
+      <div class="spec">
+        <h3>Interactions</h3>
+        <ul style="margin: 0; padding-left: 16px">
+          <li>Tap segmented cell → ink-fill swap, 80ms.</li>
+          <li>Tap drink pill → oxblood fill swap, 80ms.</li>
+          <li>Submit → cross-fade to 02 Composing.</li>
+          <li>Keyboard up: page does not scroll behind textarea; safe-area respected.</li>
+        </ul>
+      </div>
+
+      <div class="spec">
+        <h3>API</h3>
+        <pre class="code" style="font-size: 9.5px; padding: 10px"><span class="k">POST</span> /api/compose
+{
+  brief: <span class="s">"..."</span>,
+  model: <span class="s">"shared" | "two-entree"</span>,
+  drinks: <span class="s">"wine" | ...</span>,
+}
+<span class="c">// streams: parsed, matches, evenings[]</span></pre>
+      </div>
+    </div>
+  </div>
+
+  <div class="pg-foot"><span class="label">Dinner for Two · Screen handoff</span><span class="label">01 · Brief</span></div>
+</section>
+
+<!-- ====== 02 COMPOSING ====== -->
+<section class="page">
+  <div class="pg-head"><span class="label">02 · Composing</span><span class="pg-num">06</span></div>
+
+  <div style="display: grid; grid-template-columns: 1.4fr 1fr; gap: 24px; align-items: start">
+    <div>
+      <h2 class="display">The <span class="accent">notes.</span></h2>
+      <p class="purpose" style="font-family: var(--serif); font-style: italic; font-size: 16px; color: var(--ink-soft); margin-top: 6px">
+        Live log streamed from the backend. Replaces the conventional spinner.
+        The user reads what the system is doing, in voice.
+      </p>
+
+      <div class="spec">
+        <h3>Layout</h3>
+        <div class="row"><div class="k">Top bar</div><div class="v">&ldquo;COMPOSING · 014&rdquo; label left, &ldquo;CANCEL&rdquo; label right (button).</div></div>
+        <div class="row"><div class="k">Hero copy</div><div class="v">Three-line 42px italic display: &ldquo;We're composing <span style="color:var(--oxblood);font-style:italic">three evenings</span> for you.&rdquo;</div></div>
+        <div class="row"><div class="k">Sub-lede</div><div class="v">17px italic Cormorant: &ldquo;Reading the brief, matching it against thirty-eight Seattle rooms, then sitting down with each menu. About eight seconds.&rdquo;</div></div>
+        <div class="row"><div class="k">Notes list</div><div class="v">Vertical list with hairlines. Each row: title (italic 17px) + meta (10px label) + check circle right. Rows fade in at <strong>700ms</strong> cadence.</div></div>
+        <div class="row"><div class="k">Footer</div><div class="v">Hairline + &ldquo;ABOUT 8 SECONDS&rdquo; / &ldquo;● LIVE&rdquo; (oxblood dot).</div></div>
+      </div>
+
+      <div class="spec">
+        <h3>Streamed events (sample)</h3>
+        <pre class="code" style="font-size: 9.5px; padding: 10px"><span class="c">// SSE / streamed JSON</span>
+{ <span class="k">step</span>: <span class="s">"parse"</span>,    title: <span class="s">"Reading the brief"</span>,  meta: <span class="s">"anniversary · candlelit · shared"</span> }
+{ <span class="k">step</span>: <span class="s">"match"</span>,    title: <span class="s">"Matching rooms"</span>,    meta: <span class="s">"38 → 8 → 3"</span> }
+{ <span class="k">step</span>: <span class="s">"room"</span>,     title: <span class="s">"Mezcaleria Oaxaca"</span>, meta: <span class="s">"courtyard · Capitol Hill · 0.92"</span> }
+{ <span class="k">step</span>: <span class="s">"compose"</span>,  title: <span class="s">"Composing menus"</span>,  meta: <span class="s">"four courses · for two"</span> }
+{ <span class="k">step</span>: <span class="s">"pair"</span>,     title: <span class="s">"Pairing the room"</span>, meta: <span class="s">"one bottle · whole meal"</span> }
+{ <span class="k">step</span>: <span class="s">"done"</span> }      <span class="c">// → navigate to 03 Evening</span></pre>
+      </div>
+    </div>
+
+    <div>
+      <div class="spec">
+        <h3>States</h3>
+        <div class="states">
+          <div class="state"><div class="n">Streaming</div><div class="d">Rows append. Last row at 55% opacity until completed; check circle fills oxblood when done.</div></div>
+          <div class="state"><div class="n">Slow</div><div class="d">If &gt;15s, replace footer label with &ldquo;Taking a moment longer · still composing.&rdquo;</div></div>
+          <div class="state"><div class="n">Cancel</div><div class="d">Tap CANCEL → return to 01 Brief; preserve text + selections.</div></div>
+          <div class="state"><div class="n">Error</div><div class="d">Final row: &ldquo;Couldn't find a fit. Try widening the brief.&rdquo; in oxblood, with retry CTA.</div></div>
+        </div>
+      </div>
+
+      <div class="spec">
+        <h3>Motion</h3>
+        <ul style="margin: 0; padding-left: 16px">
+          <li>Row enter: 300ms ease, opacity 0→1, translateY +4 → 0.</li>
+          <li>Check fill: 200ms ease.</li>
+          <li>Live dot: 1.6s pulse loop, oxblood.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="pg-foot"><span class="label">Dinner for Two · Screen handoff</span><span class="label">02 · Composing</span></div>
+</section>
+
+<!-- ====== 03 EVENING ====== -->
+<section class="page">
+  <div class="pg-head"><span class="label">03 · Evening</span><span class="pg-num">07</span></div>
+
+  <h2 class="display">The <span class="accent">hero.</span></h2>
+  <p class="purpose" style="font-family: var(--serif); font-style: italic; font-size: 16px; color: var(--ink-soft); margin-top: 6px; max-width: 5.5in">
+    The deliverable. Single scrollable card: hero image, restaurant title, rationale, model toggle, four courses, pairing, total, CTAs.
+  </p>
+
+  <div class="spec">
+    <h3>Layout (in scroll order)</h3>
+    <div class="row"><div class="k">Top bar</div><div class="v">&ldquo;← Brief&rdquo;, eyebrow &ldquo;EVENING · 014&rdquo;, &ldquo;Save · Share&rdquo;. All small-caps labels.</div></div>
+    <div class="row"><div class="k">Hero</div><div class="v">Full-bleed candlelit photo, <code>height: 360</code>. Top: &ldquo;[ COURTYARD ]&rdquo; + verified date. Bottom: cuisine label + restaurant name (Cormorant italic 56px in <code>#F5F0E5</code>).</div></div>
+    <div class="row"><div class="k">Address strip</div><div class="v">14px row on <code>paper-deep</code>: address + walk time, &ldquo;● open&rdquo; in oxblood.</div></div>
+    <div class="row"><div class="k">Rationale</div><div class="v">Label &ldquo;THE REASONING&rdquo; + 20px italic Cormorant paragraph (composer output). Pad 24px H, 32px T.</div></div>
+    <div class="row"><div class="k">Model strip</div><div class="v">Hairline · &ldquo;COMPOSED AS&rdquo; label + segmented &ldquo;Shared&rdquo; / &ldquo;Two entrées&rdquo; · hairline.</div></div>
+    <div class="row"><div class="k">Menu</div><div class="v">&ldquo;The menu&rdquo; (28px italic) + &ldquo;FOUR COURSES · FOR TWO&rdquo; eyebrow. Then 4 course rows.</div></div>
+    <div class="row"><div class="k">Course row</div><div class="v">Grid <code>44px 1fr auto</code>: oxblood numeral &ldquo;01&rdquo; · type-label + name + desc + italic note · price + swap glyph (30×30).</div></div>
+    <div class="row"><div class="k">Pairing</div><div class="v">Card on <code>paper-card</code>, 2px oxblood top border. Label, name, region, flavor pills, italic note, hairline, bottle price.</div></div>
+    <div class="row"><div class="k">Total</div><div class="v">Hairline · &ldquo;ESTIMATED, TWO&rdquo; + range label + display 42px price · hairline.</div></div>
+    <div class="row"><div class="k">CTAs</div><div class="v">2-up grid: <strong>oxblood</strong> &ldquo;RESERVE · OPENTABLE&rdquo; + <strong>ink-outline</strong> &ldquo;DIRECTIONS&rdquo;.</div></div>
+    <div class="row"><div class="k">Tertiary</div><div class="v">Two italic underlined links: &ldquo;try a different room →&rdquo; (to 04) · &ldquo;send to partner →&rdquo; (to 05).</div></div>
+  </div>
+
+  <div class="pg-foot"><span class="label">Dinner for Two · Screen handoff</span><span class="label">03 · Evening</span></div>
+</section>
+
+<!-- ====== 03 EVENING — interactions ====== -->
+<section class="page">
+  <div class="pg-head"><span class="label">03 · Evening · interactions</span><span class="pg-num">08</span></div>
+
+  <div class="grid-2">
+    <div class="spec">
+      <h3>Course swap</h3>
+      <p>Per-course regenerate. Oxblood ↻ glyph in a 30×30 round 1px-rule outline.</p>
+      <ul style="margin: 8px 0 0; padding-left: 16px">
+        <li>Tap → row drops to 45% opacity, &ldquo;…&rdquo; badge appears at right.</li>
+        <li>1.1s minimum; await streaming response.</li>
+        <li>On settle → row returns to 100% with a small &ldquo;NEW&rdquo; oxblood badge for 3s.</li>
+        <li>Sibling rows untouched. Pairing untouched unless the swap changes the entrée in two-entrée mode (then re-pair that entrée only).</li>
+      </ul>
+    </div>
+
+    <div class="spec">
+      <h3>Model toggle</h3>
+      <p>Two-cell segmented in the &ldquo;COMPOSED AS&rdquo; strip.</p>
+      <ul style="margin: 8px 0 0; padding-left: 16px">
+        <li>Switching mode triggers a full re-compose for the same restaurant.</li>
+        <li>Shows the composing log inline above the menu (collapsed version, 4 rows max).</li>
+        <li>Pairing strategy flips: shared → one bottle; two-entrée → glass-by-glass.</li>
+      </ul>
+    </div>
+
+    <div class="spec">
+      <h3>Save</h3>
+      <p>Top-right &ldquo;Save · Share&rdquo;.</p>
+      <ul style="margin: 8px 0 0; padding-left: 16px">
+        <li>Save mints a <code>share_token</code> server-side and copies the URL.</li>
+        <li>Toast at bottom: italic &ldquo;link copied · expires in 6h&rdquo; on <code>ink</code> bg, 2.5s.</li>
+        <li>No accounts required.</li>
+      </ul>
+    </div>
+
+    <div class="spec">
+      <h3>Reserve / Directions</h3>
+      <ul style="margin: 0; padding-left: 16px">
+        <li>Reserve: <code>window.open(reservationUrl)</code>. New tab.</li>
+        <li>Directions: deep-link <code>maps:?q=address</code> on iOS, <code>geo:</code> on Android, otherwise Google Maps URL.</li>
+        <li>Neither leaves an in-app modal; both are external handoffs.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="spec" style="margin-top: 14px">
+    <h3>Data shape</h3>
+    <pre class="code" style="font-size: 9.5px; padding: 12px"><span class="k">type</span> Evening = {
+  id: <span class="s">string</span>,
+  restaurant: { name, neighborhood, cuisine, priceTier, vibe[], blurb,
+                address, walkTime, verifiedAt, reservationUrl, lat, lng },
+  rationale: <span class="s">string</span>,
+  estimated: <span class="s">number</span>,        <span class="c">// dollars, two-person estimate</span>
+  estimatedRange: <span class="s">string</span>,   <span class="c">// "$168–$212"</span>
+  model: <span class="s">"shared" | "two-entree"</span>,
+  courses: [{ type, name, desc, price, note }],
+  pairing: { title, name, region, style, bottlePrice, note }
+}</pre>
+  </div>
+
+  <div class="pg-foot"><span class="label">Dinner for Two · Screen handoff</span><span class="label">03 · Evening</span></div>
+</section>
+
+<!-- ====== 04 ALTERNATES ====== -->
+<section class="page">
+  <div class="pg-head"><span class="label">04 · Different room</span><span class="pg-num">09</span></div>
+
+  <div style="display: grid; grid-template-columns: 1.4fr 1fr; gap: 24px; align-items: start">
+    <div>
+      <h2 class="display">A different <span class="accent">room.</span></h2>
+      <p class="purpose" style="font-family: var(--serif); font-style: italic; font-size: 16px; color: var(--ink-soft); margin-top: 6px">
+        Same brief, three matched rooms. Picking re-composes the evening
+        against the chosen room.
+      </p>
+
+      <div class="spec">
+        <h3>Layout</h3>
+        <div class="row"><div class="k">Top bar</div><div class="v">&ldquo;← BACK&rdquo; · &ldquo;A DIFFERENT ROOM&rdquo; centered.</div></div>
+        <div class="row"><div class="k">Hero block</div><div class="v">Italic display 32px: &ldquo;Try a different <span style="color:var(--oxblood);font-style:italic">room.</span>&rdquo; Lede beneath.</div></div>
+        <div class="row"><div class="k">Cards (×3)</div><div class="v">Each card: 110px hero photo + 14px padded body. Stacked vertically with 14px gaps.</div></div>
+        <div class="row"><div class="k">Card hero</div><div class="v">Top-left: &ldquo;CURRENT&rdquo; pill (oxblood) <em>or</em> [ LABEL ]. Top-right: &ldquo;92% MATCH&rdquo; pill (paper bg).</div></div>
+        <div class="row"><div class="k">Card body</div><div class="v">Display 22px name + tier label · cuisine·hood meta · italic 15px reason.</div></div>
+        <div class="row"><div class="k">Selected</div><div class="v">Card border swaps to <code>oxblood</code>; bg lifts to <code>paper-card</code>.</div></div>
+        <div class="row"><div class="k">CTA</div><div class="v">Sticky bottom: ink fill, &ldquo;Re-compose for {firstName}&rdquo; in italic display 18px.</div></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="spec">
+        <h3>Match scoring</h3>
+        <p>Confidence from semantic match × constraint fit. Show as integer percent. Never below 70 — if no candidate clears, show empty state.</p>
+      </div>
+
+      <div class="spec">
+        <h3>Voice · the one-line reason</h3>
+        <p>Short, observational, specific. Always under 14 words. Examples in reference.</p>
+        <div class="copy" style="font-size: 12px">
+          <span class="key">card.reason · examples</span>
+          The courtyard. Made for anniversaries. Mole that takes three days.<br /><br />
+          Brick room behind a leather curtain. Italian list, Mexican kitchen.<br /><br />
+          Quieter, warmer, less of a scene. Ceviche worth the trip.
+        </div>
+      </div>
+
+      <div class="spec">
+        <h3>Interactions</h3>
+        <ul style="margin: 0; padding-left: 16px">
+          <li>Tap card → select; CTA label updates.</li>
+          <li>Tap CTA → cross-fade to 02 Composing (mode = re-compose), then 03 Evening.</li>
+          <li>Brief is unchanged; restaurant ID is overridden.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="pg-foot"><span class="label">Dinner for Two · Screen handoff</span><span class="label">04 · Different room</span></div>
+</section>
+
+<!-- ====== 05 SHARE ====== -->
+<section class="page">
+  <div class="pg-head"><span class="label">05 · Share view</span><span class="pg-num">10</span></div>
+
+  <div style="display: grid; grid-template-columns: 1.4fr 1fr; gap: 24px; align-items: start">
+    <div>
+      <h2 class="display">For the <span class="accent">partner.</span></h2>
+      <p class="purpose" style="font-family: var(--serif); font-style: italic; font-size: 16px; color: var(--ink-soft); margin-top: 6px">
+        Read-only render of an evening accessed via signed URL. Stripped of
+        swap/regen UI; the partner says yes or suggests a tweak.
+      </p>
+
+      <div class="spec">
+        <h3>Layout</h3>
+        <div class="row"><div class="k">Banner</div><div class="v"><code>paper-deep</code> band. Left: &ldquo;Shared by {firstName}&rdquo;. Right: oxblood &ldquo;♡ accepted&rdquo; or &ldquo;awaiting&rdquo;.</div></div>
+        <div class="row"><div class="k">Hero</div><div class="v">300px candlelit photo, same treatment as 03.</div></div>
+        <div class="row"><div class="k">Title</div><div class="v">&ldquo;AN EVENING AT&rdquo; label + 44px italic display restaurant name. Meta line below.</div></div>
+        <div class="row"><div class="k">Rationale</div><div class="v">Italic Cormorant paragraph, 19px.</div></div>
+        <div class="row"><div class="k">Menu</div><div class="v">Read-only course list. No swap glyphs. Smaller (22px name vs 26px) to fit.</div></div>
+        <div class="row"><div class="k">Pairing</div><div class="v">Compact pairing card: name + region + bottle price only.</div></div>
+        <div class="row"><div class="k">Total</div><div class="v">Hairline · estimate 32px display.</div></div>
+        <div class="row"><div class="k">CTAs</div><div class="v">Two: <strong>oxblood</strong> &ldquo;YES — I'M IN&rdquo; · <strong>ink-outline</strong> &ldquo;SUGGEST A TWEAK&rdquo;.</div></div>
+        <div class="row"><div class="k">Footer</div><div class="v">Tiny label with the share URL + expiry.</div></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="spec">
+        <h3>States</h3>
+        <div class="states">
+          <div class="state"><div class="n">Awaiting</div><div class="d">Default. Banner: &ldquo;awaiting&rdquo; in ink-mute.</div></div>
+          <div class="state"><div class="n">Accepted</div><div class="d">Banner: &ldquo;♡ accepted&rdquo; in oxblood. CTAs replaced with single &ldquo;OPEN IN APP&rdquo;.</div></div>
+          <div class="state"><div class="n">Tweak suggested</div><div class="d">Banner: &ldquo;suggested a tweak&rdquo;. Body shows the partner's note in italic above the menu.</div></div>
+          <div class="state"><div class="n">Expired</div><div class="d">Hero desaturated; CTA replaced with &ldquo;ASK FOR A FRESH LINK&rdquo;.</div></div>
+        </div>
+      </div>
+
+      <div class="spec">
+        <h3>URL shape</h3>
+        <pre class="code" style="font-size: 9.5px; padding: 10px"><span class="k">GET</span> /e/:share_token
+
+<span class="c">// Token: 8-char base32, signed.</span>
+<span class="c">// 6h TTL by default.</span>
+<span class="c">// Indexable: false (no-index meta).</span></pre>
+      </div>
+
+      <div class="spec">
+        <h3>Sharing affordances</h3>
+        <ul style="margin: 0; padding-left: 16px">
+          <li>iMessage preview metadata: og:title, og:image (use hero photo).</li>
+          <li>Screenshot-friendly: no fixed footer, no ads.</li>
+          <li>Print stylesheet: bg paper, no banner, no CTAs.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="pg-foot"><span class="label">Dinner for Two · Screen handoff</span><span class="label">05 · Share view</span></div>
+</section>
+
+<!-- ====== DEFERRED ====== -->
+<section class="page">
+  <div class="pg-head"><span class="label">06 · Deferred screens</span><span class="pg-num">11</span></div>
+
+  <h2 class="display">Resolve <span class="accent">in code.</span></h2>
+  <p class="purpose" style="font-family: var(--serif); font-style: italic; font-size: 16px; color: var(--ink-soft); margin-top: 6px; max-width: 5.5in">
+    Two screens are intentionally not laid out. Both are simple enough that
+    the design system carries them. Build them with the existing tokens and voice.
+  </p>
+
+  <div class="spec">
+    <h3>A · No-match / error <span class="pill deferred" style="margin-left: 8px">Deferred</span></h3>
+    <p>Triggered when the matcher returns no rooms ≥70% confidence, or the LLM call fails.</p>
+
+    <div class="grid-2" style="margin-top: 10px">
+      <div>
+        <h4 style="font-family: var(--serif); font-style: italic; font-size: 17px; margin: 0 0 4px">Layout sketch</h4>
+        <ul style="margin: 0; padding-left: 16px">
+          <li>Use 02 Composing chrome.</li>
+          <li>Replace hero with: italic display 36px, &ldquo;Couldn't find a fit.&rdquo; (oxblood last word).</li>
+          <li>Italic body: explain what didn't match (e.g. &ldquo;No room in our set is open tonight under $80 per person, in a romantic register&rdquo;).</li>
+          <li>Two CTAs: <strong>oxblood</strong> &ldquo;WIDEN THE BRIEF&rdquo; (returns to 01 with a hint), <strong>ink-outline</strong> &ldquo;TRY ANOTHER NIGHT&rdquo;.</li>
+        </ul>
+      </div>
+      <div>
+        <h4 style="font-family: var(--serif); font-style: italic; font-size: 17px; margin: 0 0 4px">Voice</h4>
+        <p style="font-style: italic; font-family: var(--serif); font-size: 13px">
+          &ldquo;Couldn't find a fit. Tonight is tight on rooms — most of our $$ Mexican spots are dark on Sundays. Widen the price, or pick a different night.&rdquo;
+        </p>
+        <p style="margin-top: 6px"><strong>Never:</strong> apologize, blame the user, or surface technical errors.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="spec">
+    <h3>B · Reservation handoff confirmation <span class="pill deferred" style="margin-left: 8px">Deferred</span></h3>
+    <p>Brief screen shown for ~1.5s after tapping Reserve, before the OpenTable / Resy link opens.</p>
+
+    <div class="grid-2" style="margin-top: 10px">
+      <div>
+        <h4 style="font-family: var(--serif); font-style: italic; font-size: 17px; margin: 0 0 4px">Layout sketch</h4>
+        <ul style="margin: 0; padding-left: 16px">
+          <li>Centered on paper. Wordmark top.</li>
+          <li>Italic display 32px: &ldquo;Sending you to <span style="color:var(--oxblood);font-style:italic">OpenTable</span>.&rdquo;</li>
+          <li>Italic body: party of two, the date, the restaurant.</li>
+          <li>Hairline + small spinner-replacement: a gentle 3-dot fade-cycle (no spin).</li>
+          <li>Auto-redirect at 1.5s; manual &ldquo;Open now →&rdquo; underlined link.</li>
+        </ul>
+      </div>
+      <div>
+        <h4 style="font-family: var(--serif); font-style: italic; font-size: 17px; margin: 0 0 4px">Why a moment</h4>
+        <p>The handoff to a third-party booking flow is jarring. A brief in-voice transition lets the user breathe before the change of register, and reinforces that <em>we</em> made the recommendation.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="ornament"><div class="l"></div><span>✦</span><div class="l"></div></div>
+
+  <p style="font-family: var(--serif); font-style: italic; font-size: 16px; color: var(--ink-soft); text-align: center; max-width: 5in; margin: 0 auto">
+    For anything else not specified — toasts, modals, micro-copy — reach for
+    italic Cormorant, hairlines, and oxblood used sparingly. Less, said well.
+  </p>
+
+  <div class="pg-foot"><span class="label">Dinner for Two · Screen handoff</span><span class="label">Deferred</span></div>
+</section>
+
+<!-- ====== END ====== -->
+<section class="page" style="display: flex; flex-direction: column; justify-content: space-between; min-height: 9.6in">
+  <div class="pg-head" style="border-bottom: none"><span class="label">Endnote</span><span class="pg-num">∞</span></div>
+
+  <div style="margin-top: 60px; max-width: 6in">
+    <h1 class="display" style="font-size: 72px">
+      Build it<br />
+      <span style="color: var(--oxblood)">quietly.</span>
+    </h1>
+    <p style="margin-top: 22px; font-family: var(--serif); font-style: italic; font-size: 18px; color: var(--ink-soft); line-height: 1.5">
+      Honor the typographic restraint. Avoid spinners. Avoid emoji. Avoid
+      drop shadows on UI. Let the hero photography and italic display do
+      the heavy lifting; the rest is hairlines, labels, and well-chosen
+      words.
+    </p>
+    <p style="margin-top: 18px; font-family: var(--serif); font-style: italic; font-size: 18px; color: var(--ink-soft); line-height: 1.5">
+      When in doubt, do less.
+    </p>
+  </div>
+
+  <div style="display: flex; justify-content: space-between; align-items: flex-end">
+    <div>
+      <span class="label">Reference build</span>
+      <div style="font-family: var(--mono); font-size: 12px; color: var(--ink); margin-top: 4px">Dinner for Two.html</div>
+    </div>
+    <div style="text-align: right">
+      <div style="display: inline-flex; align-items: center; gap: 10px">
+        <span style="width: 24px; height: 24px; border-radius: 50%; border: 1px solid var(--ink); display: inline-flex; align-items: center; justify-content: center; font-family: var(--serif); font-style: italic; font-size: 14px">d</span>
+        <span class="label" style="letter-spacing:0.32em">Dinner / Two</span>
+      </div>
+      <div class="label" style="margin-top: 8px">v2 · 04 / 2026</div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

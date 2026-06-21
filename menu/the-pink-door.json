@@ -1,0 +1,540 @@
+{
+  "restaurant": "The Pink Door",
+  "neighborhood": "Belltown / Pike Place Market",
+  "cuisine": "Italian-American",
+  "venue_format": "full-menu",
+  "menu_completeness": "full",
+  "source_url": "https://www.thepinkdoor.net/menus",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "html",
+  "notes": "Clean server-rendered (Framer) site; full dinner, dessert, wine and cocktail menus extracted. Spring/seasonal menu. Two MP (market price) fish items have no fixed price. A few items list two sizes (e.g. 24/18). Cabaret entertainment on site (venue has an 'activity' dimension worth tagging). Full bottle wine list (~150 SKUs) NOT captured — only by-the-glass + cocktails, which is what composition pairs against.",
+  "dishes": [
+    {
+      "course_type": "appetizer",
+      "name": "Crostini",
+      "description": "English pea purée, mint, fresh Northwest Dungeness crab",
+      "price_cents": 2800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Blistered Asparagus",
+      "description": "hard cooked egg, pine nuts, very good olive oil",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Ahi Tuna Crudo",
+      "description": "fried capers, Castelvetrano olives, microgreens, orange citrus vinaigrette",
+      "price_cents": 2300,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Arancini",
+      "description": "fried rice balls stuffed with caciocavallo, mozzarella, spicy Calabrian chili sauce",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Prosciutto di Parma",
+      "description": "fresh Pecorino cheese",
+      "price_cents": 2600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Antipasto of the House",
+      "description": "prosciutto, Tuscan bean salad, fresh mozzarella, tapenade, grilled vegetables, salumi and more",
+      "price_cents": 2400,
+      "price_note": "24 / 18 (two sizes)",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Ravioli",
+      "description": "stuffed with asparagus and Fontina cheese, chive butter, lemon zest",
+      "price_cents": 3100,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Bucatini Alla Carbonara",
+      "description": "guanciale, egg yolk, black pepper, pecorino romano",
+      "price_cents": 2800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Linguine Alle Vongole",
+      "description": "baby clams in their shell, pancetta, garlic, chilis and white wine",
+      "price_cents": 3000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Lasagna Pink Door",
+      "description": "fresh spinach pasta layered with besciamella, pesto, topped with marinara",
+      "price_cents": 2700,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Pappardelle al Ragù Bolognese",
+      "description": "slow-simmered meat sauce, Parmigiano-Reggiano",
+      "price_cents": 2900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Rigatoni and Mama's Meatballs",
+      "description": "with marinara sauce and fresh basil",
+      "price_cents": 2800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Risotto",
+      "description": "fresh spring peas, Astoria bay shrimp, mascarpone, mint",
+      "price_cents": 3200,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Clams and Mussels",
+      "description": "white vermouth, garlic, parsley and a touch of cream, garlic toast",
+      "price_cents": 3200,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Cioppino",
+      "description": "prawns, rockfish, mussels, clams, calamari in a spicy tomato-white wine broth, garlic toast",
+      "price_cents": 3400,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "'Branzino Style' Whole White Fish of the Day",
+      "description": "grilled, salsa verde and cranberry beans",
+      "price_cents": null,
+      "price_note": "MP (market price)",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Northwest Fish of the Day",
+      "description": "chef Dylan Giordan's spring creation",
+      "price_cents": null,
+      "price_note": "MP (market price)",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Roasted Half Chicken al Mattone",
+      "description": "foraged morel mushrooms and fava ragout, soft polenta",
+      "price_cents": 3400,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Grilled Rack of Lamb Scottadito",
+      "description": "fried lemon slices, artichokes and potatoes, mint-parsley sauce",
+      "price_cents": 5200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Lan-Roc 11oz Bone-In Pork Chop",
+      "description": "rhubarb mostarda, grilled asparagus, green garlic mashers",
+      "price_cents": 3800,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Everything Green",
+      "description": "Bibb lettuce, English peas, asparagus, favas, pistachios, creamy tarragon dressing",
+      "price_cents": 1700,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Misticanza",
+      "description": "tender organic lettuces, carrots, radish and soft herbs",
+      "price_cents": 1500,
+      "price_note": "15 / 19 (two sizes)",
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Pink Door Caesar",
+      "description": "with fennel-dusted croutons",
+      "price_cents": 1500,
+      "price_note": "15 / 19 (two sizes)",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Vignarola 'Spring on a Plate'",
+      "description": "braise of peas, favas, spring onions, baby lettuce, asparagus, mint on lemon-ricotta",
+      "price_cents": 1700,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Grilled Romaine",
+      "description": "al bagna cauda sauce",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Three of Mama's Meatballs",
+      "description": "marinara sauce",
+      "price_cents": 2100,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Tuscan Fries, Fried Herbs",
+      "description": "aioli",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "La Fettunta",
+      "description": "grilled garlic bread with the finest of olive oils",
+      "price_cents": 900,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Rhubarb Shortcake",
+      "description": "with the most tender biscuit you'll ever eat",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Warm Fried-to-Order Ricotta Zeppole",
+      "description": "puréed N.W. huckleberry sauce",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Chocolate Cake Squisito!",
+      "description": "layered milk chocolate cake, ganache and caramel sauce",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Housemade Semi-Freddo & Soft Lemon Amaretto Cookie",
+      "description": "frozen St-Germain elderflower cream with lemon zest",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": [
+    {
+      "type": "cocktail",
+      "name": "There's No Basement in the Alamo",
+      "style": "tequila, Ancho Reyes, dry curaçao, grapefruit, lime",
+      "glass_cents": 1700,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Stay Loose",
+      "style": "rye whiskey, Nonino Amaro, Carpano Antica, Lillet, Angostura bitters",
+      "glass_cents": 1700,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Hope Springs Eternal",
+      "style": "prosecco, crème de violette, St-Germain",
+      "glass_cents": 1600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "The Celery Made Me Do It",
+      "style": "Madrona Gin, fresh celery juice, lime, mint, cherry bitters, Amarena cherry",
+      "glass_cents": 1600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Blushing Rhubarb",
+      "style": "Ten To One Dark Rum, Manzanilla sherry, rhubarb syrup, lime",
+      "glass_cents": 1700,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Carricante, Le Sabbie Dell'Etna (Firriato)",
+      "style": "white",
+      "glass_cents": 1500,
+      "bottle_cents": null,
+      "region": "Sicilia",
+      "vintage": "2024",
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Sauvignon Blanc (Marchesi di Gresy)",
+      "style": "white",
+      "glass_cents": 1700,
+      "bottle_cents": null,
+      "region": "Piemonte",
+      "vintage": "2024",
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Prosecco Brut (Zardetto)",
+      "style": "sparkling",
+      "glass_cents": 1500,
+      "bottle_cents": null,
+      "region": "Veneto",
+      "vintage": "NV",
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Franciacorta Extra Brut (Berlucchi)",
+      "style": "sparkling",
+      "glass_cents": 1800,
+      "bottle_cents": null,
+      "region": "Lombardia",
+      "vintage": "NV",
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Blushing Bear Rosé (Pursued By Bear)",
+      "style": "rosé",
+      "glass_cents": 1600,
+      "bottle_cents": null,
+      "region": "Columbia Valley WA",
+      "vintage": "2025",
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Primitivo, Orion (Masseria Li Veli)",
+      "style": "red",
+      "glass_cents": 1500,
+      "bottle_cents": null,
+      "region": "Puglia",
+      "vintage": "2024",
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Langhe Nebbiolo (Marchesi di Gresy)",
+      "style": "red",
+      "glass_cents": 1600,
+      "bottle_cents": null,
+      "region": "Piemonte",
+      "vintage": "2024",
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Pinot Noir, Cuvée Miette (Illahe)",
+      "style": "red",
+      "glass_cents": 1700,
+      "bottle_cents": null,
+      "region": "Willamette Valley OR",
+      "vintage": "2024",
+      "flavor_tags": []
+    }
+  ]
+}

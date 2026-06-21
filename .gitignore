@@ -1,0 +1,21 @@
+# secrets — never commit
+.env
+.env.*
+!.env.example
+
+# claude personal overrides
+.claude/settings.local.json
+
+# deps & build
+node_modules/
+.next/
+out/
+dist/
+*.tsbuildinfo
+
+# logs / os
+npm-debug.log*
+.DS_Store
+
+# windows/WSL metadata
+*:Zone.Identifier
