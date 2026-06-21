@@ -7809,6 +7809,410 @@
     "embed_text": "Spinasse Cuisine: Northern Italian. Neighborhood: Capitol Hill. Vibe: Romantic, Candlelit, Intimate, cozy, handmade-pasta. Cascina Spinasse is Capitol Hill's temple to Piedmontese cooking, famous for tajarin — hand-cut egg pasta in butter and sage, almost translucent. The room is small, candlelit, and unapologetically romantic: the place you book when the night is supposed to matter."
   },
   {
+    "id": "stoneburner",
+    "name": "Stoneburner",
+    "neighborhood": "Ballard",
+    "cuisine": "Italian / Mediterranean",
+    "cuisine_tags": [
+      "Italian / Mediterranean",
+      "Mediterranean"
+    ],
+    "price_tier": 3,
+    "vibe_tags": [
+      "Stylish",
+      "Lively",
+      "Romantic",
+      "Cocktail-Forward",
+      "Neighborhood Gem",
+      "Rustic-Chic",
+      "fun",
+      "hotel-adjacent"
+    ],
+    "noise_level": "Moderate",
+    "venue_format": "full-menu",
+    "menu_completeness": "full",
+    "date_night_score": 4,
+    "description": "Stoneburner brings a wood-fired warmth to Ballard's charming historic strip, pairing handcrafted pastas and Mediterranean small plates with a genuinely excellent cocktail program. The room strikes a confident balance between rustic and refined — the kind of place where a leisurely dinner effortlessly stretches into a late-evening nightcap. It's a natural fit for a date that calls for good food, stylish surroundings, and a relaxed but spirited atmosphere.",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": false,
+    "reservation_url": "https://stoneburnerseattle.com",
+    "reservation_platform": "OpenTable",
+    "status": "open",
+    "business_status": "OPERATIONAL",
+    "latitude": 47.6662056,
+    "longitude": -122.3826333,
+    "curation": "use",
+    "source_url": "https://static1.squarespace.com/static/601dcba8beed354b4e2e3dfd/t/6a3707746a46d849d164f52a/1781991284270/Menu_Dinner_06.20.26..pdf",
+    "menu_volatility": "seasonal",
+    "dishes": [
+      {
+        "course_type": "salad",
+        "name": "Dear Table Farm Greens",
+        "description": "Creamy young garlic vinaigrette, anchovy bread crumbs, parm",
+        "price_cents": 1800,
+        "price_note": null,
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d1"
+      },
+      {
+        "course_type": "salad",
+        "name": "Snap Peas",
+        "description": "Hazelnut, preserved lemon vinaigrette, pecorino sardo",
+        "price_cents": 1800,
+        "price_note": null,
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d2"
+      },
+      {
+        "course_type": "salad",
+        "name": "Kirby Cucumber Salad",
+        "description": "Feta, burnt honey vinaigrette, black dukkah",
+        "price_cents": 1800,
+        "price_note": null,
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d3"
+      },
+      {
+        "course_type": "appetizer",
+        "name": "Crispy Olives",
+        "description": "Mozzarella stuffed",
+        "price_cents": 1000,
+        "price_note": null,
+        "dietary_tags": [
+          "VEG"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d4"
+      },
+      {
+        "course_type": "appetizer",
+        "name": "Garlic Bread",
+        "description": "Pressed ricotta",
+        "price_cents": 1000,
+        "price_note": null,
+        "dietary_tags": [
+          "VEG"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d5"
+      },
+      {
+        "course_type": "appetizer",
+        "name": "Grilled Cascade Porcini",
+        "description": "Chickpea cake, poached egg",
+        "price_cents": 1900,
+        "price_note": null,
+        "dietary_tags": [
+          "VEG"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d6"
+      },
+      {
+        "course_type": "appetizer",
+        "name": "Seared Scallops",
+        "description": "Artichoke, corona bean passata",
+        "price_cents": 2600,
+        "price_note": null,
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d7"
+      },
+      {
+        "course_type": "appetizer",
+        "name": "Buratta Crostoni",
+        "description": "Sourdough, black garlic mushrooms",
+        "price_cents": 1900,
+        "price_note": null,
+        "dietary_tags": [
+          "VEG"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d8"
+      },
+      {
+        "course_type": "appetizer",
+        "name": "St. Jude Smoked Tuna Dip",
+        "description": "Pickled radish, chips",
+        "price_cents": 2300,
+        "price_note": null,
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d9"
+      },
+      {
+        "course_type": "appetizer",
+        "name": "WA Wagyu Beef Tartare",
+        "description": "Preserved ramps, olive oil, seeded cracker",
+        "price_cents": 2300,
+        "price_note": null,
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d10"
+      },
+      {
+        "course_type": "entree",
+        "name": "Capunti",
+        "description": "Broccoli leaf, pistachio, 24-month parm",
+        "price_cents": 3000,
+        "price_note": null,
+        "dietary_tags": [
+          "VEG"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d11"
+      },
+      {
+        "course_type": "entree",
+        "name": "Mafaldine",
+        "description": "Fava bean, fonduta, black pepper",
+        "price_cents": 2700,
+        "price_note": null,
+        "dietary_tags": [
+          "VEG"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d12"
+      },
+      {
+        "course_type": "entree",
+        "name": "Fusillino",
+        "description": "Short rib sugo, pecorino romano",
+        "price_cents": 3000,
+        "price_note": null,
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d13"
+      },
+      {
+        "course_type": "entree",
+        "name": "Tagliarini",
+        "description": "Blue prawn, calamari, garlic scapes, chili",
+        "price_cents": 3200,
+        "price_note": null,
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d14"
+      },
+      {
+        "course_type": "entree",
+        "name": "King Salmon",
+        "description": "Green chickpea, charred herb vinaigrette, sprouting cauliflower",
+        "price_cents": 3600,
+        "price_note": null,
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d15"
+      },
+      {
+        "course_type": "entree",
+        "name": "Grilled Pork Chop",
+        "description": "Bright lights chard caponata, grape must",
+        "price_cents": 3800,
+        "price_note": null,
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d16"
+      },
+      {
+        "course_type": "entree",
+        "name": "Grilled Dry Aged Skirt Steak",
+        "description": "Tokyo turnips, sherry and mustard seed",
+        "price_cents": 4100,
+        "price_note": null,
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d17"
+      },
+      {
+        "course_type": "entree",
+        "name": "Lamb Mixed Grill",
+        "description": "Patty pan salad, mojo picon",
+        "price_cents": 3400,
+        "price_note": null,
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d18"
+      },
+      {
+        "course_type": "entree",
+        "name": "Pepperoni Pizza",
+        "description": "Pickled serrano, fireweed honey, mozzarella. Not Neopolitan.",
+        "price_cents": 3400,
+        "price_note": null,
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d19"
+      },
+      {
+        "course_type": "entree",
+        "name": "Cheese Pizza",
+        "description": "Mozzarella, provolone, parmesan, fontina. Not Neopolitan.",
+        "price_cents": 3300,
+        "price_note": null,
+        "dietary_tags": [
+          "VEG"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d20"
+      },
+      {
+        "course_type": "entree",
+        "name": "Spicy Sausage Pizza",
+        "description": "Olives, fried capers, basil, mozzarella. Not Neopolitan.",
+        "price_cents": 3500,
+        "price_note": null,
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d21"
+      },
+      {
+        "course_type": "entree",
+        "name": "Crushed Meatballs Pizza",
+        "description": "Braising greens, smoked pecorino. Not Neopolitan.",
+        "price_cents": 3400,
+        "price_note": null,
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d22"
+      },
+      {
+        "course_type": "entree",
+        "name": "Morel Mushroom Pizza",
+        "description": "Pee wee potatoes, taleggio, confit garlic, arugula. Not Neopolitan.",
+        "price_cents": 3500,
+        "price_note": null,
+        "dietary_tags": [
+          "VEG"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d23"
+      },
+      {
+        "course_type": "side",
+        "name": "Dutch Fries",
+        "description": "Togarashi mayonnaise",
+        "price_cents": 900,
+        "price_note": null,
+        "dietary_tags": [
+          "VEG"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d24"
+      },
+      {
+        "course_type": "side",
+        "name": "Charred Broccoli",
+        "description": "Tahini, dulse, orange peel",
+        "price_cents": 1800,
+        "price_note": null,
+        "dietary_tags": [
+          "VEGAN"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d25"
+      },
+      {
+        "course_type": "dessert",
+        "name": "Sherbet",
+        "description": "Slow roasted strawberries, meringue",
+        "price_cents": 1400,
+        "price_note": null,
+        "dietary_tags": [
+          "VEG"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d26"
+      },
+      {
+        "course_type": "dessert",
+        "name": "Hazelnut Chocolate Crunch",
+        "description": "Dacquoise, caramel whip, ganache",
+        "price_cents": 1400,
+        "price_note": null,
+        "dietary_tags": [
+          "VEG"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d27"
+      },
+      {
+        "course_type": "dessert",
+        "name": "Chocolate Dulce Entremet",
+        "description": "Cherry ice cream, almond crunch",
+        "price_cents": 1400,
+        "price_note": null,
+        "dietary_tags": [
+          "VEG"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "stoneburner-d28"
+      }
+    ],
+    "beverages": [],
+    "embed_text": "Stoneburner Cuisine: Italian / Mediterranean. Neighborhood: Ballard. Vibe: Stylish, Lively, Romantic, Cocktail-Forward, Neighborhood Gem, Rustic-Chic, fun, hotel-adjacent. Stoneburner brings a wood-fired warmth to Ballard's charming historic strip, pairing handcrafted pastas and Mediterranean small plates with a genuinely excellent cocktail program. The room strikes a confident balance between rustic and refined — the kind of place where a leisurely dinner effortlessly stretches into a late-evening nightcap. It's a natural fit for a date that calls for good food, stylish surroundings, and a relaxed but spirited atmosphere."
+  },
+  {
     "id": "terra-plata",
     "name": "Terra Plata",
     "neighborhood": "Capitol Hill",
@@ -10164,5 +10568,338 @@
       }
     ],
     "embed_text": "The Yard Café Cuisine: Latin American / Mexican. Neighborhood: Greenwood. Vibe: Casual, Fun, Patio. The Yard Cafe does Latin-inflected comfort food with a wall of rotating drafts and scratch margaritas - duck-leg confit, shrimp tacos, a solid burger - in a laid-back Greenwood room with a patio. A fun, unfussy date built around good cocktails and shareable plates rather than ceremony."
+  },
+  {
+    "id": "toulouse-petit",
+    "name": "Toulouse Petit",
+    "neighborhood": "Queen Anne",
+    "cuisine": "Cajun / Creole",
+    "cuisine_tags": [
+      "Cajun / Creole",
+      "Seafood"
+    ],
+    "price_tier": 2,
+    "vibe_tags": [
+      "Lively",
+      "New Orleans-Inspired",
+      "Festive",
+      "Neighborhood Gem",
+      "Indulgent",
+      "fun",
+      "big-menu"
+    ],
+    "noise_level": "Loud",
+    "venue_format": "full-menu",
+    "menu_completeness": "partial",
+    "date_night_score": 3,
+    "description": "Toulouse Petit brings a sultry, brass-and-velvet New Orleans energy to the base of Queen Anne, with a sprawling menu of Gulf-kissed seafood, charcuterie, and Creole classics that invites a leisurely, adventurous meal. The kitchen's devotion to local oysters, fresh catches, and rich Cajun flavors makes every visit feel like a small escape south. Best suited for dates who love a convivial, buzzy room over hushed intimacy — arrive hungry and in good spirits.",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "reservation_url": "https://toulousepetit.com",
+    "reservation_platform": "OpenTable",
+    "status": "open",
+    "business_status": "OPERATIONAL",
+    "latitude": 47.624761299999996,
+    "longitude": -122.3569487,
+    "curation": "use",
+    "source_url": "https://www.toulousepetit.com/wp-content/uploads/2026/06/Dinner-Menu-June-5.11.26.pdf",
+    "menu_volatility": "seasonal",
+    "dishes": [
+      {
+        "course_type": "salad",
+        "name": "The Art of the Salad",
+        "description": "Signature salad offering; exact composition not specified in source text.",
+        "price_cents": 1650,
+        "price_note": "Three price points visible (16.50, 19, 17) — likely size or variation tiers; smallest listed here.",
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "toulouse-petit-d1"
+      },
+      {
+        "course_type": "salad",
+        "name": "House Smoked Tombo Tuna Salad",
+        "description": "Salad featuring house-smoked tombo (albacore) tuna.",
+        "price_cents": null,
+        "price_note": "Price not captured in source text.",
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "toulouse-petit-d2"
+      },
+      {
+        "course_type": "salad",
+        "name": "Dungeness Crab Salad",
+        "description": "Salad featuring Dungeness crab.",
+        "price_cents": null,
+        "price_note": "Price not captured in source text.",
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "toulouse-petit-d3"
+      },
+      {
+        "course_type": "appetizer",
+        "name": "Burrata en Crudo",
+        "description": "Burrata served in crudo style.",
+        "price_cents": null,
+        "price_note": "Price not captured in source text.",
+        "dietary_tags": [
+          "VEG"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "toulouse-petit-d4"
+      },
+      {
+        "course_type": "appetizer",
+        "name": "The Region's Finest Cultivated Fresh Oysters",
+        "description": "Selection of locally cultivated fresh oysters.",
+        "price_cents": null,
+        "price_note": "Price not captured in source text.",
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "toulouse-petit-d5"
+      },
+      {
+        "course_type": "appetizer",
+        "name": "Tombo Tuna Tartare and Rockfish Ceviche",
+        "description": "Dual seafood preparation of tombo tuna tartare and local rockfish ceviche.",
+        "price_cents": null,
+        "price_note": "Price not captured in source text.",
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "toulouse-petit-d6"
+      },
+      {
+        "course_type": "appetizer",
+        "name": "Reconstructed Oven Roasted Local Oysters",
+        "description": "Oven roasted local oysters, reconstructed preparation.",
+        "price_cents": null,
+        "price_note": "Price not captured in source text.",
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "toulouse-petit-d7"
+      },
+      {
+        "course_type": "appetizer",
+        "name": "Penn Cove Pacific Mussels",
+        "description": "Penn Cove-sourced Pacific mussels.",
+        "price_cents": null,
+        "price_note": "Price not captured in source text.",
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "toulouse-petit-d8"
+      },
+      {
+        "course_type": "appetizer",
+        "name": "Locally Cultivated Manila Clams",
+        "description": "Locally cultivated Manila clams.",
+        "price_cents": null,
+        "price_note": "Price not captured in source text.",
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "toulouse-petit-d9"
+      },
+      {
+        "course_type": "plate",
+        "name": "Gulf Shrimp Small Plate",
+        "description": "Gulf shrimp served as a small plate.",
+        "price_cents": null,
+        "price_note": "Price not captured in source text.",
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "toulouse-petit-d10"
+      },
+      {
+        "course_type": "appetizer",
+        "name": "Five of the World's Finest Cheeses",
+        "description": "Curated cheese board of five selections.",
+        "price_cents": null,
+        "price_note": "Price not captured in source text.",
+        "dietary_tags": [
+          "VEG"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "toulouse-petit-d11"
+      },
+      {
+        "course_type": "appetizer",
+        "name": "Seafood Roll",
+        "description": "Seafood roll starter; exact composition not specified.",
+        "price_cents": null,
+        "price_note": "Price not captured in source text.",
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "toulouse-petit-d12"
+      },
+      {
+        "course_type": "appetizer",
+        "name": "Curiosities and Charcuterie",
+        "description": "Charcuterie and curiosity board selection.",
+        "price_cents": null,
+        "price_note": "Price not captured in source text.",
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "toulouse-petit-d13"
+      },
+      {
+        "course_type": "entree",
+        "name": "Gulf Shrimp and Manila Clams Pasta",
+        "description": "Pasta preparation with Gulf shrimp and Manila clams.",
+        "price_cents": null,
+        "price_note": "Price not captured in source text.",
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "toulouse-petit-d14"
+      },
+      {
+        "course_type": "entree",
+        "name": "Roma Pastas",
+        "description": "Roma-style pasta preparations; specific dishes not detailed in source text.",
+        "price_cents": null,
+        "price_note": "Price not captured in source text.",
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "toulouse-petit-d15"
+      },
+      {
+        "course_type": "entree",
+        "name": "Risotto Preparations",
+        "description": "Risotto dishes; specific compositions not detailed in source text.",
+        "price_cents": null,
+        "price_note": "Price not captured in source text.",
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "toulouse-petit-d16"
+      },
+      {
+        "course_type": "entree",
+        "name": "Dungeness Crab and Maine Lobster Pasta",
+        "description": "Pasta preparation featuring Dungeness crab and Maine lobster.",
+        "price_cents": null,
+        "price_note": "Price not captured in source text.",
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "toulouse-petit-d17"
+      },
+      {
+        "course_type": "entree",
+        "name": "Steaks Served on a Forged Hot Iron",
+        "description": "Specialized steak and meat preparations served on a forged hot iron; specific cuts not detailed.",
+        "price_cents": null,
+        "price_note": "Price not captured in source text.",
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "toulouse-petit-d18"
+      },
+      {
+        "course_type": "entree",
+        "name": "Grimaud Farms Muscovy Duck",
+        "description": "Muscovy duck sourced from Grimaud Farms.",
+        "price_cents": null,
+        "price_note": "Price not captured in source text.",
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "toulouse-petit-d19"
+      },
+      {
+        "course_type": "entree",
+        "name": "Mad Hatcher Farms Chicken",
+        "description": "Chicken sourced from Mad Hatcher Farms.",
+        "price_cents": null,
+        "price_note": "Price not captured in source text.",
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "toulouse-petit-d20"
+      },
+      {
+        "course_type": "entree",
+        "name": "Wild Caught White Gulf Shrimp",
+        "description": "Wild caught white Gulf shrimp entrée preparation.",
+        "price_cents": null,
+        "price_note": "Price not captured in source text.",
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "toulouse-petit-d21"
+      },
+      {
+        "course_type": "entree",
+        "name": "Long Line Fresh Local Rockfish",
+        "description": "Long-line caught, fresh local rockfish entrée.",
+        "price_cents": null,
+        "price_note": "Price not captured in source text.",
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "toulouse-petit-d22"
+      },
+      {
+        "course_type": "entree",
+        "name": "Diver-Caught Sea Scallops",
+        "description": "Diver-caught sea scallops entrée preparation.",
+        "price_cents": null,
+        "price_note": "Price not captured in source text.",
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "toulouse-petit-d23"
+      },
+      {
+        "course_type": "entree",
+        "name": "Line-Caught Fresh Local Halibut",
+        "description": "Line-caught, fresh local halibut entrée.",
+        "price_cents": null,
+        "price_note": "Price not captured in source text.",
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "toulouse-petit-d24"
+      }
+    ],
+    "beverages": [],
+    "embed_text": "Toulouse Petit Cuisine: Cajun / Creole. Neighborhood: Queen Anne. Vibe: Lively, New Orleans-Inspired, Festive, Neighborhood Gem, Indulgent, fun, big-menu. Toulouse Petit brings a sultry, brass-and-velvet New Orleans energy to the base of Queen Anne, with a sprawling menu of Gulf-kissed seafood, charcuterie, and Creole classics that invites a leisurely, adventurous meal. The kitchen's devotion to local oysters, fresh catches, and rich Cajun flavors makes every visit feel like a small escape south. Best suited for dates who love a convivial, buzzy room over hushed intimacy — arrive hungry and in good spirits."
   }
 ]

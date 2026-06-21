@@ -1,0 +1,284 @@
+{
+  "restaurant": "Toulouse Petit",
+  "neighborhood": "Queen Anne",
+  "cuisine": "Cajun / Creole",
+  "venue_format": "full-menu",
+  "menu_completeness": "partial",
+  "source_url": "https://www.toulousepetit.com/wp-content/uploads/2026/06/Dinner-Menu-June-5.11.26.pdf",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "pdf (auto)",
+  "notes": "Raw text appears to be a section-header/category outline of the menu with very few actual dish names and only a handful of prices visible (16.50, 19, 17 associated with 'For the Table / Art of the Salad' area). No full dish descriptions or prices were recoverable for most items; bottle and cocktail lists entirely absent from source text.",
+  "dishes": [
+    {
+      "course_type": "salad",
+      "name": "The Art of the Salad",
+      "description": "Signature salad offering; exact composition not specified in source text.",
+      "price_cents": 1650,
+      "price_note": "Three price points visible (16.50, 19, 17) — likely size or variation tiers; smallest listed here.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "House Smoked Tombo Tuna Salad",
+      "description": "Salad featuring house-smoked tombo (albacore) tuna.",
+      "price_cents": null,
+      "price_note": "Price not captured in source text.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Dungeness Crab Salad",
+      "description": "Salad featuring Dungeness crab.",
+      "price_cents": null,
+      "price_note": "Price not captured in source text.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Burrata en Crudo",
+      "description": "Burrata served in crudo style.",
+      "price_cents": null,
+      "price_note": "Price not captured in source text.",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "The Region's Finest Cultivated Fresh Oysters",
+      "description": "Selection of locally cultivated fresh oysters.",
+      "price_cents": null,
+      "price_note": "Price not captured in source text.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Tombo Tuna Tartare and Rockfish Ceviche",
+      "description": "Dual seafood preparation of tombo tuna tartare and local rockfish ceviche.",
+      "price_cents": null,
+      "price_note": "Price not captured in source text.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Reconstructed Oven Roasted Local Oysters",
+      "description": "Oven roasted local oysters, reconstructed preparation.",
+      "price_cents": null,
+      "price_note": "Price not captured in source text.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Penn Cove Pacific Mussels",
+      "description": "Penn Cove-sourced Pacific mussels.",
+      "price_cents": null,
+      "price_note": "Price not captured in source text.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Locally Cultivated Manila Clams",
+      "description": "Locally cultivated Manila clams.",
+      "price_cents": null,
+      "price_note": "Price not captured in source text.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Gulf Shrimp Small Plate",
+      "description": "Gulf shrimp served as a small plate.",
+      "price_cents": null,
+      "price_note": "Price not captured in source text.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Five of the World's Finest Cheeses",
+      "description": "Curated cheese board of five selections.",
+      "price_cents": null,
+      "price_note": "Price not captured in source text.",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Seafood Roll",
+      "description": "Seafood roll starter; exact composition not specified.",
+      "price_cents": null,
+      "price_note": "Price not captured in source text.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Curiosities and Charcuterie",
+      "description": "Charcuterie and curiosity board selection.",
+      "price_cents": null,
+      "price_note": "Price not captured in source text.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Gulf Shrimp and Manila Clams Pasta",
+      "description": "Pasta preparation with Gulf shrimp and Manila clams.",
+      "price_cents": null,
+      "price_note": "Price not captured in source text.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Roma Pastas",
+      "description": "Roma-style pasta preparations; specific dishes not detailed in source text.",
+      "price_cents": null,
+      "price_note": "Price not captured in source text.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Risotto Preparations",
+      "description": "Risotto dishes; specific compositions not detailed in source text.",
+      "price_cents": null,
+      "price_note": "Price not captured in source text.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Dungeness Crab and Maine Lobster Pasta",
+      "description": "Pasta preparation featuring Dungeness crab and Maine lobster.",
+      "price_cents": null,
+      "price_note": "Price not captured in source text.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Steaks Served on a Forged Hot Iron",
+      "description": "Specialized steak and meat preparations served on a forged hot iron; specific cuts not detailed.",
+      "price_cents": null,
+      "price_note": "Price not captured in source text.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Grimaud Farms Muscovy Duck",
+      "description": "Muscovy duck sourced from Grimaud Farms.",
+      "price_cents": null,
+      "price_note": "Price not captured in source text.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Mad Hatcher Farms Chicken",
+      "description": "Chicken sourced from Mad Hatcher Farms.",
+      "price_cents": null,
+      "price_note": "Price not captured in source text.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Wild Caught White Gulf Shrimp",
+      "description": "Wild caught white Gulf shrimp entrée preparation.",
+      "price_cents": null,
+      "price_note": "Price not captured in source text.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Long Line Fresh Local Rockfish",
+      "description": "Long-line caught, fresh local rockfish entrée.",
+      "price_cents": null,
+      "price_note": "Price not captured in source text.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Diver-Caught Sea Scallops",
+      "description": "Diver-caught sea scallops entrée preparation.",
+      "price_cents": null,
+      "price_note": "Price not captured in source text.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Line-Caught Fresh Local Halibut",
+      "description": "Line-caught, fresh local halibut entrée.",
+      "price_cents": null,
+      "price_note": "Price not captured in source text.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

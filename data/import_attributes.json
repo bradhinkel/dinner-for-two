@@ -293,5 +293,70 @@
     "longitude": -122.32036149999999,
     "business_status": "OPERATIONAL",
     "curation": "use"
+  },
+  "stoneburner": {
+    "name": "Stoneburner",
+    "neighborhood": "Ballard",
+    "website_url": "https://stoneburnerseattle.com",
+    "cuisine_primary": "Italian / Mediterranean",
+    "cuisine_secondary": "Mediterranean",
+    "price_tier": 3,
+    "tags": [
+      "fun",
+      "stylish",
+      "hotel-adjacent"
+    ],
+    "description": "Stoneburner brings a wood-fired warmth to Ballard's charming historic strip, pairing handcrafted pastas and Mediterranean small plates with a genuinely excellent cocktail program. The room strikes a confident balance between rustic and refined — the kind of place where a leisurely dinner effortlessly stretches into a late-evening nightcap. It's a natural fit for a date that calls for good food, stylish surroundings, and a relaxed but spirited atmosphere.",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Stylish",
+      "Lively",
+      "Romantic",
+      "Cocktail-Forward",
+      "Neighborhood Gem",
+      "Rustic-Chic"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "enrichment_status": "Imported",
+    "latitude": 47.6662056,
+    "longitude": -122.3826333,
+    "business_status": "OPERATIONAL",
+    "curation": "use"
+  },
+  "toulousepetit": {
+    "name": "Toulouse Petit",
+    "neighborhood": "Queen Anne",
+    "website_url": "https://toulousepetit.com",
+    "cuisine_primary": "Cajun / Creole",
+    "cuisine_secondary": "Seafood",
+    "price_tier": 2,
+    "tags": [
+      "fun",
+      "lively",
+      "big-menu"
+    ],
+    "description": "Toulouse Petit brings a sultry, brass-and-velvet New Orleans energy to the base of Queen Anne, with a sprawling menu of Gulf-kissed seafood, charcuterie, and Creole classics that invites a leisurely, adventurous meal. The kitchen's devotion to local oysters, fresh catches, and rich Cajun flavors makes every visit feel like a small escape south. Best suited for dates who love a convivial, buzzy room over hushed intimacy — arrive hungry and in good spirits.",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Lively",
+      "New Orleans-Inspired",
+      "Festive",
+      "Neighborhood Gem",
+      "Indulgent"
+    ],
+    "noise_level": "Loud",
+    "date_night_score": 3,
+    "enrichment_status": "Imported",
+    "latitude": 47.624761299999996,
+    "longitude": -122.3569487,
+    "business_status": "OPERATIONAL",
+    "curation": "use"
   }
 }

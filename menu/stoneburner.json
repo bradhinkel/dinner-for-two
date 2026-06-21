@@ -1,0 +1,350 @@
+{
+  "restaurant": "Stoneburner",
+  "neighborhood": "Ballard",
+  "cuisine": "Italian / Mediterranean",
+  "venue_format": "full-menu",
+  "menu_completeness": "full",
+  "source_url": "https://static1.squarespace.com/static/601dcba8beed354b4e2e3dfd/t/6a3707746a46d849d164f52a/1781991284270/Menu_Dinner_06.20.26..pdf",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "pdf (auto)",
+  "notes": "Full à la carte menu captured across salads, small plates, pasta, large plates, veggies, sweets, and pizza sections. No beverage list was present in the raw text; beverages skipped entirely.",
+  "dishes": [
+    {
+      "course_type": "salad",
+      "name": "Dear Table Farm Greens",
+      "description": "Creamy young garlic vinaigrette, anchovy bread crumbs, parm",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Snap Peas",
+      "description": "Hazelnut, preserved lemon vinaigrette, pecorino sardo",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Kirby Cucumber Salad",
+      "description": "Feta, burnt honey vinaigrette, black dukkah",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Crispy Olives",
+      "description": "Mozzarella stuffed",
+      "price_cents": 1000,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Garlic Bread",
+      "description": "Pressed ricotta",
+      "price_cents": 1000,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Grilled Cascade Porcini",
+      "description": "Chickpea cake, poached egg",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Seared Scallops",
+      "description": "Artichoke, corona bean passata",
+      "price_cents": 2600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Buratta Crostoni",
+      "description": "Sourdough, black garlic mushrooms",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "St. Jude Smoked Tuna Dip",
+      "description": "Pickled radish, chips",
+      "price_cents": 2300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "WA Wagyu Beef Tartare",
+      "description": "Preserved ramps, olive oil, seeded cracker",
+      "price_cents": 2300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Capunti",
+      "description": "Broccoli leaf, pistachio, 24-month parm",
+      "price_cents": 3000,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Mafaldine",
+      "description": "Fava bean, fonduta, black pepper",
+      "price_cents": 2700,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Fusillino",
+      "description": "Short rib sugo, pecorino romano",
+      "price_cents": 3000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Tagliarini",
+      "description": "Blue prawn, calamari, garlic scapes, chili",
+      "price_cents": 3200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "King Salmon",
+      "description": "Green chickpea, charred herb vinaigrette, sprouting cauliflower",
+      "price_cents": 3600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Grilled Pork Chop",
+      "description": "Bright lights chard caponata, grape must",
+      "price_cents": 3800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Grilled Dry Aged Skirt Steak",
+      "description": "Tokyo turnips, sherry and mustard seed",
+      "price_cents": 4100,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Lamb Mixed Grill",
+      "description": "Patty pan salad, mojo picon",
+      "price_cents": 3400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Pepperoni Pizza",
+      "description": "Pickled serrano, fireweed honey, mozzarella. Not Neopolitan.",
+      "price_cents": 3400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Cheese Pizza",
+      "description": "Mozzarella, provolone, parmesan, fontina. Not Neopolitan.",
+      "price_cents": 3300,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Spicy Sausage Pizza",
+      "description": "Olives, fried capers, basil, mozzarella. Not Neopolitan.",
+      "price_cents": 3500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Crushed Meatballs Pizza",
+      "description": "Braising greens, smoked pecorino. Not Neopolitan.",
+      "price_cents": 3400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Morel Mushroom Pizza",
+      "description": "Pee wee potatoes, taleggio, confit garlic, arugula. Not Neopolitan.",
+      "price_cents": 3500,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Dutch Fries",
+      "description": "Togarashi mayonnaise",
+      "price_cents": 900,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Charred Broccoli",
+      "description": "Tahini, dulse, orange peel",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Sherbet",
+      "description": "Slow roasted strawberries, meringue",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Hazelnut Chocolate Crunch",
+      "description": "Dacquoise, caramel whip, ganache",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Chocolate Dulce Entremet",
+      "description": "Cherry ice cream, almond crunch",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}
