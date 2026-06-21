@@ -2,6 +2,40 @@
 
 Read this first. It orients you, pins the decisions that aren't obvious from the code, and gives you the contracts and prompts to start Phase 1. When this file and another doc disagree, **this file and `project_plan.md` win**.
 
+## ⏯ Current status — resume here (updated 2026-06-20)
+
+**Phases 0–2 are done and merged to `main`. Restaurant import is in progress on branch `import-seattle` (not yet merged).** Day-to-day progress + decisions are also in agent memory (`MEMORY.md`).
+
+- **Phase 0 (data) ✓** — structured `menu/*.json` + error taxonomy/tier rules. See `menu/PHASE0_READINESS.md`.
+- **Phase 1 (headless engine) ✓** — `parse → retrieve (in-memory hard filter + Voyage cosine + MMR + roles, behind a `Retriever` interface) → compose (Sonnet, routed on venue_format + menu_completeness, dish-ID validated)`. Run: `npm run engine -- "brief"`.
+- **Phase 2 (web UI) ✓** — Next.js App Router + Tailwind + PWA; two-call model (`/api/retrieve` fast headers, SSE `/api/compose/:id` streamed); brief → 3-card spread → swap / regenerate / share. Tokens from `Screen Handoff.html`. Run: `npm run dev`.
+- **Import pipeline (in progress, branch `import-seattle`)** — four stages, all built and working:
+  - `npm run liveness` — Stage 1 gate over `docs/Raw Restaurant List.txt` (Seattle, 297 unique) → `data/worklist.json` with live/blocked/live-js/pdf/dead/redirected classifications (**216 viable & new**).
+  - `npm run ingest -- "Name" …` — Stage 2/3 acquisition: Playwright headless render (defeats Cloudflare/JS; follows hub→dinner-menu up to 2 hops) **+** PDF text extraction (`unpdf`), then a Claude call structures it → `menu/<slug>.json`. Flags: `--state <bucket>` (e.g. `blocked`, `live-js`), `--url <pdf>` (override a worklist URL).
+  - `npm run enrich -- <slug> …` (no args = all un-enriched imports) — Stage 4: Google Places (lat/long + `business_status` closure signal + price) **+** LLM attributes (price_tier, vibe_tags, date_night_score, dietary, product-voice description) → `data/import_attributes.json`.
+  - `npm run build:catalog && npm run build:embeddings` — rebuild the in-memory catalog + Voyage embeddings.
+
+**Catalog: 32 restaurants** (from 19). Data model now carries `curation` (`use`/`hide` — retrieval serves only `use`; a curation UX is a TODO the user will build), `latitude`/`longitude`, and `business_status`.
+
+### ▶ NEXT STEP — the scale batch (toward the Phase 3 "100 solid" gate)
+
+Run the acquisition tool across the unextracted viable buckets, then enrich + rebuild. Suggested order:
+
+```
+# 1. render Cloudflare-blocked + JS-render rooms (~30 total)
+npm run ingest -- --state blocked
+npm run ingest -- --state live-js
+# 2. enrich everything new (no args = all un-enriched), then rebuild
+npm run enrich
+npm run build:catalog && npm run build:embeddings
+# 3. spot-check menu quality; let Places mark CLOSED_* (auto-suppressed from retrieval);
+#    curate obvious non-date-night misfits to curation:"hide" later
+```
+
+Keep batching the ~190 viable pool toward **100 composer-ready**. Known stragglers (menu buried >2 nav hops — hand-feed `--url` or deepen the follow): **Six Seven, Daniel's Broiler, Il Terrazzo Carmine**. Cafe Munir redirects off-domain (drop). Image/scanned-PDF menus need a vision-OCR pass (not built yet). Pacing: a ~30-room batch ≈ 10–15 min of rendering + ~30 Claude extraction calls — run a batch, review, continue.
+
+**Env required** (`.env.local`, gitignored): `ANTHROPIC_API_KEY`, `VOYAGE_API_KEY`, `GOOGLE_PLACES_API_KEY` (enable "Places API (New)"). Headless render needs Playwright Chromium (`npx playwright install chromium`) + host libs `libnss3 libnspr4 libasound2t64` — on Ubuntu 24.04 install via `sudo apt-get install -y …` **in a real terminal** (the Claude Code `!` prefix has no TTY, so `sudo` can't read a password there).
+
 ## What this is
 
 A mobile-first web app that turns a short natural-language brief ("moderately priced Italian, romantic, we like to share courses") into **three deliberately different complete evenings** — restaurant + composed multi-course meal + beverage pairing + a short rationale — for a curated set of Seattle restaurants. The differentiator is a *curated spread of three* (dependable / adventurous / wildcard), not a ranked list, and full-evening composition, not dish lookup.
@@ -88,11 +122,22 @@ POST /api/flag               { restaurant_id }            → user-flag verifica
 
 Validate every returned dish_id against the supplied menu; on any miss, reject and retry once, then fall back to a lower completeness tier.
 
-## How to run (fill in as you build)
+## How to run
 
-- `npm install`; set `ANTHROPIC_API_KEY` in `.env.local` (never commit).
-- Phase 1: `npm run engine -- "your brief here"` → prints the 3-evening JSON.
-- Phase 2+: `npm run dev` → http://localhost:3000.
+Setup: `npm install`; copy `.env.example` → `.env.local` and set `ANTHROPIC_API_KEY`, `VOYAGE_API_KEY`, `GOOGLE_PLACES_API_KEY` (never commit). For the import render path also: `npx playwright install chromium` + the host libs noted in the status section above.
+
+| Script | What |
+|---|---|
+| `npm run dev` | Phase 2 web app → http://localhost:3000 (mobile 390px shell) |
+| `npm run engine -- "brief"` | Phase 1 headless engine → 3-evening JSON (`--json` for JSON only) |
+| `npm run typecheck` | `tsc --noEmit` |
+| `npm run build` / `start` | Next.js production build / serve |
+| `npm run liveness` | Stage 1 — probe the raw list → `data/worklist.json` |
+| `npm run ingest -- "Name" \| --state blocked \| --url <pdf>` | Stage 2/3 — render/PDF → Claude → `menu/<slug>.json` |
+| `npm run enrich -- [slugs]` | Stage 4 — Places geo/closure + LLM attrs → `data/import_attributes.json` |
+| `npm run build:catalog` / `build:embeddings` | rebuild `data/restaurants.json` / `data/embeddings.json` |
+
+`data/restaurants.json` + `data/embeddings.json` are generated but **checked in** (precompute, per project_plan §8). Re-run `build:catalog` + `build:embeddings` after any menu/enrichment change. `scripts/extract_seed.py` (one-time) lifts the Excel seed → `data/seed_attributes.json`.
 
 ## Data status (so you don't trust the seed blindly)
 
