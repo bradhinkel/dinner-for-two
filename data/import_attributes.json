@@ -1,0 +1,135 @@
+{
+  "canlis": {
+    "name": "Canlis",
+    "neighborhood": "Queen Anne",
+    "website_url": "https://www.canlis.com",
+    "cuisine_primary": "Pacific Northwest Tasting",
+    "cuisine_secondary": null,
+    "price_tier": 4,
+    "tags": [
+      "romantic",
+      "fine-dining",
+      "special-occasion",
+      "view"
+    ],
+    "description": "Perched above Lake Union with floor-to-ceiling views that have made it a Seattle landmark since 1950, Canlis wraps an evening in white-tablecloth ceremony, impeccable pacing, and a Pacific Northwest tasting experience that feels genuinely unhurried. The staff orchestrates every detail — from the valet to the final course — so the only thing left to do is be present with your companion. Reserve this one for the moments worth remembering.",
+    "reservation_platform": "Tock",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Romantic",
+      "Fine Dining",
+      "Special Occasion",
+      "Waterfront View",
+      "Intimate",
+      "Iconic"
+    ],
+    "noise_level": "Quiet",
+    "date_night_score": 5,
+    "enrichment_status": "Imported",
+    "latitude": 47.6430933,
+    "longitude": -122.34675349999999,
+    "business_status": "OPERATIONAL",
+    "curation": "use"
+  },
+  "lark": {
+    "name": "Lark",
+    "neighborhood": "Capitol Hill",
+    "website_url": "https://larkseattle.com",
+    "cuisine_primary": "New American",
+    "cuisine_secondary": "Seafood",
+    "price_tier": 3,
+    "tags": [
+      "romantic",
+      "seasonal",
+      "upscale"
+    ],
+    "description": "Lark is a Capitol Hill institution where seasonal small plates arrive unhurried, inviting you and your guest to linger over thoughtfully sourced Pacific Northwest ingredients. The room wraps around you with warm, understated elegance — the kind of place where conversation flows as naturally as the wine. A refined yet unfussy atmosphere makes it one of Seattle's most dependable settings for a genuinely memorable evening.",
+    "reservation_platform": "Resy",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Romantic",
+      "Sophisticated",
+      "Intimate",
+      "Seasonal",
+      "Upscale",
+      "Cozy"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 5,
+    "enrichment_status": "Imported",
+    "latitude": 47.612312599999996,
+    "longitude": -122.3196472,
+    "business_status": "OPERATIONAL",
+    "curation": "use"
+  },
+  "maximilien": {
+    "name": "Maximilien",
+    "neighborhood": "Pike Place Market",
+    "website_url": "https://maximilienrestaurant.com",
+    "cuisine_primary": "French",
+    "cuisine_secondary": "Seafood",
+    "price_tier": 3,
+    "tags": [
+      "romantic",
+      "view",
+      "classic-french"
+    ],
+    "description": "Tucked into the heart of Pike Place Market with sweeping views of Elliott Bay, Maximilien delivers old-world French romance — think flickering candlelight, classic brasserie dishes, and a wine list that rewards lingering. The room feels like a cherished Parisian secret that somehow found its way to Seattle's waterfront, making it effortlessly suited for a slow, indulgent evening together. Arrive early enough to watch the sun dip behind the Olympic Mountains before your first course.",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Romantic",
+      "Waterfront",
+      "Intimate",
+      "Classic",
+      "Elegant",
+      "Date Night"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 5,
+    "enrichment_status": "Imported",
+    "latitude": 47.6083986,
+    "longitude": -122.34057209999999,
+    "business_status": "OPERATIONAL",
+    "curation": "use"
+  },
+  "shirossushi": {
+    "name": "Shiro's Sushi",
+    "neighborhood": "Belltown",
+    "website_url": "https://shiros.com",
+    "cuisine_primary": "Japanese / Sushi (Omakase)",
+    "cuisine_secondary": "Omakase",
+    "price_tier": 3,
+    "tags": [
+      "romantic",
+      "omakase",
+      "classic"
+    ],
+    "description": "Shiro's is Seattle's most revered sushi counter, where the chef's omakase unfolds at a measured, unhurried pace that turns a meal into a shared ritual. The spare, intimate room encourages conversation in low tones, with every course arriving as a quiet moment of attention and intention. For a date night centered on trust, craft, and something genuinely memorable, few rooms in the city come close.",
+    "reservation_platform": null,
+    "serves_vegetarian": false,
+    "serves_vegan": false,
+    "serves_gluten_free": false,
+    "ambiance_tags": [
+      "Intimate",
+      "Omakase",
+      "Classic",
+      "Romantic",
+      "Quiet",
+      "Cozy"
+    ],
+    "noise_level": "Quiet",
+    "date_night_score": 5,
+    "enrichment_status": "Imported",
+    "latitude": 47.614777499999995,
+    "longitude": -122.34743239999999,
+    "business_status": "OPERATIONAL",
+    "curation": "use"
+  }
+}

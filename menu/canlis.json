@@ -1,0 +1,16 @@
+{
+  "restaurant": "Canlis",
+  "neighborhood": "Queen Anne",
+  "cuisine": "Pacific Northwest Tasting",
+  "venue_format": "tasting-only",
+  "menu_completeness": "experience-only",
+  "source_url": "https://canlis.com/menu",
+  "captured_at": "2026-06-20",
+  "menu_status": "none-by-design",
+  "menu_volatility": "seasonal",
+  "extraction_method": "html (format only)",
+  "notes": "Iconic Seattle fine-dining. Fixed prix-fixe: $185/person, 6 courses (the diner picks 3, the kitchen sends the rest), with options across a first/second/third structure (sashimi/sunchoke/agnolotti; halibut to lamb, sockeye +$35; soufflé/mandarin/chocolate). The 1950 'Canlis Salad' can be added tableside +$20. No à la carte by design; 20% service charge added. EXPERIENCE-ONLY: composer presents the room (Lake Union views, impeccable service), the occasion fit, and the prix-fixe experience — no fabricated dish list.",
+  "tasting_price_cents": 18500,
+  "dishes": [],
+  "beverages": []
+}
