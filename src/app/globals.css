@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #2a201a; /* matte surround behind the mobile shell */
+}
+
+body {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  color: #1f1410;
+  -webkit-font-smoothing: antialiased;
+  font-variant-numeric: tabular-nums;
+}
+
+/* numerals always tabular (per tokens) */
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+@layer components {
+  /* small-caps UI label */
+  .label {
+    @apply font-sans uppercase text-ink-mute;
+    font-size: 10px;
+    letter-spacing: 0.22em;
+    font-weight: 500;
+  }
+  /* italic Cormorant display */
+  .display {
+    @apply font-serif italic text-ink;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.015em;
+  }
+  /* full-width hairline */
+  .hairline {
+    @apply border-0 border-t border-rule;
+  }
+  /* primary button bases */
+  .btn-ox {
+    @apply bg-oxblood text-paper uppercase font-sans;
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    font-weight: 500;
+  }
+  .btn-ink {
+    @apply bg-ink text-paper uppercase font-sans;
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    font-weight: 500;
+  }
+  .btn-outline {
+    @apply border border-ink text-ink uppercase font-sans bg-transparent;
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    font-weight: 500;
+  }
+}
+
+/* candlelit gradient placeholders (no photo assets yet) */
+.candlelit {
+  background:
+    radial-gradient(120% 90% at 25% 15%, rgba(196, 124, 84, 0.5), transparent 55%),
+    radial-gradient(130% 100% at 80% 20%, rgba(122, 31, 35, 0.55), transparent 60%),
+    linear-gradient(160deg, #2a1a14 0%, #3d2218 45%, #1f1410 100%);
+}
+.candlelit-dim {
+  filter: saturate(0.5) brightness(0.8);
+}
+
+/* hide scrollbars inside the phone shell but keep scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

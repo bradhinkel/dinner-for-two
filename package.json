@@ -5,6 +5,9 @@
   "description": "AI-composed date-night companion — Phase 1 headless engine",
   "type": "module",
   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "engine": "tsx src/cli.ts",
     "build:catalog": "tsx src/catalog/buildCatalog.ts",
     "build:embeddings": "tsx src/embeddings/buildEmbeddings.ts",
@@ -12,11 +15,19 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.65.0",
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.4.7",
+    "next": "^15.5.19",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
   },
   "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^3.4.19",
     "tsx": "^4.19.2",
-    "typescript": "^5.7.3",
-    "@types/node": "^22.10.5"
+    "typescript": "^5.7.3"
   }
 }

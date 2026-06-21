@@ -13,9 +13,9 @@ import type {
   SpreadPick,
 } from "../types.js";
 
-type ComposeMode = ComposedEvening["compose_mode"];
+export type ComposeMode = ComposedEvening["compose_mode"];
 
-function modeFor(mc: MenuCompleteness): ComposeMode {
+export function modeFor(mc: MenuCompleteness): ComposeMode {
   return mc === "full" ? "full" : mc === "partial" ? "partial" : "experience-led";
 }
 
@@ -40,7 +40,7 @@ function menuPayload(r: Restaurant) {
   };
 }
 
-function systemPrompt(): string {
+export function systemPrompt(): string {
   return `You compose ONE date-night evening for two at a specific restaurant. Return STRICT JSON only.
 
 Route on BOTH venue_format and menu_completeness (tier):
@@ -65,7 +65,7 @@ Output JSON exactly:
 Set beverage_id to null ONLY when making a descriptive recommendation because the list is sparse (then type "descriptive").`;
 }
 
-function userPrompt(r: Restaurant, p: ParsedBrief, mode: ComposeMode, correction?: string): string {
+export function userPrompt(r: Restaurant, p: ParsedBrief, mode: ComposeMode, correction?: string): string {
   const character = {
     name: r.name,
     cuisine: r.cuisine,
@@ -96,7 +96,7 @@ function userPrompt(r: Restaurant, p: ParsedBrief, mode: ComposeMode, correction
   return lines.join("\n\n");
 }
 
-interface RawComposition {
+export interface RawComposition {
   compose_mode?: string;
   courses?: { slot?: string; dish_id?: string; note?: string }[];
   beverages?: { beverage_id?: string | null; name?: string; type?: string; pairing_note?: string }[];
@@ -104,13 +104,13 @@ interface RawComposition {
   estimated_cents?: number;
 }
 
-interface Validated {
+export interface Validated {
   courses: ComposedCourse[];
   beverages: ComposedBeverage[];
   invalidDishIds: string[];
 }
 
-function validate(r: Restaurant, raw: RawComposition): Validated {
+export function validate(r: Restaurant, raw: RawComposition): Validated {
   const courses: ComposedCourse[] = [];
   const invalidDishIds: string[] = [];
   for (const c of raw.courses ?? []) {
@@ -157,7 +157,7 @@ function validate(r: Restaurant, raw: RawComposition): Validated {
   return { courses, beverages, invalidDishIds };
 }
 
-function estimateCents(r: Restaurant, v: Validated, fallback: number | undefined): number {
+export function estimateCents(r: Restaurant, v: Validated, fallback: number | undefined): number {
   let total = 0;
   let counted = false;
   for (const c of v.courses) {
@@ -232,7 +232,7 @@ export async function compose(pick: SpreadPick, parsed: ParsedBrief): Promise<Co
   return assemble(pick, parsed, mode, validated, raw.rationale, raw.estimated_cents);
 }
 
-function assemble(
+export function assemble(
   pick: SpreadPick,
   _parsed: ParsedBrief,
   mode: ComposeMode,
