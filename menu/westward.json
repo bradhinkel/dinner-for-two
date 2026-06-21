@@ -1,0 +1,386 @@
+{
+  "restaurant": "Westward",
+  "neighborhood": "Northlake",
+  "cuisine": "Seafood / Mediterranean",
+  "venue_format": "full-menu",
+  "menu_completeness": "full",
+  "source_url": "https://sea-creatures-satellites.sfo3.digitaloceanspaces.com/westward/uploads/06.11.26-Dinner-Food.pdf",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "pdf (auto)",
+  "notes": "Full menu captured including raw bar, small plates, large plates, sides, and desserts. Oyster prices are per-oyster/market-style with add-on sauces noted; agave flights and merch/cookbooks excluded from dishes. A 22% service charge is added to all dine-in checks. Bottle-only beverage list is minimal; two dessert wines captured.",
+  "dishes": [
+    {
+      "course_type": "plate",
+      "name": "Olympic Wild Oyster",
+      "description": "Raw oyster from Olympic Oyster Co., Hood Canal, WA",
+      "price_cents": null,
+      "price_note": "Market price per oyster; cocktail sauce add-on +$3, aji crystal hot sauce add-on +$5",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Baywater Sweet Oyster",
+      "description": "Raw oyster from Baywater Shellfish, Thorndyke Bay, WA",
+      "price_cents": null,
+      "price_note": "Market price per oyster",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Blue Pool Oyster",
+      "description": "Raw oyster from Hama Hama Oyster Co., Hood Canal, WA",
+      "price_cents": null,
+      "price_note": "Market price per oyster",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Summerstone Oyster",
+      "description": "Raw oyster from Hama Hama Oyster Co., Port Townsend, WA",
+      "price_cents": null,
+      "price_note": "Market price per oyster",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Hama Hama XS Oyster",
+      "description": "Raw oyster from Hama Hama Oyster Co., Hamma Hamma River, WA",
+      "price_cents": null,
+      "price_note": "Market price per oyster",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Oyster Shooter",
+      "description": "Raw oyster shooter with El Buho mezcal and jalapeño vinegar",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Marinated Geoduck",
+      "description": "Marinated geoduck with tarragon, pickled celery, Ritz crackers, and crème fraîche",
+      "price_cents": 2400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Seafood Platter",
+      "description": "Six raw oysters, Baja blue shrimp, halibut rillette, whitefish caviar, Ritz crackers, cocktail sauce, hot sauce, and horseradish",
+      "price_cents": 7500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Seafood Tower",
+      "description": "Eighteen raw oysters, Baja blue shrimp, halibut rillette, smoked oysters, whitefish caviar, Ritz crackers, cocktail sauce, hot sauce, and horseradish",
+      "price_cents": 15000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Jalapeño Crema & Tajin Tortilla Chips",
+      "description": "Jalapeño crema served with tajin-seasoned tortilla chips",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Dill Dip",
+      "description": "Dill dip served with potato chips",
+      "price_cents": 1000,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Spicy Clam Dip",
+      "description": "Spicy clam dip served with potato chips",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Bibb Lettuces",
+      "description": "Bibb lettuces with shallot vinaigrette and hazelnuts",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Radishes",
+      "description": "Radishes with lime mascarpone, dates, almonds, and spring onion",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Baked Oysters",
+      "description": "Baked oysters with ramp butter and pickled ramps",
+      "price_cents": 2500,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Roasted Asparagus",
+      "description": "Roasted asparagus with whipped tahini and chili crisp",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Crispy Pork Belly",
+      "description": "Crispy pork belly with guajillo salsa macha, peanuts, and lime",
+      "price_cents": 2800,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Hama Hama Manila Clams",
+      "description": "Manila clams with ginger green sauce and spring onion",
+      "price_cents": 3200,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Seared Halibut",
+      "description": "Seared halibut with green garlic tartar sauce, roasted green garlic, and potatoes",
+      "price_cents": 4800,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Chickpea Fritters",
+      "description": "Chickpea fritters with piquillo pepper romesco and roasted spring onion",
+      "price_cents": 2400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Roasted Chicken Hindquarter",
+      "description": "Roasted chicken hindquarter with turnips and cilantro serrano sauce",
+      "price_cents": 2500,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Ben's Bread",
+      "description": "Served with whipped butter and Maldon salt",
+      "price_cents": 900,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Fennel Seed Marinated Picholine Olives",
+      "description": "Picholine olives marinated with fennel seed",
+      "price_cents": 900,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Roasted Peanuts",
+      "description": "Roasted peanuts with chile and lime",
+      "price_cents": 700,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Crispy Yukon Potatoes",
+      "description": "Crispy Yukon Gold potatoes",
+      "price_cents": 1100,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Rhubarb Cobbler",
+      "description": "Rhubarb cobbler with Chantilly cream",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Spiced Chocolate Pot de Crème",
+      "description": "Spiced chocolate pot de crème with coconut",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": [
+    {
+      "type": "wine",
+      "name": "Messias 10 Year Tawny Port",
+      "style": "Tawny Port",
+      "glass_cents": 1400,
+      "bottle_cents": null,
+      "region": "Portugal",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Analemma Petit Manseng",
+      "style": "White — dessert/late harvest style",
+      "glass_cents": 1400,
+      "bottle_cents": null,
+      "region": "Columbia Gorge, OR",
+      "vintage": "2021",
+      "flavor_tags": []
+    }
+  ]
+}

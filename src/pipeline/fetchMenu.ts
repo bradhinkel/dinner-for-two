@@ -33,7 +33,38 @@ async function fetchPdfText(url: string): Promise<FetchedMenu> {
   return { kind: "pdf", text: clean, final_url: res.url, note: `${totalPages}p text PDF` };
 }
 
-async function renderHtmlText(url: string): Promise<FetchedMenu> {
+// A page with real menu data has many prices; a hub/landing page does not.
+function looksLikeMenu(text: string): boolean {
+  const prices = (text.match(/\$\s?\d|\b\d{2}\b\s*$/gm) || []).length;
+  return text.length > 1500 && prices >= 6;
+}
+
+// Find the best "go to the dinner menu" link on a hub page (absolute URL or null).
+async function findMenuLink(page: import("playwright").Page): Promise<string | null> {
+  const links = await page
+    .evaluate(() =>
+      Array.from(document.querySelectorAll("a[href]")).map((a) => ({
+        href: (a as HTMLAnchorElement).href,
+        text: (a.textContent || "").trim().toLowerCase().slice(0, 40),
+      }))
+    )
+    .catch(() => [] as { href: string; text: string }[]);
+  const score = (l: { href: string; text: string }): number => {
+    const s = `${l.text} ${l.href.toLowerCase()}`;
+    if (/brunch|lunch|drink|beverage|wine|cocktail|happy|gift|event|catering/.test(s)) return -1;
+    if (/dinner\s*menu|food\s*menu|\bdinner\b/.test(s)) return 3;
+    if (/\bmenu\b/.test(s)) return 2;
+    return 0;
+  };
+  const best = links
+    .filter((l) => l.href.startsWith("http"))
+    .map((l) => ({ l, sc: score(l) }))
+    .filter((x) => x.sc > 0)
+    .sort((a, b) => b.sc - a.sc)[0];
+  return best ? best.l.href : null;
+}
+
+async function renderHtmlText(url: string, depth = 0): Promise<FetchedMenu> {
   let chromium: typeof import("playwright").chromium;
   try {
     ({ chromium } = await import("playwright"));
@@ -45,14 +76,12 @@ async function renderHtmlText(url: string): Promise<FetchedMenu> {
     browser = await chromium.launch({ headless: true, args: ["--no-sandbox", "--disable-gpu"] });
     const page = await browser.newPage({ userAgent: UA, viewport: { width: 1280, height: 1800 } });
     const resp = await page.goto(url, { waitUntil: "domcontentloaded", timeout: 45000 });
-    // give JS shells + Cloudflare challenges time to settle
-    await page.waitForTimeout(4000);
+    await page.waitForTimeout(4000); // let JS shells + Cloudflare challenges settle
     try {
       await page.waitForLoadState("networkidle", { timeout: 8000 });
     } catch {
       /* ignore */
     }
-    // expand common accordions so collapsed menu sections render
     await page
       .evaluate(() => {
         document
@@ -63,6 +92,16 @@ async function renderHtmlText(url: string): Promise<FetchedMenu> {
     await page.waitForTimeout(800);
     const text = ((await page.evaluate(() => document.body?.innerText)) || "").replace(/\n{3,}/g, "\n\n").trim();
     const status = resp?.status() ?? 0;
+
+    // Hub page? Follow the best dinner-menu link once (PDF -> PDF path).
+    if (!looksLikeMenu(text) && depth < 2) {
+      const link = await findMenuLink(page);
+      await browser.close();
+      browser = undefined;
+      if (link && looksLikePdf(link, null)) return fetchPdfText(link);
+      if (link && link !== page.url()) return renderHtmlText(link, depth + 1);
+      return { kind: text.length > 200 ? "html" : "error", text, final_url: url, note: `hub page, no menu link found (${text.length} chars, http ${status})` };
+    }
     if (text.length < 200) {
       return { kind: "error", text, final_url: page.url(), note: `rendered but sparse (${text.length} chars, http ${status})` };
     }

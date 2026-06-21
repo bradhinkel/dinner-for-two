@@ -482,6 +482,283 @@
     "embed_text": "Altura Cuisine: Italian Tasting Menu. Neighborhood: Capitol Hill. Vibe: Romantic, Hushed, Special-occasion, tasting-menu. Altura is Capitol Hill's special-occasion summit — Nathan Lockwood's weekly-changing Italian-Pacific Northwest tasting menu in a hushed, candlelit room over a long, unhurried evening. At $137 a person it's a commitment, and the kind of night you book when the occasion deserves one. Reserve directly."
   },
   {
+    "id": "bateau",
+    "name": "Bateau",
+    "neighborhood": "Capitol Hill",
+    "cuisine": "Steakhouse",
+    "cuisine_tags": [
+      "Steakhouse",
+      "French-Influenced"
+    ],
+    "price_tier": 3,
+    "vibe_tags": [
+      "Intimate",
+      "Chef-Driven",
+      "Minimalist",
+      "Sophisticated",
+      "Cozy",
+      "Romantic",
+      "adventurous"
+    ],
+    "noise_level": "Moderate",
+    "venue_format": "full-menu",
+    "menu_completeness": "partial",
+    "date_night_score": 4,
+    "description": "Bateau is Capitol Hill's quietly serious answer to the steakhouse — a spare, candlelit room where whole-animal butchery dictates the evening's cuts and a reverent approach to beef sets the tone. The menu moves deliberately from raw bar to tartare to whatever the butcher has deemed exceptional that day, making each visit feel like a private discovery. It rewards couples who share a curiosity for provenance and craft over spectacle.",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "reservation_url": "https://restaurantbateau.com",
+    "reservation_platform": "Resy",
+    "status": "open",
+    "business_status": "OPERATIONAL",
+    "latitude": 47.613057,
+    "longitude": -122.31840099999998,
+    "curation": "use",
+    "source_url": "https://sea-creatures-satellites.sfo3.digitaloceanspaces.com/bateau/uploads/Bateau-a-la-carte-06.12.25.pdf",
+    "menu_volatility": "seasonal",
+    "dishes": [
+      {
+        "course_type": "appetizer",
+        "name": "Oysters on the ½ Shell",
+        "description": "½ dozen with fig leaf oil, fennel granita & watermelon rind",
+        "price_cents": 3000,
+        "price_note": null,
+        "dietary_tags": [
+          "GF"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "bateau-d1"
+      },
+      {
+        "course_type": "appetizer",
+        "name": "Beef Jerky",
+        "description": "Smoked and spiced beef jerky",
+        "price_cents": 500,
+        "price_note": "Per ounce",
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "bateau-d2"
+      },
+      {
+        "course_type": "appetizer",
+        "name": "Wild Olives",
+        "description": "Brined baby apples, quince and green walnuts in aromatic olive oil",
+        "price_cents": 1000,
+        "price_note": null,
+        "dietary_tags": [
+          "VEGAN",
+          "GF"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "bateau-d3"
+      },
+      {
+        "course_type": "appetizer",
+        "name": "Cheeseburger Croquettes",
+        "description": "Ketchup, mustard, pickles, onions",
+        "price_cents": 1600,
+        "price_note": null,
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "bateau-d4"
+      },
+      {
+        "course_type": "salad",
+        "name": "Bateau Salad",
+        "description": "Chickpeas, preserved vegetables, salami cotto, red wine vinaigrette",
+        "price_cents": 1800,
+        "price_note": null,
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "bateau-d5"
+      },
+      {
+        "course_type": "salad",
+        "name": "Lettuces",
+        "description": "Radish, mint, toasted garlic, banyuls vinegar, Moroccan olive oil",
+        "price_cents": 2000,
+        "price_note": null,
+        "dietary_tags": [
+          "VEGAN",
+          "GF"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "bateau-d6"
+      },
+      {
+        "course_type": "appetizer",
+        "name": "Carpaccio",
+        "description": "Burnt leek, tomato, pepper, potato",
+        "price_cents": 1900,
+        "price_note": null,
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "bateau-d7"
+      },
+      {
+        "course_type": "appetizer",
+        "name": "Steak Tartare",
+        "description": "Umeboshi, ikura, oyster emulsion, tapioca chips",
+        "price_cents": 2500,
+        "price_note": null,
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "bateau-d8"
+      },
+      {
+        "course_type": "appetizer",
+        "name": "Bresaola",
+        "description": "Salted rhubarb, nettle salsa verde, gnocco fritto",
+        "price_cents": 1900,
+        "price_note": null,
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "bateau-d9"
+      },
+      {
+        "course_type": "appetizer",
+        "name": "French Onion Croquettes",
+        "description": "Pearl barley & gruyere cheese, sauce of garum, egg yolk and dijon mustard",
+        "price_cents": 2000,
+        "price_note": null,
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "bateau-d10"
+      },
+      {
+        "course_type": "entree",
+        "name": "Steaks — Today's Cuts",
+        "description": "Whole-animal approach; steaks butchered in-house, sold by weight, served à la carte with choice of butter. See chalkboard for today's cuts. Please allow 40 minutes to 1 hour for preparation.",
+        "price_cents": null,
+        "price_note": "Market price by weight; cuts listed on daily chalkboard",
+        "dietary_tags": [
+          "GF"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "bateau-d11"
+      },
+      {
+        "course_type": "side",
+        "name": "Butters",
+        "description": "Choice of: Bone Marrow, Preserved Lemon & Brown Butter, Nori, or Anchovy",
+        "price_cents": 300,
+        "price_note": "Per butter selection",
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "bateau-d12"
+      },
+      {
+        "course_type": "side",
+        "name": "Buttery Mashed Potatoes",
+        "description": "Classic buttery mashed potatoes",
+        "price_cents": 1500,
+        "price_note": null,
+        "dietary_tags": [
+          "VEG"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "bateau-d13"
+      },
+      {
+        "course_type": "side",
+        "name": "Aligot",
+        "description": "Mashed potatoes as aligot (cheese-stretched preparation)",
+        "price_cents": 1900,
+        "price_note": null,
+        "dietary_tags": [
+          "VEG"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "bateau-d14"
+      },
+      {
+        "course_type": "side",
+        "name": "Frites & Aioli",
+        "description": "French fries served with aioli",
+        "price_cents": 1200,
+        "price_note": null,
+        "dietary_tags": [
+          "VEG"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "bateau-d15"
+      },
+      {
+        "course_type": "side",
+        "name": "Creamed Nettles",
+        "description": "Sweet onion, nigella seed",
+        "price_cents": 1600,
+        "price_note": null,
+        "dietary_tags": [
+          "VEG"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "bateau-d16"
+      },
+      {
+        "course_type": "side",
+        "name": "Roasted Mushrooms",
+        "description": "Caramelized yeast, egg miso hollandaise",
+        "price_cents": 1800,
+        "price_note": null,
+        "dietary_tags": [
+          "VEG"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "bateau-d17"
+      },
+      {
+        "course_type": "entree",
+        "name": "Chef's Tasting Menu",
+        "description": "5 courses prepared for the whole table. Optional beverage pairings available.",
+        "price_cents": 13500,
+        "price_note": "Per person; beverage pairing $80/person additional",
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "bateau-d18"
+      }
+    ],
+    "beverages": [],
+    "embed_text": "Bateau Cuisine: Steakhouse. Neighborhood: Capitol Hill. Vibe: Intimate, Chef-Driven, Minimalist, Sophisticated, Cozy, Romantic, adventurous. Bateau is Capitol Hill's quietly serious answer to the steakhouse — a spare, candlelit room where whole-animal butchery dictates the evening's cuts and a reverent approach to beef sets the tone. The menu moves deliberately from raw bar to tartare to whatever the butcher has deemed exceptional that day, making each visit feel like a private discovery. It rewards couples who share a curiosity for provenance and craft over spectacle."
+  },
+  {
     "id": "black-bottle",
     "name": "Black Bottle",
     "neighborhood": "Belltown",
@@ -10901,5 +11178,444 @@
     ],
     "beverages": [],
     "embed_text": "Toulouse Petit Cuisine: Cajun / Creole. Neighborhood: Queen Anne. Vibe: Lively, New Orleans-Inspired, Festive, Neighborhood Gem, Indulgent, fun, big-menu. Toulouse Petit brings a sultry, brass-and-velvet New Orleans energy to the base of Queen Anne, with a sprawling menu of Gulf-kissed seafood, charcuterie, and Creole classics that invites a leisurely, adventurous meal. The kitchen's devotion to local oysters, fresh catches, and rich Cajun flavors makes every visit feel like a small escape south. Best suited for dates who love a convivial, buzzy room over hushed intimacy — arrive hungry and in good spirits."
+  },
+  {
+    "id": "westward",
+    "name": "Westward",
+    "neighborhood": "Northlake",
+    "cuisine": "Seafood / Mediterranean",
+    "cuisine_tags": [
+      "Seafood / Mediterranean",
+      "Mediterranean"
+    ],
+    "price_tier": 3,
+    "vibe_tags": [
+      "Romantic",
+      "Waterfront",
+      "Scenic",
+      "Cozy",
+      "Fire Pit",
+      "Nautical"
+    ],
+    "noise_level": "Moderate",
+    "venue_format": "full-menu",
+    "menu_completeness": "full",
+    "date_night_score": 5,
+    "description": "Perched along the shores of Lake Union with fire pits glowing at the water's edge, Westward conjures the feeling of a private coastal escape within the city. The Mediterranean-inflected seafood menu — anchored by an impressive raw bar and shareable platters — gives couples every reason to linger over a bottle and let the evening unspool. Whether you're tucked inside or seated lakeside under the open sky, this is one of Seattle's most effortlessly romantic settings.",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "reservation_url": "https://westwardseattle.com",
+    "reservation_platform": "OpenTable",
+    "status": "open",
+    "business_status": "OPERATIONAL",
+    "latitude": 47.65171960000001,
+    "longitude": -122.3287866,
+    "curation": "use",
+    "source_url": "https://sea-creatures-satellites.sfo3.digitaloceanspaces.com/westward/uploads/06.11.26-Dinner-Food.pdf",
+    "menu_volatility": "seasonal",
+    "dishes": [
+      {
+        "course_type": "plate",
+        "name": "Olympic Wild Oyster",
+        "description": "Raw oyster from Olympic Oyster Co., Hood Canal, WA",
+        "price_cents": null,
+        "price_note": "Market price per oyster; cocktail sauce add-on +$3, aji crystal hot sauce add-on +$5",
+        "dietary_tags": [
+          "GF"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d1"
+      },
+      {
+        "course_type": "plate",
+        "name": "Baywater Sweet Oyster",
+        "description": "Raw oyster from Baywater Shellfish, Thorndyke Bay, WA",
+        "price_cents": null,
+        "price_note": "Market price per oyster",
+        "dietary_tags": [
+          "GF"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d2"
+      },
+      {
+        "course_type": "plate",
+        "name": "Blue Pool Oyster",
+        "description": "Raw oyster from Hama Hama Oyster Co., Hood Canal, WA",
+        "price_cents": null,
+        "price_note": "Market price per oyster",
+        "dietary_tags": [
+          "GF"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d3"
+      },
+      {
+        "course_type": "plate",
+        "name": "Summerstone Oyster",
+        "description": "Raw oyster from Hama Hama Oyster Co., Port Townsend, WA",
+        "price_cents": null,
+        "price_note": "Market price per oyster",
+        "dietary_tags": [
+          "GF"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d4"
+      },
+      {
+        "course_type": "plate",
+        "name": "Hama Hama XS Oyster",
+        "description": "Raw oyster from Hama Hama Oyster Co., Hamma Hamma River, WA",
+        "price_cents": null,
+        "price_note": "Market price per oyster",
+        "dietary_tags": [
+          "GF"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d5"
+      },
+      {
+        "course_type": "plate",
+        "name": "Oyster Shooter",
+        "description": "Raw oyster shooter with El Buho mezcal and jalapeño vinegar",
+        "price_cents": 1500,
+        "price_note": null,
+        "dietary_tags": [
+          "GF"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d6"
+      },
+      {
+        "course_type": "appetizer",
+        "name": "Marinated Geoduck",
+        "description": "Marinated geoduck with tarragon, pickled celery, Ritz crackers, and crème fraîche",
+        "price_cents": 2400,
+        "price_note": null,
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d7"
+      },
+      {
+        "course_type": "plate",
+        "name": "Seafood Platter",
+        "description": "Six raw oysters, Baja blue shrimp, halibut rillette, whitefish caviar, Ritz crackers, cocktail sauce, hot sauce, and horseradish",
+        "price_cents": 7500,
+        "price_note": null,
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d8"
+      },
+      {
+        "course_type": "plate",
+        "name": "Seafood Tower",
+        "description": "Eighteen raw oysters, Baja blue shrimp, halibut rillette, smoked oysters, whitefish caviar, Ritz crackers, cocktail sauce, hot sauce, and horseradish",
+        "price_cents": 15000,
+        "price_note": null,
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d9"
+      },
+      {
+        "course_type": "plate",
+        "name": "Jalapeño Crema & Tajin Tortilla Chips",
+        "description": "Jalapeño crema served with tajin-seasoned tortilla chips",
+        "price_cents": 800,
+        "price_note": null,
+        "dietary_tags": [
+          "VEG"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d10"
+      },
+      {
+        "course_type": "plate",
+        "name": "Dill Dip",
+        "description": "Dill dip served with potato chips",
+        "price_cents": 1000,
+        "price_note": null,
+        "dietary_tags": [
+          "VEG"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d11"
+      },
+      {
+        "course_type": "plate",
+        "name": "Spicy Clam Dip",
+        "description": "Spicy clam dip served with potato chips",
+        "price_cents": 1500,
+        "price_note": null,
+        "dietary_tags": [],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d12"
+      },
+      {
+        "course_type": "salad",
+        "name": "Bibb Lettuces",
+        "description": "Bibb lettuces with shallot vinaigrette and hazelnuts",
+        "price_cents": 1800,
+        "price_note": null,
+        "dietary_tags": [
+          "VEG",
+          "GF"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d13"
+      },
+      {
+        "course_type": "plate",
+        "name": "Radishes",
+        "description": "Radishes with lime mascarpone, dates, almonds, and spring onion",
+        "price_cents": 1800,
+        "price_note": null,
+        "dietary_tags": [
+          "VEG",
+          "GF"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d14"
+      },
+      {
+        "course_type": "plate",
+        "name": "Baked Oysters",
+        "description": "Baked oysters with ramp butter and pickled ramps",
+        "price_cents": 2500,
+        "price_note": null,
+        "dietary_tags": [
+          "GF"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d15"
+      },
+      {
+        "course_type": "plate",
+        "name": "Roasted Asparagus",
+        "description": "Roasted asparagus with whipped tahini and chili crisp",
+        "price_cents": 1800,
+        "price_note": null,
+        "dietary_tags": [
+          "VEGAN",
+          "GF"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d16"
+      },
+      {
+        "course_type": "entree",
+        "name": "Crispy Pork Belly",
+        "description": "Crispy pork belly with guajillo salsa macha, peanuts, and lime",
+        "price_cents": 2800,
+        "price_note": null,
+        "dietary_tags": [
+          "GF"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d17"
+      },
+      {
+        "course_type": "entree",
+        "name": "Hama Hama Manila Clams",
+        "description": "Manila clams with ginger green sauce and spring onion",
+        "price_cents": 3200,
+        "price_note": null,
+        "dietary_tags": [
+          "GF"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d18"
+      },
+      {
+        "course_type": "entree",
+        "name": "Seared Halibut",
+        "description": "Seared halibut with green garlic tartar sauce, roasted green garlic, and potatoes",
+        "price_cents": 4800,
+        "price_note": null,
+        "dietary_tags": [
+          "GF"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d19"
+      },
+      {
+        "course_type": "entree",
+        "name": "Chickpea Fritters",
+        "description": "Chickpea fritters with piquillo pepper romesco and roasted spring onion",
+        "price_cents": 2400,
+        "price_note": null,
+        "dietary_tags": [
+          "VEGAN"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d20"
+      },
+      {
+        "course_type": "entree",
+        "name": "Roasted Chicken Hindquarter",
+        "description": "Roasted chicken hindquarter with turnips and cilantro serrano sauce",
+        "price_cents": 2500,
+        "price_note": null,
+        "dietary_tags": [
+          "GF"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d21"
+      },
+      {
+        "course_type": "side",
+        "name": "Ben's Bread",
+        "description": "Served with whipped butter and Maldon salt",
+        "price_cents": 900,
+        "price_note": null,
+        "dietary_tags": [
+          "VEG"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d22"
+      },
+      {
+        "course_type": "side",
+        "name": "Fennel Seed Marinated Picholine Olives",
+        "description": "Picholine olives marinated with fennel seed",
+        "price_cents": 900,
+        "price_note": null,
+        "dietary_tags": [
+          "VEGAN",
+          "GF"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d23"
+      },
+      {
+        "course_type": "side",
+        "name": "Roasted Peanuts",
+        "description": "Roasted peanuts with chile and lime",
+        "price_cents": 700,
+        "price_note": null,
+        "dietary_tags": [
+          "VEGAN",
+          "GF"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d24"
+      },
+      {
+        "course_type": "side",
+        "name": "Crispy Yukon Potatoes",
+        "description": "Crispy Yukon Gold potatoes",
+        "price_cents": 1100,
+        "price_note": null,
+        "dietary_tags": [
+          "VEGAN",
+          "GF"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d25"
+      },
+      {
+        "course_type": "dessert",
+        "name": "Rhubarb Cobbler",
+        "description": "Rhubarb cobbler with Chantilly cream",
+        "price_cents": 1300,
+        "price_note": null,
+        "dietary_tags": [
+          "VEG"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d26"
+      },
+      {
+        "course_type": "dessert",
+        "name": "Spiced Chocolate Pot de Crème",
+        "description": "Spiced chocolate pot de crème with coconut",
+        "price_cents": 1300,
+        "price_note": null,
+        "dietary_tags": [
+          "VEG"
+        ],
+        "key_ingredients": [],
+        "weight_score": null,
+        "richness_score": null,
+        "dish_id": "westward-d27"
+      }
+    ],
+    "beverages": [
+      {
+        "type": "wine",
+        "name": "Messias 10 Year Tawny Port",
+        "style": "Tawny Port",
+        "glass_cents": 1400,
+        "bottle_cents": null,
+        "region": "Portugal",
+        "vintage": null,
+        "flavor_tags": [],
+        "beverage_id": "westward-b1"
+      },
+      {
+        "type": "wine",
+        "name": "Analemma Petit Manseng",
+        "style": "White — dessert/late harvest style",
+        "glass_cents": 1400,
+        "bottle_cents": null,
+        "region": "Columbia Gorge, OR",
+        "vintage": "2021",
+        "flavor_tags": [],
+        "beverage_id": "westward-b2"
+      }
+    ],
+    "embed_text": "Westward Cuisine: Seafood / Mediterranean. Neighborhood: Northlake. Vibe: Romantic, Waterfront, Scenic, Cozy, Fire Pit, Nautical. Perched along the shores of Lake Union with fire pits glowing at the water's edge, Westward conjures the feeling of a private coastal escape within the city. The Mediterranean-inflected seafood menu — anchored by an impressive raw bar and shareable platters — gives couples every reason to linger over a bottle and let the evening unspool. Whether you're tucked inside or seated lakeside under the open sky, this is one of Seattle's most effortlessly romantic settings."
   }
 ]

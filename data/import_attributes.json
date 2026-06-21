@@ -358,5 +358,71 @@
     "longitude": -122.3569487,
     "business_status": "OPERATIONAL",
     "curation": "use"
+  },
+  "bateau": {
+    "name": "Bateau",
+    "neighborhood": "Capitol Hill",
+    "website_url": "https://restaurantbateau.com",
+    "cuisine_primary": "Steakhouse",
+    "cuisine_secondary": "French-Influenced",
+    "price_tier": 3,
+    "tags": [
+      "chef-driven",
+      "adventurous",
+      "minimalist"
+    ],
+    "description": "Bateau is Capitol Hill's quietly serious answer to the steakhouse — a spare, candlelit room where whole-animal butchery dictates the evening's cuts and a reverent approach to beef sets the tone. The menu moves deliberately from raw bar to tartare to whatever the butcher has deemed exceptional that day, making each visit feel like a private discovery. It rewards couples who share a curiosity for provenance and craft over spectacle.",
+    "reservation_platform": "Resy",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Intimate",
+      "Chef-Driven",
+      "Minimalist",
+      "Sophisticated",
+      "Cozy",
+      "Romantic"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 4,
+    "enrichment_status": "Imported",
+    "latitude": 47.613057,
+    "longitude": -122.31840099999998,
+    "business_status": "OPERATIONAL",
+    "curation": "use"
+  },
+  "westward": {
+    "name": "Westward",
+    "neighborhood": "Northlake",
+    "website_url": "https://westwardseattle.com",
+    "cuisine_primary": "Seafood / Mediterranean",
+    "cuisine_secondary": "Mediterranean",
+    "price_tier": 3,
+    "tags": [
+      "romantic",
+      "waterfront",
+      "scenic"
+    ],
+    "description": "Perched along the shores of Lake Union with fire pits glowing at the water's edge, Westward conjures the feeling of a private coastal escape within the city. The Mediterranean-inflected seafood menu — anchored by an impressive raw bar and shareable platters — gives couples every reason to linger over a bottle and let the evening unspool. Whether you're tucked inside or seated lakeside under the open sky, this is one of Seattle's most effortlessly romantic settings.",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": true,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Romantic",
+      "Waterfront",
+      "Scenic",
+      "Cozy",
+      "Fire Pit",
+      "Nautical"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 5,
+    "enrichment_status": "Imported",
+    "latitude": 47.65171960000001,
+    "longitude": -122.3287866,
+    "business_status": "OPERATIONAL",
+    "curation": "use"
   }
 }

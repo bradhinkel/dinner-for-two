@@ -1,0 +1,234 @@
+{
+  "restaurant": "Bateau",
+  "neighborhood": "Capitol Hill",
+  "cuisine": "Steakhouse",
+  "venue_format": "full-menu",
+  "menu_completeness": "partial",
+  "source_url": "https://sea-creatures-satellites.sfo3.digitaloceanspaces.com/bateau/uploads/Bateau-a-la-carte-06.12.25.pdf",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "pdf (auto)",
+  "notes": "Menu captured includes snacks, starters, sides, butters, and a chef's tasting menu option. Steaks (the core offering) are market-priced by weight and listed on a daily chalkboard — no cuts or prices available in this text. Beverage list not included in raw text.",
+  "dishes": [
+    {
+      "course_type": "appetizer",
+      "name": "Oysters on the ½ Shell",
+      "description": "½ dozen with fig leaf oil, fennel granita & watermelon rind",
+      "price_cents": 3000,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Beef Jerky",
+      "description": "Smoked and spiced beef jerky",
+      "price_cents": 500,
+      "price_note": "Per ounce",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Wild Olives",
+      "description": "Brined baby apples, quince and green walnuts in aromatic olive oil",
+      "price_cents": 1000,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Cheeseburger Croquettes",
+      "description": "Ketchup, mustard, pickles, onions",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Bateau Salad",
+      "description": "Chickpeas, preserved vegetables, salami cotto, red wine vinaigrette",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Lettuces",
+      "description": "Radish, mint, toasted garlic, banyuls vinegar, Moroccan olive oil",
+      "price_cents": 2000,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Carpaccio",
+      "description": "Burnt leek, tomato, pepper, potato",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Steak Tartare",
+      "description": "Umeboshi, ikura, oyster emulsion, tapioca chips",
+      "price_cents": 2500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Bresaola",
+      "description": "Salted rhubarb, nettle salsa verde, gnocco fritto",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "French Onion Croquettes",
+      "description": "Pearl barley & gruyere cheese, sauce of garum, egg yolk and dijon mustard",
+      "price_cents": 2000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Steaks — Today's Cuts",
+      "description": "Whole-animal approach; steaks butchered in-house, sold by weight, served à la carte with choice of butter. See chalkboard for today's cuts. Please allow 40 minutes to 1 hour for preparation.",
+      "price_cents": null,
+      "price_note": "Market price by weight; cuts listed on daily chalkboard",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Butters",
+      "description": "Choice of: Bone Marrow, Preserved Lemon & Brown Butter, Nori, or Anchovy",
+      "price_cents": 300,
+      "price_note": "Per butter selection",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Buttery Mashed Potatoes",
+      "description": "Classic buttery mashed potatoes",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Aligot",
+      "description": "Mashed potatoes as aligot (cheese-stretched preparation)",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Frites & Aioli",
+      "description": "French fries served with aioli",
+      "price_cents": 1200,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Creamed Nettles",
+      "description": "Sweet onion, nigella seed",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Roasted Mushrooms",
+      "description": "Caramelized yeast, egg miso hollandaise",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Chef's Tasting Menu",
+      "description": "5 courses prepared for the whole table. Optional beverage pairings available.",
+      "price_cents": 13500,
+      "price_note": "Per person; beverage pairing $80/person additional",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}
