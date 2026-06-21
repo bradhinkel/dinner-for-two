@@ -164,8 +164,14 @@ export function selectSpread(
   catalog: Restaurant[],
   embeddings: Map<string, number[]>
 ): SpreadPick[] {
-  // Hard filter. Apply neighborhood as a hard filter only if it leaves >=3.
+  // Hard filter. If the price ceiling leaves too thin a pool to form a spread,
+  // relax it — a tight budget signal shouldn't strand the diner with one option
+  // (and vibe words like "casual" can over-tighten price_max upstream).
   let filtered = catalog.filter((r) => passesHardFilters(r, parsed));
+  if (filtered.length < 3 && parsed.price_max != null) {
+    filtered = catalog.filter((r) => passesHardFilters(r, { ...parsed, price_max: null }));
+  }
+  // Apply neighborhood as a hard filter only if it leaves >=3.
   if (parsed.neighborhood) {
     const hood = filtered.filter((r) => neighborhoodMatch(r, parsed.neighborhood));
     if (hood.length >= 3) filtered = hood;
