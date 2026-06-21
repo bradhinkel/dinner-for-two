@@ -11,6 +11,8 @@
     "engine": "tsx src/cli.ts",
     "build:catalog": "tsx src/catalog/buildCatalog.ts",
     "build:embeddings": "tsx src/embeddings/buildEmbeddings.ts",
+    "liveness": "node scripts/liveness.mjs",
+    "enrich": "tsx src/pipeline/enrich.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

@@ -15,6 +15,7 @@ function num(name: string, fallback: number): number {
 export const config = {
   anthropicApiKey: process.env.ANTHROPIC_API_KEY ?? "",
   voyageApiKey: process.env.VOYAGE_API_KEY ?? "",
+  googlePlacesApiKey: process.env.GOOGLE_PLACES_API_KEY ?? "",
 
   // Models — latest Claude tiers (see CLAUDE.md / project_plan §1).
   parseModel: process.env.PARSE_MODEL ?? "claude-haiku-4-5-20251001",

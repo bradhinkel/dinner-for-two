@@ -32,6 +32,7 @@ function dietaryOk(r: Restaurant, dietary: DietaryTag[]): boolean {
 
 function passesHardFilters(r: Restaurant, p: ParsedBrief): boolean {
   if (r.status !== "open") return false;
+  if (r.curation !== "use") return false; // curated out — never served
   // price ceiling — allow unknown price tiers through (don't punish missing data).
   if (p.price_max != null && r.price_tier != null && r.price_tier > p.price_max)
     return false;
