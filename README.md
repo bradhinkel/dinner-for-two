@@ -38,11 +38,29 @@ npm run build:embeddings            # Voyage embeddings  -> data/embeddings.json
 
 ## Run
 
+**Web app (Phase 2)** — mobile-first UI on the engine:
+
+```bash
+npm run dev            # http://localhost:3000 (390px shell)
+# Brief → 3 evening cards reveal together → rationale streams into each →
+# menu fills last. Course swap, "different room" regenerate, and share links work.
+npm run build && npm start   # production build
+```
+
+**Headless engine (Phase 1)** — CLI, no UI:
+
 ```bash
 npm run engine -- "moderately priced Italian, romantic, we like to share courses"
 # human-readable summary on stderr, full Spread JSON on stdout
 npm run engine -- "anniversary, upscale seafood, oysters" --json   # JSON only
 ```
+
+### Screens & API (two-call model, project_plan §7)
+
+- `01 Brief` → `POST /api/retrieve` (parse + retrieve, ~1-2s) → 3 headers + roles + brief lines.
+- Results → `POST /api/compose/:restaurant_id` ×3 (SSE) → rationale streams, then validated courses/pairing/total.
+- `POST /api/swap-course` · `POST /api/regenerate-evening` · `POST /api/share` → `GET /e/:token` (read-only, 6h TTL).
+- Design tokens + voice from `docs/Screen Handoff.html` (paper/ink/oxblood, italic Cormorant). Hero photography is gradient-placeholder until assets exist.
 
 ## Check without API keys
 

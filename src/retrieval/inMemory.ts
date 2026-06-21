@@ -125,7 +125,7 @@ function clampWords(s: string, max: number): string {
   return w.length <= max ? s.trim() : w.slice(0, max).join(" ");
 }
 
-function briefLine(r: Restaurant, p: ParsedBrief): string {
+export function briefLine(r: Restaurant, p: ParsedBrief): string {
   // Deterministic, <=20 words, from brief<->attribute overlap — NOT an LLM call.
   const vibeMatch = r.vibe_tags.find((t) =>
     p.vibe.some((v) => t.toLowerCase().includes(v.toLowerCase()) || v.toLowerCase().includes(t.toLowerCase()))
@@ -191,6 +191,31 @@ export function selectSpread(
     relevance: s.relevance,
     brief_line: briefLine(s.r, parsed),
   }));
+}
+
+/**
+ * All hard-filtered restaurants ranked by relevance (no MMR, no role assignment).
+ * Used by /api/regenerate-evening to find the next-best room not already shown.
+ */
+export function rankCandidates(
+  parsed: ParsedBrief,
+  qvec: number[],
+  catalog: Restaurant[],
+  embeddings: Map<string, number[]>
+): { restaurant: Restaurant; relevance: number; brief_line: string }[] {
+  let filtered = catalog.filter((r) => passesHardFilters(r, parsed));
+  if (parsed.neighborhood) {
+    const hood = filtered.filter((r) => neighborhoodMatch(r, parsed.neighborhood));
+    if (hood.length >= 3) filtered = hood;
+  }
+  const scored: { restaurant: Restaurant; relevance: number; brief_line: string }[] = [];
+  for (const r of filtered) {
+    const vec = embeddings.get(r.id);
+    if (!vec) continue;
+    scored.push({ restaurant: r, relevance: cosine(qvec, vec), brief_line: briefLine(r, parsed) });
+  }
+  scored.sort((a, b) => b.relevance - a.relevance);
+  return scored;
 }
 
 export class InMemoryRetriever implements Retriever {

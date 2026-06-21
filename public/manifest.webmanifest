@@ -1,0 +1,18 @@
+{
+  "name": "Dinner for Two",
+  "short_name": "Dinner/Two",
+  "description": "A concierge for date night — three composed evenings from a short brief.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F4ECDF",
+  "theme_color": "#F4ECDF",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
