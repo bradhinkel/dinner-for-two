@@ -1,0 +1,22 @@
+{
+  "name": "dinner-for-two",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI-composed date-night companion — Phase 1 headless engine",
+  "type": "module",
+  "scripts": {
+    "engine": "tsx src/cli.ts",
+    "build:catalog": "tsx src/catalog/buildCatalog.ts",
+    "build:embeddings": "tsx src/embeddings/buildEmbeddings.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.65.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "@types/node": "^22.10.5"
+  }
+}
