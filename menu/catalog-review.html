@@ -1,0 +1,751 @@
+<!doctype html><meta charset=utf-8><title>Catalog Review</title>
+<style>
+ body{font:14px/1.45 -apple-system,system-ui,sans-serif;margin:0;background:#faf8f5;color:#1a1a1a}
+ header{padding:20px 28px;background:#fff;border-bottom:1px solid #e7e2da;position:sticky;top:0;z-index:2}
+ h1{margin:0 0 6px;font-size:20px} .sub{color:#666;font-size:13px}
+ .pills{margin-top:10px} .pill{display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;margin-right:6px;cursor:pointer;border:1px solid #ddd;background:#fff;user-select:none}
+ .pill.on{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+ table{border-collapse:collapse;width:100%}
+ th,td{text-align:left;padding:8px 12px;border-bottom:1px solid #eee;vertical-align:top}
+ th{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:#888;background:#f4f1ec;position:sticky;top:73px;cursor:pointer}
+ tr.closed{opacity:.42} tr.hidden{opacity:.55;background:#fbfaf8}
+ .dns{font-weight:700;text-align:center;width:34px}
+ .d5{color:#1a7f37} .d4{color:#2da44e} .d3{color:#9a6700} .d2{color:#bc4c00} .d1,.d0{color:#cf222e}
+ .name{font-weight:600} .num{text-align:center} .vibes{color:#666;font-size:13px}
+ .chain{color:#bc4c00} .badge{font-size:10px;color:#cf222e;font-weight:700;letter-spacing:.05em}
+ tr.hidden .badge{color:#57606a}
+</style>
+<header>
+ <h1>Dinner for Two — Catalog Review</h1>
+ <div class=sub><b>77</b> rooms · <b>72</b> active (served by retrieval) · 5 closed-suppressed · 0 hidden · <b>14</b> active rows in ⛓ chain/variant clusters (curation candidates)</div>
+ <div class=pills>
+  <span class="pill on" data-f="all">All</span>
+  <span class="pill" data-f="active">Active only</span>
+  <span class="pill" data-f="chains">⛓ Chains/variants</span>
+  <span class="pill" data-f="lowdns">dns ≤ 2</span>
+  <span class="pill" data-f="closed">Closed</span>
+ </div>
+</header>
+<table id=t>
+ <thead><tr><th>DNS</th><th>Name</th><th>Cuisine</th><th>Neighborhood</th><th>$</th><th>Dishes</th><th>Tier</th><th>Vibe</th></tr></thead>
+ <tbody>
+ <tr class="active" data-dns="5" data-status="active">
+      <td class="dns d5">5</td>
+      <td class="name">Altura <span class="chain"></span> <span class="badge"></span></td>
+      <td>Italian Tasting Menu</td>
+      <td>Capitol Hill</td>
+      <td>$$$$</td>
+      <td class="num">0</td>
+      <td>experience-only</td>
+      <td class="vibes">Romantic, Hushed, Special-occasion, tasting-menu</td>
+    </tr><tr class="active" data-dns="5" data-status="active">
+      <td class="dns d5">5</td>
+      <td class="name">Canlis <span class="chain"></span> <span class="badge"></span></td>
+      <td>Pacific Northwest Tasting</td>
+      <td>Queen Anne</td>
+      <td>$$$$</td>
+      <td class="num">0</td>
+      <td>experience-only</td>
+      <td class="vibes">Romantic, Fine Dining, Special Occasion, Waterfront View</td>
+    </tr><tr class="active" data-dns="5" data-status="active">
+      <td class="dns d5">5</td>
+      <td class="name">Cascina Spinasse <span class="chain"></span> <span class="badge"></span></td>
+      <td>Italian</td>
+      <td>Capitol Hill</td>
+      <td>$$$</td>
+      <td class="num">24</td>
+      <td>full</td>
+      <td class="vibes">Romantic, Candlelit, Intimate, Cozy</td>
+    </tr><tr class="active" data-dns="5" data-status="active">
+      <td class="dns d5">5</td>
+      <td class="name">Il Nido <span class="chain"></span> <span class="badge"></span></td>
+      <td>Italian</td>
+      <td>Alki</td>
+      <td>$$$</td>
+      <td class="num">23</td>
+      <td>partial</td>
+      <td class="vibes">Romantic, Intimate, Fine Dining, Historic</td>
+    </tr><tr class="active" data-dns="5" data-status="active">
+      <td class="dns d5">5</td>
+      <td class="name">Lark <span class="chain"></span> <span class="badge"></span></td>
+      <td>New American</td>
+      <td>Capitol Hill</td>
+      <td>$$$</td>
+      <td class="num">20</td>
+      <td>full</td>
+      <td class="vibes">Romantic, Sophisticated, Intimate, Seasonal</td>
+    </tr><tr class="active" data-dns="5" data-status="active">
+      <td class="dns d5">5</td>
+      <td class="name">Maximilien <span class="chain"></span> <span class="badge"></span></td>
+      <td>French</td>
+      <td>Pike Place Market</td>
+      <td>$$$</td>
+      <td class="num">24</td>
+      <td>full</td>
+      <td class="vibes">Romantic, Waterfront, Intimate, Classic</td>
+    </tr><tr class="active" data-dns="5" data-status="active">
+      <td class="dns d5">5</td>
+      <td class="name">Ray’s Boathouse <span class="chain"></span> <span class="badge"></span></td>
+      <td>Seafood</td>
+      <td>Ballard</td>
+      <td>$$$</td>
+      <td class="num">25</td>
+      <td>partial</td>
+      <td class="vibes">Romantic, Waterfront, Scenic Views, Classic</td>
+    </tr><tr class="active" data-dns="5" data-status="active">
+      <td class="dns d5">5</td>
+      <td class="name">Serafina <span class="chain"></span> <span class="badge"></span></td>
+      <td>Italian</td>
+      <td>Eastlake</td>
+      <td>$$$</td>
+      <td class="num">22</td>
+      <td>full</td>
+      <td class="vibes">Romantic, Cozy, Candlelit, Intimate</td>
+    </tr><tr class="active" data-dns="5" data-status="active">
+      <td class="dns d5">5</td>
+      <td class="name">Shiro&#x27;s Sushi <span class="chain"></span> <span class="badge"></span></td>
+      <td>Japanese / Sushi (Omakase)</td>
+      <td>Belltown</td>
+      <td>$$$</td>
+      <td class="num">0</td>
+      <td>experience-only</td>
+      <td class="vibes">Intimate, Omakase, Classic, Romantic</td>
+    </tr><tr class="active" data-dns="5" data-status="active">
+      <td class="dns d5">5</td>
+      <td class="name">The Corson Building <span class="chain"></span> <span class="badge"></span></td>
+      <td>Seasonal Pacific Northwest</td>
+      <td>Georgetown</td>
+      <td>$$$$</td>
+      <td class="num">0</td>
+      <td>experience-only</td>
+      <td class="vibes">Romantic, Garden, Intimate, Historic</td>
+    </tr><tr class="active" data-dns="5" data-status="active">
+      <td class="dns d5">5</td>
+      <td class="name">The Harvest Vine <span class="chain"></span> <span class="badge"></span></td>
+      <td>Spanish (Basque)</td>
+      <td>Madison Valley</td>
+      <td>$$$</td>
+      <td class="num">24</td>
+      <td>full</td>
+      <td class="vibes">Intimate, Romantic, Chef&#x27;s counter, tapas</td>
+    </tr><tr class="active" data-dns="5" data-status="active">
+      <td class="dns d5">5</td>
+      <td class="name">The Pink Door <span class="chain"></span> <span class="badge"></span></td>
+      <td>Italian-American</td>
+      <td>Belltown / Pike Place Market</td>
+      <td>$$$</td>
+      <td class="num">32</td>
+      <td>full</td>
+      <td class="vibes">Theatrical, Romantic, Iconic, cabaret</td>
+    </tr><tr class="active" data-dns="5" data-status="active">
+      <td class="dns d5">5</td>
+      <td class="name">Westward <span class="chain"></span> <span class="badge"></span></td>
+      <td>Seafood / Mediterranean</td>
+      <td>Northlake</td>
+      <td>$$$</td>
+      <td class="num">27</td>
+      <td>full</td>
+      <td class="vibes">Romantic, Waterfront, Scenic, Cozy</td>
+    </tr><tr class="active" data-dns="4" data-status="active">
+      <td class="dns d4">4</td>
+      <td class="name">Aerlume <span class="chain"></span> <span class="badge"></span></td>
+      <td>Pacific Northwest</td>
+      <td>Waterfront</td>
+      <td>$$$</td>
+      <td class="num">26</td>
+      <td>full</td>
+      <td class="vibes">Romantic, Waterfront, View, Upscale</td>
+    </tr><tr class="active" data-dns="4" data-status="active">
+      <td class="dns d4">4</td>
+      <td class="name">Artusi <span class="chain"></span> <span class="badge"></span></td>
+      <td>Italian / Cocktail Bar</td>
+      <td>Capitol Hill</td>
+      <td>$$</td>
+      <td class="num">17</td>
+      <td>partial</td>
+      <td class="vibes">Lively, Stylish, Date-friendly, cocktails</td>
+    </tr><tr class="active" data-dns="4" data-status="active">
+      <td class="dns d4">4</td>
+      <td class="name">Bateau <span class="chain"></span> <span class="badge"></span></td>
+      <td>Steakhouse</td>
+      <td>Capitol Hill</td>
+      <td>$$$</td>
+      <td class="num">18</td>
+      <td>partial</td>
+      <td class="vibes">Intimate, Chef-Driven, Minimalist, Sophisticated</td>
+    </tr><tr class="active" data-dns="4" data-status="active">
+      <td class="dns d4">4</td>
+      <td class="name">Betty <span class="chain"></span> <span class="badge"></span></td>
+      <td>New American</td>
+      <td>Queen Anne</td>
+      <td>$$$</td>
+      <td class="num">21</td>
+      <td>partial</td>
+      <td class="vibes">Romantic, Cozy, Neighborhood Gem, Classic</td>
+    </tr><tr class="active" data-dns="4" data-status="active">
+      <td class="dns d4">4</td>
+      <td class="name">Café Campagne <span class="chain"></span> <span class="badge"></span></td>
+      <td>French</td>
+      <td>Pike Place Market</td>
+      <td>$$$</td>
+      <td class="num">32</td>
+      <td>full</td>
+      <td class="vibes">Romantic, Classic, Parisian</td>
+    </tr><tr class="active" data-dns="4" data-status="active">
+      <td class="dns d4">4</td>
+      <td class="name">Café Lago <span class="chain"></span> <span class="badge"></span></td>
+      <td>Italian</td>
+      <td>Montlake</td>
+      <td>$$$</td>
+      <td class="num">9</td>
+      <td>partial</td>
+      <td class="vibes">Romantic, Cozy, Neighborhood Gem, Candlelit</td>
+    </tr><tr class="active" data-dns="4" data-status="active">
+      <td class="dns d4">4</td>
+      <td class="name">Chan Seattle <span class="chain"></span> <span class="badge"></span></td>
+      <td>Korean Gastropub</td>
+      <td>Pike Place Market</td>
+      <td>$$</td>
+      <td class="num">27</td>
+      <td>full</td>
+      <td class="vibes">Intimate, Cozy, Lively, Small-Plates</td>
+    </tr><tr class="active" data-dns="4" data-status="active">
+      <td class="dns d4">4</td>
+      <td class="name">Grappa <span class="chain"></span> <span class="badge"></span></td>
+      <td>Mediterranean</td>
+      <td>Queen Anne</td>
+      <td>$$$</td>
+      <td class="num">39</td>
+      <td>full</td>
+      <td class="vibes">Casual-elegant, Romantic, Warm, wine</td>
+    </tr><tr class="active" data-dns="4" data-status="active">
+      <td class="dns d4">4</td>
+      <td class="name">Kisaku Sushi <span class="chain"></span> <span class="badge"></span></td>
+      <td>Japanese / Sushi</td>
+      <td>Tangletown</td>
+      <td>$$</td>
+      <td class="num">62</td>
+      <td>partial</td>
+      <td class="vibes">Quiet, Intimate, Classic, Neighborhood Gem</td>
+    </tr><tr class="active" data-dns="4" data-status="active">
+      <td class="dns d4">4</td>
+      <td class="name">Le Coin <span class="chain"></span> <span class="badge"></span></td>
+      <td>French</td>
+      <td>Fremont</td>
+      <td>$$$</td>
+      <td class="num">20</td>
+      <td>full</td>
+      <td class="vibes">Romantic, Neighborhood-chic, Lively, neighborhood</td>
+    </tr><tr class="closed" data-dns="4" data-status="closed">
+      <td class="dns d4">4</td>
+      <td class="name">Mamnoon <span class="chain"></span> <span class="badge">CLOSED</span></td>
+      <td>Middle Eastern</td>
+      <td>Capitol Hill</td>
+      <td>$$</td>
+      <td class="num">12</td>
+      <td>partial</td>
+      <td class="vibes">Romantic, Moody, Modern, Cozy</td>
+    </tr><tr class="closed" data-dns="4" data-status="closed">
+      <td class="dns d4">4</td>
+      <td class="name">Mbar <span class="chain"></span> <span class="badge">CLOSED</span></td>
+      <td>Middle Eastern / Fusion</td>
+      <td>South Lake Union</td>
+      <td>$$$</td>
+      <td class="num">12</td>
+      <td>partial</td>
+      <td class="vibes">Romantic, Rooftop, Skyline Views, Intimate</td>
+    </tr><tr class="active" data-dns="4" data-status="active">
+      <td class="dns d4">4</td>
+      <td class="name">Monsoon <span class="chain"></span> <span class="badge"></span></td>
+      <td>Modern Vietnamese</td>
+      <td>Capitol Hill</td>
+      <td>$$$</td>
+      <td class="num">33</td>
+      <td>full</td>
+      <td class="vibes">Intimate, Romantic, Cozy, Neighborhood Gem</td>
+    </tr><tr class="active" data-dns="4" data-status="active">
+      <td class="dns d4">4</td>
+      <td class="name">Pair <span class="chain"></span> <span class="badge"></span></td>
+      <td>European</td>
+      <td>University District</td>
+      <td>$$$</td>
+      <td class="num">11</td>
+      <td>partial</td>
+      <td class="vibes">Romantic, Cozy, Intimate, Seasonal</td>
+    </tr><tr class="active" data-dns="4" data-status="active">
+      <td class="dns d4">4</td>
+      <td class="name">Percy’s &amp; Co. <span class="chain"></span> <span class="badge"></span></td>
+      <td>Gastropub</td>
+      <td>Ballard</td>
+      <td>$$</td>
+      <td class="num">20</td>
+      <td>full</td>
+      <td class="vibes">Cozy, Romantic, Apothecary Cocktails, Intimate</td>
+    </tr><tr class="active" data-dns="4" data-status="active">
+      <td class="dns d4">4</td>
+      <td class="name">Revel <span class="chain"></span> <span class="badge"></span></td>
+      <td>Modern Korean</td>
+      <td>Fremont</td>
+      <td>$$</td>
+      <td class="num">18</td>
+      <td>full</td>
+      <td class="vibes">Creative, Communal, Energetic, fun</td>
+    </tr><tr class="active" data-dns="4" data-status="active">
+      <td class="dns d4">4</td>
+      <td class="name">Stoneburner <span class="chain"></span> <span class="badge"></span></td>
+      <td>Italian / Mediterranean</td>
+      <td>Ballard</td>
+      <td>$$$</td>
+      <td class="num">28</td>
+      <td>full</td>
+      <td class="vibes">Stylish, Lively, Romantic, Cocktail-Forward</td>
+    </tr><tr class="active" data-dns="4" data-status="active">
+      <td class="dns d4">4</td>
+      <td class="name">Sushi Kappo Tamura <span class="chain"></span> <span class="badge"></span></td>
+      <td>Japanese / Sushi</td>
+      <td>Eastlake</td>
+      <td>$$$$</td>
+      <td class="num">24</td>
+      <td>partial</td>
+      <td class="vibes">Refined, Lively, Open-kitchen, sustainable</td>
+    </tr><tr class="active" data-dns="4" data-status="active">
+      <td class="dns d4">4</td>
+      <td class="name">Tanoor Seattle <span class="chain"></span> <span class="badge"></span></td>
+      <td>Lebanese</td>
+      <td>Greenwood</td>
+      <td>$$</td>
+      <td class="num">4</td>
+      <td>partial</td>
+      <td class="vibes">Cozy, Romantic, Intimate, Mezze</td>
+    </tr><tr class="active" data-dns="4" data-status="active">
+      <td class="dns d4">4</td>
+      <td class="name">Terra Plata <span class="chain"></span> <span class="badge"></span></td>
+      <td>Pacific Northwest / Mediterranean</td>
+      <td>Capitol Hill</td>
+      <td>$$$</td>
+      <td class="num">22</td>
+      <td>full</td>
+      <td class="vibes">Rooftop garden, Charming, Seasonal, rooftop</td>
+    </tr><tr class="active" data-dns="4" data-status="active">
+      <td class="dns d4">4</td>
+      <td class="name">That’s Amore <span class="chain"></span> <span class="badge"></span></td>
+      <td>Italian</td>
+      <td>Mount Baker</td>
+      <td>$$</td>
+      <td class="num">17</td>
+      <td>partial</td>
+      <td class="vibes">Romantic, Cozy, City Views, Classic</td>
+    </tr><tr class="active" data-dns="4" data-status="active">
+      <td class="dns d4">4</td>
+      <td class="name">The Ballard Cut <span class="chain"></span> <span class="badge"></span></td>
+      <td>Steakhouse / New American</td>
+      <td>Ballard</td>
+      <td>$$$</td>
+      <td class="num">23</td>
+      <td>full</td>
+      <td class="vibes">Moody, Whiskey, Intimate</td>
+    </tr><tr class="active" data-dns="4" data-status="active">
+      <td class="dns d4">4</td>
+      <td class="name">The Barrel Thief <span class="chain"></span> <span class="badge"></span></td>
+      <td>Whiskey Bar</td>
+      <td>Fremont</td>
+      <td>$$</td>
+      <td class="num">7</td>
+      <td>partial</td>
+      <td class="vibes">Cozy, Romantic, Intimate, Whiskey-Forward</td>
+    </tr><tr class="active" data-dns="4" data-status="active">
+      <td class="dns d4">4</td>
+      <td class="name">The Walrus and the Carpenter <span class="chain"></span> <span class="badge"></span></td>
+      <td>Seafood / Oyster bar</td>
+      <td>Ballard</td>
+      <td>$$$</td>
+      <td class="num">0</td>
+      <td>experience-only</td>
+      <td class="vibes">Intimate, Buzzy, Romantic, oysters</td>
+    </tr><tr class="active" data-dns="3" data-status="active">
+      <td class="dns d3">3</td>
+      <td class="name">Bangrak Market <span class="chain"></span> <span class="badge"></span></td>
+      <td>Thai</td>
+      <td>Capitol Hill</td>
+      <td>$$</td>
+      <td class="num">87</td>
+      <td>full</td>
+      <td class="vibes">Lively, Fun, Late-night, thai</td>
+    </tr><tr class="active" data-dns="3" data-status="active">
+      <td class="dns d3">3</td>
+      <td class="name">Black Bottle <span class="chain"></span> <span class="badge"></span></td>
+      <td>Gastropub / Global small plates</td>
+      <td>Belltown</td>
+      <td>$$</td>
+      <td class="num">33</td>
+      <td>full</td>
+      <td class="vibes">Lively, Shareable, Casual</td>
+    </tr><tr class="active" data-dns="3" data-status="active">
+      <td class="dns d3">3</td>
+      <td class="name">Cedars Restaurant <span class="chain">⛓</span> <span class="badge"></span></td>
+      <td>Indian / Mediterranean</td>
+      <td>University District</td>
+      <td>$$</td>
+      <td class="num">6</td>
+      <td>partial</td>
+      <td class="vibes">Casual, Cozy, Neighborhood Gem, Relaxed</td>
+    </tr><tr class="active" data-dns="3" data-status="active">
+      <td class="dns d3">3</td>
+      <td class="name">Cedars Restaurant Roosevelt <span class="chain">⛓</span> <span class="badge"></span></td>
+      <td>Indian / Mediterranean</td>
+      <td>Roosevelt</td>
+      <td>$$</td>
+      <td class="num">6</td>
+      <td>partial</td>
+      <td class="vibes">Casual, Neighborhood Gem, Cozy, Relaxed</td>
+    </tr><tr class="active" data-dns="3" data-status="active">
+      <td class="dns d3">3</td>
+      <td class="name">Cedars on Brooklyn <span class="chain">⛓</span> <span class="badge"></span></td>
+      <td>Indian / Mediterranean</td>
+      <td>University District</td>
+      <td>$$</td>
+      <td class="num">6</td>
+      <td>partial</td>
+      <td class="vibes">Casual, Cozy, Neighborhood Gem, Relaxed</td>
+    </tr><tr class="active" data-dns="3" data-status="active">
+      <td class="dns d3">3</td>
+      <td class="name">Cornuto <span class="chain"></span> <span class="badge"></span></td>
+      <td>Italian (Neapolitan pizzeria)</td>
+      <td>Phinney Ridge</td>
+      <td>$$</td>
+      <td class="num">34</td>
+      <td>full</td>
+      <td class="vibes">Cozy, Candlelit, Casual, pizza</td>
+    </tr><tr class="active" data-dns="3" data-status="active">
+      <td class="dns d3">3</td>
+      <td class="name">Cutters Crabhouse <span class="chain"></span> <span class="badge"></span></td>
+      <td>Seafood</td>
+      <td>Pike Place Market</td>
+      <td>$$$</td>
+      <td class="num">43</td>
+      <td>full</td>
+      <td class="vibes">Waterfront, View, Lively</td>
+    </tr><tr class="active" data-dns="3" data-status="active">
+      <td class="dns d3">3</td>
+      <td class="name">Duke&#x27;s South Lake Union <span class="chain"></span> <span class="badge"></span></td>
+      <td>Seafood</td>
+      <td>South Lake Union</td>
+      <td>$$</td>
+      <td class="num">6</td>
+      <td>partial</td>
+      <td class="vibes">Waterfront, Casual, Lively, Lakeside</td>
+    </tr><tr class="active" data-dns="3" data-status="active">
+      <td class="dns d3">3</td>
+      <td class="name">Little Water Cantina <span class="chain"></span> <span class="badge"></span></td>
+      <td>Mexican</td>
+      <td>Eastlake</td>
+      <td>$$</td>
+      <td class="num">28</td>
+      <td>partial</td>
+      <td class="vibes">Lively, Patio, Waterfront, Casual</td>
+    </tr><tr class="active" data-dns="3" data-status="active">
+      <td class="dns d3">3</td>
+      <td class="name">Madrona Arms <span class="chain"></span> <span class="badge"></span></td>
+      <td>Gastropub (American / British pub)</td>
+      <td>Madrona</td>
+      <td>$$</td>
+      <td class="num">45</td>
+      <td>full</td>
+      <td class="vibes">Cozy, Neighborhood, Pub, casual</td>
+    </tr><tr class="active" data-dns="3" data-status="active">
+      <td class="dns d3">3</td>
+      <td class="name">Mamma Melina <span class="chain"></span> <span class="badge"></span></td>
+      <td>Italian</td>
+      <td>University District</td>
+      <td>$$$</td>
+      <td class="num">37</td>
+      <td>full</td>
+      <td class="vibes">Convivial, Family, Warm, romantic</td>
+    </tr><tr class="active" data-dns="3" data-status="active">
+      <td class="dns d3">3</td>
+      <td class="name">Mioposto Bryant <span class="chain">⛓</span> <span class="badge"></span></td>
+      <td>Italian / Pizza</td>
+      <td>Bryant</td>
+      <td>$$</td>
+      <td class="num">49</td>
+      <td>full</td>
+      <td class="vibes">Cozy, Neighborhood Gem, Wine-Friendly, Casual</td>
+    </tr><tr class="active" data-dns="3" data-status="active">
+      <td class="dns d3">3</td>
+      <td class="name">Mioposto Mount Baker <span class="chain">⛓</span> <span class="badge"></span></td>
+      <td>Italian / Pizza</td>
+      <td>Mount Baker</td>
+      <td>$$</td>
+      <td class="num">50</td>
+      <td>full</td>
+      <td class="vibes">Cozy, Neighborhood Gem, Wine Bar, Casual Romantic</td>
+    </tr><tr class="active" data-dns="3" data-status="active">
+      <td class="dns d3">3</td>
+      <td class="name">Mioposto Ravenna <span class="chain">⛓</span> <span class="badge"></span></td>
+      <td>Italian / Pizza</td>
+      <td>Ravenna</td>
+      <td>$$</td>
+      <td class="num">50</td>
+      <td>full</td>
+      <td class="vibes">Cozy, Neighborhood Gem, Wine Bar, Casual Romantic</td>
+    </tr><tr class="active" data-dns="3" data-status="active">
+      <td class="dns d3">3</td>
+      <td class="name">Nue <span class="chain"></span> <span class="badge"></span></td>
+      <td>Global Street Food</td>
+      <td>Capitol Hill</td>
+      <td>$$</td>
+      <td class="num">18</td>
+      <td>full</td>
+      <td class="vibes">Adventurous, Eclectic, Lively, Casual</td>
+    </tr><tr class="active" data-dns="3" data-status="active">
+      <td class="dns d3">3</td>
+      <td class="name">Pam&#x27;s Caribbean Kitchen <span class="chain"></span> <span class="badge"></span></td>
+      <td>Caribbean (Trinidadian)</td>
+      <td>Wallingford</td>
+      <td>$$</td>
+      <td class="num">26</td>
+      <td>full</td>
+      <td class="vibes">Warm, Cozy, Casual</td>
+    </tr><tr class="active" data-dns="3" data-status="active">
+      <td class="dns d3">3</td>
+      <td class="name">Taste of India <span class="chain"></span> <span class="badge"></span></td>
+      <td>Indian</td>
+      <td>University District</td>
+      <td>$$</td>
+      <td class="num">101</td>
+      <td>full</td>
+      <td class="vibes">Casual, Cozy, Neighborhood Gem, Comfort Food</td>
+    </tr><tr class="active" data-dns="3" data-status="active">
+      <td class="dns d3">3</td>
+      <td class="name">The Crab Pot Seattle <span class="chain"></span> <span class="badge"></span></td>
+      <td>Seafood</td>
+      <td>Waterfront</td>
+      <td>$$$</td>
+      <td class="num">11</td>
+      <td>partial</td>
+      <td class="vibes">Waterfront, Casual, Lively, Playful</td>
+    </tr><tr class="active" data-dns="3" data-status="active">
+      <td class="dns d3">3</td>
+      <td class="name">The Yard Café <span class="chain"></span> <span class="badge"></span></td>
+      <td>Latin American / Mexican</td>
+      <td>Greenwood</td>
+      <td>$$</td>
+      <td class="num">28</td>
+      <td>full</td>
+      <td class="vibes">Casual, Fun, Patio</td>
+    </tr><tr class="active" data-dns="3" data-status="active">
+      <td class="dns d3">3</td>
+      <td class="name">Toulouse Petit <span class="chain"></span> <span class="badge"></span></td>
+      <td>Cajun / Creole</td>
+      <td>Queen Anne</td>
+      <td>$$</td>
+      <td class="num">24</td>
+      <td>partial</td>
+      <td class="vibes">Lively, New Orleans-Inspired, Festive, Neighborhood Gem</td>
+    </tr><tr class="active" data-dns="3" data-status="active">
+      <td class="dns d3">3</td>
+      <td class="name">Tutta Bella Columbia City <span class="chain">⛓</span> <span class="badge"></span></td>
+      <td>Italian / Pizza</td>
+      <td>Columbia City</td>
+      <td>$$</td>
+      <td class="num">42</td>
+      <td>partial</td>
+      <td class="vibes">Casual, Cozy, Neighborhood, Warm</td>
+    </tr><tr class="active" data-dns="3" data-status="active">
+      <td class="dns d3">3</td>
+      <td class="name">Tutta Bella Denny Triangle <span class="chain">⛓</span> <span class="badge"></span></td>
+      <td>Italian / Pizza</td>
+      <td>Denny Triangle</td>
+      <td>$$</td>
+      <td class="num">42</td>
+      <td>partial</td>
+      <td class="vibes">Casual, Bright, Neighborhood Gem, Relaxed</td>
+    </tr><tr class="active" data-dns="3" data-status="active">
+      <td class="dns d3">3</td>
+      <td class="name">Tutta Bella Stone Way <span class="chain">⛓</span> <span class="badge"></span></td>
+      <td>Italian / Pizza</td>
+      <td>Wallingford</td>
+      <td>$$</td>
+      <td class="num">42</td>
+      <td>full</td>
+      <td class="vibes">Casual, Neighborhood, Bright, Family-Friendly</td>
+    </tr><tr class="active" data-dns="2" data-status="active">
+      <td class="dns d2">2</td>
+      <td class="name">Araya’s Place Seattle <span class="chain"></span> <span class="badge"></span></td>
+      <td>Thai</td>
+      <td>University District</td>
+      <td>$$</td>
+      <td class="num">79</td>
+      <td>full</td>
+      <td class="vibes">Casual, Cozy, Neighborhood Gem, Plant-Based</td>
+    </tr><tr class="active" data-dns="2" data-status="active">
+      <td class="dns d2">2</td>
+      <td class="name">Dough Zone Seattle <span class="chain"></span> <span class="badge"></span></td>
+      <td>Chinese</td>
+      <td>Capitol Hill</td>
+      <td>$$</td>
+      <td class="num">9</td>
+      <td>partial</td>
+      <td class="vibes">Casual, Lively, Buzzy, Quick-Bite</td>
+    </tr><tr class="active" data-dns="2" data-status="active">
+      <td class="dns d2">2</td>
+      <td class="name">Geraldine’s Counter <span class="chain"></span> <span class="badge"></span></td>
+      <td>American Diner</td>
+      <td>Columbia City</td>
+      <td>$$</td>
+      <td class="num">58</td>
+      <td>full</td>
+      <td class="vibes">Casual, Cozy, Neighborhood Gem, Brunch</td>
+    </tr><tr class="active" data-dns="2" data-status="active">
+      <td class="dns d2">2</td>
+      <td class="name">Local Tide <span class="chain"></span> <span class="badge"></span></td>
+      <td>Seafood</td>
+      <td>Fremont</td>
+      <td>$$</td>
+      <td class="num">19</td>
+      <td>partial</td>
+      <td class="vibes">Casual, Modern, Neighborhood Gem, Lively</td>
+    </tr><tr class="active" data-dns="2" data-status="active">
+      <td class="dns d2">2</td>
+      <td class="name">The Barking Dog Alehouse <span class="chain"></span> <span class="badge"></span></td>
+      <td>Gastropub</td>
+      <td>Ballard</td>
+      <td>$$</td>
+      <td class="num">66</td>
+      <td>partial</td>
+      <td class="vibes">Neighborhood, Casual, Lively, Cozy</td>
+    </tr><tr class="closed" data-dns="2" data-status="closed">
+      <td class="dns d2">2</td>
+      <td class="name">The Cheesecake Factory Seattle <span class="chain"></span> <span class="badge">CLOSED</span></td>
+      <td>American</td>
+      <td>Downtown</td>
+      <td>$$</td>
+      <td class="num">9</td>
+      <td>partial</td>
+      <td class="vibes">Casual, Lively, Popular, Family-Friendly</td>
+    </tr><tr class="active" data-dns="2" data-status="active">
+      <td class="dns d2">2</td>
+      <td class="name">The Dray <span class="chain"></span> <span class="badge"></span></td>
+      <td>Beer Bar</td>
+      <td>Ballard</td>
+      <td>$$</td>
+      <td class="num">22</td>
+      <td>full</td>
+      <td class="vibes">Casual, Neighborhood, Cozy, Lively</td>
+    </tr><tr class="closed" data-dns="2" data-status="closed">
+      <td class="dns d2">2</td>
+      <td class="name">The Masonry Fremont <span class="chain">⛓</span> <span class="badge">CLOSED</span></td>
+      <td>Pizza</td>
+      <td>Fremont</td>
+      <td>$$</td>
+      <td class="num">22</td>
+      <td>full</td>
+      <td class="vibes">Casual, Craft Beer, Neighborhood Gem, Cozy</td>
+    </tr><tr class="active" data-dns="2" data-status="active">
+      <td class="dns d2">2</td>
+      <td class="name">The Masonry Queen Anne <span class="chain">⛓</span> <span class="badge"></span></td>
+      <td>Pizza</td>
+      <td>Queen Anne</td>
+      <td>$$</td>
+      <td class="num">22</td>
+      <td>full</td>
+      <td class="vibes">Casual, Lively, Craft-Beer, Wood-Fired</td>
+    </tr><tr class="active" data-dns="2" data-status="active">
+      <td class="dns d2">2</td>
+      <td class="name">The Masonry SLU <span class="chain">⛓</span> <span class="badge"></span></td>
+      <td>Pizza</td>
+      <td>South Lake Union</td>
+      <td>$$</td>
+      <td class="num">22</td>
+      <td>full</td>
+      <td class="vibes">Casual, Craft Beer, Wood-Fired, Neighborhood Gem</td>
+    </tr><tr class="active" data-dns="2" data-status="active">
+      <td class="dns d2">2</td>
+      <td class="name">The Matador Ballard <span class="chain">⛓</span> <span class="badge"></span></td>
+      <td>Mexican</td>
+      <td>Ballard</td>
+      <td>$$</td>
+      <td class="num">47</td>
+      <td>partial</td>
+      <td class="vibes">Lively, Tequila Bar, Casual, Late-Night</td>
+    </tr><tr class="active" data-dns="2" data-status="active">
+      <td class="dns d2">2</td>
+      <td class="name">The Matador West Seattle <span class="chain">⛓</span> <span class="badge"></span></td>
+      <td>Mexican</td>
+      <td>West Seattle</td>
+      <td>$$</td>
+      <td class="num">47</td>
+      <td>partial</td>
+      <td class="vibes">Lively, Late-Night, Energetic, Casual</td>
+    </tr><tr class="closed" data-dns="2" data-status="closed">
+      <td class="dns d2">2</td>
+      <td class="name">The Ram University Village <span class="chain"></span> <span class="badge">CLOSED</span></td>
+      <td>Gastropub</td>
+      <td>U Village</td>
+      <td>$$</td>
+      <td class="num">75</td>
+      <td>full</td>
+      <td class="vibes">Casual, Lively, Pub, Family-Friendly</td>
+    </tr><tr class="active" data-dns="2" data-status="active">
+      <td class="dns d2">2</td>
+      <td class="name">Tutta Bella South Lake Union <span class="chain">⛓</span> <span class="badge"></span></td>
+      <td>Italian / Pizza</td>
+      <td>South Lake Union</td>
+      <td>$$</td>
+      <td class="num">42</td>
+      <td>partial</td>
+      <td class="vibes">Casual, Lively, Neighborhood Gem, Family-Friendly</td>
+    </tr><tr class="active" data-dns="0" data-status="active">
+      <td class="dns d0">–</td>
+      <td class="name">Manolin <span class="chain"></span> <span class="badge"></span></td>
+      <td>Seafood / NW</td>
+      <td>Fremont</td>
+      <td></td>
+      <td class="num">17</td>
+      <td>full</td>
+      <td class="vibes">tropical, bar</td>
+    </tr><tr class="active" data-dns="0" data-status="active">
+      <td class="dns d0">–</td>
+      <td class="name">Rob Roy <span class="chain"></span> <span class="badge"></span></td>
+      <td>Cocktail bar</td>
+      <td>Belltown</td>
+      <td></td>
+      <td class="num">0</td>
+      <td>experience-only</td>
+      <td class="vibes">dark, romantic</td>
+    </tr><tr class="active" data-dns="0" data-status="active">
+      <td class="dns d0">–</td>
+      <td class="name">The Whale Wins <span class="chain"></span> <span class="badge"></span></td>
+      <td>Wood-Fired NW</td>
+      <td>Wallingford</td>
+      <td></td>
+      <td class="num">19</td>
+      <td>full</td>
+      <td class="vibes">bright, seasonal</td>
+    </tr>
+ </tbody>
+</table>
+<script>
+ const rows=[...document.querySelectorAll('#t tbody tr')];
+ document.querySelectorAll('.pill').forEach(p=>p.onclick=()=>{
+   document.querySelectorAll('.pill').forEach(x=>x.classList.remove('on'));p.classList.add('on');
+   const f=p.dataset.f;
+   rows.forEach(r=>{
+     const dns=+r.dataset.dns, st=r.dataset.status, chain=r.querySelector('.chain').textContent.trim();
+     let show=true;
+     if(f==='active')show=st==='active';
+     else if(f==='chains')show=!!chain;
+     else if(f==='lowdns')show=dns<=2;
+     else if(f==='closed')show=st==='closed';
+     r.style.display=show?'':'none';
+   });
+ });
+ // click a header to sort
+ document.querySelectorAll('th').forEach((th,i)=>th.onclick=()=>{
+   const tb=document.querySelector('tbody'),rs=[...tb.rows];
+   rs.sort((a,b)=>{const x=a.cells[i].textContent.trim(),y=b.cells[i].textContent.trim();
+     const nx=parseFloat(x),ny=parseFloat(y);
+     return (!isNaN(nx)&&!isNaN(ny))?ny-nx:x.localeCompare(y);});
+   rs.forEach(r=>tb.appendChild(r));
+ });
+</script>
