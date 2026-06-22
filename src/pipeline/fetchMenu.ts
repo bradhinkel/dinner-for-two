@@ -33,14 +33,24 @@ async function fetchPdfText(url: string): Promise<FetchedMenu> {
   return { kind: "pdf", text: clean, final_url: res.url, note: `${totalPages}p text PDF` };
 }
 
-// A page with real menu data has many prices; a hub/landing page does not.
+// A page with real menu data has many prices; a hub/landing page does not. Count
+// $-prices, decimal prices (14.00 / 9.50), and bare 2-digit prices at line ends.
+function countPrices(text: string): number {
+  return (text.match(/\$\s?\d|\b\d{1,3}\.\d{2}\b|\b\d{2}\b\s*$/gm) || []).length;
+}
+// Threshold of 8 (not 6) so a landing page with a few incidental prices — a gift /
+// merch / cocktail-mixer shop is common on restaurant homepages — isn't mistaken for
+// the menu, which would short-circuit the deep-follow. Real à la carte menus carry
+// far more (Six Seven 53 dishes, Barking Dog 66); a genuinely tiny menu still falls
+// back to its own page text after the follow finds nothing better.
 function looksLikeMenu(text: string): boolean {
-  const prices = (text.match(/\$\s?\d|\b\d{2}\b\s*$/gm) || []).length;
-  return text.length > 1500 && prices >= 6;
+  return text.length > 1200 && countPrices(text) >= 8;
 }
 
-// Find the best "go to the dinner menu" link on a hub page (absolute URL or null).
-async function findMenuLink(page: import("playwright").Page): Promise<string | null> {
+// Rank "go to the dinner menu" links on a hub page. Returns absolute URLs best-first.
+// Anchors expose `.href` already resolved to absolute, so relative ("/menus") and
+// client-route SPA links come through correctly.
+async function findMenuLinks(page: import("playwright").Page): Promise<string[]> {
   const links = await page
     .evaluate(() =>
       Array.from(document.querySelectorAll("a[href]")).map((a) => ({
@@ -49,22 +59,110 @@ async function findMenuLink(page: import("playwright").Page): Promise<string | n
       }))
     )
     .catch(() => [] as { href: string; text: string }[]);
+
   const score = (l: { href: string; text: string }): number => {
     const s = `${l.text} ${l.href.toLowerCase()}`;
-    if (/brunch|lunch|drink|beverage|wine|cocktail|happy|gift|event|catering/.test(s)) return -1;
-    if (/dinner\s*menu|food\s*menu|\bdinner\b/.test(s)) return 3;
-    if (/\bmenu\b/.test(s)) return 2;
-    return 0;
+    // dead ends: social, reservations-only, ordering-account, non-dinner menus
+    if (/facebook|instagram|twitter|x\.com|tiktok|yelp\.com|maps\.google|\/login|\/account|opentable|resy\.com|sevenrooms/.test(s))
+      return -1;
+    if (/brunch|lunch|drink|beverage|wine|cocktail|happy\s*hour|gift|event|catering|private/.test(s)) return -1;
+    let sc = 0;
+    if (/dinner\s*menu|food\s*menu|\bdinner\b/.test(s)) sc = 3;
+    else if (/\bmenus?\b/.test(s)) sc = 2;
+    // known menu hosts often carry the full priced menu — worth a follow
+    if (/toasttab|popmenu|square\.site|clover\.com|spoton|bentobox|\/menu/.test(l.href.toLowerCase())) sc += 1;
+    return sc;
   };
-  const best = links
-    .filter((l) => l.href.startsWith("http"))
-    .map((l) => ({ l, sc: score(l) }))
-    .filter((x) => x.sc > 0)
-    .sort((a, b) => b.sc - a.sc)[0];
-  return best ? best.l.href : null;
+
+  const seen = new Set<string>();
+  return links
+    .filter((l) => /^https?:/.test(l.href))
+    .map((l) => ({ href: l.href.split("#")[0]!, sc: score(l) }))
+    .filter((x) => x.sc > 0 && !seen.has(x.href) && (seen.add(x.href), true))
+    .sort((a, b) => b.sc - a.sc)
+    .map((x) => x.href);
 }
 
-async function renderHtmlText(url: string, depth = 0): Promise<FetchedMenu> {
+// Navigate + wait for a JS shell to actually hydrate, reveal collapsed/tabbed menu
+// sections, then return the page's visible text.
+async function loadAndExtract(page: import("playwright").Page, url: string): Promise<string> {
+  const resp = await page.goto(url, { waitUntil: "domcontentloaded", timeout: 45000 });
+  // Content-aware hydrate: wait until the body has real text (SPA shells render the
+  // menu late), not a fixed sleep. Resolves in ~1-3s on most sites; caps at 12s.
+  await page
+    .waitForFunction(() => (document.body?.innerText || "").trim().length > 500, { timeout: 12000 })
+    .catch(() => {});
+  try {
+    await page.waitForLoadState("networkidle", { timeout: 6000 });
+  } catch {
+    /* SPAs may hold connections open and never go idle */
+  }
+  // Reveal collapsed sections AND click in-page menu tabs/nav (non-anchor controls
+  // only, so we don't accidentally navigate away). Many SPA menus sit behind a
+  // "MENU"/"DINNER" tab on the same page.
+  await page
+    .evaluate(() => {
+      document
+        .querySelectorAll('[aria-expanded="false"], .accordion, summary')
+        .forEach((el) => (el as HTMLElement).click?.());
+      const wants = (t: string) =>
+        /\b(dinner|food|menu)\b/i.test(t) && !/wine|drink|brunch|lunch|gift|cater|reserv/i.test(t);
+      document
+        .querySelectorAll('button, [role="tab"], [role="button"], [class*="tab"], [class*="nav"] li')
+        .forEach((el) => {
+          const t = (el.textContent || "").trim();
+          if (t.length > 0 && t.length <= 24 && wants(t)) {
+            try {
+              (el as HTMLElement).click?.();
+            } catch {
+              /* ignore */
+            }
+          }
+        });
+    })
+    .catch(() => {});
+  await page.waitForTimeout(1200); // let revealed/clicked content paint
+  void resp;
+  return ((await page.evaluate(() => document.body?.innerText)) || "").replace(/\n{3,}/g, "\n\n").trim();
+}
+
+// Render `url`; if it's a hub (no priced menu), follow the best menu link(s) up to
+// `maxDepth` hops, reusing one browser page. Returns the first page that looks like
+// a real menu, else the best text we saw. `visited` guards against cycles.
+async function followForMenu(
+  page: import("playwright").Page,
+  url: string,
+  depth: number,
+  maxDepth: number,
+  visited: Set<string>
+): Promise<{ text: string; final_url: string } | null> {
+  const key = url.split("#")[0]!;
+  if (visited.has(key)) return null;
+  visited.add(key);
+
+  const text = await loadAndExtract(page, url).catch(() => "");
+  const final_url = page.url();
+  if (looksLikeMenu(text)) return { text, final_url };
+  if (depth >= maxDepth) return text.length > 200 ? { text, final_url } : null;
+
+  const candidates = await findMenuLinks(page);
+  // breadth tapers with depth: try a few from the hub, fewer deeper.
+  const breadth = depth === 0 ? 3 : 2;
+  for (const link of candidates.slice(0, breadth)) {
+    if (visited.has(link.split("#")[0]!)) continue;
+    if (looksLikePdf(link, null)) {
+      const pdf = await fetchPdfText(link).catch(() => null);
+      if (pdf && pdf.kind === "pdf") return { text: pdf.text, final_url: pdf.final_url ?? link };
+      continue;
+    }
+    const sub = await followForMenu(page, link, depth + 1, maxDepth, visited);
+    if (sub && looksLikeMenu(sub.text)) return sub;
+  }
+  // nothing priced downstream — surface the best text we have (the hub itself).
+  return text.length > 200 ? { text, final_url } : null;
+}
+
+async function renderHtmlText(url: string): Promise<FetchedMenu> {
   let chromium: typeof import("playwright").chromium;
   try {
     ({ chromium } = await import("playwright"));
@@ -73,39 +171,26 @@ async function renderHtmlText(url: string, depth = 0): Promise<FetchedMenu> {
   }
   let browser;
   try {
-    browser = await chromium.launch({ headless: true, args: ["--no-sandbox", "--disable-gpu"] });
+    browser = await chromium.launch({
+      headless: true,
+      // --disable-dev-shm-usage avoids /dev/shm exhaustion crashes on small droplets.
+      args: ["--no-sandbox", "--disable-gpu", "--disable-dev-shm-usage"],
+    });
     const page = await browser.newPage({ userAgent: UA, viewport: { width: 1280, height: 1800 } });
-    const resp = await page.goto(url, { waitUntil: "domcontentloaded", timeout: 45000 });
-    await page.waitForTimeout(4000); // let JS shells + Cloudflare challenges settle
-    try {
-      await page.waitForLoadState("networkidle", { timeout: 8000 });
-    } catch {
-      /* ignore */
-    }
-    await page
-      .evaluate(() => {
-        document
-          .querySelectorAll('[aria-expanded="false"], .accordion, summary')
-          .forEach((el) => (el as HTMLElement).click?.());
-      })
-      .catch(() => {});
-    await page.waitForTimeout(800);
-    const text = ((await page.evaluate(() => document.body?.innerText)) || "").replace(/\n{3,}/g, "\n\n").trim();
-    const status = resp?.status() ?? 0;
 
-    // Hub page? Follow the best dinner-menu link once (PDF -> PDF path).
-    if (!looksLikeMenu(text) && depth < 2) {
-      const link = await findMenuLink(page);
-      await browser.close();
-      browser = undefined;
-      if (link && looksLikePdf(link, null)) return fetchPdfText(link);
-      if (link && link !== page.url()) return renderHtmlText(link, depth + 1);
-      return { kind: text.length > 200 ? "html" : "error", text, final_url: url, note: `hub page, no menu link found (${text.length} chars, http ${status})` };
+    const result = await followForMenu(page, url, 0, 2, new Set());
+    if (!result) {
+      return { kind: "error", text: "", final_url: page.url(), note: `rendered but no usable content` };
     }
-    if (text.length < 200) {
-      return { kind: "error", text, final_url: page.url(), note: `rendered but sparse (${text.length} chars, http ${status})` };
-    }
-    return { kind: "html", text, final_url: page.url(), note: `rendered (http ${status}, ${text.length} chars)` };
+    const priced = looksLikeMenu(result.text);
+    return {
+      kind: "html",
+      text: result.text,
+      final_url: result.final_url,
+      note: priced
+        ? `rendered menu (${result.text.length} chars, ${countPrices(result.text)} prices)`
+        : `hub/partial — no priced menu found (${result.text.length} chars)`,
+    };
   } catch (e) {
     return { kind: "error", text: "", final_url: null, note: `render error: ${e instanceof Error ? e.message.slice(0, 120) : e}` };
   } finally {

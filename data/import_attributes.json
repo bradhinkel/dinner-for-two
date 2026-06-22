@@ -1755,5 +1755,39 @@
     "longitude": -122.3424022,
     "business_status": "OPERATIONAL",
     "curation": "hide"
+  },
+  "sixseven": {
+    "name": "Six Seven",
+    "neighborhood": "Waterfront",
+    "website_url": "https://www.edgewaterhotel.com/dine",
+    "cuisine_primary": "Pacific Northwest",
+    "cuisine_secondary": "Seafood",
+    "price_tier": 3,
+    "tags": [
+      "romantic",
+      "view",
+      "hotel",
+      "classic"
+    ],
+    "description": "Perched on Pier 67 with floor-to-ceiling windows framing Elliott Bay and the Olympic Mountains, Six Seven transforms a simple dinner into an occasion. The Pacific Northwest menu leans into local waters and seasonal bounty, offering everything from silky starters to elegant seafood mains worthy of a lingering evening. Few Seattle rooms so effortlessly combine a grand view with the unhurried warmth that makes a date feel genuinely special.",
+    "reservation_platform": "OpenTable",
+    "serves_vegetarian": true,
+    "serves_vegan": false,
+    "serves_gluten_free": true,
+    "ambiance_tags": [
+      "Romantic",
+      "Waterfront",
+      "Scenic Views",
+      "Classic",
+      "Hotel Dining",
+      "Intimate"
+    ],
+    "noise_level": "Moderate",
+    "date_night_score": 5,
+    "enrichment_status": "Imported",
+    "latitude": 47.612361,
+    "longitude": -122.35223909999999,
+    "business_status": "OPERATIONAL",
+    "curation": "use"
   }
 }
