@@ -1,0 +1,321 @@
+{
+  "restaurant": "Ray’s Boathouse",
+  "neighborhood": "Ballard",
+  "cuisine": "Seafood",
+  "venue_format": "full-menu",
+  "menu_completeness": "partial",
+  "source_url": "https://www.rays.com/boathouse/boathouse-menu/",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "html (rendered)",
+  "notes": "Dinner menu captured with smaller plates, shareables, and mains. Daily specials, drinks, full wine/spirits lists, dessert, and kids menu were listed as tabs but content was not included in the raw text — skipped. Dietary tags GF/V/VGN/DF appear on the menu; DF (dairy-free) is not a standard tag in the schema and has been omitted from dietary_tags.",
+  "dishes": [
+    {
+      "course_type": "salad",
+      "name": "Arugula Salad",
+      "description": "Citrus vinaigrette, asparagus, snap peas, pickled carrots, breakfast radish, feta",
+      "price_cents": 1600,
+      "price_note": "Half $8 / Full $16",
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Mixed Greens Salad",
+      "description": "Strawberry balsamic vinaigrette, strawberries, goat cheese, toasted almonds",
+      "price_cents": 1800,
+      "price_note": "Half $9 / Full $18",
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Gem Salad",
+      "description": "Green goddess dressing, pickled red onions, radish, bacon, toasted sesame seeds",
+      "price_cents": 1800,
+      "price_note": "Half $9 / Full $18",
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Korean Chili and Sesame Crusted Albacore",
+      "description": "Avocado mousse, chili cucumbers, chive oil",
+      "price_cents": 2800,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Ray's Pacific Northwest Chowder",
+      "description": "Clams, house smoked-bacon, red potato",
+      "price_cents": 1100,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Bacon–Scallop Skewer",
+      "description": "Alaskan weathervane scallops wrapped in house-made bacon, charred lemon, butter sauce",
+      "price_cents": 1700,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Bread Plate",
+      "description": "Seawolf Bakery white sourdough, charred scallion-furikake butter",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Ahi Tuna Tartare",
+      "description": "Salsa macha, avocado, pickled jalapeño, cilantro, chips",
+      "price_cents": 2400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "PNW Mussels",
+      "description": "Jalapeño lime butter, spiced pepitas, fresh jalapeño, micro cilantro, toasted baguette",
+      "price_cents": 2500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "PNW Manila Clams",
+      "description": "Miso butter, pickled daikon, furikake, toasted baguette",
+      "price_cents": 2500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Pan-Seared Diver Scallops",
+      "description": "Carrot ginger purée, French lentils, carrots, spinach, chorizo, toasted bread crumbs, salsa verde",
+      "price_cents": 4200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Wild Mushroom Risotto",
+      "description": "Caramelized onion, garlic-caper-chili vinaigrette",
+      "price_cents": 3000,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Steamed Alaskan Tanner Crab Cluster",
+      "description": "Butter sauce, lemon",
+      "price_cents": 4200,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Crispy Fried Calamari",
+      "description": "Mama Lil's peppers, lemon aïoli",
+      "price_cents": 2200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Dungeness Crab Cakes",
+      "description": "Pea purée, pea shoots, snap peas, lemon vinaigrette, toasted pine nuts, crispy prosciutto",
+      "price_cents": 4200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Fresh Burrata",
+      "description": "Strawberry relish, balsamic, basil, grilled baguette",
+      "price_cents": 2400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Crispy Brussels Sprouts",
+      "description": "Sweet chili peanut sauce, house smoked bacon, toasted peanuts, basil, cilantro, lime",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Crispy Fried Yukon Gold Potatoes",
+      "description": "Hollandaise, chives",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Applewood Grilled Sablefish in Sake Kasu",
+      "description": "Cannellini bean and spinach purée, brown rice, green peas, radish sprouts",
+      "price_cents": 5200,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Applewood Grilled Wild Alaskan King Salmon",
+      "description": "Ginger carrot purée, fried Yukon Gold potatoes, asparagus, miso beurre blanc",
+      "price_cents": 5200,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Double R Ranch Ribeye",
+      "description": "Shoestring fries, au poivre, chives",
+      "price_cents": 6400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Double R Ranch Filet Mignon",
+      "description": "Garlic whipped potatoes, seared broccolini, bordelaise sauce",
+      "price_cents": 6000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Shrimp Scampi Bucatini",
+      "description": "Scampi butter, house smoked bacon, parmesan, herbs",
+      "price_cents": 4200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Roasted Cauliflower",
+      "description": "Spice roasted cauliflower, cannellini bean purée, herbed date vinaigrette, pickled fresno chili, toasted walnuts",
+      "price_cents": 3000,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "House-Smoked Sablefish",
+      "description": "Spiced labneh, pearl couscous, red pepper, crimini mushrooms, harissa oil, herbed pistachio",
+      "price_cents": 5200,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

@@ -1,0 +1,82 @@
+{
+  "restaurant": "Duke's South Lake Union",
+  "neighborhood": "South Lake Union",
+  "cuisine": "Seafood",
+  "venue_format": "full-menu",
+  "menu_completeness": "partial",
+  "source_url": "https://dukesseafood.com/menus/dessert-menu/",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "static",
+  "extraction_method": "html (rendered)",
+  "notes": "Only the dessert menu was captured; lunch/dinner, happy hour, kids, and beverage menus were not included in the raw text. No beverages present in this extract.",
+  "dishes": [
+    {
+      "course_type": "dessert",
+      "name": "Brookie Betty Boop",
+      "description": "Chocolate brownie mixed together with chocolate chip cookie, baked and served warm with Lopez Island Creamery vanilla ice cream",
+      "price_cents": 1290,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Carefully Selected Local Ice Cream",
+      "description": "Made by local favorite - Lopez Island Creamery",
+      "price_cents": 690,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Enticingly Refreshing Sorbet",
+      "description": "By Lopez Island Creamery, ask your server for today's selections",
+      "price_cents": 690,
+      "price_note": "Flavor varies daily; ask server",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Mouthwatering Marionberry Pie",
+      "description": "Cute little pie with wild Woodland, WA marionberries, served warm, with 2 scoops of local favorite Lopez Island Creamery vanilla ice cream",
+      "price_cents": 1390,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Peerless Pier Pie",
+      "description": "From the Pier Restaurant in Newport, Rhode Island, birthplace of Duke himself. Lopez Island Creamery chocolate and espresso ice cream layered in a cookie crust with all natural chocolate sauce, homemade whipped cream and topped with toasted almonds",
+      "price_cents": 1190,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "What's Up Duke?!? Carrot Cake",
+      "description": "Dense, moist and tasty with a delicious sweetness of our yummy cream cheese frosting and a tangy raspberry coulis",
+      "price_cents": 1090,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

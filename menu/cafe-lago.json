@@ -1,0 +1,131 @@
+{
+  "restaurant": "Café Lago",
+  "neighborhood": "Montlake",
+  "cuisine": "Italian",
+  "venue_format": "full-menu",
+  "menu_completeness": "partial",
+  "source_url": "https://www.cafelago.com/menu/appetizers",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "unknown",
+  "extraction_method": "html (rendered)",
+  "notes": "Only the Antipasti section was captured from the full menu (which includes Insalate, Pizza, Pasta, Piatti Forti, I Dolci, Vino, and Cocktails). The Piatto di Antipasti lists two prices (29/19), likely for large/small or table/individual portions.",
+  "dishes": [
+    {
+      "course_type": "appetizer",
+      "name": "Piatto di Antipasti",
+      "description": "Marinated eggplant, olivata, pomodori al forno, salumi, cheeses",
+      "price_cents": 2900,
+      "price_note": "Two sizes or formats listed: $29 / $19",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Pomodori al Forno",
+      "description": "Slow roasted tomatoes, goat cheese, crostini",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "\"Romanesco\"",
+      "description": "Woodfired broccolini, pine nut red pepper salsa",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Carote",
+      "description": "Roasted carrots, Samish Bay Vache, coriander, calabrian chile vinaigrette, mint",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Melanzane",
+      "description": "Roasted marinated eggplant, gorgonzola",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Tunno Crudo",
+      "description": "Ahi Tuna, Salmoriglio, artichokes, capers, controne chile",
+      "price_cents": 2000,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Giardiniera",
+      "description": "Pickled seasonal vegetables, spiced and brined",
+      "price_cents": 1000,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Olive Miste",
+      "description": "A medley of olives marinated in orange, peppercorn, rosemary, red chili flake",
+      "price_cents": 700,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "House Baked Bread",
+      "description": "Rustic sourdough, butter, olive oil, flake salt",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

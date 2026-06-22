@@ -1,0 +1,613 @@
+{
+  "restaurant": "Mioposto Ravenna",
+  "neighborhood": "Ravenna",
+  "cuisine": "Italian / Pizza",
+  "venue_format": "full-menu",
+  "menu_completeness": "full",
+  "source_url": "https://www.miopostopizza.com/dinner",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "html (rendered)",
+  "notes": "Full menu captured including pizzas, shareables, salads, sandwiches, entrees, and desserts. Salads offer multiple sizes (small/medium/large) with tiered pricing; all size prices captured in price_note. No beverage list was present in the raw text, so beverages array is empty. Two items marked SEASONAL.",
+  "dishes": [
+    {
+      "course_type": "entree",
+      "name": "Piccola Verde",
+      "description": "House-made spring pea pesto, asparagus, pancetta, fontina, ricotta, red onion, and chili flake on a freshly milled tomato base. SEASONAL.",
+      "price_cents": 2700,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "La Calabria",
+      "description": "Mozzarella, pepperoni, ricotta, basil, and house-made Calabrian honey on a freshly milled tomato base.",
+      "price_cents": 2500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "The Mushroom Hunter",
+      "description": "Garlic roasted portobello, cremini, and oyster mushrooms, caramelized onion, mozzarella, fontina, thyme, and chili flakes on a Corto olive oil base.",
+      "price_cents": 2400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Egg and Pancetta",
+      "description": "Pancetta, mozzarella, grana, three eggs sunny-side-up, and seasoned breadcrumbs on a spicy tutto Calabria base.",
+      "price_cents": 3000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Spring Lamb",
+      "description": "Lamb sausage, mozzarella, goat cheese, roasted red peppers, red onion, chili flakes, and fresh mint on a basil-mint salsa verde base.",
+      "price_cents": 2900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "La Bianca",
+      "description": "Shredded mozzarella, goat cheese, caramelized onion, garlic, chili flakes, and fresh arugula on a Corto olive oil base.",
+      "price_cents": 2500,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Prosciutto e Arugula",
+      "description": "Sliced to order prosciutto, mozzarella, red onion, grana, and fresh arugula on a freshly milled tomato base.",
+      "price_cents": 2500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Clam Bake",
+      "description": "Whole roasted Hood Canal clams, pancetta, mozzarella, garlic, onion, chili flakes, parsley, and grana on house-made white clam sauce base.",
+      "price_cents": 3000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Le Patate con Tartufo",
+      "description": "Roasted potatoes, fontina, gorgonzola, caramelized onions, thyme, chili flakes, and white truffle oil on a Corto olive oil base.",
+      "price_cents": 2500,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Margherita",
+      "description": "Fresh mozzarella and basil on a freshly milled tomato base.",
+      "price_cents": 2200,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Zucca Balsamica",
+      "description": "Roasted butternut squash, pancetta, mozzarella, caramelized onions, garlic, rosemary, goat cheese, chili flakes, and a balsamic reduction on a Corto olive oil base.",
+      "price_cents": 2700,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Pinocchio",
+      "description": "Mozzarella, salami, Italian fennel sausage, pepperoni, kalamata olives, Alta Cucina tomatoes, and parsley on a freshly milled tomato base.",
+      "price_cents": 2800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Quattro Formaggi",
+      "description": "Choice of a Corto olive oil base or freshly milled tomato base, mozzarella, fontina, gorgonzola, grana, lemon zest finish.",
+      "price_cents": 2200,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Pepperoni Puntura",
+      "description": "Fresh mozzarella, pepperoni, salami, shaved grana, chili flakes, and a floral honey drizzle on a freshly milled tomato base.",
+      "price_cents": 2500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Mio Baked Bread",
+      "description": "Freshly baked bread served warm with Corto olive oil.",
+      "price_cents": 700,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Ceci",
+      "description": "Oven-roasted chickpeas, olive oil, garlic, fresh sage, cayenne, and sea salt.",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Olives",
+      "description": "Warm Castelvetrano olives.",
+      "price_cents": 700,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Broccolini",
+      "description": "Broccolini, whipped ricotta, garlic, Calabrian honey, charred lemon, hazelnuts, Corto olive oil.",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Burrata",
+      "description": "SEASONAL! House-made spring pea pesto, Corto olive oil, lemon zest, sea salt. Served with Mio baked bread.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Calamari",
+      "description": "Oven-roasted calamari in a zesty puttanesca with kalamata olives, anchovies, capers, parsley, chili flakes, freshly milled tomatoes.",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Antipasti",
+      "description": "Goat cheese, olive tapenade, agrodolce, eggplant marinated and roasted, prosciutto, and arugula. Served with Mio baked bread.",
+      "price_cents": 2200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Melanzane",
+      "description": "Eggplant marinated and roasted, fresh mozzarella, arugula, basil-mint salsa verde drizzle. Served with Mio baked bread.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Oven-Roasted Hood Canal Clams",
+      "description": "1 lb locally harvested clams, roasted with white wine, butter, garlic, olive oil, fresh herbs. Served with Mio baked bread.",
+      "price_cents": 2400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Bresaola",
+      "description": "Thinly sliced air-dried beef, fresh arugula, shaved grana, Corto olive oil, lemon, sea salt.",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Mussels Tartufo",
+      "description": "1/2 lb of local Penn Cove mussels roasted on the open flame with butter, garlic, grana, and truffle oil. Served with Mio baked bread.",
+      "price_cents": 2200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Zucchini",
+      "description": "Oven-roasted zucchini, garlic cloves, fresh milled tomatoes, grana.",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Meatballs",
+      "description": "House-made pork and ground beef meatballs, freshly milled tomatoes, grana, parsley.",
+      "price_cents": 2200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Caesar Salad",
+      "description": "Romaine, signature Caesar dressing, house-made croutons, grana. Available in three sizes.",
+      "price_cents": 600,
+      "price_note": "Small $6 / Medium $15 / Large $24",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Insalata Milanese",
+      "description": "Greens, chicken breast, salami, croutons, gorgonzola, artichoke hearts. Available in two sizes.",
+      "price_cents": 1600,
+      "price_note": "Medium $16 / Large $24",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Roasted Beet",
+      "description": "Greens, goat cheese, cracked Marcona almonds. Available in three sizes.",
+      "price_cents": 600,
+      "price_note": "Small $6 / Medium $14 / Large $22",
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Arugula",
+      "description": "Arugula, Corto olive oil, lemon, grana. Available in three sizes.",
+      "price_cents": 500,
+      "price_note": "Small $5 / Medium $8 / Large $15",
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Garnet",
+      "description": "Roasted beets, oranges, arugula, red onion, sheep's milk feta, mint, white balsamic vinaigrette.",
+      "price_cents": 1700,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Mama Mio!",
+      "description": "Oven-fried chicken on a brioche bun with artichoke-lemon aioli, crispy pancetta, melted provolone, sliced pepperoncinis, sliced red onion, and arugula. Served with Tim's potato chips.",
+      "price_cents": 2300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Giardino Vegetarian",
+      "description": "Eggplant marinated and roasted, layered with olive tapenade, goat cheese, roasted red peppers, basil-mint salsa verde, arugula served on Mio baked bread. Served with Tim's potato chips.",
+      "price_cents": 2000,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Meatball Sandwich",
+      "description": "House-made pork sausage and ground beef meatballs, mozzarella, fresh milled tomatoes, grana, and parsley on Mio baked bread. Served with Tim's potato chips.",
+      "price_cents": 2200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Prosciutto e Coppa",
+      "description": "Sliced prosciutto, sliced Hot Coppa, olive tapenade, provolone, tomato, sliced red onion, and arugula on Mio baked bread.",
+      "price_cents": 2000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Ribeye",
+      "description": "12oz ribeye roasted on the open flame with a balsamic finish, on a bed of arugula with creamy gorgonzola. Served with choice of Caesar, beet, or arugula salad.",
+      "price_cents": 5900,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Vegetarian Lasagna",
+      "description": "Layers of Cucina Fresca pasta, fresh milled tomatoes, herbed ricotta, mozzarella. Served with choice of Caesar, beet, or arugula salad.",
+      "price_cents": 2400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Sausage Lasagna",
+      "description": "Layers of Cucina Fresca pasta, fresh milled tomatoes, herbed ricotta, Italian sausage, mozzarella. Served with choice of Caesar, beet, or arugula salad.",
+      "price_cents": 2900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Eggplant Parmesan",
+      "description": "Oven-roasted eggplant layered with herbed ricotta, fresh basil, fresh milled tomatoes, grana. Served with Mio baked bread and choice of Caesar, beet, or arugula salad.",
+      "price_cents": 2400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Ganache Chocolate Layer Cake",
+      "description": "Served with fresh whipped cream.",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Tiramisu",
+      "description": "Classic Italian tiramisu.",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Apple Crostata à la Mode",
+      "description": "Washington apple mix wrapped in pizza dough, baked until golden brown, topped with cinnamon, sugar, caramel sauce, and vanilla ice cream.",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Root Beer Float",
+      "description": "Artisanal root beer served with a scoop of Madagascar vanilla bean ice cream.",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Affogato",
+      "description": "A rich shot of espresso poured over vanilla ice cream.",
+      "price_cents": 900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Olympic Mountain Ice Cream",
+      "description": "Choice of Madagascar Vanilla Bean, Chocolate, Seasonal Flavor, or Seasonal Sorbet.",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Sundaes",
+      "description": "Ice cream topped with choice of caramel, chocolate, or Italian fruit syrups, finished with whipped cream.",
+      "price_cents": 800,
+      "price_note": "Single scoop $8 / Double scoop $10",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Adult Sundaes",
+      "description": "A single scoop of Madagascar Vanilla Bean ice cream and your favorite liquor.",
+      "price_cents": 1200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Spanish Coffee",
+      "description": "Flamed to order: 151, Kahlua, Triple Sec, Coffee, Whipped Cream.",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Dutch Baby",
+      "description": "Topped with fresh blueberries, lemon curd, powdered sugar, and served with maple syrup. Available for brunch every day from open until 3pm.",
+      "price_cents": null,
+      "price_note": "Price not listed in menu text",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

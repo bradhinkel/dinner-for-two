@@ -1,7 +1,7 @@
 // compose() — one Sonnet call per restaurant, routed on venue_format AND
 // menu_completeness, with dish-ID validation (reject + retry once, then tier fallback).
 import { config } from "../config.js";
-import { anthropic, textOf, parseJsonLoose } from "../llm/anthropic.js";
+import { guardedCreate, textOf, parseJsonLoose } from "../llm/anthropic.js";
 import { dishById, beverageById } from "../catalog/loadCatalog.js";
 import type {
   ComposedBeverage,
@@ -182,7 +182,7 @@ export function estimateCents(r: Restaurant, v: Validated, fallback: number | un
 }
 
 async function callModel(r: Restaurant, p: ParsedBrief, mode: ComposeMode, correction?: string): Promise<RawComposition> {
-  const msg = await anthropic().messages.create({
+  const msg = await guardedCreate({
     model: config.composeModel,
     max_tokens: 1500,
     system: systemPrompt(),

@@ -76,6 +76,8 @@ export interface Beverage extends MenuBeverage {
   beverage_id: string;
 }
 
+export type Curation = "use" | "hide";
+
 export interface Restaurant {
   id: string; // slug, == menu file stem
   name: string;
@@ -96,6 +98,12 @@ export interface Restaurant {
   reservation_url: string | null;
   reservation_platform: string | null;
   status: "open" | "closed" | "seasonal" | "unverified";
+  business_status: string | null; // Google Places: OPERATIONAL | CLOSED_TEMPORARILY | CLOSED_PERMANENTLY
+  // geo: restaurant's own coordinates (for "near me" / walking distance / adjacent-neighborhood)
+  latitude: number | null;
+  longitude: number | null;
+  // curation: imported broadly, then curated. retrieval only serves "use".
+  curation: Curation;
   source_url: string | null;
   menu_volatility: string | null;
   dishes: Dish[];

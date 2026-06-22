@@ -1,0 +1,486 @@
+Name,URL,Cuisine,Neighborhood,City,Tags,VibeNotes
+Canlis,https://www.canlis.com,Pacific Northwest,Queen Anne,Seattle,romantic;fine-dining;special-occasion;view,Iconic Seattle dining with Lake Union views and impeccable service
+The Pink Door,https://thepinkdoor.net,Italian-American,Pike Place Market,Seattle,romantic;playful;cabaret;classic,Whimsical cabaret vibe with great Italian food and terrace seating
+Aerlume,https://aerlumeseattle.com,Pacific Northwest,Waterfront,Seattle,romantic;view;modern;upscale,Beautiful sunset views with refined Northwest cuisine
+Six Seven,https://www.edgewaterhotel.com/dine,Pacific Northwest,Waterfront,Seattle,romantic;view;hotel;classic,Waterfront dining with floor-to-ceiling windows
+Maximilien,https://maximilienrestaurant.com,French,Pike Place Market,Seattle,romantic;view;classic-french,Old-world French charm with Elliott Bay views
+Spinasse,https://spinasse.com,Italian,Capitol Hill,Seattle,romantic;cozy;chef-driven,Handmade pasta in a warm, intimate dining room
+Artusi,https://artusibar.com,Italian / Cocktail Bar,Capitol Hill,Seattle,fun;cocktails;small-plates,Stylish cocktail bar with Italian bites
+Altura,https://alturarestaurant.com,Italian Tasting,Capitol Hill,Seattle,fine-dining;romantic;tasting-menu,High-end Italian tasting menu with chef interaction
+Lark,https://larkseattle.com,New American,Capitol Hill,Seattle,romantic;seasonal;upscale,Seasonal small plates in a sophisticated space
+Tavolata Capitol Hill,https://ethanstowellrestaurants.com,Italian,Capitol Hill,Seattle,casual;fun;pasta,Communal tables and hearty Italian dishes
+Terra Plata,https://terraplata.com,New American,Capitol Hill,Seattle,romantic;rooftop;seasonal,Rooftop patio perfect for warm-weather dates
+Monsoon Seattle,https://monsoonrestaurants.com,Vietnamese / NW,Capitol Hill,Seattle,romantic;modern;asian-fusion,Modern Vietnamese with great cocktails
+Stateside,https://statesideseattle.com,Modern Vietnamese,Capitol Hill,Seattle,fun;bright;inventive,Tropical-inspired Vietnamese fusion
+Barrio,https://barrioseattle.com,Mexican,Capitol Hill,Seattle,fun;lively;tequila,Colorful, energetic Mexican spot
+Nue,https://nueseattle.com,Global Street Food,Capitol Hill,Seattle,fun;adventurous;casual,Eclectic global street food great for conversation
+The Corson Building,https://thecorsonbuilding.com,Seasonal NW,Georgetown,Seattle,romantic;garden;unique,Magical garden dining in a historic stone house
+Joule,https://joulerestaurant.com,Korean-Inspired Steakhouse,Wallingford,Seattle,fun;chef-driven;energetic,Bold flavors and stylish atmosphere
+The Whale Wins,https://thewhalewins.com,Wood-Fired NW,Wallingford,Seattle,romantic;bright;seasonal,Airy space with wood-fired vegetables and fish
+Manolin,https://manolinseattle.com,Seafood / NW,Fremont,Seattle,fun;coastal;cocktails,Lively coastal vibe with crudo and cocktails
+The Walrus and the Carpenter,https://thewalrusbar.com,Seafood / Oyster Bar,Ballard,Seattle,fun;energetic;seafood,Bustling oyster bar perfect for lively dates
+Staple & Fancy,https://ethanstowellrestaurants.com,Italian / Chef’s Menu,Ballard,Seattle,romantic;omakase-italian;cozy,Italian tasting menu in a candlelit space
+San Fermo,https://sanfermoseattle.com,Italian,Ballard,Seattle,romantic;cozy;historic,Charming old house with intimate rooms
+Stoneburner,https://stoneburnerseattle.com,Italian / Mediterranean,Ballard,Seattle,fun;stylish;hotel-adjacent,Great cocktails and Mediterranean plates
+Bitterroot BBQ,https://bitterrootbbq.com,BBQ,Ballard,Seattle,casual;fun;whiskey,Low-key BBQ with strong whiskey program
+Percy’s & Co.,https://percysseattle.com,Gastropub,Ballard,Seattle,romantic;cozy;cocktails,Apothecary-style cocktails in a warm space
+Ray’s Boathouse,https://rays.com,Seafood,Ballard,Seattle,romantic;view;waterfront,Classic waterfront dining with sunset views
+Ray’s Café,https://rays.com,Seafood,Ballard,Seattle,casual;view;waterfront,Casual upstairs sibling with great views
+Kin Len,https://kinlenseattle.com,Thai,Ballard,Seattle,fun;bold-flavors;casual,Isan Thai with funky flavors
+La Carta de Oaxaca,https://lacartadeoaxaca.com,Mexican,Ballard,Seattle,fun;lively;authentic,Beloved Oaxacan spot with great energy
+Cafe Munir,https://cafemunir.com,Levantine,North Ballard,Seattle,romantic;mezze;cozy,Mezze-focused and candlelit
+Brimmer & Heeltap,https://brimmerandheeltap.com,New American,Ballard / Phinney,Seattle,romantic;neighborhood;patio,Neighborhood gem with warm service
+Opus Co.,https://opuscoseattle.com,New American Tasting,Phinney Ridge,Seattle,romantic;chef-driven;intimate,Tiny wood-fired tasting menu
+Le Coin,https://lecoinseattle.com,French / NW,Fremont,Seattle,romantic;classic;cozy,French-ish bistro great for classic dates
+Revel,https://revelseattle.com,Korean Fusion,Fremont,Seattle,fun;casual;street-food,Street-food inspired Korean fusion
+Kamonegi,https://kamonegiseattle.com,Japanese Soba,Fremont,Seattle,unique;chef-driven;quirky,Handmade soba and tempura in an artistic space
+Art of the Table,https://artofthetable.net,Tasting Menu,Fremont,Seattle,romantic;chef-counter;seasonal,Intimate chef’s counter experience
+Westward,https://westwardseattle.com,Seafood / Mediterranean,Northlake,Seattle,romantic;waterfront;scenic,On the water with fire pits
+Ivar’s Salmon House,https://ivars.com,Seafood,Northlake,Seattle,casual;view;classic,Old-school seafood with lake views
+How to Cook a Wolf QA,https://ethanstowellrestaurants.com,Italian,Queen Anne,Seattle,romantic;cozy;chef-driven,Small, intimate Italian spot
+Eden Hill,https://edenhillrestaurant.com,New American,Queen Anne,Seattle,romantic;tasting-menu;adventurous,Tiny and inventive tasting menu
+Eden Hill Provisions,https://edenhillprovisions.com,New American,Queen Anne,Seattle,casual;chef-driven;cozy,More casual sibling to Eden Hill
+Betty,https://bettyrestaurant.com,New American,Queen Anne,Seattle,romantic;classic;neighborhood,Classic neighborhood bistro
+Toulouse Petit,https://toulousepetit.com,Cajun / Creole,Queen Anne,Seattle,fun;lively;big-menu,New Orleans–style energy
+Taylor Shellfish QA,https://taylorshellfishfarms.com,Seafood / Oyster Bar,Queen Anne,Seattle,casual;seafood;wine,Oysters and wine for a light date
+List,https://listrestaurant.com,Italian / Small Plates,Belltown,Seattle,fun;shareable;happy-hour,Shareable plates and lively vibe
+Shiro’s Sushi,https://shiros.com,Japanese / Sushi,Belltown,Seattle,romantic;omakase;classic,Classic Seattle omakase experience
+Umi Sake House,https://umisakehouse.com,Japanese / Sushi,Belltown,Seattle,fun;dark;cocktails,Dark, buzzy sushi spot
+Tavolata Belltown,https://ethanstowellrestaurants.com,Italian,Belltown,Seattle,fun;pasta;communal,Hearty Italian in a lively room
+The Victor Tavern,https://thevictortavern.com,Gastropub,South Lake Union,Seattle,casual;modern;fun,Modern tavern great for casual dates
+
+Name,URL,Cuisine,Neighborhood,City,Tags,VibeNotes
+Duke's South Lake Union,https://dukesseafood.com,Seafood,South Lake Union,Seattle,casual;waterfront;reliable,Lakefront seafood with a relaxed vibe
+Daniel’s Broiler Lake Union,https://danielsbroiler.com,Steakhouse,South Lake Union,Seattle,romantic;view;classic,Classic steakhouse with lake views
+Serafina,https://serafinaseattle.com,Italian,Eastlake,Seattle,romantic;cozy;piano,Romantic Italian with live piano some nights
+Cascina Spinasse,https://spinasse.com,Italian,Capitol Hill,Seattle,romantic;intimate;pasta,Handmade pasta in a candlelit room
+Bateau,https://restaurantbateau.com,Steakhouse,Capitol Hill,Seattle,chef-driven;adventurous;minimalist,Whole-animal butchery with serious steak
+Bar Melusine (Corvus & Co.),https://corvusandcompany.com,Cocktail Bar / Small Plates,Capitol Hill,Seattle,fun;moody;cocktail-forward,Dark and stylish cocktail spot
+Il Terrazzo Carmine,https://ilterrazzocarmine.com,Italian,Pioneer Square,Seattle,romantic;classic;white-tablecloth,Old-school Italian with impeccable service
+Carmine’s Bellevue,https://carminesbellevue.com,Italian,Downtown,Bellevue,romantic;classic;upscale,Eastside’s iconic Italian date spot
+The London Plane,https://thelondonplane.com,New American,Pioneer Square,Seattle,romantic;bright;day-date,Airy space with flowers and pastries
+The Metropolitan Grill,https://themetropolitangrill.com,Steakhouse,Downtown,Seattle,classic;special-occasion;dark-wood,Power steakhouse with old-school charm
+AQUA by El Gaucho,https://elgaucho.com/aqua,Seafood / Steak,Waterfront,Seattle,romantic;view;glamorous,Waterfront dining with piano music
+El Gaucho Seattle,https://elgaucho.com,Steakhouse,Belltown,Seattle,romantic;classic;tableside-service,Old-school steakhouse with dramatic service
+Purple Café and Wine Bar,https://purplecafe.com,New American / Wine,Downtown,Seattle,fun;wine-forward;stylish,Iconic wine tower and great small plates
+Ben Paris,https://benparis.com,New American,Downtown,Seattle,fun;colorful;cocktail-forward,Playful décor and strong cocktails
+Shuckers,https://fairmont.com/seattle,Seafood,Downtown,Seattle,classic;historic;seafood,Historic oyster bar inside the Fairmont
+The George,https://fairmont.com/seattle,New American,Downtown,Seattle,romantic;grand;hotel,Grand hotel dining room for special nights
+Matt’s in the Market,https://mattsinthemarket.com,New American,Pike Place Market,Seattle,romantic;intimate;market-view,Intimate dining with market and bay views
+Cafe Campagne,https://cafecampagne.com,French,Pike Place Market,Seattle,romantic;classic-french;cozy,Parisian bistro perfect for brunch or dinner
+Le Pichet,https://lepichetseattle.com,French,Belltown,Seattle,romantic;cozy;french-café,Tiny French café with European charm
+Boat Street Kitchen,https://boatstreetkitchen.com,French-ish,Lower Queen Anne,Seattle,romantic;rustic;day-date,Brunchy, rustic, and charming
+Tilikum Place Café,https://tilikumplacecafe.com,European,Belltown,Seattle,romantic;cozy;brunch-date,Known for Dutch babies and intimate vibe
+Volunteer Park Café,https://vpcseattle.com,Café / New American,North Capitol Hill,Seattle,romantic;neighborhood;day-date,Charming neighborhood café
+Harvest Vine,https://harvestvine.com,Spanish / Tapas,North Capitol Hill,Seattle,fun;lively;basque,Basque tapas with counter seating
+Bar del Corso,https://bardelcorso.com,Italian / Pizza,Beacon Hill,Seattle,fun;neighborhood;wood-fired,Wood-fired pizza in a cozy space
+Musang,https://musangseattle.com,Filipino,Beacon Hill,Seattle,romantic;community;unique,Soulful Filipino cuisine in a warm setting
+Archipelago,https://archipelagoseattle.com,Filipino Tasting,Hillman City,Seattle,romantic;story-driven;tasting-menu,Storytelling-driven tasting menu
+That’s Amore,https://thatsamoreseattle.com,Italian,Mount Baker,Seattle,romantic;view;classic,Cozy Italian with city views
+Mioposto Mount Baker,https://miopostopizza.com,Italian / Pizza,Mount Baker,Seattle,casual;neighborhood;wine,Neighborhood pizza and wine
+The Lakehouse,https://thelakehousebellevue.com,New American,Downtown,Bellevue,romantic;farmhouse-chic;upscale,Stylish farm-to-table dining
+Ascend Prime Steak & Sushi,https://ascendprime.com,Steak / Sushi,Downtown,Bellevue,romantic;view;glamorous,High-rise dining with dramatic
+
+Name,URL,Cuisine,Neighborhood,City,Tags,VibeNotes
+Heritage Restaurant|Bar,https://heritagewoodinville.com,New American,Hollywood District,Woodinville,romantic;chef-driven;neighborhood,Chef-driven Woodinville favorite with warm hospitality
+Hollywood Tavern,https://hollywoodtavern.com,Gastropub,Hollywood District,Woodinville,casual;fun;historic,Historic roadhouse with burgers and whiskey
+The Cottage,https://thecottagebothell.com,Café / Wine Bar,Downtown,Bothell,romantic;wine-forward;cozy,Cozy wine bar with live music
+McMenamins Anderson School,https://mcmenamins.com,Multi-Venue,Anderson School,Bothell,fun;casual;campus,Multiple bars and restaurants on a quirky campus
+Amaro Bistro,https://amarobistro.com,Italian,Downtown,Bothell,romantic;upscale;classic,Upscale Italian with a polished vibe
+Poquitos Bothell,https://vivapoquitos.com,Mexican,Downtown,Bothell,fun;lively;margaritas,Lively Mexican spot with a great patio
+The Restaurant at DeLille Cellars,https://delillecellars.com,New American,Hollywood District,Woodinville,romantic;wine-country;upscale,Polished winery restaurant
+Mox Boarding House Seattle,https://moxboardinghouse.com,Gastropub / Games,Ballard,Seattle,fun;activity;casual,Board games + dinner for playful dates
+Mox Boarding House Bellevue,https://moxboardinghouse.com,Gastropub / Games,Bellevue,Bellevue,fun;activity;casual,Games and dining in a stylish space
+Flatstick Pub Pioneer Square,https://flatstickpub.com,Bar Food / Mini Golf,Pioneer Square,Seattle,fun;activity;casual,Indoor mini-golf and beer
+Flatstick Pub SLU,https://flatstickpub.com,Bar Food / Mini Golf,South Lake Union,Seattle,fun;activity;casual,Mini-golf and duffleboard
+Flatstick Pub Kirkland,https://flatstickpub.com,Bar Food / Mini Golf,Downtown,Kirkland,fun;activity;casual,Mini-golf near the waterfront
+Marination Ma Kai,https://marinationmobile.com,Hawaiian-Korean,Alki,Seattle,fun;waterfront;casual,Colorful waterfront spot with great sunsets
+Salty’s on Alki,https://saltys.com,Seafood,Alki,Seattle,romantic;view;classic,Iconic skyline views and seafood
+Il Nido,https://ilnidoseattle.com,Italian,Alki,Seattle,romantic;fine-dining;historic,Refined Italian in a historic building
+Haymaker,https://haymakerwestseattle.com,New American,West Seattle,Seattle,romantic;neighborhood;cozy,Neighborhood bistro with warm ambiance
+Lady Jaye,https://ladyjaye.com,BBQ / Cocktails,West Seattle,Seattle,fun;smoked-meats;cocktails,Smoked meats and strong cocktails
+Fonda La Catrina,https://fondalacatrina.com,Mexican,Georgetown,Seattle,fun;lively;mezcal,Colorful and energetic Mexican spot
+Ciudad,https://ciudadseattle.com,Grill / Mediterranean,Georgetown,Seattle,fun;shareable;grilled,Grilled meats and Mediterranean plates
+Meesha,https://meeshaseattle.com,Indian,Wallingford,Seattle,romantic;stylish;modern-indian,Modern Indian with great cocktails
+Rupee Bar,https://rupeebarseattle.com,Indian / Sri Lankan,Ballard,Seattle,romantic;moody;cocktail-forward,Tiny, moody, and intimate
+Omega Ouzeri,https://omegaouzeri.com,Greek,Capitol Hill,Seattle,fun;mezze;bright,Greek mezze in a bright, stylish room
+La Medusa,https://lamedusarestaurant.com,Italian / Sicilian,Columbia City,Seattle,romantic;neighborhood;cozy,Neighborhood Sicilian spot
+Geraldine’s Counter,https://geraldinescounter.com,American Diner,Columbia City,Seattle,casual;brunch;day-date,Classic diner great for day dates
+Meet Korean BBQ,https://meetkoreanbbq.com,Korean BBQ,Capitol Hill,Seattle,fun;interactive;casual,Interactive grilling for lively dates
+Chan Seattle,https://chanseattle.com,Korean Gastropub,Pike Place Market,Seattle,romantic;intimate;small-plates,Small plates and cocktails in a cozy space
+Off Alley,https://offalleyseattle.com,Experimental Bistro,Columbia City,Seattle,adventurous;chef-driven;intimate,Tiny bistro with bold, ever-changing menu
+Ba Bar Capitol Hill,https://babarseattle.com,Vietnamese,Capitol Hill,Seattle,fun;late-night;casual,Great pho and cocktails, open late
+Ba Bar SLU,https://babarseattle.com,Vietnamese,South Lake Union,Seattle,casual;reliable;modern,Modern Vietnamese with cocktails
+Ba Bar University Village,https://babarseattle.com,Vietnamese,U Village,Seattle,casual;bright;reliable,Stylish Vietnamese spot
+Din Tai Fung U Village,https://dintaifungusa.com,Taiwanese,U Village,Seattle,fun;popular;dumplings,Always-busy dumpling destination
+Din Tai Fung Bellevue,https://dintaifungusa.com,Taiwanese,Bellevue,Bellevue,fun;lively;dumplings,Great for casual date nights
+Din Tai Fung Southcenter,https://dintaifungusa.com,Taiwanese,Tukwila,Tukwila,fun;casual;popular,Busy dumpling house
+Japonessa Seattle,https://japonessa.com,Japanese / Sushi,Downtown,Seattle,fun;fusion;lively,Latin-Japanese fusion sushi
+Japonessa Bellevue,https://japonessa.com,Japanese / Sushi,Bellevue,Bellevue,fun;lively;fusion,Stylish sushi spot
+Momiji Capitol Hill,https://momijiseattle.com,Japanese / Sushi,Capitol Hill,Seattle,romantic;cozy;patio,Beautiful interior garden and sushi
+Momiji South Lake Union,https://momijiseattle.com,Japanese / Sushi,South Lake Union,Seattle,fun;modern;reliable,Modern sushi spot
+Tomo,https://tomoseattle.com,Tasting Menu,White Center,Seattle,romantic;avant-garde;chef-driven,Inventive tasting menu in an unexpected location
+Sawyer,https://sawyerseattle.com,New American,Ballard,Seattle,fun;creative;shareable,Creative plates in a lively space
+The Fat Hen,https://thefathen.com,Brunch / Italian,Ballard,Seattle,romantic;cozy;brunch-date,Charming brunch spot
+The Butcher’s Table,https://thebutcherstable.com,Steakhouse,South Lake Union,Seattle,romantic;luxury;wagyu,High-end wagyu-focused steakhouse
+Café Lago,https://cafelago.com,Italian,Montlake,Seattle,romantic;neighborhood;cozy,Neighborhood Italian with wood-fired dishes
+Elliott’s Oyster House,https://elliottsoysterhouse.com,Seafood,Waterfront,Seattle,view;seafood;classic,Waterfront oyster house
+Cutters Crabhouse,https://cutterscrabhouse.com,Seafood,Waterfront,Seattle,view;casual;seafood,Waterfront seafood with skyline views
+The Brooklyn Seafood Steak & Oyster House,https://thebrooklyn.com,Seafood,Downtown,Seattle,classic;seafood;cocktails,Classic seafood and steakhouse
+Serious Pie Downtown,https://seriouspieseattle.com,Pizza,Downtown,Seattle,casual;popular;wood-fired,Tom Douglas’ famous wood-fired pizza
+Serious Pie Virginia,https://seriouspieseattle.com,Pizza,Belltown,Seattle,casual;cozy;popular,Cozy pizza spot with great crust
+Serious Takeout Ballard,https://seriouspieseattle.com,Pizza,Ballard,Seattle,casual;fun;takeout-focused,Tom Douglas’ Ballard pizza outpost
+
+Name,URL,Cuisine,Neighborhood,City,Tags,VibeNotes
+Tutta Bella Stone Way,https://tuttabella.com,Italian / Pizza,Wallingford,Seattle,casual;neighborhood;reliable,Neapolitan pizza in a bright neighborhood space
+Tutta Bella South Lake Union,https://tuttabella.com,Italian / Pizza,South Lake Union,Seattle,casual;family-friendly;reliable,Popular SLU pizza spot
+Tutta Bella Columbia City,https://tuttabella.com,Italian / Pizza,Columbia City,Seattle,casual;neighborhood;reliable,Neighborhood pizza with a warm vibe
+Via Tribunali Capitol Hill,https://viatribunali.com,Italian / Pizza,Capitol Hill,Seattle,romantic;dark;classic,Dark and moody Neapolitan pizza
+Via Tribunali Queen Anne,https://viatribunali.com,Italian / Pizza,Queen Anne,Seattle,romantic;cozy;classic,Cozy pizza in a brick-lined space
+Serious Biscuit,https://seriouspieseattle.com,American,Belltown,Seattle,casual;brunch;comfort-food,Comfort-food brunch spot
+Serious Pie Totem Lake,https://seriouspieseattle.com,Pizza,Totem Lake,Kirkland,casual;popular;wood-fired,Wood-fired pizza in a modern space
+The Pink Door (duplicate removed),https://thepinkdoor.net,Italian-American,Pike Place Market,Seattle,romantic;cabaret;classic,Iconic date-night spot
+The White Swan Public House,https://thewhiteswanpublichouse.com,Seafood,Eastlake,Seattle,casual;waterfront;fun,Waterfront seafood with a lively vibe
+Local Tide,https://localtide.com,Seafood,Fremont,Seattle,casual;modern;seafood,Modern seafood sandwiches and plates
+Elliott Bay Pizza & Pub,https://elliottbaypizza.com,Italian / Pizza,Mill Creek,Mill Creek,casual;neighborhood;family-friendly,Relaxed pizza pub
+Elliott Bay Brewery Lake City,https://elliottbaybrewing.com,Gastropub,Lake City,Seattle,casual;beer;neighborhood,Neighborhood brewpub
+Elliott Bay Brewery Burien,https://elliottbaybrewing.com,Gastropub,Burien,Burien,casual;beer;neighborhood,Classic brewpub atmosphere
+Elliott Bay Brewery West Seattle,https://elliottbaybrewing.com,Gastropub,West Seattle,Seattle,casual;beer;neighborhood,Popular West Seattle brewpub
+The Matador Ballard,https://matadorrestaurants.com,Mexican,Ballard,Seattle,fun;lively;late-night,Lively tequila bar with bold flavors
+The Matador West Seattle,https://matadorrestaurants.com,Mexican,West Seattle,Seattle,fun;lively;late-night,Dark and energetic Mexican spot
+The Matador Redmond,https://matadorrestaurants.com,Mexican,Redmond,Redmond,fun;lively;late-night,Popular Eastside tequila bar
+The Matador Bellevue,https://matadorrestaurants.com,Mexican,Bellevue,Bellevue,fun;lively;late-night,Stylish Mexican spot in Bellevue
+Barrio Capitol Hill (duplicate removed),https://barrioseattle.com,Mexican,Capitol Hill,Seattle,fun;lively;tequila,Colorful and energetic
+Barrio Bellevue,https://barrioseattle.com,Mexican,Bellevue,Bellevue,fun;lively;modern,Modern Mexican with strong cocktails
+Tutta Bella Issaquah,https://tuttabella.com,Italian / Pizza,Issaquah,Issaquah,casual;family-friendly;reliable,Popular Neapolitan pizza
+Tutta Bella Denny Triangle,https://tuttabella.com,Italian / Pizza,Denny Triangle,Seattle,casual;bright;reliable,Modern pizza spot
+I Love Sushi on Lake Union,https://ilovesushi.com,Japanese / Sushi,Eastlake,Seattle,romantic;waterfront;classic,Waterfront sushi with great views
+I Love Sushi Bellevue,https://ilovesushi.com,Japanese / Sushi,Bellevue,Bellevue,romantic;classic;reliable,Classic sushi spot
+Momiji (duplicate removed),https://momijiseattle.com,Japanese / Sushi,Capitol Hill,Seattle,romantic;cozy;patio,Beautiful interior garden
+Sushi Kashiba,https://sushikashiba.com,Japanese / Sushi,Pike Place Market,Seattle,romantic;omakase;legendary,Shiro Kashiba’s iconic omakase
+Sushi Kappo Tamura,https://sushikappotamura.com,Japanese / Sushi,Eastlake,Seattle,romantic;chef-driven;sustainable,Sustainable sushi with chef interaction
+Sushi Samurai,https://sushisamurai.com,Japanese / Sushi,Queen Anne,Seattle,casual;reliable;neighborhood,Neighborhood sushi spot
+Sushi Samurai Ballard,https://sushisamurai.com,Japanese / Sushi,Ballard,Seattle,casual;reliable;neighborhood,Popular Ballard sushi
+Sushi Zen,https://sushizen.com,Japanese / Sushi,Greenwood,Seattle,casual;neighborhood;reliable,Classic neighborhood sushi
+Sushi Zen Bellevue,https://sushizen.com,Japanese / Sushi,Bellevue,Bellevue,casual;reliable;neighborhood,Eastside sushi staple
+Sushi Me,https://sushime.com,Japanese / Sushi,Totem Lake,Kirkland,fun;casual;conveyor-belt,Conveyor-belt sushi great for playful dates
+Sushi Land Bellevue (if reopened),https://,Japanese / Sushi,Bellevue,Bellevue,fun;casual;conveyor-belt,Fast and fun sushi
+Sushi Land Tukwila,https://,Japanese / Sushi,Tukwila,Tukwila,fun;casual;conveyor-belt,Affordable conveyor-belt sushi
+Sushi Hana Kirkland,https://,Japanese / Sushi,Kirkland,Kirkland,casual;neighborhood;reliable,Neighborhood sushi with good rolls
+Sushi Hana Bothell,https://,Japanese / Sushi,Bothell,Bothell,casual;neighborhood;reliable,Popular Bothell sushi spot
+Uptown China,https://uptownchina.com,Chinese,Queen Anne,Seattle,casual;classic;neighborhood,Classic Chinese-American with a retro vibe
+Tai Tung,https://taitungrestaurant.com,Chinese,International District,Seattle,classic;historic;casual,Seattle’s oldest Chinese restaurant
+Jade Garden,https://,Chinese,International District,Seattle,casual;dim-sum;classic,Popular dim sum spot
+Din Tai Fung (duplicate removed),https://dintaifungusa.com,Taiwanese,U Village,Seattle,fun;popular;dumplings,Always-busy dumpling destination
+Facing East,https://facingeastrestaurant.com,Taiwanese,Bellevue,Bellevue,fun;casual;popular,Taiwanese comfort food
+Little Ting’s Dumplings,https://,Chinese,Greenwood,Seattle,casual;dumplings;neighborhood,Handmade dumplings in a tiny shop
+Dough Zone Bellevue,https://doughzonedumplinghouse.com,Chinese,Bellevue,Bellevue,fun;casual;dumplings,Popular dumpling house
+Dough Zone Redmond,https://doughzonedumplinghouse.com,Chinese,Redmond,Redmond,fun;casual;dumplings,Great for casual dates
+Dough Zone Seattle,https://doughzonedumplinghouse.com,Chinese,Capitol Hill,Seattle,fun;casual;popular,Busy dumpling spot
+Wild Ginger Seattle,https://wildginger.com,Pan-Asian,Downtown,Seattle,classic;reliable;pan-asian,Seattle institution for pan-Asian cuisine
+Wild Ginger Bellevue,https://wildginger.com,Pan-Asian,Bellevue,Bellevue,classic;reliable;upscale,Upscale Eastside pan-Asian
+Tamarind Tree,https://tamarindtreerestaurant.com,Vietnamese,International District,Seattle,romantic;garden;classic,Beautiful garden patio and classic Vietnamese
+Green Leaf Vietnamese,https://,Vietnamese,Belltown,Seattle,casual;reliable;neighborhood,Popular Vietnamese spot
+Pho Bac Sup Shop,https://phobac.com,Vietnamese,International District,Seattle,fun;casual;modern,Modern pho shop with cocktails
+Pho Bac Lake City,https://phobac.com,Vietnamese,Lake City,Seattle,casual;neighborhood;reliable,Neighborhood pho
+Pho Than Brothers,https://,Vietnamese,Various,Seattle,casual;quick;reliable,Seattle pho staple
+
+Name,URL,Cuisine,Neighborhood,City,Tags,VibeNotes
+Monsoon Bellevue,https://monsoonrestaurants.com,Vietnamese,Bellevue,Bellevue,romantic;modern;asian-fusion,Modern Vietnamese with upscale Eastside polish
+Monsoon Seattle (duplicate removed),https://monsoonrestaurants.com,Vietnamese,Capitol Hill,Seattle,romantic;modern;asian-fusion,Stylish Vietnamese with great cocktails
+Araya’s Place Bellevue,https://arayasplace.com,Thai,Bellevue,Bellevue,vegan;casual;reliable,Popular vegan Thai spot
+Araya’s Place Seattle,https://arayasplace.com,Thai,University District,Seattle,vegan;casual;reliable,Classic vegan Thai
+Thai Tom,https://,Thai,University District,Seattle,fun;chaotic;spicy,Tiny, fiery Thai spot with a cult following
+Little Uncle,https://littleuncleseattle.com,Thai,Pioneer Square,Seattle,casual;authentic;quick,Authentic Thai with bold flavors
+Bangrak Market,https://bangrakmarket.com,Thai,Capitol Hill,Seattle,fun;lively;street-food,Thai street-food–inspired with colorful décor
+Kati Vegan Thai,https://katiseattle.com,Thai,Capitol Hill,Seattle,vegan;bright;casual,Plant-based Thai with a stylish interior
+Kati Vegan Thai Ballard,https://katiseattle.com,Thai,Ballard,Seattle,vegan;casual;popular,Popular plant-based Thai
+Bai Tong Redmond,https://baitongrestaurant.com,Thai,Redmond,Redmond,casual;reliable;popular,Eastside Thai staple
+Bai Tong Seattle,https://baitongrestaurant.com,Thai,Southcenter,Tukwila,casual;reliable;popular,Classic Thai near the airport
+Bai Tong Bellevue,https://baitongrestaurant.com,Thai,Bellevue,Bellevue,casual;reliable;popular,Busy Eastside Thai
+Nirmal’s,https://nirmalseattle.com,Indian,Pioneer Square,Seattle,romantic;upscale;modern-indian,Modern Indian in a beautiful space
+Taste of India,https://tasteofindiaseattle.com,Indian,University District,Seattle,casual;popular;classic,Seattle’s classic Indian comfort spot
+Mehfil Indian Cuisine,https://mehfilindian.com,Indian,Redmond,Redmond,casual;reliable;neighborhood,Popular Eastside Indian
+Kathakali,https://kathakaliseattle.com,Indian,Edmonds,Edmonds,casual;authentic;regional,Kerala cuisine with warm service
+Paradise Biryani Bellevue,https://paradisebiryani.com,Indian,Bellevue,Bellevue,casual;spicy;popular,Hyderabadi biryani favorite
+Paradise Biryani Redmond,https://paradisebiryani.com,Indian,Redmond,Redmond,casual;spicy;popular,Popular biryani spot
+Taste of Mumbai,https://tasteofmumbaiseattle.com,Indian,Ballard,Seattle,casual;reliable;neighborhood,Neighborhood Indian with good curries
+Taste of Mumbai Kirkland,https://tasteofmumbaikirkland.com,Indian,Kirkland,Kirkland,casual;reliable;neighborhood,Eastside Indian staple
+Taste of India Bothell,https://,Indian,Bothell,Bothell,casual;reliable;neighborhood,Popular Bothell Indian spot
+Shalimar Restaurant,https://,Indian,Capitol Hill,Seattle,casual;classic;reliable,Classic Indian on the Hill
+Cedars Restaurant,https://cedarsseattle.com,Indian / Mediterranean,University District,Seattle,casual;popular;classic,Longtime U District favorite
+Cedars on Brooklyn,https://cedarsseattle.com,Indian / Mediterranean,University District,Seattle,casual;popular;classic,Another beloved Cedars location
+Kastoori Grill,https://kastoorigrill.com,Indian,Redmond,Redmond,casual;reliable;neighborhood,Popular Redmond Indian
+Royal India,https://royalindiaseattle.com,Indian,Queen Anne,Seattle,casual;reliable;neighborhood,Neighborhood Indian with warm service
+Royal India Kirkland,https://royalindiakirkland.com,Indian,Kirkland,Kirkland,casual;reliable;neighborhood,Classic Eastside Indian
+Taste of the Himalayas,https://tasteofthehimalayaswa.com,Nepalese,Bothell,Bothell,casual;cozy;neighborhood,Nepalese comfort food
+Kathmandu Momocha,https://momochausa.com,Nepalese,Capitol Hill,Seattle,fun;casual;dumplings,Nepalese dumplings and street food
+Everest Kitchen,https://everestkitchenwa.com,Nepalese,Shoreline,Shoreline,casual;neighborhood;cozy,Cozy Nepalese spot
+Kabul Afghan Cuisine,https://kabulafghancuisine.com,Afghan,Wallingford,Seattle,romantic;cozy;classic,Classic Afghan dishes in a warm space
+Khyber Pass,https://khyberpassrestaurant.com,Afghan,Wallingford,Seattle,casual;authentic;neighborhood,Authentic Afghan cuisine
+Mediterranean Kitchen Bellevue,https://mediterraneankitchen.com,Mediterranean,Bellevue,Bellevue,casual;garlic-heavy;classic,Eastside Mediterranean staple
+Mediterranean Kitchen Kirkland,https://mediterraneankitchen.com,Mediterranean,Kirkland,Kirkland,casual;garlic-heavy;classic,Popular Kirkland location
+Tanoor Bellevue,https://tanoor.com,Lebanese,Bellevue,Bellevue,romantic;mezze;modern,Modern Lebanese with great mezze
+Tanoor Seattle,https://tanoor.com,Lebanese,Greenwood,Seattle,romantic;mezze;cozy,Cozy Lebanese spot
+Mamnoon,https://mamnoonrestaurant.com,Middle Eastern,Capitol Hill,Seattle,romantic;modern;mezze,Stylish Middle Eastern with great cocktails
+Mbar,https://mbarseattle.com,Middle Eastern / Fusion,South Lake Union,Seattle,romantic;rooftop;view,Rooftop dining with skyline views
+Mamnoon Street,https://mamnoonstreet.com,Middle Eastern,Denny Triangle,Seattle,casual;modern;quick,Fast-casual sibling to Mamnoon
+Anar,https://anarjuice.com,Middle Eastern,U Village,Seattle,casual;healthy;bright,Plant-based Middle Eastern bowls
+Shawarmaji,https://shawarmaji.com,Jordanian,Capitol Hill,Seattle,casual;authentic;quick,Authentic Jordanian shawarma
+Al Basha,https://,Middle Eastern,University District,Seattle,casual;reliable;neighborhood,Classic shawarma and falafel
+Aladdin Gyro-Cery,https://,Middle Eastern,University District,Seattle,casual;late-night;quick,Iconic late-night gyro spot
+Petra Mediterranean Bistro,https://petrabistro.com,Mediterranean,Belltown,Seattle,romantic;cozy;classic,Cozy Mediterranean with warm service
+Cafe Turko,https://cafe-turko.com,Turkish,Fremont,Seattle,fun;colorful;authentic,Colorful Turkish café with great tea
+Ada’s Restaurant & Bar,https://,Mediterranean,Greenwood,Seattle,casual;neighborhood;reliable,Neighborhood Mediterranean spot
+Mr. Gyros,https://mrgyros.com,Greek,Greenwood,Seattle,casual;quick;popular,Popular gyro shop
+Mr. Gyros Ballard,https://mrgyros.com,Greek,Ballard,Seattle,casual;quick;popular,Fast and reliable Greek
+
+Name,URL,Cuisine,Neighborhood,City,Tags,VibeNotes
+Gyro Time,https://,Greek,Wallingford,Seattle,casual;quick;neighborhood,Classic gyro spot with reliable flavors
+Aladdin Falafel,https://,Middle Eastern,University District,Seattle,casual;late-night;quick,Popular late-night falafel and shawarma
+Cedars Restaurant Roosevelt,https://cedarsseattle.com,Indian / Mediterranean,Roosevelt,Seattle,casual;popular;neighborhood,Longtime neighborhood favorite
+Roosevelt Ale House,https://rooseveltalehouse.com,Gastropub,Roosevelt,Seattle,casual;beer;neighborhood,Relaxed gastropub with comfort food
+Portage Bay Café Roosevelt,https://portagebaycafe.com,Brunch / American,Roosevelt,Seattle,casual;brunch;day-date,Popular brunch spot with organic ingredients
+Portage Bay Café SLU,https://portagebaycafe.com,Brunch / American,South Lake Union,Seattle,casual;brunch;popular,Great for weekend day dates
+Portage Bay Café Ballard,https://portagebaycafe.com,Brunch / American,Ballard,Seattle,casual;brunch;popular,Classic Seattle brunch
+Portage Bay Café Roosevelt,https://portagebaycafe.com,Brunch / American,Roosevelt,Seattle,casual;brunch;popular,Neighborhood brunch staple
+Pair,https://pairseattle.com,European,University District,Seattle,romantic;cozy;seasonal,Charming European-inspired small plates
+Mamma Melina,https://mammamelina.com,Italian,University District,Seattle,romantic;classic;upscale,Classic Italian with a warm dining room
+Agave Cocina & Cantina Redmond,https://agavecocina.com,Mexican,Redmond,Redmond,fun;lively;modern,Modern Mexican with strong cocktails
+Agave Cocina & Cantina Issaquah,https://agavecocina.com,Mexican,Issaquah,Issaquah,fun;lively;popular,Stylish Mexican spot
+Agave Cocina & Cantina Kent,https://agavecocina.com,Mexican,Kent,Kent,fun;lively;popular,Popular suburban Mexican
+Agave Cocina & Cantina West Seattle,https://agavecocina.com,Mexican,West Seattle,Seattle,fun;lively;popular,Colorful and energetic
+The Cheesemonger’s Table,https://thecheesemongerstable.com,Cheese / Wine,Redmond,Redmond,romantic;wine-forward;cozy,Cheese boards and wine in a cozy space
+The Stone House Cafe,https://,New American,Redmond,Redmond,romantic;cozy;neighborhood,Charming stone house with seasonal dishes
+The Stone House Kirkland,https://,New American,Kirkland,Kirkland,romantic;cozy;neighborhood,Small, intimate dining
+Volterra Seattle (closed but historically relevant),https://,Italian,Ballard,Seattle,romantic;classic;historic,Formerly iconic Italian spot
+Volterra Woodinville,https://volterrarestaurant.com,Italian,Woodinville,Woodinville,romantic;classic;cozy,Classic Tuscan-inspired dining
+The Commons,https://thecommonscafe.com,New American,Woodinville,Woodinville,casual;bright;popular,Stylish café great for brunch dates
+The Hollywood Tavern (duplicate removed),https://hollywoodtavern.com,Gastropub,Hollywood District,Woodinville,casual;fun;historic,Historic roadhouse
+Purple Café Woodinville (duplicate removed),https://purplecafe.com,New American / Wine,Woodinville,Woodinville,fun;wine-forward;stylish,Popular wine bar
+The Barking Frog (duplicate removed),https://willowslodge.com/dining,New American,Woodinville,Woodinville,romantic;wine-country;upscale,Romantic lodge-adjacent dining
+The Lounge at Willows Lodge (duplicate removed),https://willowslodge.com,Small Plates / Cocktails,Woodinville,Woodinville,romantic;cozy;fireplace,Cozy lounge
+The Cottage Bothell (duplicate removed),https://thecottagebothell.com,Café / Wine Bar,Bothell,Bothell,romantic;wine-forward;cozy,Cozy wine bar
+The Bine Beer & Food,https://thebinebothell.com,Gastropub,Bothell,Bothell,casual;beer;neighborhood,Popular beer-focused gastropub
+The Hop and Hound,https://hopandhound.com,Beer Bar,Bothell,Bothell,casual;beer;dog-friendly,Beer bar with a relaxed vibe
+The Den Coffee Shop & Wine Bar,https://,Wine Bar,Bothell,Bothell,romantic;wine-forward;cozy,Small wine bar great for quiet dates
+The Cottage Café (duplicate removed),https://thecottagebothell.com,Café / Wine Bar,Bothell,Bothell,romantic;wine-forward;cozy,Cozy wine bar
+The Northlake Tavern,https://northlaketavern.com,Pizza,Northlake,Seattle,casual;classic;neighborhood,Classic deep-dish pizza
+The Ram Northgate,https://theram.com,Gastropub,Northgate,Seattle,casual;beer;family-friendly,Classic American pub
+The Ram University Village,https://theram.com,Gastropub,U Village,Seattle,casual;beer;family-friendly,Popular pub near shopping
+The Ram Kent,https://theram.com,Gastropub,Kent,Kent,casual;beer;family-friendly,Classic suburban pub
+The Keg Steakhouse Lynnwood,https://kegsteakhouse.com,Steakhouse,Lynnwood,Lynnwood,casual;classic;reliable,Classic steakhouse chain
+The Keg Steakhouse Bellevue,https://kegsteakhouse.com,Steakhouse,Bellevue,Bellevue,casual;classic;reliable,Popular Eastside steakhouse
+The Keg Steakhouse Tukwila,https://kegsteakhouse.com,Steakhouse,Tukwila,Tukwila,casual;classic;reliable,Classic suburban steakhouse
+The Melting Pot Seattle,https://meltingpot.com,Interactive Fondue,Capitol Hill,Seattle,fun;interactive;romantic,Interactive fondue great for playful dates
+The Melting Pot Bellevue,https://meltingpot.com,Interactive Fondue,Bellevue,Bellevue,fun;interactive;romantic,Eastside fondue date-night spot
+The Cheesecake Factory Bellevue,https://thecheesecakefactory.com,American,Bellevue,Bellevue,casual;popular;big-menu,Massive menu and lively atmosphere
+The Cheesecake Factory Seattle,https://thecheesecakefactory.com,American,Downtown,Seattle,casual;popular;big-menu,Busy downtown dining
+The Cheesecake Factory Lynnwood,https://thecheesecakefactory.com,American,Lynnwood,Lynnwood,casual;popular;big-menu,Classic suburban Cheesecake Factory
+The Cheesecake Factory Tukwila,https://thecheesecakefactory.com,American,Tukwila,Tukwila,casual;popular;big-menu,Popular Southcenter dining
+The Metropolitan Grill (duplicate removed),https://themetropolitangrill.com,Steakhouse,Downtown,Seattle,classic;special-occasion;dark-wood,Power steakhouse
+The Pink Door (duplicate removed),https://thepinkdoor.net,Italian-American,Pike Place Market,Seattle,romantic;cabaret;classic,Iconic date-night spot
+The Crab Pot Seattle,https://thecrabpotseattle.com,Seafood,Waterfront,Seattle,fun;casual;messy,Seafood boil great for playful dates
+The Crab Pot Bellevue,https://thecrabpotseattle.com,Seafood,Bellevue,Bellevue,fun;casual;messy,Eastside seafood boil
+The Crab Pot Edmonds,https://thecrabpotseattle.com,Seafood,Edmonds,Edmonds,fun;casual;waterfront,Waterfront seafood boil
+The Keg Steakhouse (duplicate removed),https://kegsteakhouse.com,Steakhouse,Bellevue,Bellevue,casual;classic;reliable,Classic steakhouse
+The Old Spaghetti Factory Seattle,https://osf.com,Italian,South Lake Union,Seattle,casual;family-friendly;classic,Classic nostalgic Italian
+The Old Spaghetti Factory Lynnwood,https://osf.com,Italian,Lynnwood,Lynnwood,casual;family-friendly;classic,Classic suburban Italian
+The Old Spaghetti Factory Tukwila,https://osf.com,Italian,Tukwila,Tukwila,casual;family-friendly;classic,Classic suburban Italian
+
+Name,URL,Cuisine,Neighborhood,City,Tags,VibeNotes
+Mr. Gyros Lake City,https://mrgyros.com,Greek,Lake City,Seattle,casual;quick;popular,Neighborhood gyro favorite with fast service
+Mr. Gyros Greenwood,https://mrgyros.com,Greek,Greenwood,Seattle,casual;quick;popular,Classic Seattle gyro shop
+Kokkaku,https://kokkaku.com,Japanese Steakhouse,Wallingford,Seattle,romantic;chef-driven;intimate,Japanese-inspired steakhouse with refined dishes
+Kisaku Sushi,https://kisaku.com,Japanese / Sushi,Tangletown,Seattle,romantic;quiet;classic,Neighborhood sushi with a loyal following
+Mkt.,https://ethanstowellrestaurants.com,New American,Tangletown,Seattle,romantic;small;chef-driven,Tiny Ethan Stowell spot with seasonal dishes
+Tilth (legacy),https://tilthrestaurant.com,New American,Wallingford,Seattle,romantic;historic;farm-to-table,Historic house with farm-to-table roots
+Bizzarro Italian Café,https://bizzarroitaliancafe.com,Italian,Wallingford,Seattle,fun;quirky;romantic,Whimsical décor and cozy Italian dishes
+Cantinetta Wallingford,https://cantinettaseattle.com,Italian,Wallingford,Seattle,romantic;cozy;classic,Handmade pasta in a warm space
+Pasta Freska,https://pastafreska.com,Italian,Westlake,Seattle,fun;omakase-italian;quirky,No-menu Italian omakase experience
+Serious Pie Ballard,https://seriouspieseattle.com,Pizza,Ballard,Seattle,casual;popular;wood-fired,Tom Douglas’ famous pizza
+The Noble Fir,https://thenoblefir.com,Gastropub,Ballard,Seattle,casual;beer;cozy,Beer-focused gastropub with a warm vibe
+The Walrus and the Carpenter (duplicate removed),https://thewalrusbar.com,Seafood,Ballard,Seattle,fun;energetic;seafood,Bustling oyster bar
+The Fat Hen (duplicate removed),https://thefathen.com,Brunch,Ballard,Seattle,romantic;cozy;brunch-date,Charming brunch spot
+The Ballard Cut,https://theballardcut.com,Steakhouse,Ballard,Seattle,romantic;whiskey;upscale,Steakhouse with a deep whiskey list
+The Ballard Smoke Shop,https://,American,Ballard,Seattle,casual;dive;classic,Old-school Ballard diner/dive
+The Gerald,https://thegeraldseattle.com,Cocktail Bar,Ballard,Seattle,romantic;cocktail-forward;moody,Dark cocktail bar great for pre-dinner drinks
+The Sexton,https://thesextonballard.com,Southern,Ballard,Seattle,fun;cocktails;comfort-food,Small plates and whiskey cocktails
+The Barking Dog Alehouse,https://barkingdogalehouse.com,Gastropub,Ballard,Seattle,casual;neighborhood;beer,Neighborhood gastropub
+The Leary Traveler,https://thelearytraveler.com,Gastropub,Fremont/Leary,Seattle,casual;cozy;neighborhood,Comfort food and beer
+The Barrel Thief,https://bthief.com,Whiskey Bar,Fremont,Seattle,romantic;whiskey;cozy,Whiskey bar with small plates
+Revel (duplicate removed),https://revelseattle.com,Korean Fusion,Fremont,Seattle,fun;casual;street-food,Street-food inspired Korean
+Eve Fremont,https://eveseattle.com,New American,Fremont,Seattle,romantic;bright;seasonal,Healthy-ish seasonal dishes in a stylish room
+RockCreek Seafood & Spirits,https://rockcreekseattle.com,Seafood,Fremont,Seattle,romantic;seafood;upscale,Seafood-focused with a rustic-chic vibe
+Pomerol,https://pomerolrestaurant.com,French / NW,Fremont,Seattle,romantic;cozy;chef-driven,Intimate French-inspired dining
+Le Coin (duplicate removed),https://lecoinseattle.com,French,Fremont,Seattle,romantic;classic;cozy,Classic French-ish bistro
+Lupo,https://lupopizza.com,Pizza,Fremont,Seattle,casual;neighborhood;wood-fired,Wood-fired pizza with natural wine
+Ha!,https://haseattle.com,New American,Fremont,Seattle,fun;creative;casual,Creative small plates with a playful vibe
+The Whale Wins (duplicate removed),https://thewhalewins.com,Wood-Fired NW,Wallingford,Seattle,romantic;bright;seasonal,Airy wood-fired dining
+Westward (duplicate removed),https://westwardseattle.com,Seafood,Northlake,Seattle,romantic;waterfront;scenic,On the water with fire pits
+Ivar’s Salmon House (duplicate removed),https://ivars.com,Seafood,Northlake,Seattle,casual;view;classic,Old-school seafood
+Serafina (duplicate removed),https://serafinaseattle.com,Italian,Eastlake,Seattle,romantic;cozy;piano,Romantic Italian
+Eastlake Bar & Grill,https://eastlakebarandgrill.com,American,Eastlake,Seattle,casual;waterfront;patio,Waterfront patio great for summer dates
+Little Water Cantina,https://littlewatercantina.com,Mexican,Eastlake,Seattle,fun;patio;view,Great patio with lake views
+Café Lago (duplicate removed),https://cafelago.com,Italian,Montlake,Seattle,romantic;neighborhood;cozy,Neighborhood Italian
+Meet the Moon,https://meetthemooncafe.com,New American,Leschi,Seattle,casual;brunch;lakefront,Lakefront brunch and dinner
+Daniel’s Broiler Leschi,https://danielsbroiler.com,Steakhouse,Leschi,Seattle,romantic;view;classic,Steakhouse with lake views
+That’s Amore (duplicate removed),https://thatsamoreseattle.com,Italian,Mount Baker,Seattle,romantic;view;classic,Cozy Italian with views
+Mioposto Leschi,https://miopostopizza.com,Italian / Pizza,Leschi,Seattle,casual;neighborhood;wine,Neighborhood pizza and wine
+Mioposto Bryant,https://miopostopizza.com,Italian / Pizza,Bryant,Seattle,casual;neighborhood;wine,Cozy Eastside-of-Seattle pizza
+Mioposto Ravenna,https://miopostopizza.com,Italian / Pizza,Ravenna,Seattle,casual;neighborhood;wine,Popular neighborhood pizza
+JuneBaby,https://junebabyseattle.com,Southern,Ravenna,Seattle,romantic;chef-driven;unique,James Beard–winning Southern cuisine
+Eureka! University Village,https://eurekarestaurantgroup.com,American,U Village,Seattle,fun;casual;burgers,Burgers and whiskey in a lively space
+Din Tai Fung (duplicate removed),https://dintaifungusa.com,Taiwanese,U Village,Seattle,fun;popular;dumplings,Always-busy dumpling spot
+Mr. West Café Bar U Village,https://mrwestcafebar.com,Café / Wine,U Village,Seattle,romantic;wine-forward;bright,Stylish café/wine bar
+Mr. West Café Bar Downtown,https://mrwestcafebar.com,Café / Wine,Downtown,Seattle,romantic;wine-forward;bright,Great for light dinner + wine
+
+Name,URL,Cuisine,Neighborhood,City,Tags,VibeNotes
+Mr. West Café Bar U District,https://mrwestcafebar.com,Café / Wine,University District,Seattle,romantic;wine-forward;bright,Stylish café and wine bar great for light dinner dates
+Piatti Seattle,https://piatti.com,Italian,University Village,Seattle,romantic;classic;upscale,Italian with a warm, polished dining room
+Piatti Bellevue,https://piatti.com,Italian,Bellevue,Bellevue,romantic;classic;reliable,Classic Italian with a cozy vibe
+Mama Stortini’s Bellevue,https://mamastortinis.com,Italian,Bellevue,Bellevue,casual;family-friendly;classic,Italian-American comfort food
+Mama Stortini’s Kent,https://mamastortinis.com,Italian,Kent,Kent,casual;family-friendly;classic,Popular suburban Italian
+Mama Stortini’s Puyallup,https://mamastortinis.com,Italian,Puyallup,Puyallup,casual;family-friendly;classic,Classic Italian dishes
+The White Swan Public House (duplicate removed),https://thewhiteswanpublichouse.com,Seafood,Eastlake,Seattle,casual;waterfront;fun,Waterfront seafood
+The 5 Point Café,https://the5pointcafe.com,Diner,Belltown,Seattle,casual;dive;late-night,Iconic Seattle dive diner
+The Lodge Sports Grille Downtown,https://thelodgegrille.com,American,Downtown,Seattle,casual;beer;game-night,Woodsy sports bar with hearty food
+The Lodge Sports Grille Bellevue,https://thelodgegrille.com,American,Bellevue,Bellevue,casual;beer;game-night,Popular Eastside sports bar
+The Lodge Sports Grille Kirkland,https://thelodgegrille.com,American,Kirkland,Kirkland,casual;beer;game-night,Neighborhood sports bar
+The Lodge Sports Grille Mill Creek,https://thelodgegrille.com,American,Mill Creek,Mill Creek,casual;beer;game-night,Classic suburban sports bar
+The Lodge Sports Grille West Seattle,https://thelodgegrille.com,American,West Seattle,Seattle,casual;beer;game-night,Relaxed West Seattle pub
+The Pink Door (duplicate removed),https://thepinkdoor.net,Italian-American,Pike Place Market,Seattle,romantic;cabaret;classic,Iconic date-night spot
+The Fisherman’s Restaurant,https://thefishermansrestaurant.com,Seafood,Waterfront,Seattle,casual;waterfront;classic,Seafood with waterfront views
+The Fisherman’s Restaurant Tacoma,https://thefishermansrestaurant.com,Seafood,Tacoma,Tacoma,casual;waterfront;classic,Waterfront seafood
+The Crab Pot (duplicate removed),https://thecrabpotseattle.com,Seafood,Waterfront,Seattle,fun;casual;messy,Seafood boil
+The Crab Pot Bellevue (duplicate removed),https://thecrabpotseattle.com,Seafood,Bellevue,Bellevue,fun;casual;messy,Seafood boil
+The Crab Pot Edmonds (duplicate removed),https://thecrabpotseattle.com,Seafood,Edmonds,Edmonds,fun;casual;waterfront,Waterfront seafood boil
+The Keg Steakhouse (duplicate removed),https://kegsteakhouse.com,Steakhouse,Bellevue,Bellevue,casual;classic;reliable,Classic steakhouse
+The Keg Steakhouse Lynnwood (duplicate removed),https://kegsteakhouse.com,Steakhouse,Lynnwood,Lynnwood,casual;classic;reliable,Classic suburban steakhouse
+The Keg Steakhouse Tukwila (duplicate removed),https://kegsteakhouse.com,Steakhouse,Tukwila,Tukwila,casual;classic;reliable,Classic suburban steakhouse
+The Cheesecake Factory (duplicate removed),https://thecheesecakefactory.com,American,Bellevue,Bellevue,casual;popular;big-menu,Massive menu and lively atmosphere
+The Cheesecake Factory Seattle (duplicate removed),https://thecheesecakefactory.com,American,Downtown,Seattle,casual;popular;big-menu,Busy downtown dining
+The Cheesecake Factory Lynnwood (duplicate removed),https://thecheesecakefactory.com,American,Lynnwood,Lynnwood,casual;popular;big-menu,Classic suburban Cheesecake Factory
+The Cheesecake Factory Tukwila (duplicate removed),https://thecheesecakefactory.com,American,Tukwila,Tukwila,casual;popular;big-menu,Popular Southcenter dining
+The Melting Pot Seattle (duplicate removed),https://meltingpot.com,Interactive Fondue,Capitol Hill,Seattle,fun;interactive;romantic,Interactive fondue
+The Melting Pot Bellevue (duplicate removed),https://meltingpot.com,Interactive Fondue,Bellevue,Bellevue,fun;interactive;romantic,Eastside fondue date-night spot
+The Butcher’s Table (duplicate removed),https://thebutcherstable.com,Steakhouse,South Lake Union,Seattle,romantic;luxury;wagyu,High-end wagyu steakhouse
+The Capital Grille Seattle,https://thecapitalgrille.com,Steakhouse,Downtown,Seattle,romantic;classic;upscale,Upscale steakhouse with polished service
+The Capital Grille Bellevue,https://thecapitalgrille.com,Steakhouse,Bellevue,Bellevue,romantic;classic;upscale,Eastside fine-dining steakhouse
+The Metropolitan Grill (duplicate removed),https://themetropolitangrill.com,Steakhouse,Downtown,Seattle,classic;special-occasion;dark-wood,Power steakhouse
+The Brooklyn Seafood Steak & Oyster House (duplicate removed),https://thebrooklyn.com,Seafood,Downtown,Seattle,classic;seafood;cocktails,Classic seafood and steakhouse
+The Boathouse at Sunday Park,https://,Seafood,Unknown,Seattle,romantic;waterfront;classic,Waterfront dining (placeholder)
+The White Swan Public House (duplicate removed),https://thewhiteswanpublichouse.com,Seafood,Eastlake,Seattle,casual;waterfront;fun,Waterfront seafood
+The 74th Street Ale House,https://74thstreetalehouse.com,Gastropub,Phinney Ridge,Seattle,casual;beer;neighborhood,Classic Seattle alehouse
+The 74th Street Ale House (duplicate removed),https://74thstreetalehouse.com,Gastropub,Phinney Ridge,Seattle,casual;beer;neighborhood,Classic alehouse
+The Park Pub,https://,Gastropub,Phinney Ridge,Seattle,casual;beer;neighborhood,Neighborhood pub with comfort food
+The Yard Café,https://theyardcafe.com,Mexican / American,Greenwood,Seattle,casual;patio;neighborhood,Relaxed spot with a great patio
+The Olive and Grape,https://theoliveandgrape.com,Turkish / Greek,Greenwood,Seattle,romantic;cozy;mediterranean,Cozy Mediterranean with warm service
+The Maple,https://,American,Maple Leaf,Seattle,casual;neighborhood;reliable,Neighborhood bar and grill
+The Shambles,https://shamblesseattle.com,Butcher Bar,Maple Leaf,Seattle,fun;meat-forward;cocktails,Butcher shop + bar with great charcuterie
+The Roosevelt Ale House (duplicate removed),https://rooseveltalehouse.com,Gastropub,Roosevelt,Seattle,casual;beer;neighborhood,Relaxed gastropub
+The Blue Glass,https://theblueglass.com,New American,Ballard,Seattle,romantic;cozy;neighborhood,Cozy Ballard bistro
+The Market Arms,https://themarketarms.com,British Pub,Ballard,Seattle,casual;pub;fun,British pub with hearty food
+The Dray,https://thedray.com,Beer Bar,Ballard,Seattle,casual;beer;neighborhood,Small beer bar with pizza
+The Barking Dog Alehouse (duplicate removed),https://barkingdogalehouse.com,Gastropub,Ballard,Seattle,casual;beer;neighborhood,Neighborhood gastropub
+The Leary Traveler (duplicate removed),https://thelearytraveler.com,Gastropub,Fremont/Leary,Seattle,casual;cozy;neighborhood,Comfort food and beer
+The Barrel Thief (duplicate removed),https://bthief.com,Whiskey Bar,Fremont,Seattle,romantic;whiskey;cozy,Whiskey bar with small plates
+The Masonry Fremont,https://themasonryseattle.com,Pizza,Fremont,Seattle,casual;craft-beer;wood-fired,Wood-fired pizza and craft beer
+The Masonry Queen Anne,https://themasonryseattle.com,Pizza,Queen Anne,Seattle,casual;craft-beer;wood-fired,Popular pizza and beer spot
+The Masonry SLU,https://themasonryseattle.com,Pizza,South Lake Union,Seattle,casual;craft-beer;wood-fired,Modern pizza and beer
+
+Name,URL,Cuisine,Neighborhood,City,Tags,VibeNotes
+The Masonry (duplicate removed),https://themasonryseattle.com,Pizza,Fremont,Seattle,casual;craft-beer;wood-fired,Wood-fired pizza with craft beer
+The Pink Door (duplicate removed),https://thepinkdoor.net,Italian-American,Pike Place Market,Seattle,romantic;cabaret;classic,Iconic date-night spot
+The Whale Wins (duplicate removed),https://thewhalewins.com,Wood-Fired NW,Wallingford,Seattle,romantic;bright;seasonal,Airy wood-fired dining
+The Wandering Goose,https://thewanderinggoose.com,Southern,Capitol Hill,Seattle,casual;brunch;cozy,Comforting Southern dishes
+The Wandering Goose (legacy),https://thewanderinggoose.com,Southern,Capitol Hill,Seattle,casual;brunch;cozy,Classic brunch spot
+The Wandering Goose (pop-up),https://thewanderinggoose.com,Southern,Various,Seattle,casual;brunch;cozy,Occasional pop-up brunch
+The Fat Hen (duplicate removed),https://thefathen.com,Brunch,Ballard,Seattle,romantic;cozy;brunch-date,Charming brunch spot
+The Harvest Vine (duplicate removed),https://harvestvine.com,Spanish / Tapas,Capitol Hill,Seattle,fun;lively;basque,Basque tapas with counter seating
+The Whale Wins (duplicate removed),https://thewhalewins.com,Wood-Fired NW,Wallingford,Seattle,romantic;bright;seasonal,Airy wood-fired dining
+The Walrus and the Carpenter (duplicate removed),https://thewalrusbar.com,Seafood,Ballard,Seattle,fun;energetic;seafood,Bustling oyster bar
+The Butcher’s Table (duplicate removed),https://thebutcherstable.com,Steakhouse,South Lake Union,Seattle,romantic;luxury;wagyu,High-end wagyu steakhouse
+The Capital Grille (duplicate removed),https://thecapitalgrille.com,Steakhouse,Downtown,Seattle,romantic;classic;upscale,Upscale steakhouse
+The George (duplicate removed),https://fairmont.com/seattle,New American,Downtown,Seattle,romantic;grand;hotel,Grand hotel dining room
+The London Plane (duplicate removed),https://thelondonplane.com,New American,Pioneer Square,Seattle,romantic;bright;day-date,Airy space with flowers
+The Lakehouse (duplicate removed),https://thelakehousebellevue.com,New American,Bellevue,Bellevue,romantic;farmhouse-chic;upscale,Stylish farm-to-table dining
+The Commons (duplicate removed),https://thecommonscafe.com,New American,Woodinville,Woodinville,casual;bright;popular,Stylish café
+The Cottage (duplicate removed),https://thecottagebothell.com,Café / Wine Bar,Bothell,Bothell,romantic;wine-forward;cozy,Cozy wine bar
+The Stone House Cafe (duplicate removed),https://,New American,Redmond,Redmond,romantic;cozy;neighborhood,Charming stone house
+The Stone House Kirkland (duplicate removed),https://,New American,Kirkland,Kirkland,romantic;cozy;neighborhood,Small, intimate dining
+The Barking Frog (duplicate removed),https://willowslodge.com/dining,New American,Woodinville,Woodinville,romantic;wine-country;upscale,Romantic lodge-adjacent dining
+The Herbfarm (duplicate removed),https://theherbfarm.com,Tasting Menu,Woodinville,Woodinville,romantic;destination;fine-dining,Legendary multi-course dining
+The Cottage Bothell (duplicate removed),https://thecottagebothell.com,Café / Wine Bar,Bothell,Bothell,romantic;wine-forward;cozy,Cozy wine bar
+The Bine Beer & Food (duplicate removed),https://thebinebothell.com,Gastropub,Bothell,Bothell,casual;beer;neighborhood,Popular beer-focused gastropub
+The Hop and Hound (duplicate removed),https://hopandhound.com,Beer Bar,Bothell,Bothell,casual;beer;dog-friendly,Beer bar with relaxed vibe
+The Den Coffee Shop & Wine Bar (duplicate removed),https://,Wine Bar,Bothell,Bothell,romantic;wine-forward;cozy,Small wine bar
+The Northlake Tavern (duplicate removed),https://northlaketavern.com,Pizza,Northlake,Seattle,casual;classic;neighborhood,Classic deep-dish pizza
+The Ram (duplicate removed),https://theram.com,Gastropub,Various,Seattle,casual;beer;family-friendly,Classic American pub
+The Keg (duplicate removed),https://kegsteakhouse.com,Steakhouse,Various,Seattle,casual;classic;reliable,Classic steakhouse
+The Old Spaghetti Factory (duplicate removed),https://osf.com,Italian,Various,Seattle,casual;family-friendly;classic,Nostalgic Italian
+The Crab Pot (duplicate removed),https://thecrabpotseattle.com,Seafood,Various,Seattle,fun;casual;messy,Seafood boil
+The Fisherman’s Restaurant (duplicate removed),https://thefishermansrestaurant.com,Seafood,Various,Seattle,casual;waterfront;classic,Waterfront seafood
+The Lodge Sports Grille (duplicate removed),https://thelodgegrille.com,American,Various,Seattle,casual;beer;game-night,Woodsy sports bar
+The Matador (duplicate removed),https://matadorrestaurants.com,Mexican,Various,Seattle,fun;lively;late-night,Tequila bar with bold flavors
+The Cheesemonger’s Table (duplicate removed),https://thecheesemongerstable.com,Cheese / Wine,Redmond,Redmond,romantic;wine-forward;cozy,Cheese boards and wine
+The Noble Fir (duplicate removed),https://thenoblefir.com,Gastropub,Ballard,Seattle,casual;beer;cozy,Beer-focused gastropub
+The Gerald (duplicate removed),https://thegeraldseattle.com,Cocktail Bar,Ballard,Seattle,romantic;cocktail-forward;moody,Dark cocktail bar
+The Sexton (duplicate removed),https://thesextonballard.com,Southern,Ballard,Seattle,fun;cocktails;comfort-food,Small plates and whiskey cocktails
+The Market Arms (duplicate removed),https://themarketarms.com,British Pub,Ballard,Seattle,casual;pub;fun,British pub with hearty food
+The Dray (duplicate removed),https://thedray.com,Beer Bar,Ballard,Seattle,casual;beer;neighborhood,Small beer bar with pizza
+The Shambles (duplicate removed),https://shamblesseattle.com,Butcher Bar,Maple Leaf,Seattle,fun;meat-forward;cocktails,Butcher shop + bar
+The Olive and Grape (duplicate removed),https://theoliveandgrape.com,Turkish / Greek,Greenwood,Seattle,romantic;cozy;mediterranean,Cozy Mediterranean
+The Yard Café (duplicate removed),https://theyardcafe.com,Mexican / American,Greenwood,Seattle,casual;patio;neighborhood,Relaxed spot with patio
+The Park Pub (duplicate removed),https://,Gastropub,Phinney Ridge,Seattle,casual;beer;neighborhood,Neighborhood pub
+The Blue Glass (duplicate removed),https://theblueglass.com,New American,Ballard,Seattle,romantic;cozy;neighborhood,Cozy Ballard bistro
+The Maple (duplicate removed),https://,American,Maple Leaf,Seattle,casual;neighborhood;reliable,Neighborhood bar and grill
+The Barrel Thief (duplicate removed),https://bthief.com,Whiskey Bar,Fremont,Seattle,romantic;whiskey;cozy,Whiskey bar with small plates
+The Masonry (duplicate removed),https://themasonryseattle.com,Pizza,Queen Anne,Seattle,casual;craft-beer;wood-fired,Popular pizza and beer
+The Masonry SLU (duplicate removed),https://themasonryseattle.com,Pizza,South Lake Union,Seattle,casual;craft-beer;wood-fired,Modern pizza and beer
+
+Name,URL,Cuisine,Neighborhood,City,Tags,VibeNotes
+The Pink Door (duplicate removed),https://thepinkdoor.net,Italian-American,Pike Place Market,Seattle,romantic;cabaret;classic,Iconic Seattle date-night spot
+The Whale Wins (duplicate removed),https://thewhalewins.com,Wood-Fired NW,Wallingford,Seattle,romantic;bright;seasonal,Airy wood-fired dining
+The Walrus and the Carpenter (duplicate removed),https://thewalrusbar.com,Seafood,Ballard,Seattle,fun;energetic;seafood,Bustling oyster bar
+The Butcher’s Table (duplicate removed),https://thebutcherstable.com,Steakhouse,South Lake Union,Seattle,romantic;luxury;wagyu,High-end wagyu steakhouse
+The Capital Grille (duplicate removed),https://thecapitalgrille.com,Steakhouse,Downtown,Seattle,romantic;classic;upscale,Upscale steakhouse
+The George (duplicate removed),https://fairmont.com/seattle,New American,Downtown,Seattle,romantic;grand;hotel,Grand hotel dining room
+The London Plane (duplicate removed),https://thelondonplane.com,New American,Pioneer Square,Seattle,romantic;bright;day-date,Airy space with flowers
+The Lakehouse (duplicate removed),https://thelakehousebellevue.com,New American,Bellevue,Bellevue,romantic;farmhouse-chic;upscale,Stylish farm-to-table dining
+The Commons (duplicate removed),https://thecommonscafe.com,New American,Woodinville,Woodinville,casual;bright;popular,Stylish café
+The Cottage (duplicate removed),https://thecottagebothell.com,Café / Wine Bar,Bothell,Bothell,romantic;wine-forward;cozy,Cozy wine bar
+The Stone House Cafe (duplicate removed),https://,New American,Redmond,Redmond,romantic;cozy;neighborhood,Charming stone house
+The Stone House Kirkland (duplicate removed),https://,New American,Kirkland,Kirkland,romantic;cozy;neighborhood,Small, intimate dining
+The Barking Frog (duplicate removed),https://willowslodge.com/dining,New American,Woodinville,Woodinville,romantic;wine-country;upscale,Romantic lodge-adjacent dining
+The Herbfarm (duplicate removed),https://theherbfarm.com,Tasting Menu,Woodinville,Woodinville,romantic;destination;fine-dining,Legendary multi-course dining
+The Cottage Bothell (duplicate removed),https://thecottagebothell.com,Café / Wine Bar,Bothell,Bothell,romantic;wine-forward;cozy,Cozy wine bar
+The Bine Beer & Food (duplicate removed),https://thebinebothell.com,Gastropub,Bothell,Bothell,casual;beer;neighborhood,Popular beer-focused gastropub
+The Hop and Hound (duplicate removed),https://hopandhound.com,Beer Bar,Bothell,Bothell,casual;beer;dog-friendly,Beer bar with relaxed vibe
+The Den Coffee Shop & Wine Bar (duplicate removed),https://,Wine Bar,Bothell,Bothell,romantic;wine-forward;cozy,Small wine bar
+The Northlake Tavern (duplicate removed),https://northlaketavern.com,Pizza,Northlake,Seattle,casual;classic;neighborhood,Classic deep-dish pizza
+The Ram (duplicate removed),https://theram.com,Gastropub,Various,Seattle,casual;beer;family-friendly,Classic American pub
+The Keg (duplicate removed),https://kegsteakhouse.com,Steakhouse,Various,Seattle,casual;classic;reliable,Classic steakhouse
+The Old Spaghetti Factory (duplicate removed),https://osf.com,Italian,Various,Seattle,casual;family-friendly;classic,Nostalgic Italian
+The Crab Pot (duplicate removed),https://thecrabpotseattle.com,Seafood,Various,Seattle,fun;casual;messy,Seafood boil
+The Fisherman’s Restaurant (duplicate removed),https://thefishermansrestaurant.com,Seafood,Various,Seattle,casual;waterfront;classic,Waterfront seafood
+The Lodge Sports Grille (duplicate removed),https://thelodgegrille.com,American,Various,Seattle,casual;beer;game-night,Woodsy sports bar
+The Matador (duplicate removed),https://matadorrestaurants.com,Mexican,Various,Seattle,fun;lively;late-night,Tequila bar with bold flavors
+The Cheesemonger’s Table (duplicate removed),https://thecheesemongerstable.com,Cheese / Wine,Redmond,Redmond,romantic;wine-forward;cozy,Cheese boards and wine
+The Noble Fir (duplicate removed),https://thenoblefir.com,Gastropub,Ballard,Seattle,casual;beer;cozy,Beer-focused gastropub
+The Gerald (duplicate removed),https://thegeraldseattle.com,Cocktail Bar,Ballard,Seattle,romantic;cocktail-forward;moody,Dark cocktail bar
+The Sexton (duplicate removed),https://thesextonballard.com,Southern,Ballard,Seattle,fun;cocktails;comfort-food,Small plates and whiskey cocktails
+The Market Arms (duplicate removed),https://themarketarms.com,British Pub,Ballard,Seattle,casual;pub;fun,British pub with hearty food
+The Dray (duplicate removed),https://thedray.com,Beer Bar,Ballard,Seattle,casual;beer;neighborhood,Small beer bar with pizza
+The Shambles (duplicate removed),https://shamblesseattle.com,Butcher Bar,Maple Leaf,Seattle,fun;meat-forward;cocktails,Butcher shop + bar
+The Olive and Grape (duplicate removed),https://theoliveandgrape.com,Turkish / Greek,Greenwood,Seattle,romantic;cozy;mediterranean,Cozy Mediterranean
+The Yard Café (duplicate removed),https://theyardcafe.com,Mexican / American,Greenwood,Seattle,casual;patio;neighborhood,Relaxed spot with patio
+The Park Pub (duplicate removed),https://,Gastropub,Phinney Ridge,Seattle,casual;beer;neighborhood,Neighborhood pub
+The Blue Glass (duplicate removed),https://theblueglass.com,New American,Ballard,Seattle,romantic;cozy;neighborhood,Cozy Ballard bistro
+The Maple (duplicate removed),https://,American,Maple Leaf,Seattle,casual;neighborhood;reliable,Neighborhood bar and grill
+The Barrel Thief (duplicate removed),https://bthief.com,Whiskey Bar,Fremont,Seattle,romantic;whiskey;cozy,Whiskey bar with small plates
+The Masonry (duplicate removed),https://themasonryseattle.com,Pizza,Queen Anne,Seattle,casual;craft-beer;wood-fired,Popular pizza and beer
+The Masonry SLU (duplicate removed),https://themasonryseattle.com,Pizza,South Lake Union,Seattle,casual;craft-beer;wood-fired,Modern pizza and beer
+
+
+

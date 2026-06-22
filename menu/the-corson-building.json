@@ -1,0 +1,15 @@
+{
+  "restaurant": "The Corson Building",
+  "neighborhood": "Georgetown",
+  "cuisine": "Seasonal Pacific Northwest",
+  "venue_format": "tasting-only",
+  "menu_completeness": "experience-only",
+  "source_url": "https://thecorsonbuilding.com/menu",
+  "captured_at": "2026-06-20",
+  "menu_status": "variable",
+  "menu_volatility": "daily",
+  "extraction_method": "html (format only)",
+  "notes": "Magical communal dining in a historic stone house with a garden, Georgetown. Format varies by night: à la carte Thu/Fri ($12-39 per item; starters ~$12-24, mains $27-39, desserts $14), a Saturday prix-fixe supper, and a Sunday supper. Seasonal/daily menu — sample dishes seen include Herby English Pea & Ricotta Spread, Chicken Leg Confit with Morels, Rhubarb Crostata, but no fixed published list. EXPERIENCE-ONLY: composer sells the garden/communal occasion + seasonal NW cooking, no fabricated dish list.",
+  "dishes": [],
+  "beverages": []
+}

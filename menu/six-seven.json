@@ -1,0 +1,623 @@
+{
+  "restaurant": "Six Seven",
+  "neighborhood": "Waterfront",
+  "cuisine": "Pacific Northwest",
+  "venue_format": "full-menu",
+  "menu_completeness": "partial",
+  "source_url": "https://www.edgewaterhotel.com/dine/menus/",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "html (rendered)",
+  "notes": "Dinner menu captured in full including appetizers, soups/salads, mains, sides, add-ons, simply prepared proteins, and chilled seafood. Multiple other menus (Lounge, Brunch, Desserts, Happy Hour, In-Room Dining) referenced on site but not included in raw text. No beverage/wine list present in this extract.",
+  "dishes": [
+    {
+      "course_type": "appetizer",
+      "name": "Artisan Breads",
+      "description": "Baguette & sourdough, whipped butter",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Burrata",
+      "description": "Snap, english & snow peas, confit cherry tomato, sherry vinegar, pea & mint puree, brioche toast",
+      "price_cents": 2400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Beef Tartare",
+      "description": "Caper, cornichon, dijon, shallot, chives, parsley, lemon, olive oil, beet pickled onion, egg yolk jam",
+      "price_cents": 2600,
+      "price_note": "Raw/undercooked item",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Spicy Tuna Tacos",
+      "description": "Avocado, soy vinaigrette, sriracha aioli, sesame, micro cilantro",
+      "price_cents": 2200,
+      "price_note": "Raw/undercooked item",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Penn Cove Mussels",
+      "description": "Fennel, leek, anise, coriander, mustard seeds, spicy butter, IPA broth",
+      "price_cents": 2800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Heirloom Carrots",
+      "description": "Local heirloom carrots, pistou, toasted pumpkin seeds, orange-tarragon glaze",
+      "price_cents": 1700,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Six Seven Clam Chowder",
+      "description": "Bacon, celery, leek, potato, thyme",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Caesar",
+      "description": "Baby gem lettuce, croutons, caesar dressing, parmigiano reggiano",
+      "price_cents": 1800,
+      "price_note": "Add grilled chicken $14, chilled jumbo shrimp $20, or roasted salmon $22",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "BLT",
+      "description": "Iceberg wedge, candied bacon, tomato, poblano ranch, basil vinaigrette",
+      "price_cents": 2200,
+      "price_note": "Add grilled chicken $14, chilled jumbo shrimp $20, or roasted salmon $22",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Strawberry & Labneh",
+      "description": "Baby arugula & upland cress, herbed labneh, strawberries, grapes, toasted pistachio, strawberry vinaigrette",
+      "price_cents": 1900,
+      "price_note": "Contains nuts. Add grilled chicken $14, chilled jumbo shrimp $20, or roasted salmon $22",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Cedar Planked Salmon",
+      "description": "Truffle corn cream, forest mushrooms, asparagus, rainbow potatoes, bacon lardons, herb-roasted tomato, honey",
+      "price_cents": 5900,
+      "price_note": "Raw/undercooked item",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Miso Black Cod",
+      "description": "Calabaza purée, dashi mushrooms, seared baby bok choy, sesame, scallion",
+      "price_cents": 5900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Halibut en Blanc",
+      "description": "Spring onion soubise, root vegetables, dill, beurre blanc",
+      "price_cents": 6000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "PNW Scallop & Shrimp Grits",
+      "description": "Sweet corn polenta, tomato broth, basil, white sofrito",
+      "price_cents": 6200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Chicken Fried Branzino",
+      "description": "Piperade sauce, fennel & cilantro salad",
+      "price_cents": 7200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Bouillabaisse",
+      "description": "Scallops, prawns, fin fish, mussels, tomato-saffron broth, grilled ciabatta, rouille",
+      "price_cents": 6800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Lamb Ragout",
+      "description": "Casarecce pasta, spinach, ricotta, mint, parmigiano-reggiano",
+      "price_cents": 4500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "'Under a Brick' Skagit Valley Chicken",
+      "description": "Sautéed vegetables, chicken jus, grilled lemon",
+      "price_cents": 4400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Roquefort Crusted Filet of Beef",
+      "description": "Silky potato purée, asparagus, herb-roasted tomato, forest mushrooms, red wine jus",
+      "price_cents": 7900,
+      "price_note": "Raw/undercooked item",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Buccatini Primavera",
+      "description": "Fennel, fines herbes, peas, broccoli rabe, sweety drop peppers, almond pesto",
+      "price_cents": 3800,
+      "price_note": "Contains nuts",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Grilled Prawns (add-on)",
+      "description": "4 grilled prawns, add to any plate",
+      "price_cents": 2000,
+      "price_note": "Add-on; 4 pieces",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Diver Scallops (add-on)",
+      "description": "3 diver scallops, add to any plate",
+      "price_cents": 3400,
+      "price_note": "Add-on; 3 pieces",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Dungeness Crab (add-on)",
+      "description": "3oz Dungeness crab, add to any plate",
+      "price_cents": 3200,
+      "price_note": "Add-on; 3oz",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Foie Gras (add-on)",
+      "description": "2oz foie gras, add to any plate",
+      "price_cents": 3900,
+      "price_note": "Add-on; 2oz",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Caviar (add-on)",
+      "description": "6g caviar, add to any plate",
+      "price_cents": 4500,
+      "price_note": "Add-on; 6g",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Grilled Lobster Tail (add-on)",
+      "description": "5oz grilled lobster tail, add to any plate",
+      "price_cents": 3900,
+      "price_note": "Add-on; 5oz",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Charred Broccoli Rabe",
+      "description": "Preserved lemon, crispy garlic, sweety drop peppers",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Roasted Asparagus",
+      "description": "Pine nut gremolata",
+      "price_cents": 1600,
+      "price_note": "Contains nuts",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Forest Mushrooms",
+      "description": "Roasted shallot & rosemary",
+      "price_cents": 1700,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Silky Potato Purée",
+      "description": "Chive",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Baby Bok Choy",
+      "description": "Ginger oil, sesame",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Charred Japanese Eggplant",
+      "description": "Cilantro & mint crema, toasted seed crumble",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Truffle Fries",
+      "description": "Parmesan & aioli",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Lobster Mac & Cheese",
+      "description": "Four cheese sauce, brown butter crumb, chive",
+      "price_cents": 4000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Simply Prepared Filet of Beef",
+      "description": "6oz filet of beef, served with herb roasted tomato & chimichurri",
+      "price_cents": 6500,
+      "price_note": "6oz",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Simply Prepared Ribeye",
+      "description": "16oz ribeye, served with herb roasted tomato & chimichurri",
+      "price_cents": 7800,
+      "price_note": "16oz",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Simply Prepared Hanger Steak",
+      "description": "8oz hanger steak, served with herb roasted tomato & chimichurri",
+      "price_cents": 5600,
+      "price_note": "8oz",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Simply Prepared Wagyu Bavette Steak",
+      "description": "8oz Wagyu bavette steak, served with herb roasted tomato & chimichurri",
+      "price_cents": 5000,
+      "price_note": "8oz",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Simply Prepared Salmon",
+      "description": "6oz salmon, served with herb roasted tomato & beurre blanc",
+      "price_cents": 4600,
+      "price_note": "6oz",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Simply Prepared Halibut",
+      "description": "6oz halibut, served with herb roasted tomato & beurre blanc",
+      "price_cents": 5500,
+      "price_note": "6oz",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Simply Prepared Scallops",
+      "description": "4 scallops, served with herb roasted tomato & beurre blanc",
+      "price_cents": 6800,
+      "price_note": "4 pieces",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Simply Prepared Grilled Branzino",
+      "description": "Grilled branzino, served with herb roasted tomato & beurre blanc",
+      "price_cents": 6200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Simply Prepared Tuna Steak",
+      "description": "6oz tuna steak, served with herb roasted tomato & beurre blanc",
+      "price_cents": 5800,
+      "price_note": "6oz",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "PNW Oysters",
+      "description": "Cocktail sauce, watermelon & cucumber mignonette. Half dozen or full dozen available.",
+      "price_cents": 2800,
+      "price_note": "Half dozen $28, full dozen $56. Raw/undercooked item.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Prawn Cocktail",
+      "description": "4 prawns, cocktail sauce, lemon",
+      "price_cents": 2500,
+      "price_note": "4 pieces",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Snow Crab Claws",
+      "description": "4 snow crab claws, cocktail sauce, lemon",
+      "price_cents": 3000,
+      "price_note": "4 pieces",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Poached Lobster Tail",
+      "description": "Cocktail sauce, lemon",
+      "price_cents": 3900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Dungeness Crab Salad",
+      "description": "Granny smith apple, celery, mustard, lemon crème fraîche, chives",
+      "price_cents": 3400,
+      "price_note": "Raw/undercooked item",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Salmon Belly Crudo",
+      "description": "Hibiscus-tomato broth, cucumber, green onion",
+      "price_cents": 1900,
+      "price_note": "Raw/undercooked item",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Mixed Seafood Ceviche",
+      "description": "Scallop & seasonal white fish, leche de tigre, pepita, avocado",
+      "price_cents": 2200,
+      "price_note": "Raw/undercooked item",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Scallop Crudo",
+      "description": "Watermelon radish nuoc cham, fresno negi, peanut",
+      "price_cents": 2200,
+      "price_note": "Raw/undercooked item; contains nuts",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Plateau",
+      "description": "6 oysters, 4 prawns, 4 snow crab claws, Dungeness crab salad, scallop crudo, salmon belly crudo, seafood ceviche",
+      "price_cents": 14500,
+      "price_note": "Raw/undercooked items",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Grand Plateau",
+      "description": "12 oysters, 6 prawns, 6 snow crab claws, poached lobster tail, scallop crudo, Dungeness crab salad, salmon belly crudo, seafood ceviche",
+      "price_cents": 23000,
+      "price_note": "Raw/undercooked items",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

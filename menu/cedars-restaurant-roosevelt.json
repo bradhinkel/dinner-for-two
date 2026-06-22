@@ -1,0 +1,84 @@
+{
+  "restaurant": "Cedars Restaurant Roosevelt",
+  "neighborhood": "Roosevelt",
+  "cuisine": "Indian / Mediterranean",
+  "venue_format": "full-menu",
+  "menu_completeness": "partial",
+  "source_url": "https://cedarsseattle.com/tags/dinner#main",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "unknown",
+  "extraction_method": "html (rendered)",
+  "notes": "Only a promotional homepage snippet was captured, featuring 6 dish names with no prices or descriptions. Full menu, pricing, and beverages were not available in the raw text.",
+  "dishes": [
+    {
+      "course_type": "entree",
+      "name": "Butter Chicken Bowl",
+      "description": "",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Palak Paneer",
+      "description": "",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Tikka Masala Chicken",
+      "description": "",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Coconut Curry Chicken",
+      "description": "",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Tandoori Chicken Tikka",
+      "description": "",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Butter Chicken",
+      "description": "",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

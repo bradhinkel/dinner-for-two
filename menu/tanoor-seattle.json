@@ -1,0 +1,62 @@
+{
+  "restaurant": "Tanoor Seattle",
+  "neighborhood": "Greenwood",
+  "cuisine": "Lebanese",
+  "venue_format": "full-menu",
+  "menu_completeness": "partial",
+  "source_url": "https://www.tanoor.com/menu/dinner#main-content",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "unknown",
+  "extraction_method": "html (rendered)",
+  "notes": "Only four dinner highlight items were captured from what appears to be a landing/marketing page for Tanoor's Sammamish location (not Seattle/Greenwood); no prices were listed anywhere on the page, and the full menu was not rendered. Beverage list absent entirely.",
+  "dishes": [
+    {
+      "course_type": "entree",
+      "name": "Ribeye Steak",
+      "description": "12 oz. ribeye steak served with grilled vegetable kabob and Batata Harra",
+      "price_cents": null,
+      "price_note": "No price listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Dajaj Mishweh",
+      "description": "Half grilled garlic-lemon chicken with spices, tomato, onion, parsley, Toum, choice of rice and side order",
+      "price_cents": null,
+      "price_note": "No price listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Tanoor Lamb Chops",
+      "description": "Half rack of chargrilled lamb with grilled vegetable kabob, tomato, onion, parsley, Tzatziki, choice of rice and side order",
+      "price_cents": null,
+      "price_note": "No price listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "GF Chicken Strips",
+      "description": "4 pieces, gluten-free and dairy-free chicken strips served with corn, one side order, and toum",
+      "price_cents": null,
+      "price_note": "No price listed",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

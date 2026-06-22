@@ -1,0 +1,223 @@
+{
+  "restaurant": "Manolin",
+  "neighborhood": "Fremont",
+  "cuisine": "Seafood / NW",
+  "venue_format": "counter",
+  "menu_completeness": "full",
+  "source_url": "https://www.manolinseattle.com/dinner",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "unknown",
+  "extraction_method": "html (rendered)",
+  "notes": "Menu captured from Manolin's Old Salt counter/bagel operation in Fremont. Includes bagels, spreads, sandwiches, and fish by the pound (market price). Dinner dine-in menu (5pm–9pm Wed–Sat) does not appear to be included in this text.",
+  "dishes": [
+    {
+      "course_type": "plate",
+      "name": "Plain Bagel",
+      "description": "Plain bagel",
+      "price_cents": 300,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Poppy Seed Bagel",
+      "description": "Poppy seed bagel",
+      "price_cents": 300,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Sesame Bagel",
+      "description": "Sesame bagel",
+      "price_cents": 300,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Everything Bagel",
+      "description": "Everything bagel",
+      "price_cents": 300,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Black Sesame Bagel",
+      "description": "Black sesame bagel",
+      "price_cents": 300,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Plain Whipped Cream Cheese",
+      "description": "Plain whipped cream cheese, 8oz.",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Veggie Spread",
+      "description": "Roasted veggies and cream cheese, 8oz.",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Herb Spread",
+      "description": "Parsley, dill, chives, chervil, garlic, lemon zest, whipped with cream cheese, 8oz.",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Chili Spread",
+      "description": "Calabrian chili, urfa biber, aleppo, garlic, lemon zest whipped with cream cheese, 8oz.",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Smoked Fish Spread",
+      "description": "Smoked fish — cod, halibut, salmon — whipped with cream cheese, 8oz.",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Smoked Cod Sandwich",
+      "description": "Smoked black cod, cucumber, tobiko roe, whipped cream cheese on a sesame bagel.",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Lox Sandwich",
+      "description": "Coho lox, veggie cream cheese, salmon roe, mizuna on an everything bagel.",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Kippered Salmon Sandwich",
+      "description": "Hot smoked Olympic Peninsula keta salmon, pickled onions, capers, herb cream cheese on a poppy seed bagel.",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Veggie Sandwich",
+      "description": "Roasted eggplant, red pepper, pickled carrots, sprouts, chili cream cheese on a black sesame aleppo bagel.",
+      "price_cents": 1200,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Coho Lox (by the pound)",
+      "description": "Coho lox sold by the pound at market price.",
+      "price_cents": null,
+      "price_note": "Market price",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Smoked Black Cod (by the pound)",
+      "description": "Smoked black cod sold by the pound at market price.",
+      "price_cents": null,
+      "price_note": "Market price",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Kippered Salmon (by the pound)",
+      "description": "Kippered salmon sold by the pound at market price.",
+      "price_cents": null,
+      "price_note": "Market price",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

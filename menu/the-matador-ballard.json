@@ -1,0 +1,760 @@
+{
+  "restaurant": "The Matador Ballard",
+  "neighborhood": "Ballard",
+  "cuisine": "Mexican",
+  "venue_format": "full-menu",
+  "menu_completeness": "partial",
+  "source_url": "https://www.matadorrestaurants.com/view-menu",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "html (rendered)",
+  "notes": "Full dine-in menu captured including happy hour, snacks, mains, and dessert. Prices were not listed on the website menu text for any dishes or drinks; mix-and-match lunch combo is $16. Bottle wine list not present; cocktail and sangria names/ingredients captured without prices. Seasonal features and select-location items noted.",
+  "dishes": [
+    {
+      "course_type": "plate",
+      "name": "Squash Blossom Quesadilla",
+      "description": "Sautéed squash blossom, roasted poblano, caramelized onion, Monterey Jack & Goat cheese blend, tomatillo salsa, avocado",
+      "price_cents": null,
+      "price_note": "Seasonal feature; price not listed",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Sayulita Shrimp Enchiladas",
+      "description": "Garlic sautéed shrimp, creamy salsa verde, griddled cheese corn tortilla, pico de gallo, guacamole, cilantro-lime sour cream. Served with refried pinto beans & Mexican rice.",
+      "price_cents": null,
+      "price_note": "Seasonal feature; price not listed",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Al Pastor Pork Chop",
+      "description": "Pineapple & chile-marinated 12oz bone-in chop, seared cabbage, chipotle aioli, chile-achiote rice, charred jalapeño & pineapple, pickled red onion",
+      "price_cents": null,
+      "price_note": "Seasonal feature; price not listed",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Dip Flight",
+      "description": "Creamy three-cheese queso, fresh guacamole, and refried pinto beans & cheese",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Matador Guacamole",
+      "description": "Orange-habanero salsa Maya, tomatillo salsa, pico de gallo, queso fresco, cilantro",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Refried Bean Dip",
+      "description": "Refried pinto beans, Monterey Jack & cheddar cheeses, cilantro-lime sour cream, green onions",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Queso Con Chorizo",
+      "description": "Melted three-cheese house blend, creamy habanero sauce, pico de gallo, cilantro, queso fresco",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Matador Quesadilla",
+      "description": "Cheese (only) or choice of protein with pico de gallo, cilantro-lime sour cream, guacamole, garlic crema, toasted pepitas, garnished with cilantro",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Grande Nachos",
+      "description": "House-made tortilla chips layered with jack & cheddar cheese mix, Mexican black beans, pico de gallo, guacamole, cilantro-lime sour cream, garnished with green onion. Add choice of protein for additional cost.",
+      "price_cents": null,
+      "price_note": "Price not listed; protein add-on at extra cost",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Bacon Wrapped Stuffed Jalapeños",
+      "description": "Goat cheese, cream cheese, Monterey Jack, roasted garlic, serrano slaw, ranch",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Crispy Brussels Sprouts",
+      "description": "Fried Brussels sprouts, peppers & onions, lime, agave vinaigrette, cotija",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [
+        "GF",
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Quesabirria",
+      "description": "Three corn tortillas, Monterey Jack cheese, beef birria, onions, cilantro, birria jus",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Loaded Bean Dip",
+      "description": "Refried pinto beans, queso dip, guacamole, Monterey Jack & cheddar cheeses, pico de gallo, garlic crema, green onions",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Blackened Ahi Tuna",
+      "description": "Seared chipotle-seasoned Ahi tuna, ponzu, guacamole, shaved serrano, pickled red onions, sesame seeds, fried corn tostadas",
+      "price_cents": null,
+      "price_note": "Price not listed; contains raw/undercooked fish",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Street Tacos",
+      "description": "White onion, cilantro, tomatillo salsa, radish, cotija, and lime on corn tortillas. Choice of protein: Carnitas, House Chorizo, Beyond Picadillo, Pork Al Pastor, Shredded Chicken. Boulevard Style: add guacamole and pico de gallo.",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Haba Prawns",
+      "description": "Fiery habanero sauce, pickled red onions, chile-achiote rice, cilantro",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Crispy Coconut Shrimp",
+      "description": "Shredded coconut, chile-flour batter, pickled jalapeño & Fresno chiles, salsa verde, ranch. Available at select locations.",
+      "price_cents": null,
+      "price_note": "Price not listed; select locations only",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Chicken Tortilla Soup",
+      "description": "Roasted chicken, fire-roasted corn, avocado, fried tortilla strips, cotija, cilantro",
+      "price_cents": null,
+      "price_note": "Price not listed; included in $16 Mix & Match lunch",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Romaine Salad",
+      "description": "Cilantro-pepita dressing, toasted pepitas, pico de gallo, cotija, lime",
+      "price_cents": null,
+      "price_note": "Price not listed; included in $16 Mix & Match lunch",
+      "dietary_tags": [
+        "GF",
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Taco Salad",
+      "description": "Black beans, Monterey Jack, cotija, shredded lettuce, guacamole, pico de gallo, cilantro-lime sour cream, serrano vinaigrette, garlic crema, fried flour tortilla. Choice of protein: Carnitas, House Chorizo, Shrimp, Beyond Picadillo, Pork Al Pastor, Shredded or Grilled Chicken, Marinated Steak.",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Wagyu Bacon Cheeseburger",
+      "description": "Wagyu beef patty with mixed greens, pico de gallo, bacon, pickled red onions, Monterey Jack & cheddar cheeses, chipotle mayo, chipotle-garlic salt seasoned French fries. Can substitute with grilled chicken.",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Matador Bowl",
+      "description": "Mexican black beans & rice, cheese blend, serrano slaw, pico de gallo, guacamole, garlic crema, radish, fried tortilla strips. Choice of sauce: roja, verde, habanero, or poblano crema. Add: Braised Chicken, Carnitas, Chorizo, Pork Al Pastor, Southwest Veg, or Beyond Picadillo.",
+      "price_cents": null,
+      "price_note": "Price not listed; can be made vegan",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Gaucho Bowl",
+      "description": "Sautéed peppers & onions, Mexican black beans & rice, Monterey Jack & cheddar cheeses, shredded lettuce, pico de gallo, guacamole, cilantro-lime sour cream, pickled red onions. Add: Grilled Chicken, Sautéed Shrimp, or Marinated Steak.",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Baja Fish Tacos",
+      "description": "Two tacos on flour tortillas with refried pinto beans & rice. Panko crusted and fried Mahi Mahi, serrano slaw, guacamole, chipotle mayo, radish, cilantro, lime.",
+      "price_cents": null,
+      "price_note": "Price not listed; add third taco for $6",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Marinated Steak Tacos",
+      "description": "Two tacos on flour tortillas with refried pinto beans & rice. Marinated grilled sirloin, Monterey Jack & cheddar cheeses, shredded lettuce, guajillo-garlic sauce, garlic crema, pico de gallo.",
+      "price_cents": null,
+      "price_note": "Price not listed; add third taco for $6",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Mango Steak Tacos",
+      "description": "Two tacos on flour tortillas with refried pinto beans & rice. Marinated steak, mango-pineapple salsa, serrano slaw, guajillo-chile sauce, Tajin.",
+      "price_cents": null,
+      "price_note": "Price not listed; add third taco for $6",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Coconut Shrimp Tacos",
+      "description": "Two tacos on flour tortillas with refried pinto beans & rice. Crispy coconut-crusted shrimp, mango-pineapple salsa, pico de gallo, cilantro-lime sour cream, serrano slaw.",
+      "price_cents": null,
+      "price_note": "Price not listed; add third taco for $6",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Blackened Fish or Shrimp Tacos",
+      "description": "Two tacos on flour tortillas with refried pinto beans & rice. Chipotle chile blackening spice, serrano slaw, tomatillo salsa, pico de gallo, garlic crema.",
+      "price_cents": null,
+      "price_note": "Price not listed; add third taco for $6",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Ribeye Tacos",
+      "description": "Two tacos on flour tortillas with refried pinto beans & rice. Grilled ribeye, griddled cheese tortilla, chimichurri mayo, avocado, pickled red onions, cotija, cilantro.",
+      "price_cents": null,
+      "price_note": "Price not listed; add third taco for $6",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Divorciadas Enchiladas",
+      "description": "Two enchiladas with Monterey Jack, pico de gallo, guacamole, cilantro-lime sour cream, refried pinto beans & rice. Medium sweet and tangy salsa verde, medium smoky salsa roja, slow braised chicken thigh, corn tortillas.",
+      "price_cents": null,
+      "price_note": "Price not listed; add third enchilada for $4",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Habanero Enchiladas",
+      "description": "Two enchiladas with Monterey Jack, pico de gallo, guacamole, cilantro-lime sour cream, refried pinto beans & rice. Fiery hot habanero salsa, shredded chicken, flour tortillas.",
+      "price_cents": null,
+      "price_note": "Price not listed; add third enchilada for $4",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Verde Carnitas Enchiladas",
+      "description": "Two enchiladas with Monterey Jack, pico de gallo, guacamole, cilantro-lime sour cream, refried pinto beans & rice. Medium sweet and tangy salsa verde, braised carnitas, corn tortillas.",
+      "price_cents": null,
+      "price_note": "Price not listed; add third enchilada for $4",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Al Pastor Enchiladas",
+      "description": "Two enchiladas with Monterey Jack, pico de gallo, guacamole, cilantro-lime sour cream, refried pinto beans & rice. Rich roasted poblano crema, pineapple & chile-marinated pork, corn tortillas.",
+      "price_cents": null,
+      "price_note": "Price not listed; add third enchilada for $4",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Shredded Beef Enchiladas",
+      "description": "Two enchiladas with Monterey Jack, pico de gallo, guacamole, cilantro-lime sour cream, refried pinto beans & rice. Medium and smoky salsa roja, shredded beef birria, flour tortillas.",
+      "price_cents": null,
+      "price_note": "Price not listed; add third enchilada for $4",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Habanero Steak Burrito",
+      "description": "Flour tortilla filled with Mexican black beans & rice, Jack & cheddar cheeses, sides of serrano slaw, pico de gallo, guacamole, cilantro-lime sour cream, garlic crema. Marinated steak, picante habanero sauce. Cali Style: add French fries, avocado, and hot sauce +$3.",
+      "price_cents": null,
+      "price_note": "Price not listed; Cali Style add-on +$3",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Poblano Carnitas Burrito",
+      "description": "Flour tortilla filled with Mexican black beans & rice, Jack & cheddar cheeses, sides of serrano slaw, pico de gallo, guacamole, cilantro-lime sour cream, garlic crema. Braised carnitas, rich and mild crema salsa. Cali Style: add French fries, avocado, and hot sauce +$3.",
+      "price_cents": null,
+      "price_note": "Price not listed; Cali Style add-on +$3",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Verde Chicken Burrito",
+      "description": "Flour tortilla filled with Mexican black beans & rice, Jack & cheddar cheeses, sides of serrano slaw, pico de gallo, guacamole, cilantro-lime sour cream, garlic crema. Braised chicken, chile verde sauce. Cali Style: add French fries, avocado, and hot sauce +$3.",
+      "price_cents": null,
+      "price_note": "Price not listed; Cali Style add-on +$3",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Beyond Burrito",
+      "description": "Flour tortilla filled with Mexican black beans & rice, Jack & cheddar cheeses, sides of serrano slaw, pico de gallo, guacamole, cilantro-lime sour cream, garlic crema. Plant-based protein, medium and smoky salsa roja, caramelized onions, roasted poblanos. Can be made vegan.",
+      "price_cents": null,
+      "price_note": "Price not listed; Cali Style add-on +$3",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Skillet Seared Fajitas",
+      "description": "Sautéed peppers & onions, Mexican black beans, Monterey Jack & cheddar cheeses, shredded lettuce, pico de gallo, guacamole, cilantro-lime sour cream, flour or corn tortillas. Choose from: 8oz Marinated Skirt Steak, 8oz Marinated Sirloin Bavette, 10oz Wagyu Top Sirloin, Marinated Chicken Breast, or Shrimp.",
+      "price_cents": null,
+      "price_note": "Price not listed; price likely varies by protein choice",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Roasted Chile Rellenos",
+      "description": "Poblanos stuffed with Mexican rice, Monterey Jack cheese, tomatillo salsa served with Mexican black beans, poblano crema, garlic crema, pico de gallo, fried tortilla strips. Choose from: Shredded Chicken, Beyond Picadillo, or Carnitas.",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Shrimp & Chorizo Paella",
+      "description": "Prawns, house chorizo, sautéed peppers & onions, achiote-chile rice, saffron cream",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Arroz con Pollo",
+      "description": "Agave-marinated grilled chicken, sautéed peppers, onions & corn, chile-achiote rice, saffron cream, cilantro",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Grilled Carne Asada",
+      "description": "Street corn & leeks, grilled peppers, cotija, cilantro, queso fresco, Mexican black beans & rice, flour or corn tortillas. Choose from: 8oz Marinated Skirt Steak, 8oz Marinated Sirloin Bavette, 10oz Wagyu Top Sirloin. Make it surf and turf: add garlic-chile butter, poblano crema, or fiery habanero prawns.",
+      "price_cents": null,
+      "price_note": "Price not listed; price likely varies by protein cut",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Braised Carnitas",
+      "description": "Pork shoulder, guacamole, cilantro-lime sour cream, pico de gallo, pickled red onions, habanero salsa Maya, Mexican black beans & rice, flour or corn tortillas",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Mango-Pineapple Mahi Mahi",
+      "description": "Chunky mango & pineapple salsa, fruity salsa verde, serrano slaw, chile-achiote rice, cilantro, lime. Available at select locations.",
+      "price_cents": null,
+      "price_note": "Price not listed; select locations only",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Fried Ice Cream",
+      "description": "Toasted coconut, whipped cream, reposado dulce de leche, cinnamon",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Salted Caramel Brownie",
+      "description": "Bittersweet chocolate, salted dulce de leche, vanilla ice cream",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": [
+    {
+      "type": "cocktail",
+      "name": "House Margarita",
+      "style": "Margarita",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Top Shelf Margarita",
+      "style": "Margarita",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Blood Orange Margarita",
+      "style": "Margarita",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Smokey Margarita",
+      "style": "Mezcal Margarita",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Bartender's Margarita",
+      "style": "Margarita",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Cadillac Margarita",
+      "style": "Margarita",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Cucumber-Jalapeño Margarita",
+      "style": "Margarita",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Dragonfruit Margarita",
+      "style": "Margarita",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Strawberry Mangonada Margarita",
+      "style": "Margarita",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Ginger-Orange Margarita",
+      "style": "Margarita / Mezcal Margarita",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Passionfruit Margarita",
+      "style": "Margarita / Mezcal Margarita",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Pineapple-Habanero Margarita",
+      "style": "Margarita / Mezcal Margarita",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Tequila Aperol Sour",
+      "style": "Sour",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Hawaiian Marg",
+      "style": "Rum Margarita riff",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": "Hawaii",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Michelada",
+      "style": "Non-alcoholic Michelada",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Spiced Red Sangria",
+      "style": "Red Sangria",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Sparkling Strawberry Sangria",
+      "style": "Sparkling Sangria",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": "Spain",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Spanish Rosé Sangria",
+      "style": "Rosé Sangria",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": "Spain",
+      "vintage": null,
+      "flavor_tags": []
+    }
+  ]
+}

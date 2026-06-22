@@ -49,6 +49,10 @@ export async function POST(
       "Content-Type": "text/event-stream; charset=utf-8",
       "Cache-Control": "no-cache, no-transform",
       Connection: "keep-alive",
+      // Tell nginx/other reverse proxies not to buffer this response, so the
+      // rationale streams token-by-token even if the proxy's per-route config is
+      // missed (see deploy/nginx.conf.example).
+      "X-Accel-Buffering": "no",
     },
   });
 }

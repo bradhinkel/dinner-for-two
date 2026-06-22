@@ -27,6 +27,11 @@ interface SeedRow {
   noise_level: string | null;
   date_night_score: number | null;
   enrichment_status: string | null;
+  // optional geo/curation fields (populated for imported rows by the enrichment pass)
+  latitude?: number | null;
+  longitude?: number | null;
+  business_status?: string | null;
+  curation?: "use" | "hide";
 }
 
 // Mirror of scripts/extract_seed.py:norm_name — keep in sync.
@@ -67,6 +72,15 @@ export function buildCatalog(): Restaurant[] {
   const seed: Record<string, SeedRow> = JSON.parse(
     readFileSync("data/seed_attributes.json", "utf8")
   );
+  // Imported restaurants carry their attributes in a parallel file written by the
+  // enrichment pass (LLM attrs + Places geo/status). Merge it over the Excel seed.
+  let imported: Record<string, SeedRow> = {};
+  try {
+    imported = JSON.parse(readFileSync("data/import_attributes.json", "utf8"));
+  } catch {
+    /* none yet */
+  }
+  const attrs: Record<string, SeedRow> = { ...seed, ...imported };
 
   const files = readdirSync(config.menuDir)
     .filter((f) => f.endsWith(".json"))
@@ -80,7 +94,7 @@ export function buildCatalog(): Restaurant[] {
     const menu: MenuFile = JSON.parse(
       readFileSync(join(config.menuDir, file), "utf8")
     );
-    const s = seed[normName(menu.restaurant)];
+    const s = attrs[normName(menu.restaurant)];
     if (!s) unmatched.push(`${menu.restaurant} (${id})`);
 
     const dishes: Dish[] = menu.dishes.map((d, i) => ({
@@ -97,8 +111,9 @@ export function buildCatalog(): Restaurant[] {
     const vibe = uniq([...(s?.ambiance_tags ?? []), ...(s?.tags ?? [])]);
     const description = s?.description ?? null;
 
+    const closedByPlaces = (s?.business_status ?? "").toUpperCase().startsWith("CLOSED");
     const status: Restaurant["status"] =
-      s?.enrichment_status?.toLowerCase().includes("closed") ? "closed" : "open";
+      closedByPlaces || s?.enrichment_status?.toLowerCase().includes("closed") ? "closed" : "open";
 
     catalog.push({
       id,
@@ -119,6 +134,10 @@ export function buildCatalog(): Restaurant[] {
       reservation_url: s?.website_url ?? menu.source_url ?? null,
       reservation_platform: s?.reservation_platform ?? null,
       status,
+      business_status: s?.business_status ?? null,
+      latitude: s?.latitude ?? null,
+      longitude: s?.longitude ?? null,
+      curation: s?.curation === "hide" ? "hide" : "use",
       source_url: menu.source_url ?? null,
       menu_volatility: menu.menu_volatility ?? null,
       dishes,

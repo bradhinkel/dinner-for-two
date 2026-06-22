@@ -1,0 +1,710 @@
+{
+  "restaurant": "Kisaku Sushi",
+  "neighborhood": "Tangletown",
+  "cuisine": "Japanese / Sushi",
+  "venue_format": "full-menu",
+  "menu_completeness": "partial",
+  "source_url": "https://www.kisaku.com/",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "html (rendered)",
+  "notes": "Lunch menu captured in full including lunch specials, nigiri (2-piece orders), and rolls; dinner menu referenced but not included in this text. Omakase page exists but contents not provided. Sea urchin and Fish of the Day are market price. Bento content changes daily. No beverage list present.",
+  "dishes": [
+    {
+      "course_type": "entree",
+      "name": "Sushi Combination A",
+      "description": "California Roll and 7 pieces of nigiri sushi: tuna, salmon, shrimp, yellowtail, white fish, surf clam, & octopus. Served with miso soup.",
+      "price_cents": 1450,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Sushi Combination B",
+      "description": "California Roll and 5 pieces of nigiri sushi: tuna, salmon, shrimp, yellowtail, & white fish. Served with miso soup.",
+      "price_cents": 1150,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Sashimi Combination",
+      "description": "Albacore, yellowtail, salmon, white fish, & octopus sashimi. Served with a bowl of rice and miso soup.",
+      "price_cents": 1450,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Chirashi Sushi",
+      "description": "Tuna, salmon, shrimp, yellowtail, white fish, surf clam, octopus, egg omelette, & vegetables on a bed of sushi rice. Served with miso soup.",
+      "price_cents": 1395,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Poke Bowl",
+      "description": "Tuna, cucumber, onion and radish sprouts tossed in spicy sesame soy and served over steamed rice.",
+      "price_cents": 1395,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Tendon",
+      "description": "2 piece prawn & 3 piece vegetable tempura on a bed of rice covered in tendon sauce. Served with Japanese pickles & miso soup.",
+      "price_cents": 1195,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Chicken Yakiniku Don",
+      "description": "Sautéed chicken & vegetables on a bed of rice. Served with Japanese pickles & miso soup.",
+      "price_cents": 1195,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Nabeyaki Udon",
+      "description": "Udon noodle soup served in a hot pot with prawn tempura, clams, chicken, shiitake mushroom, vegetables, fish cake, & egg.",
+      "price_cents": 1195,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Tempura Udon",
+      "description": "Udon noodle soup topped with prawn tempura, vegetable tempura, fish cake, & vegetables.",
+      "price_cents": 1195,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Seafood Yakisoba",
+      "description": "Stir-fried noodles with shrimp, calamari, & vegetables.",
+      "price_cents": 1195,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Chicken Yakisoba",
+      "description": "Stir-fried noodles with chicken & vegetables.",
+      "price_cents": 1195,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Vegetable Yakisoba",
+      "description": "Stir-fried noodles with vegetables.",
+      "price_cents": 1000,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Bento",
+      "description": "Today's bento — see sample at the front for daily contents.",
+      "price_cents": 1295,
+      "price_note": "Contents change daily",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Albacore",
+      "description": "2 pieces per order. Raw.",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Cooked Shrimp",
+      "description": "2 pieces per order.",
+      "price_cents": 500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Crab",
+      "description": "2 pieces per order.",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Egg Omelette",
+      "description": "2 pieces per order.",
+      "price_cents": 400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Flounder",
+      "description": "2 pieces per order. Raw.",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Flying Fish Roe",
+      "description": "2 pieces per order. Raw.",
+      "price_cents": 550,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Fresh Water Eel",
+      "description": "2 pieces per order.",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Japanese Mackerel",
+      "description": "2 pieces per order. Raw.",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Norwegian Mackerel",
+      "description": "2 pieces per order. Raw.",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Octopus",
+      "description": "2 pieces per order.",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Red Snapper",
+      "description": "2 pieces per order. Raw.",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Salmon",
+      "description": "2 pieces per order. Raw.",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Wild Sockeye Salmon",
+      "description": "2 pieces per order. Raw.",
+      "price_cents": 750,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Salmon Roe",
+      "description": "2 pieces per order. Raw.",
+      "price_cents": 650,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Salt Water Eel",
+      "description": "2 pieces per order.",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Scallop",
+      "description": "2 pieces per order. Raw.",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Sea Urchin",
+      "description": "2 pieces per order. Raw.",
+      "price_cents": null,
+      "price_note": "Market price",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Squid",
+      "description": "2 pieces per order. Raw.",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Surf Clam",
+      "description": "2 pieces per order.",
+      "price_cents": 500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Sweet Shrimp",
+      "description": "2 pieces per order. Raw.",
+      "price_cents": 900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Tuna",
+      "description": "2 pieces per order. Raw.",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Yellowtail",
+      "description": "2 pieces per order. Raw.",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Fish of the Day",
+      "description": "2 pieces per order.",
+      "price_cents": null,
+      "price_note": "Market price",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Abalone",
+      "description": "2 pieces per order. Raw. Inquire for availability.",
+      "price_cents": null,
+      "price_note": "Market price",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Fatty Tuna",
+      "description": "2 pieces per order. Raw. Inquire for availability.",
+      "price_cents": 1000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Very Fatty Tuna",
+      "description": "2 pieces per order. Raw. Inquire for availability.",
+      "price_cents": 1200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Oyster",
+      "description": "2 pieces per order. Raw. Inquire for availability.",
+      "price_cents": 700,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Gizzard Shad (Kohada)",
+      "description": "2 pieces per order. Raw. Inquire for availability.",
+      "price_cents": 650,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Spanish Mackerel",
+      "description": "2 pieces per order. Raw. Inquire for availability.",
+      "price_cents": 650,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Yellow Clam",
+      "description": "2 pieces per order. Raw. Inquire for availability.",
+      "price_cents": 650,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Yellow Jack",
+      "description": "2 pieces per order. Raw. Inquire for availability.",
+      "price_cents": 750,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Nigiri — Japanese Wild White Fish",
+      "description": "2 pieces per order. Raw. Changes every week. Inquire for availability.",
+      "price_cents": 750,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Alaska Roll",
+      "description": "Grilled salmon skin & radish sprouts, bonito flakes and pickled gobo.",
+      "price_cents": 700,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Ballard Roll",
+      "description": "Mackerel, pickled radish, cucumber, shiso. Raw.",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "California Roll",
+      "description": "Crab, cucumber, avocado, flying fish roe.",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Caterpillar Roll",
+      "description": "Eel, cucumber, avocado, flying fish roe.",
+      "price_cents": 1150,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Cucumber Roll",
+      "description": "Cucumber roll.",
+      "price_cents": 400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Devil's Vegetable Roll",
+      "description": "Deep-fried marinated eggplant, red bell pepper, cucumber, shiso.",
+      "price_cents": 995,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Futomaki",
+      "description": "Eel, shrimp, cucumber, kampyo, shiitake mushrooms, egg, pickled radish, sweet cod flakes.",
+      "price_cents": 975,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Vegetarian Futomaki",
+      "description": "Egg, shiitake mushrooms, kampyo, cucumber, pickled radish.",
+      "price_cents": 650,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Garden Roll",
+      "description": "Asparagus, spring mix, red bell pepper, avocado, mayonnaise.",
+      "price_cents": 650,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Green Lake Roll",
+      "description": "Salmon, asparagus, flying fish egg, avocado, marinated seaweed. Raw.",
+      "price_cents": 975,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Kisaku Roll",
+      "description": "Scallop, crab, mayonnaise, asparagus, flying fish roe. Wrapped in soy paper. Raw.",
+      "price_cents": 975,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Spicy Tuna Roll",
+      "description": "Tuna, chili sauce, cucumber, green onions. Raw.",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Spider Roll",
+      "description": "Soft shell crab, cucumber, avocado mayonnaise, flying fish roe.",
+      "price_cents": 975,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Wallingford Roll",
+      "description": "Yellowtail, green onions, cucumber, radish sprouts, flying fish roe. Raw.",
+      "price_cents": 850,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Tuna Roll",
+      "description": "Tuna roll. Raw.",
+      "price_cents": 700,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Baked Crab Hand Roll",
+      "description": "Red crab, surimi crab, ponzu mayo with soy paper.",
+      "price_cents": 500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Hand Roll",
+      "description": "Your choice of ingredients.",
+      "price_cents": 500,
+      "price_note": "Price may vary by ingredients chosen",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

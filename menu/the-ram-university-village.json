@@ -1,0 +1,1177 @@
+{
+  "restaurant": "The Ram University Village",
+  "neighborhood": "U Village",
+  "cuisine": "Gastropub",
+  "venue_format": "full-menu",
+  "menu_completeness": "full",
+  "source_url": "https://theram.com/boise-menu/",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "html (rendered)",
+  "notes": "Full menu captured for The Ram University Village (Seattle) including taplist, cocktails, food, happy hour, craveyard, kids, and desserts. Cans & Bottles listed without prices (seasonal variety); bottle wine list not present. Note: menu text appears to be the Boise menu page but context header indicates University Village, Seattle — captured as presented. Daily specials included for context but not as standard dishes.",
+  "dishes": [
+    {
+      "course_type": "appetizer",
+      "name": "Crispy Brussel Sprouts",
+      "description": "Truffle oil, parmesan, chopped bacon.",
+      "price_cents": 1199,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Fried Cheese",
+      "description": "The Ultimate Cheese Pull! Mozzarella and Romano cheese, oregano-garlic Italian breading. Served with house-made marinara and ranch dressing for dipping.",
+      "price_cents": 1299,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Onion Rings",
+      "description": "Served with rosette sauce.",
+      "price_cents": 1299,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Pacific Crab, Shrimp & Artichoke Dip",
+      "description": "Pacific crab, Oregon bay shrimp, mixed with artichoke hearts, mayo, parmesan and red onion, oven roasted. Served with garlic buttered crostini.",
+      "price_cents": 1799,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Fried Pickle Chips",
+      "description": "Lightly breaded, served with rosette sauce.",
+      "price_cents": 999,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Armadillo Eggs",
+      "description": "A RAM Original! Chicken married with diced jalapeños, pepper jack cheese, cream cheese, secret sauce and seasonings, rolled in saltine crackers, cooked golden, served with ranch dressing.",
+      "price_cents": 1299,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Boneless Wings",
+      "description": "Served with Blue Cheese or Ranch dressing. Choice of Sauce: Naked, Buffalo, Hot Honey Sriracha, or BBQ.",
+      "price_cents": 1699,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Bone-In Wings",
+      "description": "Served with Blue Cheese or Ranch dressing. Choice of Sauce: Naked, Buffalo, Hot Honey Sriracha, or BBQ.",
+      "price_cents": 1699,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Pretzel & Beer Cheese Fondue",
+      "description": "Warm authentic Bavarian pretzel sticks, Buttface Amber Ale beer cheese fondue.",
+      "price_cents": 1399,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Nachos",
+      "description": "Cheddar jack, black beans, sour cream, roasted jalapeños, cilantro, salsa, pico de gallo, guacamole, and cheddar cheese sauce. Add blackened chicken, beef chorizo, or pork carnitas for $3 each.",
+      "price_cents": 1499,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Roasted Veggie Pizza",
+      "description": "Beer-crust pizza. Garlic-artichoke white sauce base with mozzarella, roasted mushrooms, bell peppers, garlic confit, artichoke hearts, and arugula. 12\" crust made with Big Horn Hefeweizen.",
+      "price_cents": 1799,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Chicken Bacon Ranch Pizza",
+      "description": "Beer-crust pizza. Mozzarella, grilled chicken, chopped bacon, tomato, ranch dressing, garlic, parsley, finished with buffalo sauce.",
+      "price_cents": 1999,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "1971 Classic Pizza",
+      "description": "Beer-crust pizza. Pepperoni, Italian sausage, Canadian bacon, sautéed garlic mushrooms, black olives, roasted bell peppers.",
+      "price_cents": 2099,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Rambo Pizza",
+      "description": "Beer-crust pizza. Canadian bacon, pepperoni, Italian sausage.",
+      "price_cents": 1999,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Create Your Own Pizza",
+      "description": "House-made red sauce & mozzarella cheese. 12\" beer crust. Protein add-ons $3.25, veggie add-ons $2.",
+      "price_cents": 1499,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "French Onion Wagyu Burger",
+      "description": "Premium Wagyu beef patty, Swiss cheese, caramelized onions, French onion aioli, roasted garlic oil-drizzled arugula, finished with crispy onions.",
+      "price_cents": 2249,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "The Ricardo Burger",
+      "description": "Swiss cheese, Canadian bacon, shredded pork, dill pickles, and dijon mayo. Served on a toasted pub roll.",
+      "price_cents": 1979,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Ozark's BBQ Smashburger",
+      "description": "Smoked cheddar, Porter BBQ sauce, applewood-smoked bacon, lettuce, onion, tomato, and roasted garlic mayo.",
+      "price_cents": 1879,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Hillbilly Burger",
+      "description": "Crumbled blue cheese, applewood-smoked bacon, lettuce, blue cheese mayo, and onion crisps.",
+      "price_cents": 1829,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Brewmaster Burger",
+      "description": "Amber Ale beer cheese sauce, applewood-smoked bacon, and an onion ring crown.",
+      "price_cents": 1879,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Husky Burger",
+      "description": "1 lb. seasoned patty, triple American cheese, smoked bacon, lettuce, tomato, onion, ketchup, mustard, mayo, and dill pickles. Served on a giant bun.",
+      "price_cents": 2499,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Jam Session Burger",
+      "description": "A Guest & Staff Favorite! American cheese, crisp lettuce, Murph's house-made glazed onion bacon jam, signature Ram pub sauce, and dill pickles.",
+      "price_cents": 1819,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Oklahoma Smash Burger",
+      "description": "2025 Burger-Rama favorite! Seasoned beef patty smashed with onions and grilled, steakhouse aioli, arugula tossed in red wine vinaigrette, house-made cheddar cheese sauce, and applewood-smoked bacon.",
+      "price_cents": 1849,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Ram Bam Smashburger",
+      "description": "Double American cheese, lettuce, signature RAM pub sauce, and pickle relish.",
+      "price_cents": 1749,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Stadium Bacon & Mushroom Burger",
+      "description": "Sautéed garlic mushrooms, cheddar, garlic mayo, applewood-smoked bacon, lettuce, tomato.",
+      "price_cents": 1829,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Ram Classic Cheeseburger",
+      "description": "Lettuce, tomato, onion, mayo, and cheddar cheese.",
+      "price_cents": 1649,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "The Broadway Patty Melt",
+      "description": "Grilled beef patty layered with garlic-roasted mushrooms, smoked bacon, sweet onion compote, Murph's bacon jam, Havarti cheese, and steakhouse garlic aioli on grilled marbled rye.",
+      "price_cents": 1799,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Huli Huli Chicken Sandwich",
+      "description": "Teriyaki-ginger marinated grilled chicken with Canadian bacon, grilled pineapple, pepper jack cheese, mayo, crisp lettuce, and tomato on a toasted bun.",
+      "price_cents": 1799,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Amber Ale Steak Sandwich",
+      "description": "Amber Ale-marinated sirloin grilled and thinly sliced, with steakhouse aioli, Havarti cheese, crispy onions, aged parmesan, and arugula tossed in red wine vinaigrette on a toasted garlic French roll. Served with Au Jus.",
+      "price_cents": 2299,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Pacific Crab, Shrimp & Artichoke Melt",
+      "description": "Pacific crab, Oregon bay shrimp, artichokes, parmesan, red onion, mayo, diced tomato, and melted cheddar jack cheese. Served on a toasted French baguette.",
+      "price_cents": 2199,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Rule the Roost Chicken Sandwich",
+      "description": "Buttermilk-battered chicken, grilled bun, Dijon mayo, lettuce, dill pickles.",
+      "price_cents": 1699,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Turkey Havarti Melt",
+      "description": "Sliced roasted turkey, Wisconsin Havarti, garlic mayo, tomato, and applewood-smoked bacon. Served on grilled sourdough.",
+      "price_cents": 1799,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "French Dip",
+      "description": "1/2 lb. thin-sliced roast beef on a grilled hearth-baked French roll. Served with au jus.",
+      "price_cents": 1879,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Signature Reuben No. 507",
+      "description": "After 507 refinements, the ultimate Reuben. Shaved corned beef, creamy Havarti, Murph's bacon'd sauerkraut, horseradish cream & remoulade sauce, and thousand island on grilled marbled rye.",
+      "price_cents": 1859,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Rambalaya",
+      "description": "Sautéed shrimp, chicken, and andouille sausage simmered in a rich, savory Creole broth with jasmine rice and green onion.",
+      "price_cents": 2699,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Big Red's IPA Baby Back Ribs",
+      "description": "Slow-braised in Big Red's IPA and spices, finished on the grill with Porter BBQ sauce. Served with chipotle slaw & fries. Half Rack $23.99 / Full Rack $29.99.",
+      "price_cents": 2399,
+      "price_note": "Half Rack $23.99, Full Rack $29.99",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Tuscan Chicken Mushroom Pasta",
+      "description": "Linguine pasta topped with seared chicken, Tuscan mushroom cream sauce, and sundried tomatoes. Finished with parmesan and chopped basil. Served with toasted garlic bread.",
+      "price_cents": 2399,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Shrimp or Chicken Scampi Linguine",
+      "description": "Linguine pasta, diced tomato, mushrooms, garlic wine butter sauce, sautéed roasted garlic shrimp or chicken. Served with toasted garlic bread.",
+      "price_cents": 2499,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Center-Cut Top Sirloin Steak",
+      "description": "Finished with maitre d' butter, served with parmesan mashed potatoes and seasonal vegetable. 6oz or 8oz available.",
+      "price_cents": 2299,
+      "price_note": "6oz $22.99 / 8oz $26.99",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Big Horn Fish & Chips",
+      "description": "Wild Alaska cod hand-dipped in Ram Big Horn Hefeweizen beer batter, finished with seasoned panko-breading. Served with golden fries, house-made dill tartar & yum yum sauce. 2-piece or 3-piece.",
+      "price_cents": 1999,
+      "price_note": "(2) $19.99 / (3) $24.99",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Blackened Fish Tacos",
+      "description": "Blackened seasoned seared cod, pickled red onion, cilantro crema, chipotle-lime slaw with salsa, cilantro-lime rice, borracho black beans. Choice of corn or flour tortilla.",
+      "price_cents": 1999,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Mac & Cheese",
+      "description": "Cavatappi corkscrew pasta, rich creamy cheddar cheese sauce, gratiné. Multiple add-ons available.",
+      "price_cents": 1499,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Chicken Tenders",
+      "description": "Served with fries. Sauce choices: Ranch, Honey Mustard, Buffalo, Hot Honey Sriracha, BBQ. (3) $14.99 / (5) $17.99.",
+      "price_cents": 1499,
+      "price_note": "(3) $14.99 / (5) $17.99",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Southwest Kale Caesar",
+      "description": "Chopped kale, red bell peppers, roasted corn salsa, cherry tomatoes, feta cheese, diced avocado, and Southwest Caesar dressing. Finished with green onion and toasted croutons.",
+      "price_cents": 1099,
+      "price_note": "Lunch $10.99 / Large $14.99",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Blackened Salmon Bowl",
+      "description": "Cilantro-lime rice, black beans, chopped red and green cabbage, matchstick carrots, red onion, shredded cheddar-jack cheese, fresh cilantro, pickled red onion, sour cream, guacamole, blackened boneless salmon fillet.",
+      "price_cents": 2399,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Italian Chop Chop Chicken Salad",
+      "description": "Iceberg, arugula, garbanzo beans, salami, diced tomato, tossed in red wine vinaigrette, mozzarella, diced grilled chicken, parmesan cheese, fresh basil.",
+      "price_cents": 1699,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Grilled Shrimp Avocado Bowl",
+      "description": "Fresh corn salsa, avocado, jasmine rice, blackened grilled shrimp, and signature yum yum sauce. Also available with blackened chicken.",
+      "price_cents": 1899,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Ahi Poke Bowl",
+      "description": "Jasmine sushi rice, shoyu-marinated ahi tuna, sliced jalapeños, sriracha-mayo drizzle, sliced green onion, pickled cucumbers, sliced avocado, and sesame seeds.",
+      "price_cents": 1999,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Chicken Almond Salad",
+      "description": "Teriyaki-ginger marinated chicken, grilled & chilled, served sliced over mixed greens, matchstick red bell peppers, crispy chow mein noodles, toasted slivered almonds, and celery. Finished with sesame seeds and ginger dressing.",
+      "price_cents": 1799,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Olympus Salad",
+      "description": "Mixed greens, crumbled feta, artichoke hearts, roasted red bell pepper, bacon, avocado, pickled red onions, and garlic artichoke dressing.",
+      "price_cents": 1499,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Tossed Cobb",
+      "description": "Avocado, chopped bacon, boiled egg, blue cheese, tomato, mixed greens, and blue cheese dressing.",
+      "price_cents": 1099,
+      "price_note": "Lunch $10.99 / Large $14.99",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Crispy Brussel Sprouts (Side)",
+      "description": "Side portion of crispy brussels sprouts.",
+      "price_cents": 550,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "NW Clam Chowder",
+      "description": "Cup or bowl.",
+      "price_cents": 650,
+      "price_note": "Cup $6.50 / Bowl $9.50",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Disorder Porter Chili",
+      "description": "Cup or bowl.",
+      "price_cents": 600,
+      "price_note": "Cup $6 / Bowl $9",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Side House Green Salad",
+      "description": "Side house green salad.",
+      "price_cents": 625,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Side Caesar Salad",
+      "description": "Side caesar salad.",
+      "price_cents": 625,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Cilantro-Lime Rice",
+      "description": "Side of cilantro-lime rice.",
+      "price_cents": 450,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Jasmine Sushi Rice",
+      "description": "Side of jasmine sushi rice.",
+      "price_cents": 450,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Side Mac & Cheese",
+      "description": "Side portion of mac & cheese.",
+      "price_cents": 650,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Sweet Potato Fries",
+      "description": "Side of sweet potato fries.",
+      "price_cents": 495,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Regular Fries",
+      "description": "Side of regular fries.",
+      "price_cents": 450,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Tater Tots",
+      "description": "Side of tater tots.",
+      "price_cents": 495,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Onion Rings (Side)",
+      "description": "Side of onion rings.",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Seasonal Vegetable",
+      "description": "Side of seasonal vegetable.",
+      "price_cents": 450,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Parmesan Mashed Potatoes",
+      "description": "Side of parmesan mashed potatoes.",
+      "price_cents": 495,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Deep Fried Ice Cream",
+      "description": "Vanilla ice cream coated in cinnamon-spiced corn flakes, topped with whipped cream and Hefeweizen caramel sauce. Served in a tortilla bowl.",
+      "price_cents": 999,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "New York Style Cheesecake",
+      "description": "Graham cracker crust, topped with strawberry purée and whipped cream.",
+      "price_cents": 699,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Seasonal Bread Pudding",
+      "description": "Seasonal Bananas Foster: topped with buttery brown sugar bananas, sweet cream vanilla ice cream, warmed Hefeweizen caramel sauce, and cinnamon.",
+      "price_cents": 899,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Mile High Mud Pie",
+      "description": "Kona coffee ice cream & Cookies 'n Cream ice cream on an Oreo cookie crumb crust. Topped with whipped cream, caramel, and almonds. Served in a pool of hot fudge.",
+      "price_cents": 1099,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Chocolate Chip Skillet Cookie",
+      "description": "Skillet cookie topped with vanilla ice cream.",
+      "price_cents": 799,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Bristol Bay Alaska Wild Sockeye Salmon",
+      "description": "Boneless fillet simply grilled or blackened with lemon, garlic, salt & pepper. Served with parmesan mashed potatoes and seasonal vegetable.",
+      "price_cents": 2699,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "RAM Tacos",
+      "description": "Pickled red onion, cilantro crema, chipotle-lime slaw, salsa, cilantro-lime rice, borracho black beans. Choice of flour or corn tortillas. Blackened Chicken or Pork Carnitas $16, Grilled Shrimp $18.",
+      "price_cents": 1600,
+      "price_note": "Blackened Chicken $16 | Pork Carnitas $16 | Grilled Shrimp $18",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "The Faburgé",
+      "description": "Wisconsin Cheddar, Canadian bacon, onion crisps, mayo, applewood-smoked bacon, fried egg. Angus Beef $18.99 / Wagyu $21.99.",
+      "price_cents": 1899,
+      "price_note": "Angus Beef $18.99 / Wagyu $21.99",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Chimichurri Burger",
+      "description": "Smoked cheddar cheese, steakhouse aioli, arugula tossed in red wine vinaigrette, and savory house-made chimichurri. Angus Beef $17.29 / Wagyu $20.29.",
+      "price_cents": 1729,
+      "price_note": "Angus Beef $17.29 / Wagyu $20.29",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Humble Bee Burger",
+      "description": "Caramelized onions, Wisconsin Havarti cheese, candied bacon, Dijon mayo, lettuce. Angus Beef $18.49 / Wagyu $21.49.",
+      "price_cents": 1849,
+      "price_note": "Angus Beef $18.49 / Wagyu $21.49",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": [
+    {
+      "type": "beer",
+      "name": "Yellow Pine IPA",
+      "style": "IPA — Collaboration with The Bruery & Mill 95. Bone-dry and bright, pine and grapefruit rind, citrus blossom and herbal snap. Clean, crisp, and decisively bitter.",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "She Devil",
+      "style": "Dark Strong Ale — Deep brown with ruby highlights. Fierce hop bite (CTZ and Cascade), rich malt backbone. 7.5% ABV / 80 IBU.",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Clearwater Kolsch",
+      "style": "Kölsch — Crisp and clean. Hallertauer Mittelfruh hops, Pilsner/Carafoam/Acidulated malt. 4.9% ABV / 22 IBU.",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "71 Pale Ale",
+      "style": "Pale Ale — Soft sweet malt body, grapefruit, pine, floral spiced candy. Cascade/Chinook hops. 5.8% ABV / 45 IBU.",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Game Trail Session IPA",
+      "style": "Session IPA — Bear Island Brewing Collaboration. Citrus, pine, tropical. Idaho 7, El Dorado, Citra hops. 5.1% ABV / 75.5 IBU.",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Cincopatas Mexican-Style Lager",
+      "style": "Mexican-Style Lager — Refreshing, light. 5.2% ABV / 18 IBU.",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Big Dread Hazy IPA",
+      "style": "Hazy IPA — Tropical citrus, dank fruit, resinous pine. Idaho 7, Mosaic, Simcoe, Citra, Cascade, flaked wheat & oats. 7.6% ABV / 50 IBU.",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Buttface Amber Ale",
+      "style": "Amber Ale — 2024 GABF Silver Medal. Smooth and malty, caramel & toffee, balanced hop finish. 5.8% ABV / 26 IBU.",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Hometown Blonde",
+      "style": "Blonde Ale — Crisp and refreshing, subtle honey, malt, citrus. 4.5% ABV / 20 IBU.",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Big Horn Hefeweizen",
+      "style": "Hefeweizen — German style, characteristically cloudy, banana and clove. 5.2% ABV / 15 IBU.",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": "Germany (style)",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Total Disorder Porter",
+      "style": "Porter — Rich and flavorful, chocolate, coffee, caramel, smooth finish. 5.2% ABV / 28 IBU.",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Big Red's IPA",
+      "style": "IPA — Assertively hoppy, bold citrus, grapefruit. 6.2% ABV / 60 IBU.",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Irish Coffee",
+      "style": "Hot cocktail — Jameson Irish Whiskey, Baileys Irish Cream, hot coffee, whipped cream.",
+      "glass_cents": 1100,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Tiramisu Martini",
+      "style": "Dessert martini — Mr. Black Cold Brew Coffee Liqueur, Baileys Irish Cream, Crème De Cacao, whipped cream.",
+      "glass_cents": 1300,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Gin Dandy Lemonade Cooler",
+      "style": "Refresher — Hendrick's Gin, simple syrup, lemonade, soda, muddled lemon.",
+      "glass_cents": 1200,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Sailor Jerry Mai Tai",
+      "style": "Tiki — Sailor Jerry Rum, Myers's Rum, Triple Sec, orange & pineapple juices, grenadine.",
+      "glass_cents": 1200,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Spicy Pineapple Margarita",
+      "style": "Margarita — Hornitos Reposado Tequila, Cointreau, fresh jalapeño, lime, pineapple juice. Sub Ilegal Joven Mezcal +$1.",
+      "glass_cents": 1400,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Spiked Strawberry Lemonade",
+      "style": "Lemonade cocktail — New Amsterdam Lemon Vodka, strawberry purée, lemonade.",
+      "glass_cents": 1300,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Vanilla Old Fashioned",
+      "style": "Old Fashioned — Maker's Mark, Tuaca Vanilla Citrus Liqueur, black walnut bitters.",
+      "glass_cents": 1500,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Passion Fruit Mojito",
+      "style": "Mojito — Don Q Pasión Rum, lime, fresh mint, strawberry, soda.",
+      "glass_cents": 1400,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "PNW Mule",
+      "style": "Moscow Mule — New Amsterdam Vodka, lime, Fever-Tree Ginger Beer.",
+      "glass_cents": 1200,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Long Island Iced Tea",
+      "style": "Long Island — Original, Peach, or Hawaiian Pineapple.",
+      "glass_cents": 1300,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Proud Mary",
+      "style": "Bloody Mary — New Amsterdam Vodka, veggie and cheese kabob, pickled asparagus, chili-lime salted rim, snit of Blonde Ale.",
+      "glass_cents": 1400,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "RAM Margarita",
+      "style": "Margarita — Exotico Blanco Tequila, lime, sweet & sour, salted rim. Sub Ilegal Joven Mezcal +$1.",
+      "glass_cents": 1200,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Strawberry Coconut 'Rita",
+      "style": "Margarita — 1800 Coconut Tequila, Cointreau, strawberry purée, sugar rim.",
+      "glass_cents": 1300,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Lakewood Lemon Drop",
+      "style": "Lemon Drop — Tito's Handmade Vodka, muddled lemon, lemonade, soda.",
+      "glass_cents": 1400,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Athletic Brewing NA Beer",
+      "style": "Non-alcoholic beer — Seasonal variety, 12 oz. cans.",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "High Noon Vodka Seltzer",
+      "style": "Hard seltzer — Seasonal variety, 12 oz. cans.",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "2 Towns Cider",
+      "style": "Hard cider — Seasonal variety, 12 oz. cans.",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": "Oregon",
+      "vintage": null,
+      "flavor_tags": []
+    }
+  ]
+}

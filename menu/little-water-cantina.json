@@ -1,0 +1,459 @@
+{
+  "restaurant": "Little Water Cantina",
+  "neighborhood": "Eastlake",
+  "cuisine": "Mexican",
+  "venue_format": "full-menu",
+  "menu_completeness": "partial",
+  "source_url": "https://littlewatercantina.com/menu/",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "html (rendered)",
+  "notes": "Sample menu explicitly noted as potentially outdated; rotating ceviche and margarita fresca are market/ask-server items. Beer list captured by name; no wine or bottle cocktail list present. Some quesadilla entries appear duplicated (Roasted Veggie Quesadilla vs. Quesadillas) — both retained as listed.",
+  "dishes": [
+    {
+      "course_type": "appetizer",
+      "name": "Guacamole & Chips",
+      "description": "Ripe Mexican avocados smashed with roasted tomatillo salsa, topped with pico de gallo, comes with flour tortilla strips.",
+      "price_cents": 1200,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Chips & Salsa",
+      "description": "Charred tomatoes, tomatillos, onions, chilies and cilantro with corn chips.",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Roasted Veggie Quesadilla",
+      "description": "Roasted poblano chilies, onions, squash, mushrooms, pico de gallo, sour cream and guacamole. Optional add-ons: Chicken Tinga +$6, Chipotle Shrimp +$7, Carnitas +$6, Carne Asada +$7, Barbacoa +$7.",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Queso Dip",
+      "description": "Fondue-like cheese sauce great for sharing. Add chorizo +$4.",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Rotating Ceviche",
+      "description": "Ceviche of the day — check QR menu or ask server.",
+      "price_cents": null,
+      "price_note": "Market price; rotating daily",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Cantina Nachos",
+      "description": "Corn tortilla chips topped with queso fundido and Monterey jack cheese, Cantina beans (contains pork), pico de gallo, cotija cheese and crema. Add guacamole +$6.",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Quesadillas",
+      "description": "Roasted poblano chilies, onions, mushrooms, pico de gallo, sour cream and guacamole. Add-ons: Chicken Tinga +$5, Spicy Chipotle Shrimp +$7, Carnitas +$5, Carne Asada +$7.",
+      "price_cents": 1200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Grilled Vegetable Burrito",
+      "description": "Stuffed with cantina beans, red rice, grilled chayote squash, corn, poblano chilies, crimini mushrooms, onions, vegetarian black beans, pico de gallo, cilantro, sour cream and Monterrey jack cheese. Served with spicy 3-chile sauce. Add guacamole +$3.",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Shrimp Burrito",
+      "description": "Shrimp sautéed in spicy coconut-chipotle sauce with smoked onions, cilantro and Monterrey jack cheese. Stuffed with cantina beans and red rice. Add guacamole +$3.",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Carne Asada Burrito",
+      "description": "Marinated and grilled steak with charred onions and poblano chilies, cilantro, sour cream and Monterrey jack cheese. Served with spicy 3-chile sauce. Stuffed with cantina beans and red rice. Add guacamole +$3.",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Wild Boar Burrito",
+      "description": "Spice-rubbed, smoked, fried wild boar served with grilled pineapple, fried onions, cilantro, sour cream and Monterrey jack cheese. Served with spicy 3-chile sauce. Stuffed with cantina beans and red rice. Add guacamole +$3.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Pork Carnitas Burrito",
+      "description": "Traditional citrus, guajillo and garlic braised pork shoulder and belly with pickled red onions, pico de gallo, cilantro, sour cream and Monterrey jack cheese. Served with spicy 3-chile sauce. Stuffed with cantina beans and red rice. Add guacamole +$3.",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Chicken Tinga Burrito",
+      "description": "Spicy red chile, onion and tomato braised chicken tinga served with pico de gallo, sour cream, cilantro and Monterrey jack cheese. Stuffed with cantina beans and red rice. Add guacamole +$3.",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Carne Asada Tacos",
+      "description": "Two tacos: marinated and grilled beef with poblano chilies, onions, cotija cheese, avocado cream and cilantro. Served with a side of 3-chile sauce. Taco platter with cantina beans and red rice available +$5.",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Carnitas Tacos",
+      "description": "Two tacos: traditional citrus, guajillo and garlic braised pork shoulder and belly with cabbage, pickled red onions, cream, pico de gallo and cilantro. Side of 3-chile sauce. Taco platter with cantina beans and red rice available +$5.",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Wild Boar Tacos",
+      "description": "Two tacos: spice-rubbed, smoked, fried wild boar with grilled pineapple, fried onions, crema, cilantro and 3-chile sauce. Taco platter with cantina beans and red rice available +$5.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Chicken Tinga Tacos",
+      "description": "Two tacos: spicy tomato, onion and red chili-braised chicken with cabbage, avocado crema, cotija cheese and cilantro. Taco platter with cantina beans and red rice available +$5.",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Fish Tacos",
+      "description": "Two tacos: spice-rubbed and sautéed Alaska cod with cabbage, pickled red onion, mango pico de gallo, avocado crema and cilantro. Also available beer-battered and fried Baja-style for +$1. Taco platter with cantina beans and red rice available +$5.",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Shrimp Tacos",
+      "description": "Two tacos: shrimp sautéed with smoked onions in a spicy chipotle sauce, served with cabbage, cotija cheese, pico de gallo, cilantro and coconut crema. Taco platter with cantina beans and red rice available +$5.",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Grilled Vegetables Tacos",
+      "description": "Two tacos: grilled chayote squash, corn, poblano chilies, crimini mushrooms, onions, vegetarian black beans, pico de gallo, cilantro, sour cream and Monterrey jack cheese. Served with spicy 3-chile sauce. Taco platter with cantina beans and red rice available +$5.",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Beef Barbacoa Tacos",
+      "description": "Two tacos: beef brisket braised in a rich chile-laced tomato broth until shredded, topped with chopped onions, cilantro, cabbage and crema. Served with salsa verde. Taco platter with cantina beans and red rice available +$5.",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Carne Asada Plato",
+      "description": "Marinated and grilled skirt steak served with cantina beans, red rice, roasted chilies, tres chilies sauce and tortillas.",
+      "price_cents": 2500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Taco Salad",
+      "description": "Fresh mixed greens, black beans, corn, cotija cheese, pico de gallo, cucumber, cilantro, taco seasoning ranch dressing and fried corn tortilla. Add chicken +$6 or spicy shrimp +$8.",
+      "price_cents": 1200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Red Pork Pozole",
+      "description": "Legendary pork pozole in a rich red chile broth, packed with vitamins. Served with cotija cheese, cabbage, cilantro and corn chips.",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Mole Colorado Burrito",
+      "description": "Chicken braised with mole Colorado, combined with black beans and red rice, wrapped in a flour tortilla and smothered in mole Colorado. Topped with chopped parsley, cotija cheese and sesame seeds.",
+      "price_cents": 2200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Plain Fried Fish Taco, Rice, Beans (Kids)",
+      "description": "Children's meal (ages 12 and under): plain fried fish taco with rice and beans.",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Rice, Beans & Avocado (Kids)",
+      "description": "Children's meal (ages 12 and under): rice, beans and avocado.",
+      "price_cents": 700,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Quesadilla, Rice & Beans (Kids)",
+      "description": "Children's meal (ages 12 and under): quesadilla with rice and beans. Add chicken or carnitas +$3.",
+      "price_cents": 700,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": [
+    {
+      "type": "cocktail",
+      "name": "Margarita de la Casa",
+      "style": "Classic margarita",
+      "glass_cents": 1400,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "The Cadillac DeMargarita",
+      "style": "Elevated margarita with passion fruit and Grand Marnier float",
+      "glass_cents": 1700,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Margarita Fresca",
+      "style": "Fresh fruit margarita, rotating flavor",
+      "glass_cents": 1500,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Mas Chingona",
+      "style": "Double-premium margarita served in a chalice",
+      "glass_cents": 3500,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Margarita Picante",
+      "style": "Spicy margarita",
+      "glass_cents": 1400,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Cantarito",
+      "style": "Mexican clay-cup citrus cocktail",
+      "glass_cents": 1400,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "AEROMEXICO",
+      "style": "Mexican riff on a Paper Plane",
+      "glass_cents": 1400,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Margarita Verde",
+      "style": "Green herbal margarita",
+      "glass_cents": 1500,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Mezcal Old Fashioned",
+      "style": "Smoky mezcal riff on an Old Fashioned",
+      "glass_cents": 1600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Mas Mejor",
+      "style": "Single barrel reposado margarita riff",
+      "glass_cents": 1600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Baja Spritz",
+      "style": "Aperitif spritz with Baja sparkling wine",
+      "glass_cents": 1200,
+      "bottle_cents": null,
+      "region": "Baja California, Mexico",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Rotating Draft Beer",
+      "style": "Rotating — ask server",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Bottles & Cans (Mexican imports)",
+      "style": "Lager / amber — Bohemia, Carta Blanca, Corona, Corona Light, Dos Equis Amber, Dos Equis Lager, Imperial, Pacifico, Sol, Tecate Tallboy, Tecate Light, Victoria",
+      "glass_cents": 700,
+      "bottle_cents": null,
+      "region": "Mexico",
+      "vintage": null,
+      "flavor_tags": []
+    }
+  ]
+}

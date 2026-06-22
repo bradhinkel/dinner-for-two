@@ -1,0 +1,224 @@
+{
+  "restaurant": "The Barrel Thief",
+  "neighborhood": "Fremont",
+  "cuisine": "Whiskey Bar",
+  "venue_format": "share-plate",
+  "menu_completeness": "partial",
+  "source_url": "https://bthief.com/menu",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "html (rendered)",
+  "notes": "Happy hour menu captured in full; full-price food and beverage menus referenced by nav tabs (cocktails, mocktails, beer, cider, whiskey, wine, brandy, agave, rum, gin, vodka, other spirits, non-alcoholic) but not present in the raw text — only happy hour pricing shown. Rotating wine selections listed without specific producers.",
+  "dishes": [
+    {
+      "course_type": "appetizer",
+      "name": "Bread & Oil",
+      "description": "Served with olive oil & balsamic",
+      "price_cents": 400,
+      "price_note": "Happy hour price",
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Caesar Salad",
+      "description": "Romaine, arugula, shaved onion, croutons, parmesan cheese, caesar dressing. Add grilled chicken $8, add shrimp $6.",
+      "price_cents": 800,
+      "price_note": "Happy hour price",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Cheddar-Jalapeño Hushpuppies",
+      "description": "Served with honey-bourbon butter",
+      "price_cents": 700,
+      "price_note": "Happy hour price",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Cheeseburger",
+      "description": "1/4 pound patty, Seawolf bun, aioli, lettuce, shaved onion, pickles, cheddar cheese, served with house made potato chips. Add bacon $1, sub French fries $1, add patty $3.",
+      "price_cents": 1200,
+      "price_note": "Happy hour price",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Crispy Brussels Sprouts",
+      "description": "Tossed in a black garlic hoisin sauce with an almond chili crunch, fresh mint.",
+      "price_cents": 800,
+      "price_note": "Happy hour price",
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "French Fries",
+      "description": "Served with ketchup & house made aioli. Make it truffle +$4.",
+      "price_cents": 500,
+      "price_note": "Happy hour price",
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Garden Salad",
+      "description": "Cucumbers, cherry tomatoes, peas, herbed avocado vinaigrette. Add grilled chicken $8, add shrimp $6.",
+      "price_cents": 800,
+      "price_note": "Happy hour price",
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": [
+    {
+      "type": "beer",
+      "name": "Draft Beer",
+      "style": "Rotating draft selection",
+      "glass_cents": 600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Red Wine",
+      "style": "Rotating red",
+      "glass_cents": 600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Rosé Wine",
+      "style": "Rotating rosé",
+      "glass_cents": 600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Sparkling Wine",
+      "style": "Rotating sparkling",
+      "glass_cents": 600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "White Wine",
+      "style": "Rotating white",
+      "glass_cents": 600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Passionfruit Margarita",
+      "style": "Tequila cocktail",
+      "glass_cents": 900,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Toki Highball",
+      "style": "Whisky highball",
+      "glass_cents": 900,
+      "bottle_cents": null,
+      "region": "Japan",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Happy Hour Manhattan",
+      "style": "Classic Manhattan",
+      "glass_cents": 900,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Happy Hour Espresso Martini",
+      "style": "Espresso Martini",
+      "glass_cents": 900,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Happy Hour Old Fashioned",
+      "style": "Old Fashioned",
+      "glass_cents": 900,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Happy Meal",
+      "style": "Beer & shot combo",
+      "glass_cents": 900,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Forgetti",
+      "style": "50-50 shot",
+      "glass_cents": 900,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    }
+  ]
+}

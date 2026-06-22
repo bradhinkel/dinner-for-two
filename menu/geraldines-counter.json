@@ -1,0 +1,1070 @@
+{
+  "restaurant": "Geraldine’s Counter",
+  "neighborhood": "Columbia City",
+  "cuisine": "American Diner",
+  "venue_format": "counter",
+  "menu_completeness": "full",
+  "source_url": "https://99c4cc73-cff0-4672-886d-7499f2dab971.filesusr.com/ugd/cf1a6e_200897c94dbe46528841d9740e56632d.pdf",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "pdf (auto)",
+  "notes": "Full brunch/lunch menu captured for Geraldine's Counter in Columbia City, Seattle. Pancakes/French Toast specials change daily; Special of the Day is market price weekdays only. Merchandise items (mugs, tees, hoodies, etc.) excluded. Avocado price listed as market price throughout.",
+  "dishes": [
+    {
+      "course_type": "entree",
+      "name": "Counter Special",
+      "description": "Two eggs cooked to your liking, paired with crispy, golden hash browns. Add bacon (2pc), chicken sausage or sausage patty +$5.50; Add Beyond patty +$7.",
+      "price_cents": 1350,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Corned Beef Hash",
+      "description": "Two poached eggs over a hearty mix of locally sourced corned beef, butternut squash, bell peppers, potatoes, onions and celery. A farm-to-table take on a breakfast classic.",
+      "price_cents": 1950,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Geraldine's Casserole",
+      "description": "Eggs, pork sausage, cream, hash browns, pepper jack & cheddar cheeses, layered and baked. Topped with house-made pico de gallo.",
+      "price_cents": 1850,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Avocado & Pepper Jack Omelet",
+      "description": "Topped with house-made pico de gallo and sour cream. Served with hash browns.",
+      "price_cents": 1875,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Spinach Feta Basil Tomato Omelet",
+      "description": "Served with hash browns.",
+      "price_cents": 1675,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Herbed Omelet",
+      "description": "Fresh herbs, goat cheese and caramelized onions. Served with hash browns. Add smoked salmon +$6.",
+      "price_cents": 1750,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Pesto Scramble",
+      "description": "House-made pesto, zucchini, cherry tomatoes and parmesan. Served with hash browns.",
+      "price_cents": 1750,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Sweet Corn, Havarti & Herb Scramble",
+      "description": "Served with hash browns.",
+      "price_cents": 1750,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Emerald City Scramble",
+      "description": "Pork sausage, hash browns, spinach, sweet bell peppers, onions, eggs and pepper jack cheese.",
+      "price_cents": 1875,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Our Famous French Toast",
+      "description": "Thick slices of sour batard marinated overnight in a special batter and cooked to crispy perfection. Half order $11.50 / single slice $5.75. Served with powdered sugar, fresh topping of the day, butter and 100% real maple syrup.",
+      "price_cents": 1725,
+      "price_note": "Full order $17.25; half order $11.50; single $5.75",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Three Pancakes of the Day",
+      "description": "Rotates between a dozen different recipes daily — made with fresh quality ingredients. Topped with powdered sugar, fresh topping of the day, butter and 100% real maple syrup. Half order $10 / single $5.",
+      "price_cents": 1500,
+      "price_note": "Full order $15; half order $10; single $5",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Slammin'",
+      "description": "The ultimate breakfast knockout! Choice of sausage patty, chicken sausage or bacon, paired with eggs cooked to your liking and pancakes of the day. Sub French Toast for pancakes +$2.",
+      "price_cents": 1850,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Chicken Fried Steak & Eggs",
+      "description": "Served with meaty pork sausage gravy, hash browns and two eggs any style.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "B&G",
+      "description": "Large house-made biscuit, cut in half and topped with meaty pork sausage gravy. Served with two eggs any style and hash browns.",
+      "price_cents": 1725,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Bacon, Egg & Arugula Sandwich",
+      "description": "With tomato, aioli and scrambled eggs on sour batard. Served with hash browns. Sub avocado for bacon — no charge.",
+      "price_cents": 1825,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Eggs a la Mexicana",
+      "description": "Eggs scrambled with pepper jack and chilies, served with black beans, house-made pico de gallo, sour cream and corn tortillas.",
+      "price_cents": 1675,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Special of the Day",
+      "description": "Brunch meets lunch — ask your server! Available Monday–Friday only.",
+      "price_cents": null,
+      "price_note": "Market price; weekdays only",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Geraldine's House-Made Granola",
+      "description": "House-made granola with almonds, dried fruit, coconut and topped with vanilla bean yogurt.",
+      "price_cents": 1350,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Steel Cut Oatmeal",
+      "description": "Topped with fresh fruit and served with brown sugar and milk. Sub oat milk +$0.50.",
+      "price_cents": 1150,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "House-Made Coffee Cake",
+      "description": "House-made coffee cake.",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "House-Made Biscuit",
+      "description": "Fluffy, flaky and buttery perfection baked fresh daily.",
+      "price_cents": 350,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "3 Slices of Hand-Cut Thick Bacon",
+      "description": "Three slices of hand-cut thick bacon.",
+      "price_cents": 750,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Cascioppo Chicken Sausage",
+      "description": "Cascioppo brand chicken sausage.",
+      "price_cents": 550,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Isernio's Pork Sausage Patty",
+      "description": "Isernio's brand pork sausage patty.",
+      "price_cents": 550,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Single French Toast",
+      "description": "Single slice of house French toast.",
+      "price_cents": 575,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Single Pancake",
+      "description": "Single pancake of the day.",
+      "price_cents": 475,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Fresh Fruit",
+      "description": "Fresh fruit.",
+      "price_cents": 700,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Sausage Gravy",
+      "description": "House meaty pork sausage gravy.",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Hash Browns",
+      "description": "Crispy golden hash browns.",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "One Egg",
+      "description": "One egg any style (except omelet or scrambled).",
+      "price_cents": 300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Two Eggs",
+      "description": "Two eggs any style (except omelet).",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Avocado",
+      "description": "Sliced avocado side.",
+      "price_cents": null,
+      "price_note": "Market price",
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Cottage Cheese",
+      "description": "Cottage cheese side.",
+      "price_cents": 300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Coleslaw",
+      "description": "House coleslaw.",
+      "price_cents": 300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Toast",
+      "description": "Choice of multigrain or English muffin ($3), sourdough ($3.50), or gluten-free ($4.50).",
+      "price_cents": 300,
+      "price_note": "Multigrain/English muffin $3; sourdough $3.50; gluten-free $4.50",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Geraldine's Greens",
+      "description": "Arugula and mixed greens tossed in a honey lemon vinaigrette, topped with Parmesan crisps and pear slices.",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Caesar Salad",
+      "description": "Tossed with house-made croutons and Parmesan. Add grilled chicken breast +$6; add smoked salmon +$6. Small size available.",
+      "price_cents": 1500,
+      "price_note": "Full $15; small $9",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Cobb Salad",
+      "description": "Assorted greens tossed with chicken, blue cheese, tomatoes, hard boiled egg, avocado, bacon and chives in creamy dill ranch dressing.",
+      "price_cents": 1825,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Chop Chop Salad",
+      "description": "Assorted greens tossed with salami, chicken, garbanzo beans, tomato, mozzarella, basil and scallions in an Italian herb vinaigrette.",
+      "price_cents": 1825,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Southwest Salad",
+      "description": "Assorted greens tossed with chicken, tomato, corn, avocado, black beans, tortilla strips, pepper jack, chives and chipotle ranch dressing.",
+      "price_cents": 1825,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Grilled Bread Salad",
+      "description": "Mixed greens tossed with grilled sourdough, fresh mozzarella, tomatoes and basil in balsamic vinaigrette. Add grilled chicken breast +$6.",
+      "price_cents": 1625,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Creamy Tomato Basil Soup",
+      "description": "House creamy tomato basil soup. Cup or bowl.",
+      "price_cents": 1000,
+      "price_note": "Bowl $10; cup $6",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Tater Tots",
+      "description": "Tater tots.",
+      "price_cents": 700,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "French Fries",
+      "description": "Classic french fries.",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Sweet Potato Fries",
+      "description": "Sweet potato fries.",
+      "price_cents": 700,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Kick-Butt Chili Cheese Fries",
+      "description": "Topped with shredded cheddar cheese, sour cream and scallions.",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Mozzarella Sticks",
+      "description": "Served with house-made marinara sauce with scallions.",
+      "price_cents": 900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "All-Natural Burger",
+      "description": "Hand-formed, all-natural, third-pound flame-grilled burger on a potato bun with tomato, lettuce, aioli and house-made balsamic onion relish. Add cheese +$1.50 (blue, cheddar, havarti or pepper jack); add avocado market price; add bacon (2pc) +$5.50. Served with fries.",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Beyond Burger",
+      "description": "Plant-based patty topped with red onion, tomato and lettuce on a potato bun. Served with fries.",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Bodacious BLT",
+      "description": "Thick-sliced bacon, vine-ripened tomatoes, arugula and aioli layered on toasted sour batard bread. Sub avocado for bacon — no charge. Served with fries.",
+      "price_cents": 1650,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Grilled Vegetarian Sandwich",
+      "description": "Grilled red pepper, zucchini, with caramelized onion and goat cheese, on sourdough with aioli. Served with fries.",
+      "price_cents": 1650,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Grilled Three-Cheese Sandwich",
+      "description": "Cheddar, havarti and gruyere on sour batard bread, grilled golden brown in real butter. Add tomato +$1.50; add avocado market price; add bacon (2pc) +$5.50. Served with fries.",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Columbia City Corned Beef",
+      "description": "Brisket from steaming brine, piled on Jewish rye with coleslaw, gruyere and thousand island dressing. Served with fries.",
+      "price_cents": 1850,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Chicken Burger",
+      "description": "Grilled chicken breast topped with pepper jack, avocado, house-made pico de gallo and aioli on a ciabatta bun. Served with fries.",
+      "price_cents": 1750,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Meatloaf Sandwich",
+      "description": "All-natural grass-fed beef, hand-formed in-house with house spices. Served on sourdough and topped with house-made marinara and mozzarella. Served with fries.",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Macaroni and Cheese",
+      "description": "Five cheeses, garlic, chopped tomato, jalapeños, cream and magic spices. Add bacon (2pc) +$5.50; add grilled chicken breast +$6.",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Chicken Pot Pie with Biscuit Topping",
+      "description": "A lighter roux — no cream — with hearty chunks of chicken, peas, carrots, garlic, onion, mushrooms and bell peppers. Topped with a house-made biscuit.",
+      "price_cents": 1550,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Kick-Butt Chili",
+      "description": "Loaded with three meats, red beans and spice. Topped with sour cream, chives and cheddar cheese. Cup or bowl.",
+      "price_cents": 1200,
+      "price_note": "Bowl $12; cup $8",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": [
+    {
+      "type": "cocktail",
+      "name": "Mary Your Way — Vodka",
+      "style": "Bloody Mary",
+      "glass_cents": 1300,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Mary Your Way — Mezcal",
+      "style": "Bloody Mary",
+      "glass_cents": 1350,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Mary Your Way — Tequila",
+      "style": "Bloody Mary",
+      "glass_cents": 1350,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "The Devil Made Me Do It Mary",
+      "style": "Spicy Bloody Mary",
+      "glass_cents": 1400,
+      "bottle_cents": null,
+      "region": "Pacific Northwest",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Bloody Caesar",
+      "style": "Caesar / Bloody Mary variant",
+      "glass_cents": 1300,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Mimosa Your Way",
+      "style": "Mimosa",
+      "glass_cents": 1000,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Beermosa",
+      "style": "Beer cocktail",
+      "glass_cents": 850,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Specialty Mimosa of the Month",
+      "style": "Seasonal Mimosa",
+      "glass_cents": 1050,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "G-Fizz",
+      "style": "Sparkling cocktail",
+      "glass_cents": 1200,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "New Fuzz",
+      "style": "Sparkling cocktail",
+      "glass_cents": 1200,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Autumn Bubbles",
+      "style": "Sparkling cocktail",
+      "glass_cents": 1200,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Berry Crush",
+      "style": "Sparkling cocktail",
+      "glass_cents": 1200,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Screwdriver",
+      "style": "Vodka cocktail",
+      "glass_cents": 1200,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Salty Dog",
+      "style": "Vodka cocktail",
+      "glass_cents": 1200,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Crantastic",
+      "style": "Vodka cocktail",
+      "glass_cents": 1200,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Geraldine's Ginger",
+      "style": "Whiskey cocktail / Mule",
+      "glass_cents": 1200,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Marga-Rah-Rah",
+      "style": "Margarita",
+      "glass_cents": 1300,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Seattle Sunset",
+      "style": "Tequila cocktail",
+      "glass_cents": 1300,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "New West",
+      "style": "Whiskey cocktail",
+      "glass_cents": 1300,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Aperol Spritz",
+      "style": "Spritz",
+      "glass_cents": 1300,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Baileys & Coffee",
+      "style": "Hot coffee cocktail",
+      "glass_cents": 1300,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Irish Coffee",
+      "style": "Hot coffee cocktail",
+      "glass_cents": 1300,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Georgetown Brewing Bodhizafa IPA",
+      "style": "IPA",
+      "glass_cents": 700,
+      "bottle_cents": null,
+      "region": "Seattle, WA",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Rainier Tall Boy (Can)",
+      "style": "American Lager",
+      "glass_cents": 700,
+      "bottle_cents": null,
+      "region": "Pacific Northwest",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "High Noon Pineapple Vodka Seltzer",
+      "style": "Hard Seltzer",
+      "glass_cents": 700,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Seasonal Kombucha",
+      "style": "Kombucha",
+      "glass_cents": 600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Fresh Apple / Grapefruit / Orange Juice",
+      "style": "Fresh juice",
+      "glass_cents": 500,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Fresh Lemonade",
+      "style": "Lemonade",
+      "glass_cents": 500,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Fresh Strawberry Lemonade",
+      "style": "Lemonade",
+      "glass_cents": 550,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Topo Chico",
+      "style": "Sparkling water",
+      "glass_cents": 550,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Kiss Grapefruit Soda",
+      "style": "Craft soda",
+      "glass_cents": 500,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Americana Huckleberry Soda",
+      "style": "Craft soda",
+      "glass_cents": 500,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Americana Honey Lime Ginger Ale",
+      "style": "Craft soda",
+      "glass_cents": 500,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Sioux City Root Beer",
+      "style": "Craft soda",
+      "glass_cents": 500,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Ginger Beer",
+      "style": "Craft soda",
+      "glass_cents": 500,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Coke / Diet Coke / Sprite",
+      "style": "Soda",
+      "glass_cents": 400,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "QED Coffee",
+      "style": "Coffee",
+      "glass_cents": 450,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Freshly Brewed Barnes & Watson Iced Tea",
+      "style": "Iced tea",
+      "glass_cents": 450,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Selection of Local Teas",
+      "style": "Hot tea",
+      "glass_cents": 500,
+      "bottle_cents": null,
+      "region": "Pacific Northwest",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Hot Cocoa",
+      "style": "Hot chocolate",
+      "glass_cents": 400,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    }
+  ]
+}

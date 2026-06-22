@@ -1,0 +1,1448 @@
+{
+  "restaurant": "Taste of India",
+  "neighborhood": "University District",
+  "cuisine": "Indian",
+  "venue_format": "full-menu",
+  "menu_completeness": "full",
+  "source_url": "https://www.tasteofindiaseattle.com/menu",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "static",
+  "extraction_method": "html (rendered)",
+  "notes": "Full dinner menu captured including appetizers, soups/salads, Indian mains, vegetarian mains, tandoori, breads, beverages, desserts, and sides. No alcohol/wine list present on this menu. Lunch and Party/Catering Tray sections were not included in the raw text.",
+  "dishes": [
+    {
+      "course_type": "appetizer",
+      "name": "Garlic Naan (Featured)",
+      "description": "Leavened bread topped with garlic",
+      "price_cents": 699,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Butter Massala (Featured)",
+      "description": "A deliciously smooth butter, tomato, and cream sauce, spiced with ginger and garlic. Served with basmati rice.",
+      "price_cents": 2099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Tikka Masala (Featured)",
+      "description": "A cream based curry cooked with ginger and cilantro in a tomato sauce. Served with basmati rice.",
+      "price_cents": 2099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Samosa",
+      "description": "Two crispy pastries filled with your choice of freshly mixed vegetables or delicately spiced lean ground beef.",
+      "price_cents": 999,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Vegetable Cutlets",
+      "description": "A medley of vegetables, herbs & spices formed into patties and sautéed served with cilantro and tamarind chutneys.",
+      "price_cents": 1099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Pakoras",
+      "description": "Delicately spiced fried fritters lightly battered in chickpea flour. Served with cilantro and tamarind chutneys.",
+      "price_cents": 1099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Hummus",
+      "description": "The original middle eastern dip of garbanzo beans, tahini sauce and a special dressing served with soft pita bread. (Pita not vegan).",
+      "price_cents": 1099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Baba Ghanooj",
+      "description": "Eggplant smoked on an open fire, pureed and mixed with tahini sauce and our own special dressing. Served with soft pita bread. (Pita not vegan).",
+      "price_cents": 1099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Grape Leaves",
+      "description": "Vine ripened grape leaves stuffed with seasoned rice, onions and delicate spices. Served with cilantro and tamarind chutneys.",
+      "price_cents": 1099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Paneer Tikka",
+      "description": "Tender pieces of cheese marinated in yogurt, ginger garlic, herbs and spices. Served on a bed of lettuce with cilantro and tamarind chutneys.",
+      "price_cents": 1399,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Vegetarian Delight",
+      "description": "A selection of vegetable samosa, vegetable pakora, aloo pakora, paneer pakora, and vegetable cutlet. Served with cilantro and tamarind chutneys.",
+      "price_cents": 1699,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Chicken Tikka (Appetizer)",
+      "description": "Boneless chicken marinated in yogurt, herbs and spices. Served on a bed of lettuce with cilantro and tamarind chutneys.",
+      "price_cents": 1499,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Fish Tikka (Appetizer)",
+      "description": "Juicy pieces of fresh fish marinated with spices and roasted in the tandoor oven. Accompanied with our special cilantro and tamarind chutney.",
+      "price_cents": 1499,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Chicken Wings",
+      "description": "Fresh chicken wings roasted in the tandoor oven. Served with tamarind and cilantro chutneys.",
+      "price_cents": 1699,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Taste of India Delight",
+      "description": "A selection of vegetable samosa, vegetable pakora, chicken tikka and chicken pakoras, served with cilantro and tamarind chutneys.",
+      "price_cents": 1599,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "House Salad",
+      "description": "Fresh garden greens, lettuce, tomatoes, black olives, carrots, bell peppers, mushrooms and cucumbers served with Mediterranean dressing.",
+      "price_cents": 1199,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Mediterranean Salad",
+      "description": "Fresh garden salad made with lettuce, tomatoes, green olives, carrot, bell peppers, mushrooms, cucumbers and feta cheese. Served with Mediterranean dressing.",
+      "price_cents": 1199,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Caesar Salad",
+      "description": "Fresh romaine lettuce prepared with a classic Caesar dressing and croutons.",
+      "price_cents": 1199,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Indian Salad",
+      "description": "Onions, tomatoes, cucumbers, and green bell peppers mixed in a tangy sauce.",
+      "price_cents": 1199,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Dal Soup",
+      "description": "Homemade lentil soup prepared in an old Indian tradition.",
+      "price_cents": 1099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Tomato Soup",
+      "description": "A rich curried tomato soup spiced with cumin and curry leaves with a touch of cream.",
+      "price_cents": 1099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Mulligatawny Soup",
+      "description": "A rich chicken and lentil soup, flavored with Indian spices.",
+      "price_cents": 1099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Butter Massala",
+      "description": "A deliciously smooth butter, tomato, and cream sauce, spiced with ginger and garlic. Served with basmati rice.",
+      "price_cents": 2099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Chili Chicken",
+      "description": "A famous dish from Delhi: chicken stir-fried in green onions, bell peppers, ginger and other spices. Served with basmati rice. (No Dairy)",
+      "price_cents": 2699,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Coconut Curry",
+      "description": "Rich curry cooked with coconut milk, cream, ginger, garlic and our special blend of spices. Served with basmati rice. Vegan option available if no dairy selected.",
+      "price_cents": 2099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Curry",
+      "description": "A traditional brown curry prepared with tomatoes, onions and fresh herbs. Served with basmati rice.",
+      "price_cents": 2099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Egg Curry",
+      "description": "Egg cooked in a traditional curry sauce. Served with basmati rice.",
+      "price_cents": 2099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Jaipuri Masala",
+      "description": "An exquisite dish from the city of Jaipur prepared with tomatoes, onion, ginger, garlic, and paneer. Served with basmati rice.",
+      "price_cents": 2099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Jalfrezi",
+      "description": "Boneless meat or vegetables stir-fried in brown curry with bell peppers, garlic, ginger, tomatoes, and onions. Served with basmati rice.",
+      "price_cents": 2099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Karai Ghost",
+      "description": "Cooked in a traditional Indian wok with onions, tomatoes, fenugreek leaves, capsicums, fresh ginger, and garlic. Served with basmati rice.",
+      "price_cents": 2099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Madras Chile Massala",
+      "description": "This dish originates from the city of Madras. Cooked in a sauce of tomatoes, roasted dry chilies, browned garlic, cumin and other authentic Indian spices. Served with basmati rice.",
+      "price_cents": 2099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Mango Curry",
+      "description": "Tender pieces of meat or vegetables sautéed with major grey mango chutney and a touch of cream. Served with basmati rice. Vegan option available.",
+      "price_cents": 2099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Palak Massala (Saag)",
+      "description": "Cream of spinach simmered with onions and spices. Served with basmati rice.",
+      "price_cents": 2099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Pineapple Curry",
+      "description": "Our house curry with chunks of cut pineapples, spices and cream. Served with basmati rice.",
+      "price_cents": 2099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Rogan Josh",
+      "description": "This famous dish from Kashmir is cooked with tomatoes and onions then roasted with spices in a rich brown curry sauce. Served with basmati rice.",
+      "price_cents": 2099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Royal Biryani",
+      "description": "A classic Mughlai dish of basmati rice cooked with curry raisins, cashew nuts, sautéed onions, and saffron. Served with raita.",
+      "price_cents": 2099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Shai Korma",
+      "description": "A traditional dish prepared with exotic spices, herbs and a cream-based sauce with almonds. Served with basmati rice.",
+      "price_cents": 2099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Tikka Masala",
+      "description": "A cream based curry cooked with ginger and cilantro in a tomato sauce. Served with basmati rice.",
+      "price_cents": 2099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Vindaloo",
+      "description": "Zesty curry cooked in a tangy sauce of wine vinegar, ginger, and potatoes. Served with basmati rice.",
+      "price_cents": 2099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Aloo Gobi",
+      "description": "Potatoes and cauliflower sautéed with onions and fresh herbs. Served with basmati rice.",
+      "price_cents": 2499,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Aloo Mutter Mushroom",
+      "description": "Potatoes, green peas and mushrooms in an onion curry sauce with ginger. Served with basmati rice.",
+      "price_cents": 2499,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Baigan Bharta",
+      "description": "Eggplant baked over an open flame, mashed and seasoned with herbs, sautéed onions, green peas and tomatoes. Served with basmati rice.",
+      "price_cents": 2499,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Chana Massala",
+      "description": "Chickpeas cooked over a slow fire blended with spices and tomatoes. Served with basmati rice.",
+      "price_cents": 2199,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Dal Maharani",
+      "description": "Creamed lentils cooked with select herbs and spices. Served with basmati rice.",
+      "price_cents": 2499,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Mutter Massala",
+      "description": "Fresh green peas cooked in a golden curry sauce. Served with basmati rice.",
+      "price_cents": 2399,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Okra Massala",
+      "description": "Okra cooked with sautéed onion, tomatoes, special herbs and spices. Served with basmati rice.",
+      "price_cents": 2199,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Paneer Shahi",
+      "description": "Cubes of mild, homemade Indian cheese cooked in a smooth masala cream sauce. Served with basmati rice.",
+      "price_cents": 2599,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Tadka Dal",
+      "description": "Yellow lentils cooked with tomatoes, onions, garlic, ginger and fresh herbs and spices. Served with basmati rice.",
+      "price_cents": 2499,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Vegetable Kofta",
+      "description": "Pureed vegetables and cheese kofta served in a butter sauce. Served with basmati rice.",
+      "price_cents": 2499,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Navratan Korma",
+      "description": "Vegetables with cashews, paneer cheese, simmered in a tomato-cream sauce. Navratan means 'nine gems', referring to the nine ingredients in this dish. Served with basmati rice.",
+      "price_cents": 2599,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Shimla Paneer",
+      "description": "Our special paneer dish consisting of bell peppers, onions, tomatoes, mushrooms and a blend of unique spices. Served with basmati rice.",
+      "price_cents": 2599,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Chicken Tikka (Tandoori)",
+      "description": "Succulent pieces of boneless chicken rubbed with Indian herbs and spices and marinated with yogurt served with sliced onions and lemon. Served with rice and sautéed vegetables.",
+      "price_cents": 2699,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Keema Kabab",
+      "description": "Seasoned ground lamb marinated with fresh herbs and lemon. Served with sliced onions and lemon. Served with rice and sautéed vegetables. Halal.",
+      "price_cents": 2799,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Lamb Boti Kabab",
+      "description": "Tender pieces of New Zealand lamb marinated in yogurt with our special blend of Indian spices. Served with lemon and onions. Served with rice and sautéed vegetables. Halal.",
+      "price_cents": 2799,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Shish Taouk",
+      "description": "Cubed chicken marinated in yogurt, garlic, oregano, saffron & other middle eastern spices. Served on a bed of rice & fresh vegetables.",
+      "price_cents": 2699,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Tandoori Breast",
+      "description": "Juicy spring boneless chicken breast marinated with yogurt, fresh ground spices. Served with sliced onions and lemon. Served with rice and sautéed vegetables. Halal.",
+      "price_cents": 2699,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Tandoori Chicken",
+      "description": "Juicy spring bone-in chicken marinated with yogurt with flavorful, fresh ground spices. Served with sliced onions and lemon. Served with rice and sautéed vegetables. Halal.",
+      "price_cents": 2699,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Tandoori Cod",
+      "description": "Filet of cod marinated and cooked in the tandoor. Served with rice, vegetables, and lemon. No dairy in marinade.",
+      "price_cents": 2899,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Tandoori Paneer",
+      "description": "Soft, juicy chunks of paneer marinated in tandoori masala and then grilled with vegetables. Served with rice and sautéed vegetables.",
+      "price_cents": 2599,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Tandoori Prawns",
+      "description": "Jumbo prawns marinated in a special blend of spices and herbs then roasted in the tandoor served with sliced onions, lemon and bell pepper. No dairy in marinade.",
+      "price_cents": 2899,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Tandoori Salmon",
+      "description": "Fresh king salmon cooked in our special tandoori marinade. Served with lemon and onions. Served with rice and sautéed vegetables. No dairy in marinade.",
+      "price_cents": 2999,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Tandoori Surprise",
+      "description": "An assortment of tandoori specialties: chicken, lamb, beef, fish, and prawn. Served with sliced onions and lemon. Served with rice and sautéed vegetables.",
+      "price_cents": 3399,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Roti",
+      "description": "Unleavened whole wheat bread. Vegan if no oil option selected.",
+      "price_cents": 699,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Plain Naan",
+      "description": "White leavened bread.",
+      "price_cents": 699,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Garlic Naan",
+      "description": "Leavened bread topped with garlic.",
+      "price_cents": 699,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Onion Kulcha",
+      "description": "Leavened bread stuffed with fresh onions.",
+      "price_cents": 899,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Paneer Naan",
+      "description": "Leavened bread stuffed with traditional Indian homemade cheese.",
+      "price_cents": 899,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Spinach Naan",
+      "description": "Leavened bread stuffed with seasoned spinach.",
+      "price_cents": 899,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Vegetable Naan",
+      "description": "Leavened bread stuffed with mixed vegetables and herbs.",
+      "price_cents": 899,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Aloo Paratha",
+      "description": "Unleavened layered whole wheat bread stuffed with potatoes, onions and fresh spices. Vegan if no oil/butter option selected.",
+      "price_cents": 899,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Plain Paratha",
+      "description": "Unleavened layered whole wheat bread. Vegan if no oil/butter option selected.",
+      "price_cents": 799,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Pesto Naan",
+      "description": "Leavened bread stuffed with pesto.",
+      "price_cents": 899,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Chicken Naan",
+      "description": "Leavened bread stuffed with chicken and herbs.",
+      "price_cents": 899,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Spinach & Paneer Naan",
+      "description": "Leavened bread stuffed with seasoned spinach and homemade Indian cheese.",
+      "price_cents": 899,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Kashmiri Naan",
+      "description": "Leavened bread stuffed with cherries, raisins and fennel.",
+      "price_cents": 899,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Aloo Kulcha",
+      "description": "Leavened bread stuffed with potatoes and spices.",
+      "price_cents": 899,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Pita Bread",
+      "description": "Classic pita bread.",
+      "price_cents": 300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Keema Naan",
+      "description": "Leavened bread stuffed with ground lamb.",
+      "price_cents": 999,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Rasmalai",
+      "description": "Delicate homemade cheese patties served in an almond sweetened milk and cardamom sauce.",
+      "price_cents": 1099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Gulab Jamun",
+      "description": "An Indian delicacy made from milk dough fried until golden brown, and served in a honey and saffron syrup.",
+      "price_cents": 1099,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Kheer",
+      "description": "Traditional Indian rice pudding cooked with nuts and cardamom.",
+      "price_cents": 1099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Baklava",
+      "description": "A delicious middle eastern pastry, made of nuts baked between layers of thin dough and steeped in syrup flavored with exotic juices.",
+      "price_cents": 1099,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Mango Pistachio Ice Cream",
+      "description": "Specially prepared mango and pistachio ice cream.",
+      "price_cents": 1099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Coconut Almond Ice Cream",
+      "description": "Specially prepared coconut and almond ice cream.",
+      "price_cents": 1099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Flan",
+      "description": "Creamy smooth custard dessert with a caramelized top. Baked by La Gloria Panaderia.",
+      "price_cents": 1199,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Mango Sorbet",
+      "description": "Mango sorbet made locally.",
+      "price_cents": 1099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Cheesecake",
+      "description": "Classic cheesecake served with mango sauce.",
+      "price_cents": 1099,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Lava Cake",
+      "description": "Chocolate cake with a molten chocolate center, topped with vanilla ice cream.",
+      "price_cents": 1099,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Chocolate Banana Cake",
+      "description": "A soft banana cake swirled with chocolate, covered in creamy chocolate frosting.",
+      "price_cents": 1099,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Dubai Chocolate Cake",
+      "description": "Decadent Chocolate Torte with a graham-chocolate crust and topped with a luscious velvety chocolate ganache and a crunchy layer of pistachio and kataifi.",
+      "price_cents": 1099,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Pineapple Upside-Down Cake",
+      "description": "Classic pineapple upside-down cake recipe with a gourmet twist. Served with vanilla ice cream.",
+      "price_cents": 1099,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Brown Rice",
+      "description": "Brown rice.",
+      "price_cents": 499,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Mango Pickle",
+      "description": "Side of mango pickle.",
+      "price_cents": 599,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Sweet Mango Chutney",
+      "description": "Side of sweet mango chutney.",
+      "price_cents": 599,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Onions & Chilies",
+      "description": "Fresh sliced onions and serrano chilies. Fresh squeezed lemon and chat masala. An Indian tradition to have raw onions and chilies with their food.",
+      "price_cents": 399,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Papadum",
+      "description": "Large, thin flatbread made from lentil flour, cumin seeds, and baked until crispy in the tandoor.",
+      "price_cents": 599,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Plain Yogurt",
+      "description": "Homemade yoghurt.",
+      "price_cents": 399,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Raita",
+      "description": "A refreshing yogurt salad made with cucumbers, carrots, tomatoes, onions, and spices.",
+      "price_cents": 699,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Rice",
+      "description": "Basmati rice with saffron.",
+      "price_cents": 499,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Sautéed Vegetables",
+      "description": "Fresh potatoes, carrots, mushrooms, zucchini, bell pepper.",
+      "price_cents": 1099,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Curry Sauce",
+      "description": "Choose one of our popular curry sauces.",
+      "price_cents": 999,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": [
+    {
+      "type": "na",
+      "name": "Bottled Water",
+      "style": "still water",
+      "glass_cents": 400,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Can Soda",
+      "style": "soft drink",
+      "glass_cents": 200,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Chai",
+      "style": "hot spiced tea",
+      "glass_cents": 699,
+      "bottle_cents": null,
+      "region": "India",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Coffee",
+      "style": "hot coffee",
+      "glass_cents": 599,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Fruit Juices",
+      "style": "juice",
+      "glass_cents": 599,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Hot Teas",
+      "style": "hot tea",
+      "glass_cents": 599,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Iced Chai",
+      "style": "iced spiced tea",
+      "glass_cents": 699,
+      "bottle_cents": null,
+      "region": "India",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Iced Tea",
+      "style": "iced tea",
+      "glass_cents": 599,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Lemonade",
+      "style": "lemonade",
+      "glass_cents": 599,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Mango Lassi",
+      "style": "yogurt drink",
+      "glass_cents": 799,
+      "bottle_cents": null,
+      "region": "India",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Mango Shake",
+      "style": "milkshake",
+      "glass_cents": 899,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Mexican Coke",
+      "style": "soft drink",
+      "glass_cents": 699,
+      "bottle_cents": null,
+      "region": "Mexico",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Milk",
+      "style": "whole milk",
+      "glass_cents": 299,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Plain Lassi",
+      "style": "yogurt drink",
+      "glass_cents": 699,
+      "bottle_cents": null,
+      "region": "India",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Topo Chico",
+      "style": "sparkling mineral water",
+      "glass_cents": 599,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Sparkling Water",
+      "style": "sparkling water",
+      "glass_cents": 599,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    }
+  ]
+}

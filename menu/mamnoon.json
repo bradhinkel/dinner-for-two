@@ -1,0 +1,172 @@
+{
+  "restaurant": "Mamnoon",
+  "neighborhood": "Capitol Hill",
+  "cuisine": "Middle Eastern",
+  "venue_format": "full-menu",
+  "menu_completeness": "partial",
+  "source_url": "https://mamnoonrestaurant.com/",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "static",
+  "extraction_method": "html (rendered)",
+  "notes": "This text describes Mamnoon Fine Foods retail/grocery products (mezzes, wraps, packaged goods) sold at grocery stores and coffee shops — not the sit-down restaurant menu. No prices are listed for any item. Beverage data absent.",
+  "dishes": [
+    {
+      "course_type": "plate",
+      "name": "Hummus",
+      "description": "Traditional Beiruti Lebanese hummus with a clean balance between citrus and tahini, fresh garlic, light and creamy texture.",
+      "price_cents": null,
+      "price_note": "Retail grocery price not listed",
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Harra Hummus",
+      "description": "Traditional hummus blended with harra hot sauce made from fermented Fresno chiles; clean, mild heat cutting through creamy fresh hummus.",
+      "price_cents": null,
+      "price_note": "Retail grocery price not listed",
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Baba Ganoush",
+      "description": "Smoky eggplants blended into a custardy vegan dip with umami-forward flavor and fresh finish.",
+      "price_cents": null,
+      "price_note": "Retail grocery price not listed",
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Muhammara",
+      "description": "Red pepper paste and walnut dip with pomegranate molasses for tangy sweetness and rich depth.",
+      "price_cents": null,
+      "price_note": "Retail grocery price not listed",
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Mama Chips",
+      "description": "Crispy, slightly thicker pita chips baked from fresh in-house pita bread made from a blend of white and wheat dough; delightfully salted.",
+      "price_cents": null,
+      "price_note": "Retail grocery price not listed",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Harra Hot Sauce",
+      "description": "Fresno chile-based hot sauce with slightly smoky and fruity flavor; cumin adds dusky notes. Fan favorite at all Mamnoon restaurants.",
+      "price_cents": null,
+      "price_note": "Retail grocery price not listed",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Za'atar",
+      "description": "Chef-curated woodsy and tangy za'atar spice blend imported fresh from Lebanon.",
+      "price_cents": null,
+      "price_note": "Retail grocery price not listed",
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Falafel Wrap",
+      "description": "Hearty wrap in homemade wheat pita with crispy falafel, kale, pickled cauliflower, za'atar roasted tofu, and tarrator sauce.",
+      "price_cents": null,
+      "price_note": "Retail/café price not listed",
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Halloumi Cheese Wrap",
+      "description": "Fried halloumi cheese, quinoa tabbouleh, pickled cabbage, and roasted garlic tahini wrapped in homemade pita.",
+      "price_cents": null,
+      "price_note": "Retail/café price not listed",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Sausage & Egg Kuku Wrap",
+      "description": "Persian herby omelette (kuku) made with yogurt, parsley, cilantro, green onion, and dill; topped with spiced lamb sujuk sausage patty, cheese blend, pickled banana peppers, and garlic yogurt in fresh pita.",
+      "price_cents": null,
+      "price_note": "Retail/café price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Veggie & Egg Kuku Wrap",
+      "description": "Vegetarian kuku wrap with Persian herby omelette, kale, fried onions, pickled cabbage, kashkaval and mozzarella cheese blend, and harra hot sauce in fresh pita.",
+      "price_cents": null,
+      "price_note": "Retail/café price not listed",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Shish Chicken Wrap",
+      "description": "Yogurt-marinated chicken with harra hot sauce, caramelized onion labneh, kale salad, and pickled veggies in fresh pita. Served hot or cold.",
+      "price_cents": null,
+      "price_note": "Retail/café price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

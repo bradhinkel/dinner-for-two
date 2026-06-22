@@ -2,7 +2,7 @@
 // validated ComposedEvening (courses/beverages/total) once the JSON tail arrives.
 // Reuses the prompt + validation helpers from src/compose/compose.ts.
 import { config } from "../config.js";
-import { anthropic, textOf, parseJsonLoose } from "../llm/anthropic.js";
+import { anthropic, guardedCreate, acquireStreamSlot, textOf, parseJsonLoose } from "../llm/anthropic.js";
 import {
   modeFor,
   userPrompt,
@@ -46,7 +46,7 @@ async function retryStrict(
   mode: ComposeMode,
   correction: string
 ): Promise<RawComposition> {
-  const msg = await anthropic().messages.create({
+  const msg = await guardedCreate({
     model: config.composeModel,
     max_tokens: 1500,
     system: systemPrompt(),
@@ -67,6 +67,7 @@ export async function* composeStream(
 
   let full = "";
   let emitted = 0;
+  const releaseSlot = await acquireStreamSlot();
   try {
     const stream = anthropic().messages.stream({
       model: config.composeModel,
@@ -91,6 +92,11 @@ export async function* composeStream(
   } catch (err) {
     yield { type: "error", message: err instanceof Error ? err.message : String(err) };
     return;
+  } finally {
+    // Release whether the stream completed, errored, or the client disconnected
+    // (abandoning this generator runs its finally). The strict-retry below takes
+    // its own slot via guardedCreate, so we don't hold one across it.
+    releaseSlot();
   }
 
   const di = full.indexOf(DELIM);

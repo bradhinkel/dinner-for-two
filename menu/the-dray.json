@@ -1,0 +1,585 @@
+{
+  "restaurant": "The Dray",
+  "neighborhood": "Ballard",
+  "cuisine": "Beer Bar",
+  "venue_format": "share-plate",
+  "menu_completeness": "full",
+  "source_url": "https://thedray.com/",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "daily",
+  "extraction_method": "html (rendered)",
+  "notes": "Full food and drink menu captured. Draft list rotates daily (12 taps); wine list has no prices listed. Beer prices not listed per tap (format noted as P/T/G but no dollar amounts given). Cocktail and coffee prices also not listed. Football schedule captured but excluded as non-menu content.",
+  "dishes": [
+    {
+      "course_type": "entree",
+      "name": "Classic Pizza",
+      "description": "Tomato sauce, cheese blend.",
+      "price_cents": 1700,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Crash Landing Pizza",
+      "description": "Tomato sauce, cheese blend, pepperoni.",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Kauaiian Pizza",
+      "description": "Tomato sauce, cheese blend, chicken, pineapple, bacon. Add pickled jalapeño +$1.",
+      "price_cents": 1900,
+      "price_note": "Add pickled jalapeño +$1",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Spicy Italian Pizza",
+      "description": "Tomato sauce, cheese blend, mushroom, spicy Italian sausage, red onion.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Chicken Club Pizza",
+      "description": "Pesto, cheese blend, chicken, pickled jalapeño, bacon.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Stumbletown Pizza",
+      "description": "Pesto, cheese blend, roasted garlic, feta, red onion, bacon.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Bossman Pizza",
+      "description": "Tomato sauce, cheese blend, roasted garlic, pepperoncini, spicy Italian sausage, pepperoni, bacon.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Goodwill Pizza",
+      "description": "Tomato sauce, cheese blend, roasted garlic, kalamata olives, roasted red pepper, feta.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Golden Garden Pizza",
+      "description": "Pesto, cheese blend, roasted red pepper, roasted garlic, pepperoncini, red onion.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Mediterranean Pizza",
+      "description": "Pesto, cheese blend, roasted red pepper, pepperoncini, kalamata olives, feta. Add chicken +$1.",
+      "price_cents": 1900,
+      "price_note": "Add chicken +$1",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Supreme Pizza",
+      "description": "Tomato sauce, cheese blend, pepperoncini, roasted red pepper, kalamata olives, spicy Italian sausage, red onion, pepperoni.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Cleopatra Pizza",
+      "description": "Tomato sauce, cheese blend, roasted garlic, pesto drizzle, pepperoni, onion.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Hummus Board",
+      "description": "Hummus, olives, feta, pepperoncini, roasted red pepper, mushroom, sun dried tomato, flatbread.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Cheesy Garlic Flatbread",
+      "description": "Flatbread with cheese blend, roasted garlic, and olive oil. Served with house marinara.",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Pretzel Board",
+      "description": "Hot pretzels served with a selection of mustards. Add cheese +$1.",
+      "price_cents": 1400,
+      "price_note": "Add cheese +$1",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Herbed Cheddar Mini Melts",
+      "description": "Four finger-sized melts with cheddar cheese and herbed aioli. Served with side of herbed aioli.",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Pineapple Bacon Mini Melts",
+      "description": "Four finger-sized melts with pineapple, bacon, swiss cheese, herbed aioli. Served with side of stone ground mustard.",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Pesto Chicken Mini Melts",
+      "description": "Four finger-sized melts with pesto, chicken, pepperoncini, and swiss cheese. Served with side of pesto.",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "After School Special",
+      "description": "French bread topped with pizza sauce and cheese blend. Add pepperoni +$2.",
+      "price_cents": 1400,
+      "price_note": "Add pepperoni +$2",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Marinated Olive Blend",
+      "description": "Marinated olives.",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Sweet & Spicy Nut Mix",
+      "description": "Sweet and spicy mixed nuts.",
+      "price_cents": 900,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Bag of Chips",
+      "description": "Bag of chips.",
+      "price_cents": 400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": [
+    {
+      "type": "beer",
+      "name": "Other Half/Von Ebert Pilsner",
+      "style": "Pilsner",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": "Portland, OR",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Russian River 110 Pils",
+      "style": "Pilsner",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": "Windsor, CA",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Bale Breaker Mexi Lime Lager",
+      "style": "Lager",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": "Yakima, WA",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Dutchess Arcadia Pale",
+      "style": "Pale Ale",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": "Washington, NY",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Breakside Sweet 16 WCIPA",
+      "style": "West Coast IPA",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": "Portland, OR",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Paperback WCIPA",
+      "style": "West Coast IPA",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": "Gilroy, CA",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Fort George 3-Way IPA",
+      "style": "IPA",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": "Astoria, OR",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Stoup Pride Match Day IPA",
+      "style": "IPA",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": "Seattle, WA",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Great Notion Raspberry-Guava Sour",
+      "style": "Sour",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": "Portland, OR",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Prairie Bomb Stout",
+      "style": "Imperial Stout",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": "Tulsa, OK",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Alpenfire Heirloom Cider",
+      "style": "Cider",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": "Port Townsend, WA",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Pink Spritz",
+      "style": "Spritz / Canned Cocktail",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": "Seattle, WA",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Plus One",
+      "style": "Highball — choose Vodka & Soda or Bourbon & Soda",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Draft Pom Spritz",
+      "style": "House-batched spritz with prosecco, aperitivo, soda, pomegranate, rosemary, orange",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Purple & Cold",
+      "style": "Gin & Tonic — butterfly pea flower infused Citadelle Gin, tonic, lime",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Yard Margarita",
+      "style": "Margarita — Libelula Tequila, triple sec, fresh citrus, salted rim. +$1 fresh jalapeño, sub mezcal +$1",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "65th St. Old Fashioned",
+      "style": "Old Fashioned — James E. Pepper Rye, peach bitters, orange, on the rocks",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Peachfeathers",
+      "style": "Bourbon mule — 4 Roses Bourbon, Timber City Peach Ginger Beer, Peychaud's, lime",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Smoky Negroni",
+      "style": "Negroni — Faccia Brutto Aperitivo, gin, mezcal, vermouth",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Bizz-Buzz",
+      "style": "Espresso cocktail — vodka, bourbon cream, Lighthouse espresso doppio, Meletti chocolate, cocoa",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Big Jim",
+      "style": "Boilermaker — Buffalo Trace Bourbon and a Douglas Tallboy",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Wither Hills Sauvignon Blanc",
+      "style": "Sauvignon Blanc",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": "New Zealand",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Quatre Tours Rosé",
+      "style": "Rosé",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": "France",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Maschio Prosecco",
+      "style": "Prosecco / Sparkling",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": "Italy",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Mark Ryan Cabernet/Merlot",
+      "style": "Cabernet-Merlot Blend / Red",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": "Washington",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Apple & Orange Juice",
+      "style": "Juice",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Aranciata & Limonata",
+      "style": "Italian Sparkling Soda",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Coke & Diet Coke",
+      "style": "Soda",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Root Beer",
+      "style": "Soda",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Sparkling Water",
+      "style": "Sparkling Water",
+      "glass_cents": null,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "restaurant": "The Whale Wins",
+  "neighborhood": "Wallingford",
+  "cuisine": "Wood-Fired NW",
+  "venue_format": "share-plate",
+  "menu_completeness": "full",
+  "source_url": "https://sea-creatures-satellites.sfo3.digitaloceanspaces.com/whale-wins/uploads/Dinner-Menu-10.12.25.pdf",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "pdf (auto)",
+  "notes": "Full à la carte menu captured from what appears to be a late-season menu (restaurant closing October 28th). One dessert wine listed by glass; no broader bottle list present in source text. 22% service charge noted in lieu of gratuity.",
+  "dishes": [
+    {
+      "course_type": "plate",
+      "name": "House Made Pickled Vegetables",
+      "description": "Assorted house-made pickled vegetables",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Roasted Concord Grapes",
+      "description": "Whipped chèvre, aleppo, citron olive oil, crostini",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Chilled Mussels",
+      "description": "Ramp salsa verde, whipped crème fraîche, crostini",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Black Cod Brandade",
+      "description": "Ikura, espelette pepper, baguette",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Chicken Liver Pâté",
+      "description": "Mostarda, crostini",
+      "price_cents": 1700,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Lettuces",
+      "description": "Mixed lettuces, herbs, pistachio, parmesan",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Local Roots Chicories",
+      "description": "Poppy seed, crème fraîche, apple mostarda, dill, tarragon",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Roasted Cauliflower",
+      "description": "Vadouvan butter, hazelnut dukkah, sumac onions",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Carrots and Fennel",
+      "description": "Harissa, lime, yoghurt",
+      "price_cents": 1700,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Matiz Sardines",
+      "description": "Sourdough toast, curried tomato mayo, shaved fennel salad",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Parisienne Gnocchi",
+      "description": "Parmesan cream, king oyster mushroom, summer savory",
+      "price_cents": 3400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Hama Hama Clams",
+      "description": "Smoked corno di toro, tomato, ginger-coriander sauce, parsley",
+      "price_cents": 3500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Washington Black Cod",
+      "description": "Mayocoba beans, parmesan, roasted roma tomato",
+      "price_cents": 3900,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Roasted Half Chicken",
+      "description": "Sourdough toast, caraway paprika vinaigrette, wild watercress, aioli. Contains raw/undercooked elements.",
+      "price_cents": 4400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Fingerling Potatoes",
+      "description": "Rosemary, thyme, aioli. Contains raw/undercooked elements.",
+      "price_cents": 1000,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Slow Roasted Zucchini",
+      "description": "Garlic, tarragon",
+      "price_cents": 1100,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Zucchini Bread",
+      "description": "Crème fraîche, sea salt",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Eton Mess",
+      "description": "Apricot jam, pistachio meringue, whipped cream",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Roasted Medjool Dates",
+      "description": "Wood-fired roasted Medjool dates",
+      "price_cents": 1000,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": [
+    {
+      "type": "wine",
+      "name": "Ogereau Saint Lambert Coteaux Du Layon",
+      "style": "Dessert / Sweet white",
+      "glass_cents": 1400,
+      "bottle_cents": null,
+      "region": "Loire Valley, France",
+      "vintage": "2022",
+      "flavor_tags": []
+    }
+  ]
+}

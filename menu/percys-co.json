@@ -1,0 +1,268 @@
+{
+  "restaurant": "Percy’s & Co.",
+  "neighborhood": "Ballard",
+  "cuisine": "Gastropub",
+  "venue_format": "share-plate",
+  "menu_completeness": "full",
+  "source_url": "https://percysseattle.com/dinner.pdf",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "pdf (auto)",
+  "notes": "Full menu captured from Percy's & Co. gastropub in Ballard; described as 'new american small plates' with both small plates and larger entrees. Buttermilk fried chicken cutlet is listed with two size/price tiers. Oysters priced by half-dozen/dozen. No beverage list provided in the raw text — beverages skipped entirely.",
+  "dishes": [
+    {
+      "course_type": "plate",
+      "name": "Bread & Butter",
+      "description": "Country French bread, sweet butter, rotating jam",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Frites",
+      "description": "Herb salt, house ketchup",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Warm Olive Medley",
+      "description": "EVOO, orange peel, chili flake",
+      "price_cents": 900,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Hurricane Popcorn",
+      "description": "Popcorn, butter, furikake, mochi crunch",
+      "price_cents": 900,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Giardiniera",
+      "description": "House-pickled veggies, EVOO, Calabrian chili flakes",
+      "price_cents": 900,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Truffle Parm Tots",
+      "description": "Crispy tots, parmigiano reggiano, truffle oil",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Blistered Shishitos",
+      "description": "Ponzu, furikake, wasabi ranch, crispy quinoa",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Roasted Cauliflower",
+      "description": "Pepperoncini, dukkah, pickled red onions, citrus, mint",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Charcuterie Plate",
+      "description": "Two rotating cheeses, one rotating meat, baguette, accoutrements",
+      "price_cents": 2800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Oysters",
+      "description": "Baywater Oyster Co. oysters with traditional accoutrements. Available by the half dozen or dozen.",
+      "price_cents": 2200,
+      "price_note": "Half dozen $22 / Dozen $40",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Mediterranean Chop Salad",
+      "description": "Romaine, feta, confit tomato, kalamata olives, pepperoncini, cucumber, crispy quinoa, herb vinaigrette. Add local smoked salmon (Loki Fish Company) +$7.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Caesar",
+      "description": "Romaine, house dressing, parmigiano reggiano, croutons, cracked pepper. Add white anchovies +$2, fried chicken +$5, or smoked salmon +$7.",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Ballard Hot Chicken Sandwich",
+      "description": "Buttermilk fried chicken, chili oil, mayonnaise, romaine, dill pickles, served with frites",
+      "price_cents": 2100,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "BLT",
+      "description": "Thick cut bacon, romaine, vine ripe tomato, giardiniera aioli, rustic French bread, served with frites",
+      "price_cents": 2100,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Carnitas Tacos",
+      "description": "Three carnitas tacos with braised carnitas, cilantro, onion, salsa moritas, corn tortillas, escabeche. Sub cauliflower for vegetarian.",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Percy's Steak House Burger",
+      "description": "Painted Hills beef, shoyu aioli, caramelized onions, gruyère, bacon, house steak sauce, brioche bun, served with frites. Sub Beyond patty for vegetarian.",
+      "price_cents": 2100,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Gnocchi alla Sugo",
+      "description": "Potato gnocchi, San Marzano tomato sugo, sun dried tomato, bread crumb, parmigiano reggiano, basil",
+      "price_cents": 2300,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Buttermilk Fried Chicken Cutlet Dinner — 3 Piece",
+      "description": "Three-piece buttermilk fried chicken cutlet served with house buffalo sauce, Louisiana cane syrup, and choice of Caesar salad or creole slaw",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Buttermilk Fried Chicken Cutlet Dinner — 6 Piece",
+      "description": "Six-piece buttermilk fried chicken cutlet served with house buffalo sauce, Louisiana cane syrup, and choice of Caesar salad or creole slaw",
+      "price_cents": 2800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Maddy's Bakeshop Seasonal Cake",
+      "description": "Seasonal slice of cake from Maddy's Bakeshop",
+      "price_cents": 900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

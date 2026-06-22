@@ -1,0 +1,263 @@
+{
+  "restaurant": "The Masonry Queen Anne",
+  "neighborhood": "Queen Anne",
+  "cuisine": "Pizza",
+  "venue_format": "full-menu",
+  "menu_completeness": "full",
+  "source_url": "https://themasonryseattle.com/queen-anne/",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "html (rendered)",
+  "notes": "Full menu captured for Queen Anne location; lunch menu is a subset of dinner (Margherita, Pepperoni, Mushroom, Caesar, Meatballs repeated). Dinner adds additional pizzas and small plates. Extensive bottle/tap beer list not captured. Pine nut and pecan asterisks likely indicate allergen warnings, not dietary tags per menu markup rules.",
+  "dishes": [
+    {
+      "course_type": "entree",
+      "name": "Margherita",
+      "description": "Tomato sauce, garlic & mozzarella, basil, olive oil, maldon sea salt. Add burrata +$7.",
+      "price_cents": 2000,
+      "price_note": "Add burrata +$7",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Pepperoni",
+      "description": "Tomato sauce, garlic & aged mozz, provolone, pepperoni, oregano. Add hot honey +$2.",
+      "price_cents": 2400,
+      "price_note": "Add hot honey +$2",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Mushroom",
+      "description": "Olive oil, garlic & taleggio, fresh mozzarella, crimini mushrooms, lemon, thyme. Add pancetta +$4.",
+      "price_cents": 2200,
+      "price_note": "Add pancetta +$4",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Mystic Pizza",
+      "description": "Tomato sauce, four cheese, pepperoni, sausage, pepperoncini, jazz dust, parsley. Add ranch +$2.",
+      "price_cents": 2600,
+      "price_note": "Add ranch +$2",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Captain Whatshisname",
+      "description": "Chili oil, olive oil, shallot, garlic, slow roasted birria, aged mozz, onion, cilantro, lime, cotija, aleppo pepper, served with a shot of consommé.",
+      "price_cents": 2700,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Ginny's Pizza",
+      "description": "Olive oil base, sausage, caramelized onions, fresh mozzarella, smoked buffalo mozzarella, parsley.",
+      "price_cents": 2600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Buona Madre",
+      "description": "Tomato sauce, garlic, shallot & fresh mozzarella, sausage, mama lil's peppers, grana, oregano.",
+      "price_cents": 2500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Vegan Marinara",
+      "description": "Tomato sauce, garlic & oregano, chili oil, maldon sea salt. Add arugula +$2.",
+      "price_cents": 1800,
+      "price_note": "Add arugula +$2",
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Big Cheese",
+      "description": "Tomato sauce, garlic & aged mozz, provolone, grana, oregano, black pepper.",
+      "price_cents": 2100,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Al Diavolo",
+      "description": "Tomato sauce, garlic & fresh mozzarella, soppressata, hot peppers, hot honey, oregano.",
+      "price_cents": 2500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Caesar Salad",
+      "description": "Romaine, focaccia crouton, parmesan. Add anchovies +$2.",
+      "price_cents": 1200,
+      "price_note": "Add anchovies +$2",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Catty King",
+      "description": "Arugula, snap peas, fennel, orange, shaved parm, watermelon radish, pine nuts, lemon-dill vinaigrette.",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Meatballs",
+      "description": "Beef, pork, turkey, grana, pecorino, breadcrumb, red pepper, mirepoix; a lil' spicy.",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Garlic Cheese Bread",
+      "description": "House-made garlic butter, 4 cheese blend, provolone, grana, oregano, parsley and jazz dust. Comes with choice of marinara or meatball sauce. Add pepperoni +$2.",
+      "price_cents": 1600,
+      "price_note": "Add pepperoni +$2",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "House-Made Focaccia",
+      "description": "Served with oil & vinegar.",
+      "price_cents": 400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Pickled Vegetables",
+      "description": "Carrot, onion, cauliflower, zucchini & red pepper.",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Shishitos",
+      "description": "Roasted shishito peppers served with good good not bad dipping sauce.",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Wood Fired Broccolini",
+      "description": "Romesco, breadcrumb.",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Roasted Bar Nuts",
+      "description": "Pistachio, cashew, cayenne, smoked paprika, chili powder, black pepper, salt.",
+      "price_cents": 500,
+      "price_note": "Contains tree nuts",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Tiramisu",
+      "description": "Cream, chocolate, espresso, rum, cookies.",
+      "price_cents": 1000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Basque Cheesecake",
+      "description": "With macerated thyme blueberries.",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Cookie",
+      "description": "Warm, house-made chocolate chip & pecan cookie. Add a scoop of vanilla ice cream +$2.",
+      "price_cents": 500,
+      "price_note": "Add vanilla ice cream +$2; contains nuts",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

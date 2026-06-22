@@ -1,0 +1,227 @@
+{
+  "restaurant": "Local Tide",
+  "neighborhood": "Fremont",
+  "cuisine": "Seafood",
+  "venue_format": "counter",
+  "menu_completeness": "partial",
+  "source_url": "https://www.localtide.com/",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "html (rendered)",
+  "notes": "Menu captured as a dish-name-only list with no prices or descriptions; a weekend special (Crab Roll) is noted. No prices were present in the raw text.",
+  "dishes": [
+    {
+      "course_type": "side",
+      "name": "Salt & Pepper Fries",
+      "description": "",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Salad",
+      "description": "",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Shrimp Toast",
+      "description": "",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Smoked Salmon Belly Dip",
+      "description": "",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Fried Oysters",
+      "description": "",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Salmon Sando",
+      "description": "",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Fried Fish Sando",
+      "description": "",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Rockfish Banh Mi",
+      "description": "",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Albacore Tuna Sando",
+      "description": "",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Mushroom Burger",
+      "description": "",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Smash Burger",
+      "description": "",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Clam Chowder",
+      "description": "",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Dover and Fries",
+      "description": "",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Salmon House",
+      "description": "",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Rockfish Bowl",
+      "description": "",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Salmon Teriyaki",
+      "description": "",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Black Cod Kasuzuke",
+      "description": "",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Bread Pudding",
+      "description": "",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Crab Roll",
+      "description": "Weekend special.",
+      "price_cents": null,
+      "price_note": "Weekend special; price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}
