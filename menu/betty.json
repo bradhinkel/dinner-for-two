@@ -1,0 +1,301 @@
+{
+  "restaurant": "Betty",
+  "neighborhood": "Queen Anne",
+  "cuisine": "New American",
+  "venue_format": "full-menu",
+  "menu_completeness": "partial",
+  "source_url": "https://bettyrestaurant.com/menu/#content",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "html (rendered)",
+  "notes": "Captured starters, entrees, desserts, and to-go cocktails from Betty's online menu; a Take and Bake dinner package is included as a note item. No wine or beer list was present in the raw text, so beverages are limited to the four listed to-go cocktails. Menu appears to be a snapshot that may shift with seasons.",
+  "dishes": [
+    {
+      "course_type": "plate",
+      "name": "Take and Bake Dinner for Two",
+      "description": "Two slices of either Crow lasagne (contains sausage) or Betty lasagna (meatless), a large mixed greens salad with herbed vinaigrette, and either 2 portions of dessert or a bottle of wine. Allow 30 minutes cooking time.",
+      "price_cents": 8500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Fancy Bread",
+      "description": "Macrina Bakery baguette, honey butter, herbed olive oil, garlic confit. Optional add-ons: brie & preserves (+$6) or salame & giardiniera (+$5).",
+      "price_cents": 900,
+      "price_note": "Add brie & preserves $6; add salame & giardiniera $5",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Oysters on the Half Shell",
+      "description": "Citrus fennel mignonette.",
+      "price_cents": 400,
+      "price_note": "$4 each",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Roasted Corn Bisque",
+      "description": "Chili oil, chives.",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Mixed Artisan Greens",
+      "description": "Shaved parmesan, herbed vinaigrette.",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Cherry Salad",
+      "description": "Gem lettuce, shaved fennel, local cherries, marcona almond yogurt.",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Shaved Asparagus Salad",
+      "description": "Arugula, asparagus ribbons, manchego, lemon-tahini vinaigrette, hazelnut dukkah.",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Calamari & Shishito Peppers",
+      "description": "Fried calamari, blistered shishito peppers, remoulade, lemon.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Smoked Salmon Spread",
+      "description": "House-smoked salmon, crostini.",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Oven Roasted Chicken",
+      "description": "Red potatoes, seasonal vegetables, roasted garlic cloves, pan jus.",
+      "price_cents": 3800,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Steak & Frites",
+      "description": "12oz prime grade ribeye, red wine reduction, hand-cut frites.",
+      "price_cents": 5900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Smoked Baby Back Ribs",
+      "description": "Half rack house smoked baby back ribs, coleslaw, cornbread muffin, honey butter, house barbeque sauce.",
+      "price_cents": 3800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Chinook Salmon",
+      "description": "Pan-seared organic chinook salmon, summer vegetable succotash, kaiware sprouts.",
+      "price_cents": 4900,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Betty's Lasagna",
+      "description": "Handmade pasta, spinach and mushroom ragu, ricotta, basil pesto, bechamel, parmesan, lemon-cream sauce.",
+      "price_cents": 2600,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Crow's Lasagna",
+      "description": "Handmade pasta, Italian sausage, marinara, basil pesto, béchamel, parmesan.",
+      "price_cents": 2600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "The Betty Burger",
+      "description": "A half pound Double R Ranch beef, handmade brioche bun, white cheddar, hand-cut frites.",
+      "price_cents": 2600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Side of Hand-Cut Frites",
+      "description": "Hand-cut frites. Fryers use highly refined peanut oil.",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Kids' Pasta",
+      "description": "Choice of marinara, or butter & cheese.",
+      "price_cents": 1200,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Atlantic Beach Pie",
+      "description": "Lemon & lime curd, house-made saltine cracker crust, grand marnier whipped cream, blackberry coulis, lemon chip.",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Strawberry Rhubarb Upside-Down Cake",
+      "description": "Strawberry caramel, fresh rhubarb, cornmeal olive oil cake, spruce tip ice cream, strawberry coulis.",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Chocolate Mint Tartufo",
+      "description": "Mint leaf ice cream, chocolate brownie, crunchy bittersweet chocolate shell, mint syrup.",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": [
+    {
+      "type": "cocktail",
+      "name": "Betty Draper",
+      "style": "Stirred, chilled to-go cocktail (5oz)",
+      "glass_cents": 1900,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "House Negroni",
+      "style": "Stirred, chilled to-go cocktail (5oz)",
+      "glass_cents": 1700,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Black Manhattan",
+      "style": "Stirred, chilled to-go cocktail (5oz)",
+      "glass_cents": 1800,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Betty's Choice",
+      "style": "Custom stirred, chilled to-go cocktail (5oz); guest chooses base spirit",
+      "glass_cents": 1700,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    }
+  ]
+}

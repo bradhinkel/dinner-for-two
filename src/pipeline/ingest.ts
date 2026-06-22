@@ -61,21 +61,27 @@ async function main(): Promise<void> {
       continue;
     }
     process.stderr.write(`  • ${row.name} … `);
-    const fetchUrl = urlOverride && targets.length === 1 ? urlOverride : row.url;
-    const fetched = await fetchMenu(fetchUrl);
-    if (fetched.kind === "error" || fetched.kind === "pdf-scanned") {
-      console.error(`${fetched.kind} (${fetched.note}) — skipped`);
-      continue;
+    // Isolate each room: a render/extract failure (e.g. a malformed or truncated
+    // LLM response) must not abort the whole batch.
+    try {
+      const fetchUrl = urlOverride && targets.length === 1 ? urlOverride : row.url;
+      const fetched = await fetchMenu(fetchUrl);
+      if (fetched.kind === "error" || fetched.kind === "pdf-scanned") {
+        console.error(`${fetched.kind} (${fetched.note}) — skipped`);
+        continue;
+      }
+      const menu = await extractMenu(fetched.text, {
+        name: row.name,
+        neighborhood: row.neighborhood || null,
+        cuisine: row.cuisine || null,
+        source_url: fetched.final_url || row.url,
+        extraction_method: fetched.kind === "pdf" ? "pdf (auto)" : "html (rendered)",
+      });
+      writeFileSync(`menu/${slug}.json`, JSON.stringify(menu, null, 2) + "\n");
+      console.error(`${fetched.kind}: ${menu.dishes.length} dishes, ${menu.beverages.length} bev -> menu/${slug}.json`);
+    } catch (e) {
+      console.error(`extract error (${e instanceof Error ? e.message : String(e)}) — skipped`);
     }
-    const menu = await extractMenu(fetched.text, {
-      name: row.name,
-      neighborhood: row.neighborhood || null,
-      cuisine: row.cuisine || null,
-      source_url: fetched.final_url || row.url,
-      extraction_method: fetched.kind === "pdf" ? "pdf (auto)" : "html (rendered)",
-    });
-    writeFileSync(`menu/${slug}.json`, JSON.stringify(menu, null, 2) + "\n");
-    console.error(`${fetched.kind}: ${menu.dishes.length} dishes, ${menu.beverages.length} bev -> menu/${slug}.json`);
   }
   console.error("\nDone. Next: npm run enrich -- <slugs> && npm run build:catalog && npm run build:embeddings");
 }

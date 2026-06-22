@@ -1,0 +1,215 @@
+{
+  "restaurant": "That’s Amore",
+  "neighborhood": "Mount Baker",
+  "cuisine": "Italian",
+  "venue_format": "full-menu",
+  "menu_completeness": "partial",
+  "source_url": "https://thatsamoreseattle.com/thats-amore-italian-cafe-main-menu/#content",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "unknown",
+  "extraction_method": "html (rendered)",
+  "notes": "Starters and salads captured with full descriptions; four main dishes (Risotto Cakes, Pappardelle, Marsala, Amore Special) and one dessert (Tiramisu) appear as names/prices only with no descriptions — likely column bleed or truncated rendering. Bar/beverage section has no usable detail and was skipped.",
+  "dishes": [
+    {
+      "course_type": "appetizer",
+      "name": "Bread & Butter",
+      "description": "Macrina Bakery breads, chef-crafted butters",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Bread",
+      "description": "Macrina Bakery breads",
+      "price_cents": 500,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Caprese",
+      "description": "Chilled asparagus, mozzarella, tomato, red onion, basil, olive oil, balsamic honey",
+      "price_cents": 1700,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Bruschetta",
+      "description": "Tomato, garlic, basil, shaved parmesan, crostini",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Amore Salad",
+      "description": "Spinach, arugula, crispy prosciutto, green apple, red onion, feta, port wine vinaigrette",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Grilled Pear Salad",
+      "description": "House greens, candied walnuts, gorgonzola, chardonnay vinaigrette",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Caesar Salad",
+      "description": "Chopped romaine, parmesan, croutons, caesar dressing",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Mista Salad",
+      "description": "Mixed greens, tomato, cucumber, pickled red onion, cucumber-tomato vinaigrette",
+      "price_cents": 1200,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Salad Extra: Shrimp",
+      "description": "Add shrimp to any salad",
+      "price_cents": 1000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Salad Extra: Chicken",
+      "description": "Add chicken to any salad",
+      "price_cents": 700,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Salad Extra: Anchovies",
+      "description": "Add anchovies to any salad",
+      "price_cents": 200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Salad Extra: Crispy Prosciutto",
+      "description": "Add crispy prosciutto to any salad",
+      "price_cents": 400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Risotto Cakes",
+      "description": "No description available in source text",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Pappardelle",
+      "description": "No description available in source text",
+      "price_cents": 3500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Marsala",
+      "description": "No description available in source text",
+      "price_cents": 3200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Amore Special",
+      "description": "No description available in source text",
+      "price_cents": 2900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Tiramisu",
+      "description": "No description available in source text",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

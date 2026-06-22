@@ -1,0 +1,218 @@
+{
+  "restaurant": "Artusi",
+  "neighborhood": "Capitol Hill",
+  "cuisine": "Italian / Cocktail Bar",
+  "venue_format": "share-plate",
+  "menu_completeness": "partial",
+  "source_url": "https://artusibar.com/",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "html (rendered)",
+  "notes": "Dinner menu captured with starters, pasta, mains, and dessert. Cocktails, amari, and happy hour menus referenced but not included in the raw text; beverage list skipped entirely. Pasta and main sections use a flat per-category price rather than per-dish pricing.",
+  "dishes": [
+    {
+      "course_type": "appetizer",
+      "name": "House-Baked Bread",
+      "description": "Seasonal spread, extra virgin olive oil",
+      "price_cents": 500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Hazelnuts",
+      "description": "Controne chili, muscovado sugar, fennel pollen",
+      "price_cents": 400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Deviled Eggs*",
+      "description": "Stuffed with salsa tonnata & fried potatoes",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Burrata",
+      "description": "With cherries, frisee & marcona almonds",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Citrus Marinated Olives",
+      "description": "Bay & thyme",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Chop Salad",
+      "description": "Salami, provolone, oregano & red wine vinaigrette",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Antipasto Misto",
+      "description": "A taste of all the above starters",
+      "price_cents": 3300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Ricotta Gnocchi",
+      "description": "With sugar snap peas & basil",
+      "price_cents": 2500,
+      "price_note": "Flat $25 pasta section price",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Tagliatelle",
+      "description": "With rabbit ragu bianca",
+      "price_cents": 2500,
+      "price_note": "Flat $25 pasta section price",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Risotto",
+      "description": "With English peas",
+      "price_cents": 2500,
+      "price_note": "Flat $25 pasta section price",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Pasta della Sera",
+      "description": "Nightly special",
+      "price_cents": 2500,
+      "price_note": "Flat $25 pasta section price; composition changes nightly",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Fritto Misto*",
+      "description": "With fried halibut, gulf prawns & calabrian aioli",
+      "price_cents": 2900,
+      "price_note": "Flat $29 main section price",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Braised Beef Brisket",
+      "description": "With marinara & mashed potatoes",
+      "price_cents": 2900,
+      "price_note": "Flat $29 main section price",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Meatballs",
+      "description": "Priced per meatball",
+      "price_cents": 600,
+      "price_note": "$6 per meatball",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Spumoni Semifreddo",
+      "description": "With pistachios, caramelized chocolate & Luxardo cherries",
+      "price_cents": 1300,
+      "price_note": "Flat $13 dessert section price",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Seasonal Sorbetto",
+      "description": "Seasonal sorbet; flavors vary",
+      "price_cents": 1300,
+      "price_note": "Flat $13 dessert section price; flavors change seasonally",
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Tiramisu*",
+      "description": "Classic Italian tiramisu; contains raw or undercooked ingredients",
+      "price_cents": 1300,
+      "price_note": "Flat $13 dessert section price",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

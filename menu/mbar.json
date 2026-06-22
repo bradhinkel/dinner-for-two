@@ -1,0 +1,172 @@
+{
+  "restaurant": "Mbar",
+  "neighborhood": "South Lake Union",
+  "cuisine": "Middle Eastern / Fusion",
+  "venue_format": "full-menu",
+  "menu_completeness": "partial",
+  "source_url": "https://mbarseattle.com/",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "unknown",
+  "extraction_method": "html (rendered)",
+  "notes": "This text is from Mamnoon Fine Foods (a retail/CPG product line), not the Mbar rooftop bar restaurant menu. No restaurant dish prices are listed anywhere in the text; only retail grocery product descriptions were captured. No beverage menu present.",
+  "dishes": [
+    {
+      "course_type": "plate",
+      "name": "Hummus",
+      "description": "Traditional Beiruti Lebanese hummus with a clean balance between citrus and tahini, with fresh garlic. Light and creamy texture.",
+      "price_cents": null,
+      "price_note": "Retail grocery product — no price listed",
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Harra Hummus",
+      "description": "Traditional hummus blended with harra hot sauce made from fermented Fresno chiles. Clean, mild heat cutting through creamy fresh hummus.",
+      "price_cents": null,
+      "price_note": "Retail grocery product — no price listed",
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Baba Ganoush",
+      "description": "Smoky eggplants blended into a custardy, vegan dip with umami-forward flavor and a fresh finish.",
+      "price_cents": null,
+      "price_note": "Retail grocery product — no price listed",
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Muhammara",
+      "description": "Red pepper paste and walnuts dip with pomegranate molasses for tangy sweetness.",
+      "price_cents": null,
+      "price_note": "Retail grocery product — no price listed",
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Mama Chips",
+      "description": "Crispy, slightly thicker pita chips baked from fresh in-house pita bread made from white and wheat dough blend. Delightfully salted.",
+      "price_cents": null,
+      "price_note": "Retail grocery product — no price listed",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Harra Hot Sauce",
+      "description": "Hot sauce made with Fresno chilis for a slightly smoky and fruity flavor with cumin adding dusky notes.",
+      "price_cents": null,
+      "price_note": "Retail grocery product — no price listed",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Za'atar",
+      "description": "Chef-curated woodsy, tangy za'atar mix imported fresh from Lebanon.",
+      "price_cents": null,
+      "price_note": "Retail grocery product — no price listed",
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Falafel Wrap",
+      "description": "Crispy falafel topped with kale, pickled cauliflower, za'atar roasted tofu and tarrator sauce, wrapped in homemade wheat pita.",
+      "price_cents": null,
+      "price_note": "Retail/café product — no price listed",
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Halloumi Cheese Wrap",
+      "description": "Fried halloumi cheese with quinoa tabbouleh, pickled cabbage, and roasted garlic tahini, wrapped in homemade pita.",
+      "price_cents": null,
+      "price_note": "Retail/café product — no price listed",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Sausage & Egg Kuku Wrap",
+      "description": "Persian kuku omelette made with yogurt, parsley, cilantro, green onion, and dill, topped with spiced lamb sujuk sausage patty, cheese blend, pickled banana peppers, and garlic yogurt in fresh pita.",
+      "price_cents": null,
+      "price_note": "Retail/café product — no price listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Veggie & Egg Kuku Wrap",
+      "description": "Vegetarian kuku wrap topped with kale, fried onions, pickled cabbage, kashkaval and mozzarella cheese blend, and harra hot sauce, wrapped in fresh pita.",
+      "price_cents": null,
+      "price_note": "Retail/café product — no price listed",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Shish Chicken Wrap",
+      "description": "Yogurt-marinated chicken with harra hot sauce, caramelized onion labneh, kale salad, and pickled veggies in fresh pita.",
+      "price_cents": null,
+      "price_note": "Retail/café product — no price listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

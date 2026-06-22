@@ -1,0 +1,897 @@
+{
+  "restaurant": "The Barking Dog Alehouse",
+  "neighborhood": "Ballard",
+  "cuisine": "Gastropub",
+  "venue_format": "full-menu",
+  "menu_completeness": "partial",
+  "source_url": "https://thebarkingdogalehouse.com/order",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "html (rendered)",
+  "notes": "Full food menu captured from online ordering system including starters, bowls, salads, sandwiches, burgers, pizza, sides, kids, and dessert. No beverage alcohol menu (draft beer, cocktails, wine) was present in the raw text — only non-alcoholic drinks and two N/A craft options were listed; alcohol menu skipped/unavailable in this source.",
+  "dishes": [
+    {
+      "course_type": "entree",
+      "name": "Fish + Chips",
+      "description": "Line caught Alaskan cod, hand-dipped in IPA beer batter, waffle fries, coleslaw, side of tartar",
+      "price_cents": 2050,
+      "price_note": "price listed as $20.50+, modifier pricing not specified",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Fried Chicken Sando",
+      "description": "48 hour brined breast, fried in a buttermilk and herb batter, cherry pepper cream cheese, tomatoes and coleslaw on a brioche bun with garlic aioli. Can be tossed in buffalo sauce.",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Weekly Wings (Weekend Special)",
+      "description": "One pound house smoked chicken wings smothered in roasted habanero pepper & mango sauce, topped with fresh mango salsa, served with ranch for dipping",
+      "price_cents": 1850,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Porchetta Sando (Weekend Special)",
+      "description": "Hand rolled, slowly roasted pork belly and herbs sliced thick topped with melting provolone, garden tomatoes, arugula and rustic pesto on a toasted hoagie. Served with house cut parmesan fries. Add-ons: +$3 bacon, +$3 avocado.",
+      "price_cents": 1975,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Avocado & Prawn Salad (Weekend Special)",
+      "description": "Sautéed Gulf shrimp over arugula and spinach tossed in a creamy avocado dressing topped with crispy quinoa, pickled red onions, cherry tomatoes, prosciutto. Add avocado +$1, sub grilled salmon +$1, feta.",
+      "price_cents": 2075,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Jerk Pork Tenderloin Skillet (Weekend Special)",
+      "description": "Grilled pork tenderloin marinated in traditional jerk seasoning (allspice, cayenne, sugar...) topped with grilled pineapple salsa and fried sweet maduros over cilantro rice, black beans and cotija in a hot skillet served with mild spiced green beans",
+      "price_cents": 2150,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Kapa'a Ahi Bowl (Weekend Special)",
+      "description": "Sesame encrusted seared Ahi over toasted heirloom black herbed rice, grilled pineapple, mango-pineapple salsa, sliced radish, cucumbers, pickled onions and sautéed snap peas over arugula and spinach tossed in a ginger-soy vinaigrette topped with crispy fried wontons",
+      "price_cents": 2250,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "CB's Nuts",
+      "description": "Locally roasted jumbo peanuts",
+      "price_cents": 450,
+      "price_note": "listed as $4.50+, modifier pricing not specified",
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Chips 'N Dip",
+      "description": "A basket of house cut russet potato chips and caramelized French onion dip",
+      "price_cents": 750,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Chips 'N Salsa",
+      "description": "Basket of house fried corn chips and authentic house made Mexican salsa",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Avo-Cod-o Tacos (2)",
+      "description": "Two tacos with blackened Alaskan cod, cabbage slaw, fresh avocado & sour sriracha aioli",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Pork Belly Street Tacos (2)",
+      "description": "Two grilled flour tortillas filled with carnitas style seared whisky/maple braised pork belly, grilled pineapple salsa, cilantro cream and house pickled onions. Add a taco +$4.",
+      "price_cents": 1200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Banh Mi Sliders (2)",
+      "description": "Two soy marinated braised pork belly sliders with pickled carrots, fresh jalapeños, fresh cilantro and a Sriracha aioli on sweet Hawaiian rolls",
+      "price_cents": 1250,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Fried Chicken Slider (2)",
+      "description": "Two buttermilk fried chicken sliders, cherry pepper cream cheese, pickled onions, tomatoes and coleslaw on sweet Hawaiian rolls with garlic aioli. Add a slider +$4.",
+      "price_cents": 1000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Mozzi Stix (4)",
+      "description": "Four crisp herb breaded, house made fresh mozzarella sticks served with marinara",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Chicken Tenders + Fries (4pc)",
+      "description": "48 hour brined breast, fried in a buttermilk and herb batter, served with hand cut fries",
+      "price_cents": 1750,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Thai Power Chicken Bowl",
+      "description": "3oz tender roasted chicken in a tahini yogurt marinade over brown rice with cilantro-soy kale, red cabbage, pickled carrots, cucumbers, fresh cilantro, and peanuts finished with a tahini drizzle",
+      "price_cents": 1575,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Thai Power Chicken Bowl (Large)",
+      "description": "6oz tender roasted chicken in a tahini yogurt marinade over brown rice with cilantro-soy kale, red cabbage, pickled carrots, cucumbers, fresh cilantro, and peanuts finished with a tahini drizzle",
+      "price_cents": 2025,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Buddha Bowl",
+      "description": "Kale and spinach tossed in a white balsamic vinaigrette, with toasted quinoa and brown rice, garbanzo beans, nutmeg, roasted sweet potatoes, cucumber and radish topped with 2 fried tofu, finished with toasted pepitas and gorgonzola cheese, served with grilled bread",
+      "price_cents": 1475,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Buddha Bowl (Large)",
+      "description": "Kale and spinach tossed in a white balsamic vinaigrette, with toasted quinoa and brown rice, garbanzo beans, nutmeg, roasted sweet potatoes, cucumber and radish topped with 4 fried tofu, finished with toasted pepitas and gorgonzola cheese, served with grilled bread",
+      "price_cents": 1925,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Bang Bang Bowl",
+      "description": "4oz thick cut chili hoisin glazed pork belly over arugula tossed in a soy vinaigrette with toasted sesame soba noodles, thai spiced green beans, avocado, pickled carrots, radish and scallions topped with toasted sesame seeds",
+      "price_cents": 1675,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Bang Bang Bowl (Large)",
+      "description": "6oz thick cut chili hoisin glazed pork belly over arugula tossed in a soy vinaigrette with toasted sesame soba noodles, thai spiced green beans, avocado, pickled carrots, radish and scallions topped with toasted sesame seeds",
+      "price_cents": 2150,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Teriyaki Salmon Bowl",
+      "description": "3oz teriyaki glazed AK salmon over arugula and kale tossed in a soy-cilantro vinaigrette, with avocado, pickled carrots, pickled onions, warm sticky rice and edamame, finished with toasted sesame seeds",
+      "price_cents": 1850,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Teriyaki Salmon Bowl (Large)",
+      "description": "5oz teriyaki glazed AK salmon over arugula and kale tossed in a soy-cilantro vinaigrette, with avocado, pickled carrots, pickled onions, warm sticky rice and edamame, finished with toasted sesame seeds",
+      "price_cents": 2350,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "SW Steak Bowl",
+      "description": "4oz blackened teres major steak grilled to order, topped with fresh chimichurri and avocado over roasted corn salsa and cilantro rice, with arugula and romaine tossed in a cilantro-lime vinaigrette finished with a cilantro crema drizzle and cotija",
+      "price_cents": 1850,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "SW Steak Bowl (Large)",
+      "description": "7oz blackened teres major steak grilled to order, topped with fresh chimichurri and avocado over roasted corn salsa and cilantro rice, with arugula and romaine tossed in a cilantro-lime vinaigrette finished with a cilantro crema drizzle and cotija",
+      "price_cents": 2475,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Chicken Chop Chop",
+      "description": "4oz char grilled pesto chicken breast, fine chopped romaine, provolone, buffalo mozzarella, Genoa salami, garbanzo beans, cherry tomatoes, black olives, and toasted pepitas tossed in an Italian herb vinaigrette finished with fresh basil",
+      "price_cents": 1450,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Chicken Chop Chop (Large)",
+      "description": "6oz char grilled pesto chicken breast, fine chopped romaine, provolone, buffalo mozzarella, Genoa salami, garbanzo beans, cherry tomatoes, black olives, and toasted pepitas tossed in an Italian herb vinaigrette finished with fresh basil",
+      "price_cents": 2050,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Kale Caesar - Full",
+      "description": "Fine chopped romaine and kale tossed in an authentic anchovy-garlic vinaigrette with herbed croutons and parmesan",
+      "price_cents": 1950,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Kale Caesar - Half",
+      "description": "Fine chopped romaine and kale tossed in an authentic anchovy-garlic vinaigrette with herbed croutons and parmesan",
+      "price_cents": 1450,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Side Caesar",
+      "description": "Side Caesar salad",
+      "price_cents": 650,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Side House Salad",
+      "description": "Side house salad",
+      "price_cents": 650,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Alehouse Burger",
+      "description": "1/2 lb house ground Painted Hills beef, cheddar, lettuce, pickles, and onion on a brioche bun",
+      "price_cents": 2150,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Alehouse Burger (1/4 lb)",
+      "description": "1/4 lb house ground Painted Hills beef, cheddar, lettuce, pickles and onion on a brioche bun",
+      "price_cents": 1350,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Smash Burger",
+      "description": "4oz Painted Hills beef flattop grilled and pressed for crispy edges with butter, topped with caramelized onions, melty American cheese on a toasted bun with pickles. Add-ons: +$1 hand cut fries, +$3 gluten free, +$2 bacon.",
+      "price_cents": 1250,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "French Dip",
+      "description": "6oz thin sliced top round marinated in pan jus, quickly seared with melting provolone cheese and caramelized onions on a toasted hoagie roll with horseradish cream on the side and rosemary au jus for dipping. Add bacon +$3.",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Salmon B.L.T. (Full)",
+      "description": "Grilled Alaskan Salmon, thick cut Applewood Bacon, Arugula and Tomato with fresh basil Pesto on toasted Rustic Italian Bread",
+      "price_cents": 2250,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Salmon B.L.T. (Half)",
+      "description": "Grilled Alaskan Salmon, thick cut Applewood Bacon, Arugula and Tomato with fresh basil Pesto on toasted Rustic Italian Bread",
+      "price_cents": 1575,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Chicken Club",
+      "description": "Grilled chicken breast, thick cut bacon, soft havarti cheese, lettuce and tomato on toasted wheat with garlic aioli. Add-ons: +$3 maple pork belly, +$3 avocado.",
+      "price_cents": 1850,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Veggie Burger",
+      "description": "House-made yellow beet, brown rice, and garbanzo bean patty, melting havarti, pickled onions, tomato, arugula, and fresh basil pesto on a brioche bun",
+      "price_cents": 1875,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "IPA Steak 'N Fries",
+      "description": "7oz tender teres major steak, topped with IPA steak butter over a bed of hand cut fries",
+      "price_cents": 2350,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Create Your Own Pizza",
+      "description": "Sauce, cheese, and 3 toppings",
+      "price_cents": 2275,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Create Your Own Pizza (Small)",
+      "description": "Sauce, cheese, and 3 toppings",
+      "price_cents": 1650,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "5 Cheese Pizza",
+      "description": "Five cheese pizza",
+      "price_cents": 2075,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "5 Cheese Pizza (Small)",
+      "description": "Five cheese pizza, small size",
+      "price_cents": 1450,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Pepperoni Pizza",
+      "description": "Pepperoni pizza",
+      "price_cents": 2275,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Pepperoni Pizza (Small)",
+      "description": "Pepperoni pizza, small size",
+      "price_cents": 1650,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "The Butcher Pizza",
+      "description": "Marinara base, 5 cheese blend, pepperoni, fennel sausage, prosciutto, black olives, and crimini mushrooms",
+      "price_cents": 2475,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "The Butcher Pizza (Small)",
+      "description": "Marinara base, 5 cheese blend, pepperoni, fennel sausage, prosciutto, black olives, and crimini mushrooms, small size",
+      "price_cents": 1850,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Savory Chicken Pizza",
+      "description": "Olive oil base, 5 cheese blend, savory herb marinated chicken, chunky bacon and roasted garlic, finished with house ranch, fresh basil and thyme. Option to add fresh basil pesto dollops.",
+      "price_cents": 2350,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Savory Chicken Pizza (Small)",
+      "description": "Olive oil base, 5 cheese blend, savory herb marinated chicken, chunky bacon and roasted garlic, finished with house ranch, fresh basil and thyme. Option to add fresh basil pesto dollops.",
+      "price_cents": 1750,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Date Night Pizza",
+      "description": "Olive oil base, medjool dates, prosciutto, caramelized onions, crumbled goat cheese, fresh arugula and a balsamic drizzle. Add-ons: +$2 applewood bacon, +$3 grilled chicken, +$2 toasted fennel sausage, gluten free option available.",
+      "price_cents": 2350,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Date Night Pizza (Small)",
+      "description": "Olive oil base, medjool dates, prosciutto, caramelized onions, crumbled goat cheese, fresh arugula and a balsamic drizzle, small size.",
+      "price_cents": 1750,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Hand Cut Fries",
+      "description": "Hand cut fries",
+      "price_cents": 850,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Waffle Fries",
+      "description": "Waffle fries",
+      "price_cents": 900,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Sweet Potato Fries",
+      "description": "Sweet potato fries",
+      "price_cents": 950,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Stadium Fries",
+      "description": "Hand cut fries finished with garlic and parmesan",
+      "price_cents": 850,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Tofu Fries",
+      "description": "Tofu fries",
+      "price_cents": 950,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Tollhouse Cookie Skillet",
+      "description": "House made cookie baked in a cast iron skillet, topped with vanilla ice cream and chocolate sauce (20-25 min prep time)",
+      "price_cents": 1000,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Chocolate Brownie Buzz",
+      "description": "Triple chocolate brownie, topped with chocolate ice cream, chocolate sauce and chocolate chips",
+      "price_cents": 1000,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Whisky Bread Pudding",
+      "description": "Brioche bread pudding topped with caramel sauce, served with vanilla ice cream",
+      "price_cents": 1000,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "NW Cobbler",
+      "description": "Seasonal fruit cobbler topped with vanilla ice cream",
+      "price_cents": 1000,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Scoop of Vanilla",
+      "description": "Single scoop of vanilla ice cream",
+      "price_cents": 250,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Scoop of Chocolate",
+      "description": "Single scoop of chocolate ice cream",
+      "price_cents": 250,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Double Scoop of Vanilla",
+      "description": "Double scoop of vanilla ice cream",
+      "price_cents": 400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Double Scoop of Chocolate",
+      "description": "Double scoop of chocolate ice cream",
+      "price_cents": 400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": [
+    {
+      "type": "na",
+      "name": "Iced Tea",
+      "style": "non-alcoholic",
+      "glass_cents": 300,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Arnold Palmer",
+      "style": "non-alcoholic",
+      "glass_cents": 350,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Lemonade",
+      "style": "non-alcoholic",
+      "glass_cents": 400,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Bitters & Soda",
+      "style": "non-alcoholic",
+      "glass_cents": 200,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Virgin Bloody Mary",
+      "style": "non-alcoholic mocktail",
+      "glass_cents": 600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Ginger Beer (Bundaberg)",
+      "style": "non-alcoholic",
+      "glass_cents": 600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Humm Blackberry Kombucha",
+      "style": "kombucha",
+      "glass_cents": 600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "N/A Alpenglow Dry Hop Cider",
+      "style": "non-alcoholic cider",
+      "glass_cents": 750,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "N/A Pilsner Best Day",
+      "style": "non-alcoholic beer",
+      "glass_cents": 700,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "N/A West Coast IPA Best Day",
+      "style": "non-alcoholic IPA",
+      "glass_cents": 700,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    }
+  ]
+}

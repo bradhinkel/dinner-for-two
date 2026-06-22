@@ -1,0 +1,137 @@
+{
+  "restaurant": "The Crab Pot Seattle",
+  "neighborhood": "Waterfront",
+  "cuisine": "Seafood",
+  "venue_format": "full-menu",
+  "menu_completeness": "partial",
+  "source_url": "https://www.thecrabpotseattle.com/our-menu#page-content",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "unknown",
+  "extraction_method": "html (rendered)",
+  "notes": "Only the 'Just for Starters' appetizer section was captured from the menu; main entrees, Crab Pot feasts, desserts, and the full beverage menu were not present in the raw text. Numeric noise (review counts/ratings) interspersed throughout was ignored.",
+  "dishes": [
+    {
+      "course_type": "appetizer",
+      "name": "Sourdough Loaf & Butter",
+      "description": "",
+      "price_cents": 695,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Shrimp in the Shell 1/2 lb",
+      "description": "Head on steamed shrimp tossed in garlic Cajun butter",
+      "price_cents": 1895,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Crab Cakes - Our Specialty",
+      "description": "",
+      "price_cents": 2395,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Clam Chowder — In a Loaf",
+      "description": "Clam chowder served in a sourdough loaf",
+      "price_cents": 1795,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Clam Chowder — Bowl",
+      "description": "Clam chowder served in a bowl",
+      "price_cents": 1095,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Clam Chowder — Cup",
+      "description": "Clam chowder served in a cup",
+      "price_cents": 895,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Calamari Strips",
+      "description": "",
+      "price_cents": 1995,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Crab & Shrimp Dip",
+      "description": "",
+      "price_cents": 1995,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Prawn Cocktail",
+      "description": "",
+      "price_cents": 2195,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Crab Stuffed Mushrooms",
+      "description": "",
+      "price_cents": 1995,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Coconut Prawns",
+      "description": "",
+      "price_cents": 2095,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

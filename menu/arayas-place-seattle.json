@@ -1,0 +1,1173 @@
+{
+  "restaurant": "Araya’s Place Seattle",
+  "neighborhood": "University District",
+  "cuisine": "Thai",
+  "venue_format": "full-menu",
+  "menu_completeness": "full",
+  "source_url": "https://www.arayasplace.com/",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "html (rendered)",
+  "notes": "Full menu captured for Araya's Place Seattle, a 100% vegan Thai restaurant. All dishes are vegan by default; dietary tags applied only where explicitly marked on menu. Signature cocktails listed at flat $14+ with no individual cocktail names given (location-specific list noted). Long bottle/beer list not present — drinks section is minimal.",
+  "dishes": [
+    {
+      "course_type": "appetizer",
+      "name": "Araya's Lunch Set with Curry",
+      "description": "2 crispy spring rolls, house salad, house dessert, white or brown rice, and curry of the day (chef's selection). Drink/soup not included. Contains peanut.",
+      "price_cents": 1750,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Araya's Lunch Set with Stir Fry",
+      "description": "2 crispy spring rolls, house salad, house dessert, white or brown rice, and stir fry of the day (chef's selection). Drink/soup not included. Contains peanut.",
+      "price_cents": 1750,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Lunch Box",
+      "description": "Curry of the day and rice, one spring roll.",
+      "price_cents": 1000,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Tofu Satay (5 pcs)",
+      "description": "Pan-fried tofu marinated in curry powder and coconut milk. Served on skewers with peanut sauce & house pickles. Contains garlic and onion.",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Fresh Rolls (6 pcs)",
+      "description": "Tofu, lettuce, basil, carrots, red cabbages, bean sprouts, mints, green onions, and cilantro wrapped in a tapioca sheet. Served with tamarind sauce & crushed peanuts.",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Crispy Spring Rolls (6 pcs)",
+      "description": "Crispy rolls stuffed with vegetables. Served with sweet & sour sauce. Contains garlic, black pepper and cilantro.",
+      "price_cents": 1100,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Veggie Cakes (6 pcs)",
+      "description": "Rice cakes stuffed with Chinese leeks. Served with sweet soy sauce.",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Tofu Cream Cheese (5 pcs)",
+      "description": "Crispy rolls stuffed with baby corn, pineapple, vegan cream cheese and tofu. Served with sweet & sour sauce.",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Thai Tofu",
+      "description": "Crispy fried tofu. Served with sweet & sour sauce and crushed peanuts.",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Pot Stickers (6 pcs)",
+      "description": "Pan-fried vegetable dumplings. Served with Thai ponzu sauce. Contains sesame, mushrooms.",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Veggie Tempura",
+      "description": "Battered and deep-fried assorted seasonal vegetables and mushrooms. Served with sweet & sour sauce and crushed peanuts. Recommended for dine-in only, min prep time 15–20 mins.",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Veggie Satay",
+      "description": "Pan-fried seasonal vegetables and mushrooms marinated in curry powder and coconut milk. Served with peanut sauce & house pickles. Contains garlic and onion.",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Mango Salad",
+      "description": "Cut fresh mango, shredded carrots, cherry tomatoes, red onions and cashew nuts tossed in a fresh lime dressing. Topped with fried tofu & fried onions. Optional: Avocado Mango Salad $21.",
+      "price_cents": 1700,
+      "price_note": "Avocado Mango Salad upgrade $21",
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Som Tum",
+      "description": "Shredded papaya & carrots, cherry tomatoes and green beans. Tossed with peanuts, fresh lime dressing. Topped with fried tofu.",
+      "price_cents": 1700,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Tofu Larb",
+      "description": "Fried diced tofu with 4 kinds of mushrooms, white fungus mushrooms, red onions, mints, culantro, and cherry tomatoes. Tossed with fresh lime dressing, chili, and roasted rice powder.",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Yum Woon Sen",
+      "description": "Bean thread noodles with fried tofu, cherry tomatoes, red onions, shredded carrots, white fungus mushrooms and wooden ear mushrooms, peanut tossed with fresh chili lime dressing.",
+      "price_cents": 1700,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Fried Brussels Sprouts",
+      "description": "Deep-fried Brussels sprouts, broccoli, roasted garlic. Topped with sea salt, pepper, lemon wedge & green onions.",
+      "price_cents": 1700,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Tom Yum",
+      "description": "Soft tofu, tomatoes, white mushrooms, white fungus mushrooms, king oyster mushrooms, onions, scallions, and cilantro in a tom yum paste, lime juice flavored with lemongrass, lime leaf, galanga and chili paste.",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Tom Kah",
+      "description": "Soft tofu, tomatoes, white mushrooms, white fungus mushrooms, king oyster mushrooms, onions, scallions and cilantro in coconut milk broth, tom yum paste, lime juice flavored with lemongrass, lime leaf, galanga, and chili paste.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Mixed Garden Soup",
+      "description": "Soft tofu, seasonal vegetables, celery, onions, shiitake mushrooms in a clear broth. Served with scallions and cilantro.",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Hot & Sour Soup",
+      "description": "Diced soft tofu with sliced bamboo shoots, celery, shredded carrots, onions and 4 kinds of mushrooms in a thick vegetable broth. Served with scallions and cilantro.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Mushroom Soup",
+      "description": "Selected 4 kinds of mushrooms, white fungus mushrooms, soft tofu, celery, onions and seaweed in a vegetable broth. Served with scallions and cilantro.",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Tofu Rice Soup",
+      "description": "Thai-style ginger rice soup with soft tofu, shiitake mushrooms, seasonal vegetables broth. Served with scallions and cilantro. Extra $0.50 for brown rice.",
+      "price_cents": 1800,
+      "price_note": "Add $0.50 for brown rice",
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Panang Curry",
+      "description": "Soft tofu with seasonal vegetables, bok choy, bell peppers. Cooked in panang curry. Topped with finely cut lime leaves. Rice not included.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Red Curry",
+      "description": "Soft tofu with seasonal vegetables, sliced bamboo shoots, bell peppers. Cooked in red curry. Topped with fresh basil leaves. Rice not included.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Green Curry",
+      "description": "Soft tofu with seasonal vegetables, sliced bamboo shoots, bell peppers. Cooked in green curry. Topped with fresh basil leaves. Rice not included.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Kaeng Ka-Ri",
+      "description": "Fried tofu with potatoes, cauliflowers, carrots, zucchini, bell peppers and onions. Cooked in yellow curry. Topped with fried onions. Served with house pickles. Rice not included.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "How Mok",
+      "description": "Scrambled tofu steamed in red curry with seasonal vegetables, mushrooms, bamboo shoots, bell peppers. Topped with fresh basil leaves. Cannot be modified. Rice not included.",
+      "price_cents": 2000,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Pineapple Curry",
+      "description": "A combination of soft tofu, fried tofu and plant-based meat, fresh pineapple, tomatoes, bell peppers. Cooked in red curry. Topped with fresh basil. Rice not included.",
+      "price_cents": 2100,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Asparagus Hunsa",
+      "description": "Named after 'Hunsa' Thai Elephant in Portland Zoo. Fried tofu, asparagus, bell peppers, mushrooms and seasonal vegetables. Cooked in panang curry and topped with basil. Rice not included.",
+      "price_cents": 2100,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Avocado Curry",
+      "description": "A combination of soft tofu, fried tofu and plant-based meat, fresh avocado, bell peppers. Cooked in green curry. Topped with basil leaves. Rice not included.",
+      "price_cents": 2200,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Pumpkin Curry",
+      "description": "A combination of soft tofu, fried tofu and plant-based meat, steamed pumpkin, bell peppers. Cooked in red curry and topped with basil. Rice not included.",
+      "price_cents": 2200,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Massaman Banana Curry",
+      "description": "Fried tofu, fresh banana, potatoes, onions, bell peppers, carrots, peanuts. Cooked in massaman curry. Served with roti and house pickles. Rice not included.",
+      "price_cents": 2200,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Lover's Curry",
+      "description": "Aroma potato with soft tofu, fried tofu and plant-based meat. Cooked in panang curry with avocado, pumpkin and bell peppers. Topped with finely cut lime leaves. Rice not included.",
+      "price_cents": 2200,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Kraprao",
+      "description": "Fried diced tofu, green beans, carrots, onions, king oyster mushrooms, Thai chili, bell peppers and fresh hot basil. Rice not included.",
+      "price_cents": 2000,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Phad Phrik Khing",
+      "description": "Fried diced tofu, green beans, carrots, and bell peppers with Phrik Khing curry paste. Served with steamed broccoli and finely cut lime leaves. Rice not included.",
+      "price_cents": 2000,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Bangkok Cafe' Bathing Rama",
+      "description": "Soft tofu on bed of spinach and seasonal vegetables, with caramelized onions & mushrooms and fresh bean sprouts. Topped with peanut sauce. Rice not included.",
+      "price_cents": 2000,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Phad Phet Makhua",
+      "description": "Eggplants, bell pepper, fried tofu, carrots, onions, celery, mushrooms, zucchini cooked in soy bean sauce, and basil. Rice not included.",
+      "price_cents": 2000,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Phad Phak",
+      "description": "Fried tofu stir fried with seasonal vegetables, celery, mushrooms, beansprouts and baby corns cooked in garlic sauce. Rice not included.",
+      "price_cents": 2000,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Tofu Tod Gatiam",
+      "description": "Fried tofu and seasonal vegetables, onions, celery, shiitake mushrooms, bell peppers, Brussels sprouts, cooked in garlic ginger sauce and curry powder. Rice not included.",
+      "price_cents": 2000,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Sweet & Sour Tofu",
+      "description": "Choice of soft or fried tofu with cucumbers, onions, celery, bell peppers, tomatoes, and pineapple cooked in sweet & sour sauce. Rice not included.",
+      "price_cents": 2000,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Cashew Delight",
+      "description": "Fried tofu, cashews, shiitake mushrooms, onions, carrots, zucchini, bell peppers, baby corns cooked in garlic sauce. Rice not included.",
+      "price_cents": 2000,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Araya's Portabello",
+      "description": "Vegan chicken, ginger, asparagus, 4 kinds of mushrooms, red peppers, and onions, cooked in gravy garlic sauce. Rice not included.",
+      "price_cents": 2300,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Kai Phad Khing",
+      "description": "Vegan chicken, ginger, onions, wooden ear mushrooms, carrots, green onions and bell peppers cooked in garlic sauce. Rice not included.",
+      "price_cents": 2300,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Phad Thai",
+      "description": "Thin rice noodles, fried tofu, bean sprouts and chives, red onion, cut turnip. Stir fried in Phad Thai sauce. Garnished with crushed peanuts & fresh lime wedge.",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Phad Woon Sen",
+      "description": "Bean thread noodles, fried tofu, tomatoes, celery, shiitake mushrooms, white fungus mushrooms, onions, carrots, cauliflowers, bean sprouts, zucchini, and baby corn stir-fried in garlic sauce.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Rad Na",
+      "description": "Wide rice noodles, fried tofu, broccoli, carrots, and chinese broccoli, king oyster mushrooms cooked in soy bean gravy sauce.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Phad See Iew",
+      "description": "Wide rice noodles, fried tofu, broccoli, carrots, and chinese broccoli. Stir fried in see-iew seasoning.",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Spicy Noodle (Phad Kee Mao)",
+      "description": "Thin rice noodle, fried tofu, seasonal vegetables, bamboo shoots, mushrooms, hot basil and bell peppers. Stir fried in basil seasoning.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Araya's Noodle Soup",
+      "description": "Thin rice noodles cooked in tom yum broth, fried tofu and seasonal vegetables, tomatoes and mushrooms. Flavored with garlic oil & bean sprouts.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Rice Noodle with Tofu",
+      "description": "Thin rice noodles, fried tofu and seasonal vegetables, cooked in Thai seasoning, garlic oil and cilantro. Served with veggie broth on the side. Mushrooms in both broth and dish.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Plant-based meat with peanut sauce",
+      "description": "Wide noodles, plant-based meat, seasonal vegetables, caramelized onions & mushrooms, cooked in garlic and curry powder. Topped with bean sprouts and peanut sauce.",
+      "price_cents": 2100,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Drunken Mushroom",
+      "description": "Wide noodles, bell pepper, fresh ginger, plant-based meat, asparagus, onions, Portobello, shiitake, oyster mushroom and white mushroom, stir fried in garlic basil seasoning. Optional: udon noodle, thin rice noodle.",
+      "price_cents": 2300,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Noodle Curry",
+      "description": "Thin rice noodles, fried tofu, carrots, asparagus, green beans, cauliflowers cooked in northern style curry sauce. Garnished with pickled cabbages & red onions.",
+      "price_cents": 2100,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Veggie Fried Rice",
+      "description": "Seasonal vegetables, chinese broccoli, onions and fried tofu. Stir fried with jasmine rice and flavored with see-iew seasoning.",
+      "price_cents": 1800,
+      "price_note": "Substitute brown rice +$0.50",
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Basil Fried Rice",
+      "description": "Seasonal vegetables, bell pepper, bamboo shoots, onions, hot basil and fried tofu. Stir fried with jasmine rice and flavored with basil seasoning.",
+      "price_cents": 1900,
+      "price_note": "Substitute brown rice +$0.50",
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Pineapple Fried Rice",
+      "description": "Seasonal vegetables, bell pepper, pineapple, onions, carrots, and fried tofu. Stir fried with jasmine rice and flavored with yellow curry seasoning. Topped with fried onions.",
+      "price_cents": 1900,
+      "price_note": "Substitute brown rice +$0.50",
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Thai Fried Rice",
+      "description": "Seasonal vegetables, tomatoes, onions, carrots, and fried tofu. Stir fried with jasmine rice and flavored with Phad Thai seasoning.",
+      "price_cents": 1800,
+      "price_note": "Substitute brown rice +$0.50",
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Tom Yum Fried Rice",
+      "description": "Stir fried jasmine rice with fried tofu, cherry tomatoes, carrots, shiitake mushrooms, red onions flavored with tom yum seasoning and served with steamed broccoli.",
+      "price_cents": 1900,
+      "price_note": "Substitute brown rice +$0.50",
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Steamed White Rice",
+      "description": "Steamed white jasmine rice.",
+      "price_cents": 400,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Steamed Brown Rice",
+      "description": "Steamed brown rice.",
+      "price_cents": 500,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Steamed Veggie",
+      "description": "Broccoli, carrots, zucchini.",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Peanut Sauce 8oz",
+      "description": "House peanut sauce, 8oz.",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Tofu",
+      "description": "Choice of steamed tofu or fried tofu. Non-GMO certified.",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Steamed Bean Thread Noodle",
+      "description": "Steamed bean thread noodles.",
+      "price_cents": 500,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Steamed Thin Rice Noodle",
+      "description": "Steamed thin rice noodles.",
+      "price_cents": 500,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Steamed Wide Noodle",
+      "description": "Steamed wide noodles.",
+      "price_cents": 500,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Steamed Udon Noodle",
+      "description": "Steamed udon noodles.",
+      "price_cents": 500,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Plant-based meat",
+      "description": "Homemade seitan. Contains garlic, onions, soy, wheat.",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Vegan Chicken",
+      "description": "Contains wheat, soy, turmeric powder, and yeast extract.",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Garlic Jackfruit Meat",
+      "description": "Choice of battered fried or seared fried, subject to kitchen selection.",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Roti",
+      "description": "Thai-style roti flatbread.",
+      "price_cents": 500,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Kimchee 8oz",
+      "description": "Vegan kimchee, 8oz.",
+      "price_cents": 700,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Cucumber Salad 8oz",
+      "description": "House cucumber salad, 8oz.",
+      "price_cents": 700,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Coconut Milk Ice Cream",
+      "description": "Vegan coconut milk ice cream.",
+      "price_cents": 650,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Fried Banana with Coconut Milk Ice Cream",
+      "description": "Fried banana served with coconut milk ice cream.",
+      "price_cents": 1050,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Black Sticky Rice",
+      "description": "Black sticky rice. Add-on charge for coconut ice cream.",
+      "price_cents": 550,
+      "price_note": "Coconut ice cream add-on available at extra charge",
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Oh! My Goodness Chocolate",
+      "description": "Homemade gluten-free chocolate cake. Often runs out — ask staff first. Contains soy, cocoa powder, vegan chocolate, salt, maple syrup, apple sauce, flaxseed, rice flour, xanthan gum, baking soda, vanilla extract, vegan cream cheese.",
+      "price_cents": 995,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Mango Sticky Rice",
+      "description": "Seasonal dessert. Sweet mango with sticky rice.",
+      "price_cents": 1300,
+      "price_note": "Seasonal availability",
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": [
+    {
+      "type": "na",
+      "name": "Hot Tea",
+      "style": "Hot tea — available caffeinated and decaf. Premium selection from Harney & Sons. Varieties include Jasmine Pearl, Genmaicha, Organic Bangkok.",
+      "glass_cents": 600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Thai Iced Tea",
+      "style": "Thai iced tea with coconut milk (default) or soy creamer.",
+      "glass_cents": 500,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Thai Iced Coffee",
+      "style": "Thai iced coffee with coconut milk (default) or soy creamer. Contains soy and corn syrup.",
+      "glass_cents": 500,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Thai Lime Iced Tea",
+      "style": "Thai iced tea with lime juice instead of milk.",
+      "glass_cents": 500,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Juice",
+      "style": "Assorted fruit juices — availability varies by location. Options include mango, apple, orange, pineapple, palm, raspberry.",
+      "glass_cents": 500,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Soy Bean Milk",
+      "style": "Soy milk beverage.",
+      "glass_cents": 500,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Sparkling Water",
+      "style": "San Pellegrino or Perrier.",
+      "glass_cents": 500,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Signature Cocktails",
+      "style": "Location-specific signature cocktails or top shelf liquor. Details vary by location — ask staff.",
+      "glass_cents": 1400,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    }
+  ]
+}

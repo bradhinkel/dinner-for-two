@@ -2,7 +2,7 @@
 
 Read this first. It orients you, pins the decisions that aren't obvious from the code, and gives you the contracts and prompts to start Phase 1. When this file and another doc disagree, **this file and `project_plan.md` win**.
 
-## ⏯ Current status — resume here (updated 2026-06-20)
+## ⏯ Current status — resume here (updated 2026-06-22)
 
 **Phases 0–2 are done and merged to `main`. Restaurant import is in progress on branch `import-seattle` (not yet merged).** Day-to-day progress + decisions are also in agent memory (`MEMORY.md`).
 
@@ -15,24 +15,17 @@ Read this first. It orients you, pins the decisions that aren't obvious from the
   - `npm run enrich -- <slug> …` (no args = all un-enriched imports) — Stage 4: Google Places (lat/long + `business_status` closure signal + price) **+** LLM attributes (price_tier, vibe_tags, date_night_score, dietary, product-voice description) → `data/import_attributes.json`.
   - `npm run build:catalog && npm run build:embeddings` — rebuild the in-memory catalog + Voyage embeddings.
 
-**Catalog: 32 restaurants** (from 19). Data model now carries `curation` (`use`/`hide` — retrieval serves only `use`; a curation UX is a TODO the user will build), `latitude`/`longitude`, and `business_status`.
+**Catalog: 77 restaurants** (from 19 → 32 → 77; 71 with dishes, ~2,100 dishes). 5 are `CLOSED_PERMANENTLY` (Places-flagged, auto-suppressed from retrieval). Data model carries `curation` (`use`/`hide` — retrieval serves only `use`; a curation UX is a TODO the user will build), `latitude`/`longitude`, and `business_status`.
 
-### ▶ NEXT STEP — the scale batch (toward the Phase 3 "100 solid" gate)
+The full scale batch (blocked + live-js + **live**, 2026-06-22) is **done**: all three viable buckets ingested → enriched → rebuilt → engine smoke-tested green. Yield: blocked ~31% (5 rooms), live-js 0% (SPA menus not reached), live ~40% (the bulk — ~50 real rooms). Two ingest bugs fixed in the process (now committed on `import-seattle`): per-room try/catch in `ingest.ts` (one malformed/truncated LLM response was aborting whole batches) and extract `max_tokens` 8000→16000 + truncation guard in `extractMenu.ts` (big menus like Barking Dog's 66 dishes were silently truncating to invalid JSON). Cleanup done: deleted all `none-accessible` 0-dish failures (they'd pollute the catalog AND block re-ingest, since ingest skips any existing `menu/<slug>.json`) and all `(duplicate removed)` worklist artifacts; deduped same-venue slug variants (kept richer/date-night version of kisaku, shiros, ray's, mamnoon).
 
-Run the acquisition tool across the unextracted viable buckets, then enrich + rebuild. Suggested order:
+### ▶ NEXT STEPS (toward the Phase 3 "100 solid" gate — at ~65 solid now)
 
-```
-# 1. render Cloudflare-blocked + JS-render rooms (~30 total)
-npm run ingest -- --state blocked
-npm run ingest -- --state live-js
-# 2. enrich everything new (no args = all un-enriched), then rebuild
-npm run enrich
-npm run build:catalog && npm run build:embeddings
-# 3. spot-check menu quality; let Places mark CLOSED_* (auto-suppressed from retrieval);
-#    curate obvious non-date-night misfits to curation:"hide" later
-```
+1. **Curate the casual chains** (the user's curation-UX job, or set `curation:"hide"` by hand): Tutta Bella ×4, Mioposto ×3, The Masonry ×2-live, The Matador ×2, Cedars ×3 — all `date_night_score` 2–3, redundant location variants. Hiding the weak ones is the fastest quality lever.
+2. **Recover the high-value stragglers** (menu buried >2 nav hops — hand-feed `--url <menu>` or deepen the follow): **Six Seven, Daniel's Broiler, Il Terrazzo Carmine**, plus the live-js SPA rooms that yielded 0 (Anar, Cafe Turko, Lupo, Pomerol, The Blue Glass, the Mr. Gyros set) — these need either a longer JS-hydration wait or better menu-link detection in `fetchMenu.ts`. **Cafe Munir** redirects off-domain (drop). Image/scanned-PDF menus still need a vision-OCR pass (not built).
+3. To grow past ~65: improving the live-js/SPA path in `fetchMenu` is now the highest-leverage change — that bucket is 13+ rooms at 0% and the "hub page, no menu link found" failures suggest the 2-hop follow gives up too early on JS-rendered nav.
 
-Keep batching the ~190 viable pool toward **100 composer-ready**. Known stragglers (menu buried >2 nav hops — hand-feed `--url` or deepen the follow): **Six Seven, Daniel's Broiler, Il Terrazzo Carmine**. Cafe Munir redirects off-domain (drop). Image/scanned-PDF menus need a vision-OCR pass (not built yet). Pacing: a ~30-room batch ≈ 10–15 min of rendering + ~30 Claude extraction calls — run a batch, review, continue.
+Pacing: a ~30-room batch ≈ 10–15 min of rendering + ~30 Claude extraction calls — run a batch, review, continue.
 
 **Env required** (`.env.local`, gitignored): `ANTHROPIC_API_KEY`, `VOYAGE_API_KEY`, `GOOGLE_PLACES_API_KEY` (enable "Places API (New)"). Headless render needs Playwright Chromium (`npx playwright install chromium`) + host libs `libnss3 libnspr4 libasound2t64` — on Ubuntu 24.04 install via `sudo apt-get install -y …` **in a real terminal** (the Claude Code `!` prefix has no TTY, so `sudo` can't read a password there).
 

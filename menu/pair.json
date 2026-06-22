@@ -1,0 +1,143 @@
+{
+  "restaurant": "Pair",
+  "neighborhood": "University District",
+  "cuisine": "European",
+  "venue_format": "share-plate",
+  "menu_completeness": "partial",
+  "source_url": "https://www.pairseattle.com/pancita-menu",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "html (rendered)",
+  "notes": "Menu is explicitly marked as a sample subject to change; captured from Pancita (Mexican), not 'Pair — European' as stated in the prompt — likely a mismatch in source data. Beverage list absent entirely. Trout a la Plancha and Deizmillo Carne Asada Tostada have no descriptions beyond name/price.",
+  "dishes": [
+    {
+      "course_type": "plate",
+      "name": "Sikil Pak",
+      "description": "Spicy pepita indigenous dip with English cucumber, French radish, carrots, olive oil, chili ancho",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Serrano Caesar",
+      "description": "Castel franco, radicchio, tortilla crisps, cilantro, radish",
+      "price_cents": 1700,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Scallop Aguachile",
+      "description": "Sorrel, apple, watermelon radish, serrano, cilantro, lime, red onion, cucumber",
+      "price_cents": 2400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Albacore Tuna Tostada",
+      "description": "Morita kewpie, avocado, fried leeks, Maggi's, lime",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Diezmillo Carne Asada Tostada",
+      "description": "",
+      "price_cents": 1200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Pork Chorizo Molotes",
+      "description": "House-cultured cream, morita pecan salsa mocha, kale, queso cotija",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Brisket Suadero Taco",
+      "description": "Bell pepper salsa, salsa verde, white onion, cilantro",
+      "price_cents": 1100,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Trout a la Plancha",
+      "description": "",
+      "price_cents": 4000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Half Chicken and Mole",
+      "description": "",
+      "price_cents": 3200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Choco Flan",
+      "description": "Miso caramel, candied walnuts",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Seasonal Fruit",
+      "description": "With cranberry chamomile",
+      "price_cents": 1100,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

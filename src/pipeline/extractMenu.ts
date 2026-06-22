@@ -65,9 +65,12 @@ function coerceBev(b: any): MenuBeverage | null {
 }
 
 export async function extractMenu(rawText: string, meta: ExtractMeta): Promise<MenuFile> {
+  // A large à la carte menu can overflow the JSON output; 8000 tokens truncated
+  // mid-object on big rooms (e.g. Barking Dog) and broke JSON.parse. 16000 covers
+  // the 24000-char input cap comfortably.
   const msg = await anthropic().messages.create({
     model: config.composeModel,
-    max_tokens: 8000,
+    max_tokens: 16000,
     system: SYSTEM,
     messages: [
       {
@@ -76,6 +79,9 @@ export async function extractMenu(rawText: string, meta: ExtractMeta): Promise<M
       },
     ],
   });
+  if (msg.stop_reason === "max_tokens") {
+    throw new Error("extraction truncated (hit max_tokens) — menu too large for one pass");
+  }
   const r = parseJsonLoose<any>(textOf(msg));
   const dishes = (Array.isArray(r?.dishes) ? r.dishes : []).map(coerceDish).filter(Boolean) as MenuDish[];
   const beverages = (Array.isArray(r?.beverages) ? r.beverages : []).map(coerceBev).filter(Boolean) as MenuBeverage[];

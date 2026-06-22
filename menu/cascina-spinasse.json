@@ -1,0 +1,371 @@
+{
+  "restaurant": "Cascina Spinasse",
+  "neighborhood": "Capitol Hill",
+  "cuisine": "Italian",
+  "venue_format": "full-menu",
+  "menu_completeness": "full",
+  "source_url": "https://spinasse.com/menu/",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "html (rendered)",
+  "notes": "Full à la carte menu captured including antipasti, primi (with half/full portions), secondi, contorni, dolci, and cocktails. A degustazione tasting option is also offered. Wine list skipped per rules — wines are curated by a wine director but no by-the-glass prices were listed; corkage fee noted. Aperitivi listed without individual prices.",
+  "dishes": [
+    {
+      "course_type": "appetizer",
+      "name": "Prosciutto di Parma",
+      "description": "Pio Tosini 20 month-aged prosciutto with Raschera cheese and balsamico.",
+      "price_cents": 3900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Insalata di Piselli Inglese",
+      "description": "English peas with ricotta and chive blossoms.",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Carciofi con Miele, Mascarpone e Nocciole",
+      "description": "Baby artichokes with honey-controne mascarpone, mint and toasted hazelnuts.",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Capricciosa",
+      "description": "Arugula salad with fennel maionese, cherry tomatoes, prosciutto cotto, green beans and fennel.",
+      "price_cents": 1700,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Antipasto Misto della Casa",
+      "description": "A taste of the above four antipasti.",
+      "price_cents": 4100,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Croquette",
+      "description": "Braised rabbit croquettes with pickled porcini, sugar snap peas and balsamico.",
+      "price_cents": 2100,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Tajarin con Burro e Salvia (Half)",
+      "description": "Fine hand-cut egg yolk pasta with cultured butter and sage.",
+      "price_cents": 2000,
+      "price_note": "Half portion",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Tajarin con Burro e Salvia (Full)",
+      "description": "Fine hand-cut egg yolk pasta with cultured butter and sage.",
+      "price_cents": 3700,
+      "price_note": "Full portion",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Tajarin al Ragù (Half)",
+      "description": "Fine hand-cut egg yolk pasta with pork and beef ragù.",
+      "price_cents": 2200,
+      "price_note": "Half portion",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Tajarin al Ragù (Full)",
+      "description": "Fine hand-cut egg yolk pasta with pork and beef ragù.",
+      "price_cents": 3800,
+      "price_note": "Full portion",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Risotto alle Fave (Half)",
+      "description": "Risotto with fava beans and pecorino.",
+      "price_cents": 2100,
+      "price_note": "Half portion",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Risotto alle Fave (Full)",
+      "description": "Risotto with fava beans and pecorino.",
+      "price_cents": 3800,
+      "price_note": "Full portion",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Cavatelli con Spugnole (Half)",
+      "description": "Cavatelli with morel ragù and rosemary.",
+      "price_cents": 2200,
+      "price_note": "Half portion",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Cavatelli con Spugnole (Full)",
+      "description": "Cavatelli with morel ragù and rosemary.",
+      "price_cents": 3800,
+      "price_note": "Full portion",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Maiale Brasato al Latte",
+      "description": "Milk-braised pork with herbs and pan-roasted semolina gnocco.",
+      "price_cents": 3800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Bistecca",
+      "description": "Bistecca della sera with salsa aglio e olio, sautéed broccoli and pickled horseradish.",
+      "price_cents": 5600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Ippoglosso in Camicia",
+      "description": "Guanciale and butter poached halibut with sautéed asparagus and soft polenta.",
+      "price_cents": 6500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Cavolfiore con Bagna Caoda",
+      "description": "Roasted cauliflower with bagna caoda and lemon.",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Spinaci con Noce Moscato e Chips all'Aglio",
+      "description": "Sautéed spinach with nutmeg and garlic chips.",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Zuppa Inglese",
+      "description": "Ladyfingers soaked in acqua di cedro with lemon curd, ricotta mousse and crème fraîche.",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Panna Cotta",
+      "description": "Vanilla panna cotta with rhubarb purée and croccante.",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Pavlova",
+      "description": "Pavlova with citrus, elderflower-lemon droplets, saskatoon fool and chervil.",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Torta allo Yogurt",
+      "description": "Lemon yogurt cake with hibiscus meringue, candied pistachios and lemon thyme gelato.",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Bonet",
+      "description": "Chocolate custard with almond cream and amaretti cookies.",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": [
+    {
+      "type": "cocktail",
+      "name": "Aperol Spritz",
+      "style": "Classici Cocktail Italiani",
+      "glass_cents": 1600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Martinez",
+      "style": "Classici Cocktail Italiani",
+      "glass_cents": 1600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Negroni",
+      "style": "Classici Cocktail Italiani",
+      "glass_cents": 1600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Boulevardier",
+      "style": "Classici Cocktail Italiani",
+      "glass_cents": 1600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Old Pal",
+      "style": "Classici Cocktail Italiani",
+      "glass_cents": 1600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Paper Plane",
+      "style": "Classici Cocktail Italiani",
+      "glass_cents": 1600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Tramoto",
+      "style": "Cocktail della Casa",
+      "glass_cents": 1600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Vermut della Casa",
+      "style": "Cocktail della Casa",
+      "glass_cents": 1600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Il Castagno",
+      "style": "Cocktail della Casa",
+      "glass_cents": 1600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    }
+  ]
+}

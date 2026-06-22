@@ -1,0 +1,115 @@
+{
+  "restaurant": "The Cheesecake Factory Seattle",
+  "neighborhood": "Downtown",
+  "cuisine": "American",
+  "venue_format": "full-menu",
+  "menu_completeness": "partial",
+  "source_url": "https://www.thecheesecakefactory.com/",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "static",
+  "extraction_method": "html (rendered)",
+  "notes": "This is the Cheesecake Factory homepage marketing content, not a full menu page. Only a handful of featured/promotional dish names were captured with no prices; the full 250+ item menu was not scraped. No beverage data present.",
+  "dishes": [
+    {
+      "course_type": "plate",
+      "name": "Baja Bowl with Grilled Chicken",
+      "description": "Featured in the Bites and Bowls section.",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "BBQ Pork Belly Buns",
+      "description": "Featured in the Bites and Bowls section.",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Asian Chicken Nachos",
+      "description": "Featured in the Bites and Bowls section.",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Asian Tenderloin Bowl",
+      "description": "Featured in the Bites and Bowls section.",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Fried Macaroni and Cheese",
+      "description": "Crispy crumb coated macaroni and cheese balls, served over a creamy marinara sauce.",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Peach Perfect with Raspberry Drizzle",
+      "description": "Peach cheesecake swirled with peaches, finished with raspberry sauce.",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Linda's Fudge Cake",
+      "description": "Featured in Cheesecakes & Specialty Desserts section.",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Fresh Strawberry",
+      "description": "Featured in Cheesecakes & Specialty Desserts section; likely a fresh strawberry cheesecake.",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Godiva® Chocolate Brownie Sundae",
+      "description": "Featured in Cheesecakes & Specialty Desserts section.",
+      "price_cents": null,
+      "price_note": "Price not listed",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

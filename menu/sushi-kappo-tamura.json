@@ -1,0 +1,326 @@
+{
+  "restaurant": "Sushi Kappo Tamura",
+  "neighborhood": "Eastlake",
+  "cuisine": "Japanese / Sushi",
+  "venue_format": "full-menu",
+  "menu_completeness": "partial",
+  "source_url": "https://www.sushikappotamura.com/menu",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "daily",
+  "extraction_method": "html (rendered)",
+  "notes": "Sample nigiri/sashimi menu only — menu changes daily and full selection available via online order. Special rolls, ippins, combination platters, dessert, drinks, sake, wine, and spirits sections were not captured in the raw text. Prices shown as nigiri/sashimi (1 piece / 2 slices).",
+  "dishes": [
+    {
+      "course_type": "plate",
+      "name": "Albacore Tuna Nigiri / Sashimi",
+      "description": "Washington albacore tuna, sustainable. Nigiri 1 piece, sashimi 2 slices.",
+      "price_cents": null,
+      "price_note": "Nigiri $6 / Sashimi $12",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Amberjack / Kanpachi Nigiri / Sashimi",
+      "description": "Japan amberjack (kanpachi), sustainable. Nigiri 1 piece, sashimi 2 slices.",
+      "price_cents": null,
+      "price_note": "Nigiri $10 / Sashimi $20",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Premium Freshwater Eel / Unagi Nigiri / Sashimi",
+      "description": "Freshwater eel from Mikawa, Japan, sustainable. Nigiri 1 piece, sashimi 2 slices.",
+      "price_cents": null,
+      "price_note": "Nigiri $9 / Sashimi $18",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Black Cod Belly, Grilled Nigiri / Sashimi",
+      "description": "Grilled black cod belly from Near Bay, sustainable. Nigiri 1 piece, sashimi 2 slices.",
+      "price_cents": null,
+      "price_note": "Nigiri $8 / Sashimi $16",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Fluke, Kelp Cured / Hirame Nigiri / Sashimi",
+      "description": "East Coast fluke cured with kelp, sustainable. Nigiri 1 piece, sashimi 2 slices.",
+      "price_cents": null,
+      "price_note": "Nigiri $9 / Sashimi $18",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Tamago Nigiri / Sashimi",
+      "description": "Egg omelette. Nigiri 1 piece, sashimi 2 slices.",
+      "price_cents": null,
+      "price_note": "Nigiri $5 / Sashimi $10",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "King Salmon Nigiri / Sashimi",
+      "description": "King salmon from Neah Bay, sustainable. Nigiri 1 piece, sashimi 2 slices.",
+      "price_cents": null,
+      "price_note": "Nigiri $9 / Sashimi $18",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Mackerel / Saba Nigiri / Sashimi",
+      "description": "Norway mackerel (saba), sustainable. Nigiri 1 piece, sashimi 2 slices.",
+      "price_cents": null,
+      "price_note": "Nigiri $5 / Sashimi $10",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Octopus / Tako Nigiri / Sashimi",
+      "description": "Spain octopus (tako), sustainable. Nigiri 1 piece, sashimi 2 slices.",
+      "price_cents": null,
+      "price_note": "Nigiri $5 / Sashimi $10",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Salmon Roe (Chum) / Ikura Nigiri / Sashimi",
+      "description": "Alaska chum salmon roe (ikura), sustainable. Nigiri 1 piece, sashimi 2 slices.",
+      "price_cents": null,
+      "price_note": "Nigiri $8 / Sashimi $16",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Seabream / Madai Nigiri / Sashimi",
+      "description": "Japan seabream (madai). Nigiri 1 piece, sashimi 2 slices.",
+      "price_cents": null,
+      "price_note": "Nigiri $10 / Sashimi $20",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Sea Scallops / Hotate Nigiri / Sashimi",
+      "description": "Hokkaido sea scallops (hotate), sustainable. Nigiri 1 piece, sashimi 2 slices.",
+      "price_cents": null,
+      "price_note": "Nigiri $8 / Sashimi $16",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Seared Sea Scallops w/ Yuzu Gosyo Nigiri / Sashimi",
+      "description": "Seared sea scallops with yuzu gosyo, sustainable. Nigiri 1 piece, sashimi 2 slices.",
+      "price_cents": null,
+      "price_note": "Nigiri $8.50 / Sashimi $17",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Sea Urchin / Uni Nigiri / Sashimi",
+      "description": "Hokkaido sea urchin (uni), sustainable. Nigiri 1 piece, sashimi 2 slices.",
+      "price_cents": null,
+      "price_note": "Nigiri $18 / Sashimi $36",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Smelt Roe / Masago Nigiri / Sashimi",
+      "description": "Canada smelt roe (masago), sustainable. Nigiri 1 piece, sashimi 2 slices.",
+      "price_cents": null,
+      "price_note": "Nigiri $5 / Sashimi $10",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Sockeye Salmon Nigiri / Sashimi",
+      "description": "Bristol Bay, AK sockeye salmon, sustainable. Nigiri 1 piece, sashimi 2 slices.",
+      "price_cents": null,
+      "price_note": "Nigiri $7 / Sashimi $14",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Spot Prawn / Amaebi Nigiri / Sashimi",
+      "description": "B.C. spot prawn (amaebi), sustainable. Nigiri 1 piece, sashimi 2 slices.",
+      "price_cents": null,
+      "price_note": "Nigiri $10 / Sashimi $20",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Tuna / Maguro Nigiri / Sashimi",
+      "description": "Spain tuna (maguro). Nigiri 1 piece, sashimi 2 slices.",
+      "price_cents": null,
+      "price_note": "Nigiri $7 / Sashimi $14",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Blue Prawns / Ebi Nigiri / Sashimi",
+      "description": "Mexico blue prawns (ebi), sustainable. Nigiri 1 piece, sashimi 2 slices.",
+      "price_cents": null,
+      "price_note": "Nigiri $6 / Sashimi $12",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Yellowtail / Hamachi Nigiri / Sashimi",
+      "description": "Kagoshima, Japan yellowtail (hamachi). Nigiri 1 piece, sashimi 2 slices.",
+      "price_cents": null,
+      "price_note": "Nigiri $7 / Sashimi $14",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Coho Salmon / Ginzake Nigiri / Sashimi",
+      "description": "Sitka, Alaska coho salmon (ginzake), sustainable. Nigiri 1 piece, sashimi 2 slices.",
+      "price_cents": null,
+      "price_note": "Nigiri $8 / Sashimi $16",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Otoro Nigiri / Sashimi",
+      "description": "Spain fatty tuna (otoro). Nigiri 1 piece, sashimi 2 slices.",
+      "price_cents": null,
+      "price_note": "Nigiri $12 / Sashimi $24",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Otoro Seared Nigiri / Sashimi",
+      "description": "Seared Spain fatty tuna (otoro). Nigiri 1 piece, sashimi 2 slices.",
+      "price_cents": null,
+      "price_note": "Nigiri $12.50 / Sashimi $25",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Sea Bream / Madai (Ehime) Nigiri / Sashimi",
+      "description": "Ehime, Japan sea bream (madai). Nigiri 1 piece, sashimi 2 slices.",
+      "price_cents": null,
+      "price_note": "Nigiri $10 / Sashimi $20",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

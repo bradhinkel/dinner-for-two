@@ -1,0 +1,119 @@
+{
+  "restaurant": "Dough Zone Seattle",
+  "neighborhood": "Capitol Hill",
+  "cuisine": "Chinese",
+  "venue_format": "share-plate",
+  "menu_completeness": "partial",
+  "source_url": "https://www.doughzonedumplinghouse.com/",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "static",
+  "extraction_method": "html (rendered)",
+  "notes": "Only the House Specials section contained dish names and descriptions; no prices were present anywhere in the raw text. Full menu sections (Soup Dumplings, Q-Bao, Dumplings, Wontons, Vegetables, Noodles, Desserts, Beverages, Alcohol) are listed in navigation but individual items and prices were not captured — only marketing descriptions for signature concepts were included.",
+  "dishes": [
+    {
+      "course_type": "plate",
+      "name": "Green Onion Pancake 葱油饼",
+      "description": "Flaky dough layered with chopped scallions, pan fried with scallion-infused oil for a crispy texture.",
+      "price_cents": null,
+      "price_note": "Price not listed on menu text",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Spicy Beef Sandwich 大嘴牛肉包 (辣)",
+      "description": "Freshly steamed bun packed with seasoned beef shank, fresh vegetables, and spicy crushed pepper house sauce.",
+      "price_cents": null,
+      "price_note": "Price not listed on menu text",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Beef Sandwich 大嘴牛肉包 (不辣)",
+      "description": "Freshly steamed bun packed with seasoned beef shank, fresh vegetables, and savory house sauce.",
+      "price_cents": null,
+      "price_note": "Price not listed on menu text",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Spicy Beef Pancake Roll 麻辣牛肉卷饼",
+      "description": "Green Onion Pancake rolled into a wrap with seasoned beef shank, shredded lettuce, and spicy crushed pepper house sauce.",
+      "price_cents": null,
+      "price_note": "Price not listed on menu text",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Beef Pancake Roll 酱香牛肉卷饼",
+      "description": "Green Onion Pancake rolled into a wrap with seasoned beef shank, shredded lettuce, and savory house sauce.",
+      "price_cents": null,
+      "price_note": "Price not listed on menu text",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Pan Fried Chive Dumplings 韭菜盒子",
+      "description": "Minced aromatic chives, egg, and glass noodles stuffed into a dumpling, pan fried for a crisp finish.",
+      "price_cents": null,
+      "price_note": "Price not listed on menu text",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Pan Fried Beef Pies 牛肉馅饼",
+      "description": "Juicy, seasoned beef wrapped in a savory crust and pan fried to perfection, served on a bed of shredded greens.",
+      "price_cents": null,
+      "price_note": "Price not listed on menu text",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Five Spice Beef Shank 五香牛腱",
+      "description": "Tender slices of braised beef shank seasoned with a fragrant blend of Five Spice, served cold with sliced cucumber.",
+      "price_cents": null,
+      "price_note": "Price not listed on menu text",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Spicy Beef Shank 麻辣牛腱",
+      "description": "Tender slices of braised beef shank seasoned with mala spice blend, served cold with sliced green onion and cilantro.",
+      "price_cents": null,
+      "price_note": "Price not listed on menu text",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

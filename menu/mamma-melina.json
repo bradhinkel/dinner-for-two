@@ -1,0 +1,458 @@
+{
+  "restaurant": "Mamma Melina",
+  "neighborhood": "University District",
+  "cuisine": "Italian",
+  "venue_format": "full-menu",
+  "menu_completeness": "full",
+  "source_url": "https://static1.squarespace.com/static/5c88171c7a1fbd581e739108/t/6a29f428070b5245d2af290a/1781134376249/Full+Dinner+Menu+Website.pdf",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "pdf (auto)",
+  "notes": "Full menu captured including antipasti, salads/soup, pasta/meat/fish, sides, and Neapolitan pizzas. No beverage list was present in the raw text; beverages section is empty. A 3.5% surcharge applies to all bills.",
+  "dishes": [
+    {
+      "course_type": "appetizer",
+      "name": "Focaccia al rosmarino",
+      "description": "Wood fired rosemary and garlic focaccia",
+      "price_cents": 1250,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Burrata con marinara e melanzane",
+      "description": "Marinara, grilled eggplant, burrata, crostini. Gluten free available for $3 upcharge.",
+      "price_cents": 1650,
+      "price_note": "GF available +$3",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Calamari in umido",
+      "description": "Sauteed Monterey calamari, garlic, olives, capers, white wine, tomatoes, bread crumbs",
+      "price_cents": 1850,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Bruschette",
+      "description": "Tomatoes, e.v. olive oil, parmigiano Reggiano, garlic and basil over grilled bread. Gluten free available for $3 upcharge.",
+      "price_cents": 1250,
+      "price_note": "GF available +$3",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Polipo alla Diavola",
+      "description": "Grilled Mediterranean octopus, roasted red peppers, Yukon potatoes, wood fired plum tomato sauce, red chili oil",
+      "price_cents": 2200,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Charcuterie plate",
+      "description": "Assorted Italian sliced meats, cheese, olives, crostini. Gluten free available for $3 upcharge.",
+      "price_cents": 2300,
+      "price_note": "GF available +$3",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Vongole alla diavola",
+      "description": "Manila clams, croutons, spicy tomato sugo. Gluten free available for $3 upcharge.",
+      "price_cents": 2000,
+      "price_note": "GF available +$3",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Antipasto misto",
+      "description": "Marinated grilled vegetables, mozzarella, tomato, speck, coppa, crostini. Gluten free available for $3 upcharge.",
+      "price_cents": 1900,
+      "price_note": "GF available +$3",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Passato di verdure",
+      "description": "Seasonal vegetarian soup, e.v. olive oil drizzle",
+      "price_cents": 1150,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Cuore di romana",
+      "description": "Romaine heart lettuce, caesar dressing, shaved parmigiano and wood-fired crouton. Gluten free available.",
+      "price_cents": 1450,
+      "price_note": "GF available",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Insalata verde al balsamico",
+      "description": "Baby lettuce with balsamic dressing, seasonal vegetable toppings",
+      "price_cents": 1350,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Insalata di barbabietole, caprino e noci",
+      "description": "Beet salad with Washington goat cheese and walnuts",
+      "price_cents": 1550,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Mozzarella e pomodori",
+      "description": "Vine ripened tomatoes, fresh mozzarella, basil and extra virgin olive oil",
+      "price_cents": 1650,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Bucatini amatriciana",
+      "description": "Homemade bucatini artigianali, imported guanciale, passata di San Marzano, pecorino Romano",
+      "price_cents": 2650,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Lasagnette",
+      "description": "Layered pasta with ground beef, pork, ricotta, mozzarella",
+      "price_cents": 2700,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Gnocchi di patate con pomodoro e mozzarella",
+      "description": "Homemade potato gnocchi, imported San Marzano tomatoes, mozzarella, parmigiano",
+      "price_cents": 2550,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Rigatoni alla bolognese",
+      "description": "Artisan rigatoni, beef and pork bolognese, San Marzano sugo. Gluten free available.",
+      "price_cents": 2650,
+      "price_note": "GF available",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Penne Amalfi",
+      "description": "Gulf prawns, smoked salmon, zucchini, spinach, roasted garlic cream. Gluten free available.",
+      "price_cents": 2950,
+      "price_note": "GF available",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Linguine Di Mare",
+      "description": "Manila clams, calamari, bay scallops, gulf shrimp in a spicy tomato cream sauce. Gluten free available.",
+      "price_cents": 3550,
+      "price_note": "GF available",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Brasato d'agnello",
+      "description": "Braised American lamb shank, creamy polenta, roasted vegetables. Limited availability.",
+      "price_cents": 4000,
+      "price_note": "Limited availability",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Filetto di manzo",
+      "description": "Beef tenderloin steak, barolo pancetta reduction, arugula salad, roasted Yukon potato",
+      "price_cents": 4600,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Pollo ai carciofi",
+      "description": "Local Washington chicken, artichoke hearts, sun-dried tomato, white wine lemon reduction, roasted vegetables and potatoes. Gluten free available.",
+      "price_cents": 3200,
+      "price_note": "GF available",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Pesce alla griglia",
+      "description": "Grilled organically farmed steelhead, gulf prawns, homemade cheese and spinach ravioli. Gluten free available.",
+      "price_cents": 3650,
+      "price_note": "GF available",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Scaloppine di maiale",
+      "description": "Thinly sliced pork tenderloin, orini mushroom marsala sauce, roasted potatoes and mixed vegetables. Gluten free available.",
+      "price_cents": 3100,
+      "price_note": "GF available",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Risotto Vesuvio",
+      "description": "Carnaroli rice, salsa rosa, eggplant, smoked provola cheese, mozzarella, basil. Add 3 prawns for $8.",
+      "price_cents": 2650,
+      "price_note": "Add 3 prawns +$8",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Spicy house-made meatballs with marinara & polenta",
+      "description": "Spicy house-made meatballs served with marinara and polenta",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Pasta aglio e olio or marinara",
+      "description": "Pasta with garlic and olive oil or marinara sauce",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Sautéed spinach",
+      "description": "Sautéed spinach",
+      "price_cents": 1250,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Roasted vegetables",
+      "description": "Roasted vegetables",
+      "price_cents": 1200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Margherita",
+      "description": "Neapolitan wood-fired pizza with San Marzano passata, basil, mozzarella, parmigiano",
+      "price_cents": 2300,
+      "price_note": "GF crust available +$5",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Melina",
+      "description": "Neapolitan wood-fired pizza with black truffles, mozzarella, wild mushrooms, parmigiano",
+      "price_cents": 2400,
+      "price_note": "GF crust available +$5",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Bianca",
+      "description": "Neapolitan wood-fired pizza with mozzarella, ricotta, gorgonzola, olive oil, rosemary, parmigiano",
+      "price_cents": 2300,
+      "price_note": "GF crust available +$5",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Speck, caprino e rughetta",
+      "description": "Neapolitan wood-fired pizza with San Marzano passata, goat cheese, mozzarella, rucola, speck, parmigiano",
+      "price_cents": 2500,
+      "price_note": "GF crust available +$5",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Siciliana",
+      "description": "Neapolitan wood-fired pizza with pistachio pesto base, mozzarella, Italian chicken sausage, arugula, lemon dressing",
+      "price_cents": 2500,
+      "price_note": "GF crust available +$5",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Corydon",
+      "description": "Neapolitan wood-fired pizza with San Marzano passata, pepperoni, provolone, mozzarella, parmigiano, basil",
+      "price_cents": 2450,
+      "price_note": "GF crust available +$5",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Pizza capricciosa",
+      "description": "Neapolitan wood-fired pizza with San Marzano passata, mozzarella, mushrooms, cotto ham, olives, artichoke hearts",
+      "price_cents": 2450,
+      "price_note": "GF crust available +$5",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Pizza calabria",
+      "description": "Neapolitan wood-fired pizza with San Marzano passata, Mama Lil's mild peppers, Calabrian salame, roasted sweet onions, mozzarella, parmigiano, basil",
+      "price_cents": 2550,
+      "price_note": "GF crust available +$5",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

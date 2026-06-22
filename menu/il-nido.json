@@ -1,0 +1,312 @@
+{
+  "restaurant": "Il Nido",
+  "neighborhood": "Alki",
+  "cuisine": "Italian",
+  "venue_format": "full-menu",
+  "menu_completeness": "partial",
+  "source_url": "https://ilnidoseattle.com/seattle-alki-il-nido-food-menu",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "daily",
+  "extraction_method": "html (rendered)",
+  "notes": "Full food menu captured including antipasti, pasta, grill, sides, and desserts. Beverage/drinks section was listed in navigation but no drink items appeared in the raw text; beverages array is empty. Menu is explicitly noted as highly seasonal and subject to daily changes. Double-cut ribeye has a variable price range depending on weight.",
+  "dishes": [
+    {
+      "course_type": "appetizer",
+      "name": "Focaccia",
+      "description": "House baked bread, sunchokes, sage, rosemary, olio segreto",
+      "price_cents": 1200,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Negroni Glazed Nuts",
+      "description": "Hazelnuts, almonds, campari, punt e mes, gin salt",
+      "price_cents": 700,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Warm Marinated Spiced Olives",
+      "description": "Dried apricot, toasted sesame",
+      "price_cents": 900,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Che Cavolo",
+      "description": "Kale salad, black garlic & lime caesar dressing, black lime seeded brittle, parmigiano reggiano",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Better Than Burrata",
+      "description": "Warmed piemontese tomino cheese, nettle & green garlic bagna verde, calcot spring onion, watercress",
+      "price_cents": 2300,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Prosciutto di Parma",
+      "description": "24 month aged prosciutto, poached rhubarb",
+      "price_cents": 1500,
+      "price_note": "Half portion $15, whole portion $23",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Tagliere",
+      "description": "Nightly selection of sliced salami & seasonal preserved vegetables",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Tagliatelle a Nido",
+      "description": "Nest of long ribbon noodles, beef and pork tuscan ragu, parmigiano",
+      "price_cents": 3500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Fazzoletto",
+      "description": "Single handkerchief pasta, mushroom ragu, olive oil poached egg yolk, soft herbs, parmigiano",
+      "price_cents": 4000,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Spaghetti al Nero di Sepia",
+      "description": "Cuttlefish ink spaghetti, yellow datterini tomato sugo, anchovy, basil, fried garlic breadcrumbs",
+      "price_cents": 3600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Creste di Gallo",
+      "description": "Rooster's crest ridged maccheroni, gorgonzola fonduta, artichokes, tarragon, taggiasca olive breadcrumbs",
+      "price_cents": 3400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "9 oz. Saratoga Cut Ribeye",
+      "description": "Eye of ribeye, tuscan olive oil, farm greens, tomato vinegar. Optional butters $5 each: Smoked Bone Marrow, Abruzzo Truffle, Roasted Garlic & Gorgonzola",
+      "price_cents": 6700,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Double Cut Bone-In Ribeye",
+      "description": "30oz–42oz bone-in ribeye when available. Optional butters $5 each: Smoked Bone Marrow, Abruzzo Truffle, Roasted Garlic & Gorgonzola",
+      "price_cents": 19800,
+      "price_note": "30oz at $198, 42oz at $312 when available",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Nightly Seafood Preparation",
+      "description": "Nightly seafood preparation — preparation varies",
+      "price_cents": 4500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Porchetta Classica",
+      "description": "Herb stuffed, slow-roasted pork belly, crackling skin, mustard greens",
+      "price_cents": 5600,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Mattone di Polenta",
+      "description": "Parmigiano, butter",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Porri Brasati",
+      "description": "Wine braised leeks, preserved lemon besciamella, anchovy & hazelnut breadcrumbs",
+      "price_cents": 1700,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Olive Oil Panna Cotta",
+      "description": "Rhubarb-fennel jam, chamomile & sesame shortbread cookie",
+      "price_cents": 1200,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Torta al Cioccolato",
+      "description": "70% dark chocolate, whipped cream, cacao nib tuile",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Coppa al Tiramisu",
+      "description": "Mascarpone cream, marsala, espresso, house sponge cake. Contains caffeine and alcohol.",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Pistachio Angel Food Cake",
+      "description": "Lemon curd swirl whipped cream, tay berries, pistachio streusel",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Nightly Gelato Selection",
+      "description": "Nightly rotating gelato selection",
+      "price_cents": 1100,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Nightly Sorbetto Selection",
+      "description": "Nightly rotating sorbetto selection",
+      "price_cents": 900,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}
