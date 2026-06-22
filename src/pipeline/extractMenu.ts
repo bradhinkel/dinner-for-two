@@ -2,7 +2,7 @@
 // menu/*.json schema via one Claude call. The single vision/text extraction service
 // from Restaurant_Finder_Process.md §3; same schema as menu/EXTRACTION_SPEC.md.
 import { config } from "../config.js";
-import { anthropic, textOf, parseJsonLoose } from "../llm/anthropic.js";
+import { guardedCreate, textOf, parseJsonLoose } from "../llm/anthropic.js";
 import type { MenuFile, MenuDish, MenuBeverage } from "../types.js";
 
 export interface ExtractMeta {
@@ -68,7 +68,7 @@ export async function extractMenu(rawText: string, meta: ExtractMeta): Promise<M
   // A large à la carte menu can overflow the JSON output; 8000 tokens truncated
   // mid-object on big rooms (e.g. Barking Dog) and broke JSON.parse. 16000 covers
   // the 24000-char input cap comfortably.
-  const msg = await anthropic().messages.create({
+  const msg = await guardedCreate({
     model: config.composeModel,
     max_tokens: 16000,
     system: SYSTEM,

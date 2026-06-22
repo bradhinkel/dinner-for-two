@@ -7,7 +7,7 @@
 import { readdirSync, readFileSync, writeFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { config } from "../config.js";
-import { anthropic, textOf, parseJsonLoose } from "../llm/anthropic.js";
+import { guardedCreate, textOf, parseJsonLoose } from "../llm/anthropic.js";
 import { placesLookup, placesEnabled, type PlaceInfo } from "./places.js";
 import type { MenuFile } from "../types.js";
 
@@ -75,7 +75,7 @@ async function llmEnrich(menu: MenuFile, raw: RawMeta, place: PlaceInfo | null):
     places_price_level: place?.price_level ?? null,
     address: place?.formatted_address ?? null,
   };
-  const msg = await anthropic().messages.create({
+  const msg = await guardedCreate({
     model: config.composeModel,
     max_tokens: 700,
     system: SYSTEM,

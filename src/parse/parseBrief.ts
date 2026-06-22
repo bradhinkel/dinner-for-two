@@ -1,6 +1,6 @@
 // parse(brief) — Haiku extracts structured fields from a natural-language brief.
 import { config } from "../config.js";
-import { anthropic, textOf, parseJsonLoose } from "../llm/anthropic.js";
+import { guardedCreate, textOf, parseJsonLoose } from "../llm/anthropic.js";
 import type { DietaryTag, OrderingModel, ParsedBrief } from "../types.js";
 
 const SYSTEM = `You extract structured fields from a date-night dining brief. Return STRICT JSON only — no prose, no code fences.
@@ -52,7 +52,7 @@ function coerce(raw: any): ParsedBrief {
 }
 
 export async function parseBrief(brief: string): Promise<ParsedBrief> {
-  const msg = await anthropic().messages.create({
+  const msg = await guardedCreate({
     model: config.parseModel,
     max_tokens: 400,
     system: SYSTEM,
