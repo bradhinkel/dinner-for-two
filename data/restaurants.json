@@ -5423,7 +5423,7 @@
     "business_status": "OPERATIONAL",
     "latitude": 47.664727299999996,
     "longitude": -122.31454029999998,
-    "curation": "use",
+    "curation": "hide",
     "source_url": "https://cedarsseattle.com/tags/dinner#main",
     "menu_volatility": "unknown",
     "dishes": [
@@ -5537,7 +5537,7 @@
     "business_status": "OPERATIONAL",
     "latitude": 47.664727299999996,
     "longitude": -122.31454029999998,
-    "curation": "use",
+    "curation": "hide",
     "source_url": "https://cedarsseattle.com/tags/dinner#main",
     "menu_volatility": "unknown",
     "dishes": [
@@ -14379,7 +14379,7 @@
     "business_status": "OPERATIONAL",
     "latitude": 47.6686686,
     "longitude": -122.2903815,
-    "curation": "use",
+    "curation": "hide",
     "source_url": "https://www.miopostopizza.com/dinner",
     "menu_volatility": "seasonal",
     "dishes": [
@@ -15701,7 +15701,7 @@
     "business_status": "OPERATIONAL",
     "latitude": 47.6686686,
     "longitude": -122.2903815,
-    "curation": "use",
+    "curation": "hide",
     "source_url": "https://www.miopostopizza.com/dinner",
     "menu_volatility": "seasonal",
     "dishes": [
@@ -25956,7 +25956,7 @@
     "business_status": "OPERATIONAL",
     "latitude": 47.6255774,
     "longitude": -122.35569000000001,
-    "curation": "use",
+    "curation": "hide",
     "source_url": "https://themasonryseattle.com/queen-anne/",
     "menu_volatility": "seasonal",
     "dishes": [
@@ -27118,7 +27118,7 @@
     "business_status": "OPERATIONAL",
     "latitude": 47.561475400000006,
     "longitude": -122.3864491,
-    "curation": "use",
+    "curation": "hide",
     "source_url": "https://www.matadorrestaurants.com/view-menu",
     "menu_volatility": "seasonal",
     "dishes": [
@@ -31713,7 +31713,7 @@
     "business_status": "OPERATIONAL",
     "latitude": 47.6182066,
     "longitude": -122.3337038,
-    "curation": "use",
+    "curation": "hide",
     "source_url": "https://tuttabella.getbento.com/location/tutta-bella-downtown-seattle/#feb-2026-menu",
     "menu_volatility": "seasonal",
     "dishes": [
@@ -32305,7 +32305,7 @@
     "business_status": "OPERATIONAL",
     "latitude": 47.6182066,
     "longitude": -122.3337038,
-    "curation": "use",
+    "curation": "hide",
     "source_url": "https://tuttabella.getbento.com/location/tutta-bella-downtown-seattle/#feb-2026-menu",
     "menu_volatility": "seasonal",
     "dishes": [
@@ -32898,7 +32898,7 @@
     "business_status": "OPERATIONAL",
     "latitude": 47.6605109,
     "longitude": -122.3424022,
-    "curation": "use",
+    "curation": "hide",
     "source_url": "https://tuttabella.getbento.com/location/tutta-bella-downtown-seattle/#feb-2026-menu",
     "menu_volatility": "seasonal",
     "dishes": [
