@@ -551,7 +551,7 @@
     "latitude": 47.6794296,
     "longitude": -122.36483270000001,
     "business_status": "OPERATIONAL",
-    "curation": "use"
+    "curation": "hide"
   },
   "thecrabpotseattle": {
     "name": "The Crab Pot Seattle",
@@ -1495,7 +1495,7 @@
     "latitude": 47.6255774,
     "longitude": -122.35569000000001,
     "business_status": "OPERATIONAL",
-    "curation": "use"
+    "curation": "hide"
   },
   "themasonryslu": {
     "name": "The Masonry SLU",
@@ -1559,7 +1559,7 @@
     "latitude": 47.6680418,
     "longitude": -122.3852187,
     "business_status": "OPERATIONAL",
-    "curation": "use"
+    "curation": "hide"
   },
   "thematadorwestseattle": {
     "name": "The Matador West Seattle",

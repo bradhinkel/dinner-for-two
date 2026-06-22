@@ -22698,7 +22698,7 @@
     "business_status": "OPERATIONAL",
     "latitude": 47.6794296,
     "longitude": -122.36483270000001,
-    "curation": "use",
+    "curation": "hide",
     "source_url": "https://thebarkingdogalehouse.com/order",
     "menu_volatility": "seasonal",
     "dishes": [
@@ -25647,7 +25647,7 @@
     "business_status": "OPERATIONAL",
     "latitude": 47.6255774,
     "longitude": -122.35569000000001,
-    "curation": "use",
+    "curation": "hide",
     "source_url": "https://themasonryseattle.com/queen-anne/",
     "menu_volatility": "seasonal",
     "dishes": [
@@ -26268,7 +26268,7 @@
     "business_status": "OPERATIONAL",
     "latitude": 47.6680418,
     "longitude": -122.3852187,
-    "curation": "use",
+    "curation": "hide",
     "source_url": "https://www.matadorrestaurants.com/view-menu",
     "menu_volatility": "seasonal",
     "dishes": [
