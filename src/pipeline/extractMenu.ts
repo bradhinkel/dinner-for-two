@@ -4,6 +4,7 @@
 import { config } from "../config.js";
 import { guardedCreate, textOf, parseJsonLoose } from "../llm/anthropic.js";
 import type { MenuFile, MenuDish, MenuBeverage } from "../types.js";
+import type { VisionSource } from "./fetchMenu.js";
 
 export interface ExtractMeta {
   name: string;
@@ -64,25 +65,9 @@ function coerceBev(b: any): MenuBeverage | null {
   };
 }
 
-export async function extractMenu(rawText: string, meta: ExtractMeta): Promise<MenuFile> {
-  // A large à la carte menu can overflow the JSON output; 8000 tokens truncated
-  // mid-object on big rooms (e.g. Barking Dog) and broke JSON.parse. 16000 covers
-  // the 24000-char input cap comfortably.
-  const msg = await guardedCreate({
-    model: config.composeModel,
-    max_tokens: 16000,
-    system: SYSTEM,
-    messages: [
-      {
-        role: "user",
-        content: `RESTAURANT: ${meta.name} — ${meta.cuisine ?? ""}, ${meta.neighborhood ?? ""}, Seattle.\n\nRAW MENU TEXT:\n${rawText.slice(0, 24000)}`,
-      },
-    ],
-  });
-  if (msg.stop_reason === "max_tokens") {
-    throw new Error("extraction truncated (hit max_tokens) — menu too large for one pass");
-  }
-  const r = parseJsonLoose<any>(textOf(msg));
+// Structure the parsed-JSON LLM response into a MenuFile (shared by the text and
+// vision extraction paths).
+function buildMenuFile(r: any, meta: ExtractMeta): MenuFile {
   const dishes = (Array.isArray(r?.dishes) ? r.dishes : []).map(coerceDish).filter(Boolean) as MenuDish[];
   const beverages = (Array.isArray(r?.beverages) ? r.beverages : []).map(coerceBev).filter(Boolean) as MenuBeverage[];
   const VENUE = ["full-menu", "share-plate", "tasting-only", "counter", "activity"];
@@ -106,4 +91,64 @@ export async function extractMenu(rawText: string, meta: ExtractMeta): Promise<M
     dishes,
     beverages,
   };
+}
+
+export async function extractMenu(rawText: string, meta: ExtractMeta): Promise<MenuFile> {
+  // A large à la carte menu can overflow the JSON output; 8000 tokens truncated
+  // mid-object on big rooms (e.g. Barking Dog) and broke JSON.parse. 16000 covers
+  // the 24000-char input cap comfortably.
+  const msg = await guardedCreate({
+    model: config.composeModel,
+    max_tokens: 16000,
+    system: SYSTEM,
+    messages: [
+      {
+        role: "user",
+        content: `RESTAURANT: ${meta.name} — ${meta.cuisine ?? ""}, ${meta.neighborhood ?? ""}, Seattle.\n\nRAW MENU TEXT:\n${rawText.slice(0, 24000)}`,
+      },
+    ],
+  });
+  if (msg.stop_reason === "max_tokens") {
+    throw new Error("extraction truncated (hit max_tokens) — menu too large for one pass");
+  }
+  const r = parseJsonLoose<any>(textOf(msg));
+  return buildMenuFile(r, meta);
+}
+
+// Vision OCR path — for menus published as images or scanned (no-text-layer) PDFs,
+// where the text pipeline captured nothing usable. Sonnet reads the attached
+// image(s)/PDF directly (image via URL source, scanned PDF via base64 document
+// block — Sonnet 4.6 OCRs both natively). Same schema as the text path.
+export async function extractMenuFromVision(sources: VisionSource[], meta: ExtractMeta): Promise<MenuFile> {
+  // Cap attachments to bound tokens/cost; biggest images come first from fetchMenu.
+  const content: any[] = [];
+  for (const s of sources.slice(0, 5)) {
+    if (s.kind === "pdf_doc" && s.data) {
+      content.push({
+        type: "document",
+        source: { type: "base64", media_type: "application/pdf", data: s.data },
+      });
+    } else if (s.kind === "image_url" && s.url) {
+      content.push({ type: "image", source: { type: "url", url: s.url } });
+    }
+  }
+  if (!content.length) throw new Error("no usable vision sources");
+  content.push({
+    type: "text",
+    text: `RESTAURANT: ${meta.name} — ${meta.cuisine ?? ""}, ${meta.neighborhood ?? ""}, Seattle.\n\nThe menu is in the attached image(s)/PDF — transcribe it into the JSON schema. If an attachment is not actually a menu (a logo, a photo, a hours/contact graphic), ignore it.`,
+  });
+
+  const msg = await guardedCreate({
+    model: config.composeModel,
+    max_tokens: 16000,
+    system: SYSTEM,
+    messages: [{ role: "user", content }],
+  });
+  if (msg.stop_reason === "max_tokens") {
+    throw new Error("vision extraction truncated (hit max_tokens) — menu too large for one pass");
+  }
+  const r = parseJsonLoose<any>(textOf(msg));
+  const menu = buildMenuFile(r, meta);
+  menu.extraction_method = sources[0]?.kind === "pdf_doc" ? "pdf (vision OCR)" : "image (vision OCR)";
+  return menu;
 }

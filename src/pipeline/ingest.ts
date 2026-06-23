@@ -5,7 +5,7 @@
 //       tsx src/pipeline/ingest.ts --state blocked        (all blocked rooms)
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { fetchMenu } from "./fetchMenu.js";
-import { extractMenu } from "./extractMenu.js";
+import { extractMenu, extractMenuFromVision } from "./extractMenu.js";
 
 function norm(s: string): string {
   return s.normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "");
@@ -66,19 +66,25 @@ async function main(): Promise<void> {
     try {
       const fetchUrl = urlOverride && targets.length === 1 ? urlOverride : row.url;
       const fetched = await fetchMenu(fetchUrl);
-      if (fetched.kind === "error" || fetched.kind === "pdf-scanned") {
+      // Route: vision sources (image menu / scanned PDF) -> vision OCR; rendered/PDF
+      // text -> text extraction; a hard error with no vision fallback is skipped.
+      if (fetched.kind === "error" || (fetched.kind === "pdf-scanned" && !fetched.vision?.length)) {
         console.error(`${fetched.kind} (${fetched.note}) — skipped`);
         continue;
       }
-      const menu = await extractMenu(fetched.text, {
+      const extractMeta = {
         name: row.name,
         neighborhood: row.neighborhood || null,
         cuisine: row.cuisine || null,
         source_url: fetched.final_url || row.url,
         extraction_method: fetched.kind === "pdf" ? "pdf (auto)" : "html (rendered)",
-      });
+      };
+      const menu = fetched.vision?.length
+        ? await extractMenuFromVision(fetched.vision, extractMeta)
+        : await extractMenu(fetched.text, extractMeta);
       writeFileSync(`menu/${slug}.json`, JSON.stringify(menu, null, 2) + "\n");
-      console.error(`${fetched.kind}: ${menu.dishes.length} dishes, ${menu.beverages.length} bev -> menu/${slug}.json`);
+      const via = fetched.vision?.length ? "vision" : fetched.kind;
+      console.error(`${via}: ${menu.dishes.length} dishes, ${menu.beverages.length} bev -> menu/${slug}.json`);
     } catch (e) {
       console.error(`extract error (${e instanceof Error ? e.message : String(e)}) — skipped`);
     }

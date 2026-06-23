@@ -5,11 +5,20 @@
 
 export type MenuKind = "html" | "pdf" | "pdf-scanned" | "error";
 
+// When the text pipeline can't read a menu (image menu, scanned PDF), we hand the
+// raw image(s)/PDF to the vision OCR path instead (extractMenuFromVision).
+export interface VisionSource {
+  kind: "image_url" | "pdf_doc";
+  url?: string; // image_url: a menu image on the page (Sonnet fetches it)
+  data?: string; // pdf_doc: base64 of a scanned PDF
+}
+
 export interface FetchedMenu {
   kind: MenuKind;
   text: string;
   final_url: string | null;
   note: string;
+  vision?: VisionSource[]; // present when text was insufficient but images/PDF are available
 }
 
 const UA =
@@ -28,7 +37,14 @@ async function fetchPdfText(url: string): Promise<FetchedMenu> {
   const { text, totalPages } = await extractText(pdf, { mergePages: true });
   const clean = (Array.isArray(text) ? text.join("\n") : text).replace(/\s+\n/g, "\n").trim();
   if (clean.replace(/\s/g, "").length < 80) {
-    return { kind: "pdf-scanned", text: clean, final_url: res.url, note: `${totalPages}p, no text layer (scanned -> needs vision)` };
+    // No text layer — hand the PDF bytes to the vision OCR path.
+    return {
+      kind: "pdf-scanned",
+      text: clean,
+      final_url: res.url,
+      note: `${totalPages}p, no text layer (scanned -> vision OCR)`,
+      vision: [{ kind: "pdf_doc", data: Buffer.from(buf).toString("base64") }],
+    };
   }
   return { kind: "pdf", text: clean, final_url: res.url, note: `${totalPages}p text PDF` };
 }
@@ -83,9 +99,49 @@ async function findMenuLinks(page: import("playwright").Page): Promise<string[]>
     .map((x) => x.href);
 }
 
+// Collect candidate menu-image URLs. Feeds the vision OCR fallback when a room
+// publishes its menu as a JPG/PNG rather than HTML text. Reading live <img> state is
+// unreliable on lazy galleries (Squarespace et al. swap currentSrc to a placeholder
+// and lazy-UNLOAD off-screen images), so the primary source is the page HTML, where
+// the real data-src/srcset URLs persist regardless of DOM load state. We strip the
+// ?format=NNNw query to dedupe responsive variants and hit the full-res original.
+async function findMenuImages(page: import("playwright").Page): Promise<string[]> {
+  const html = await page.content().catch(() => "");
+  const named = new Set<string>();
+  for (const m of html.matchAll(/https?:\/\/[^"'\s)]+?\.(?:png|jpe?g|webp)(?:\?[^"'\s)]*)?/gi)) {
+    const stripped = m[0].split("?")[0]!;
+    if (/menu|dinner|food/i.test(stripped)) named.add(stripped);
+  }
+  if (named.size) return [...named].slice(0, 5);
+
+  // No menu-named image. Fall back only when there are 2+ large images (a scan
+  // gallery) — a single big image is almost always a hero/logo, not a menu, and we
+  // don't want to fire a vision call (and write a junk room) on every landing page.
+  const bigs = await page
+    .evaluate(() => {
+      const out: { src: string; area: number }[] = [];
+      document.querySelectorAll("img").forEach((node) => {
+        const img = node as HTMLImageElement;
+        const area = (img.naturalWidth || 0) * (img.naturalHeight || 0);
+        const src = (img.currentSrc || img.src || "").split("?")[0] ?? "";
+        if (area >= 360000 && /^https?:/.test(src)) out.push({ src, area });
+      });
+      const seen = new Set<string>();
+      return out
+        .sort((a, b) => b.area - a.area)
+        .filter((x) => !seen.has(x.src) && (seen.add(x.src), true))
+        .map((x) => x.src);
+    })
+    .catch(() => [] as string[]);
+  return bigs.length >= 2 ? bigs.slice(0, 5) : [];
+}
+
 // Navigate + wait for a JS shell to actually hydrate, reveal collapsed/tabbed menu
-// sections, then return the page's visible text.
-async function loadAndExtract(page: import("playwright").Page, url: string): Promise<string> {
+// sections, then return the page's visible text plus any candidate menu images.
+async function loadAndExtract(
+  page: import("playwright").Page,
+  url: string
+): Promise<{ text: string; images: string[] }> {
   const resp = await page.goto(url, { waitUntil: "domcontentloaded", timeout: 45000 });
   // Content-aware hydrate: wait until the body has real text (SPA shells render the
   // menu late), not a fixed sleep. Resolves in ~1-3s on most sites; caps at 12s.
@@ -97,9 +153,9 @@ async function loadAndExtract(page: import("playwright").Page, url: string): Pro
   } catch {
     /* SPAs may hold connections open and never go idle */
   }
-  // Reveal collapsed sections AND click in-page menu tabs/nav (non-anchor controls
-  // only, so we don't accidentally navigate away). Many SPA menus sit behind a
-  // "MENU"/"DINNER" tab on the same page.
+  // Reveal collapsed sections AND click in-page menu tabs (non-anchor, non-link
+  // controls ONLY — never anchors or nav <li>s, which can navigate away before we
+  // capture the page). Many SPA menus sit behind a "MENU"/"DINNER" tab on the page.
   await page
     .evaluate(() => {
       document
@@ -107,23 +163,25 @@ async function loadAndExtract(page: import("playwright").Page, url: string): Pro
         .forEach((el) => (el as HTMLElement).click?.());
       const wants = (t: string) =>
         /\b(dinner|food|menu)\b/i.test(t) && !/wine|drink|brunch|lunch|gift|cater|reserv/i.test(t);
-      document
-        .querySelectorAll('button, [role="tab"], [role="button"], [class*="tab"], [class*="nav"] li')
-        .forEach((el) => {
-          const t = (el.textContent || "").trim();
-          if (t.length > 0 && t.length <= 24 && wants(t)) {
-            try {
-              (el as HTMLElement).click?.();
-            } catch {
-              /* ignore */
-            }
+      document.querySelectorAll('button, [role="tab"], [role="button"]').forEach((el) => {
+        // Skip anything that is (or wraps) a link — clicking it navigates.
+        if (el.closest("a") || el.querySelector("a")) return;
+        const t = (el.textContent || "").trim();
+        if (t.length > 0 && t.length <= 24 && wants(t)) {
+          try {
+            (el as HTMLElement).click?.();
+          } catch {
+            /* ignore */
           }
-        });
+        }
+      });
     })
     .catch(() => {});
   await page.waitForTimeout(1200); // let revealed/clicked content paint
   void resp;
-  return ((await page.evaluate(() => document.body?.innerText)) || "").replace(/\n{3,}/g, "\n\n").trim();
+  const text = ((await page.evaluate(() => document.body?.innerText)) || "").replace(/\n{3,}/g, "\n\n").trim();
+  const images = await findMenuImages(page);
+  return { text, images };
 }
 
 // Render `url`; if it's a hub (no priced menu), follow the best menu link(s) up to
@@ -135,15 +193,15 @@ async function followForMenu(
   depth: number,
   maxDepth: number,
   visited: Set<string>
-): Promise<{ text: string; final_url: string } | null> {
+): Promise<{ text: string; final_url: string; images: string[]; vision?: VisionSource[] } | null> {
   const key = url.split("#")[0]!;
   if (visited.has(key)) return null;
   visited.add(key);
 
-  const text = await loadAndExtract(page, url).catch(() => "");
+  const { text, images } = await loadAndExtract(page, url).catch(() => ({ text: "", images: [] as string[] }));
   const final_url = page.url();
-  if (looksLikeMenu(text)) return { text, final_url };
-  if (depth >= maxDepth) return text.length > 200 ? { text, final_url } : null;
+  if (looksLikeMenu(text)) return { text, final_url, images };
+  if (depth >= maxDepth) return text.length > 200 || images.length ? { text, final_url, images } : null;
 
   const candidates = await findMenuLinks(page);
   // breadth tapers with depth: try a few from the hub, fewer deeper.
@@ -152,14 +210,18 @@ async function followForMenu(
     if (visited.has(link.split("#")[0]!)) continue;
     if (looksLikePdf(link, null)) {
       const pdf = await fetchPdfText(link).catch(() => null);
-      if (pdf && pdf.kind === "pdf") return { text: pdf.text, final_url: pdf.final_url ?? link };
+      if (pdf && pdf.kind === "pdf") return { text: pdf.text, final_url: pdf.final_url ?? link, images: [] };
+      // scanned PDF reached via a follow — carry its vision source up
+      if (pdf && pdf.kind === "pdf-scanned" && pdf.vision)
+        return { text: "", final_url: pdf.final_url ?? link, images: [], vision: pdf.vision };
       continue;
     }
     const sub = await followForMenu(page, link, depth + 1, maxDepth, visited);
-    if (sub && looksLikeMenu(sub.text)) return sub;
+    if (sub && (looksLikeMenu(sub.text) || sub.vision)) return sub;
   }
-  // nothing priced downstream — surface the best text we have (the hub itself).
-  return text.length > 200 ? { text, final_url } : null;
+  // nothing priced downstream — surface the best text we have (the hub itself),
+  // keeping any menu images we found for the vision fallback.
+  return text.length > 200 || images.length ? { text, final_url, images } : null;
 }
 
 async function renderHtmlText(url: string): Promise<FetchedMenu> {
@@ -182,15 +244,31 @@ async function renderHtmlText(url: string): Promise<FetchedMenu> {
     if (!result) {
       return { kind: "error", text: "", final_url: page.url(), note: `rendered but no usable content` };
     }
+    // A scanned PDF reached via the follow already carries its vision source.
+    if (result.vision?.length) {
+      return { kind: "pdf-scanned", text: "", final_url: result.final_url, note: `scanned PDF via follow -> vision OCR`, vision: result.vision };
+    }
     const priced = looksLikeMenu(result.text);
-    return {
+    if (priced) {
+      return {
+        kind: "html",
+        text: result.text,
+        final_url: result.final_url,
+        note: `rendered menu (${result.text.length} chars, ${countPrices(result.text)} prices)`,
+      };
+    }
+    // No priced text menu. If the page carried candidate menu images, hand them to
+    // the vision OCR path; otherwise return the best-effort hub text.
+    const out: FetchedMenu = {
       kind: "html",
       text: result.text,
       final_url: result.final_url,
-      note: priced
-        ? `rendered menu (${result.text.length} chars, ${countPrices(result.text)} prices)`
+      note: result.images.length
+        ? `no priced text menu — ${result.images.length} candidate image(s) for vision OCR`
         : `hub/partial — no priced menu found (${result.text.length} chars)`,
     };
+    if (result.images.length) out.vision = result.images.map((u) => ({ kind: "image_url", url: u }));
+    return out;
   } catch (e) {
     return { kind: "error", text: "", final_url: null, note: `render error: ${e instanceof Error ? e.message.slice(0, 120) : e}` };
   } finally {
