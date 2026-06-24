@@ -1,6 +1,6 @@
 # Dinner for Two — Build Guide (CLAUDE.md)
 
-Read this first. It orients you, pins the decisions that aren't obvious from the code, and gives you the contracts and prompts to start Phase 1. When this file and another doc disagree, **this file and `project_plan.md` win**.
+Read this first. It orients you, pins the decisions that aren't obvious from the code, and gives you the engine/import contracts and prompts. When this file and another doc disagree, **this file and `project_plan.md` win**.
 
 ## ⏯ Current status — resume here (updated 2026-06-23)
 
@@ -11,7 +11,7 @@ Read this first. It orients you, pins the decisions that aren't obvious from the
 - **Phase 2 (web UI) ✓** — Next.js App Router + Tailwind + PWA; two-call model (`/api/retrieve` fast headers, SSE `/api/compose/:id` streamed); brief → 3-card spread → swap / regenerate / share. Tokens from `Screen Handoff.html`. Run: `npm run dev`.
 - **Import pipeline (merged to `main`)** — four stages, all built and working:
   - `npm run liveness` — Stage 1 gate over `docs/Raw Restaurant List.txt` (Seattle, 297 unique) → `data/worklist.json` with live/blocked/live-js/pdf/dead/redirected classifications (**216 viable & new**).
-  - `npm run ingest -- "Name" …` — Stage 2/3 acquisition: Playwright headless render (defeats Cloudflare/JS; follows hub→dinner-menu up to 2 hops) **+** PDF text extraction (`unpdf`), then a Claude call structures it → `menu/<slug>.json`. Flags: `--state <bucket>` (e.g. `blocked`, `live-js`), `--url <pdf>` (override a worklist URL).
+  - `npm run ingest -- "Name" …` — Stage 2/3 acquisition: Playwright headless render (defeats Cloudflare/JS; ranked multi-candidate hub→menu follow, 2 hops) **+** PDF text extraction (`unpdf`) **+** vision-OCR for image / scanned-PDF menus, then a Claude call structures it → `menu/<slug>.json`. Flags: `--state <bucket>` (e.g. `blocked`, `live-js`), `--url <pdf>` (override a worklist URL).
   - `npm run enrich -- <slug> …` (no args = all un-enriched imports) — Stage 4: Google Places (lat/long + `business_status` closure signal + price) **+** LLM attributes (price_tier, vibe_tags, date_night_score, dietary, product-voice description) → `data/import_attributes.json`.
   - `npm run build:catalog && npm run build:embeddings` — rebuild the in-memory catalog + Voyage embeddings.
 
@@ -67,7 +67,7 @@ Tune MMR `λ` and iterate prompts here. No screens yet (that's Phase 2).
 
 ## Out of scope for the whole MVP
 
-User accounts/history/personalization; native apps; multi-city; reservations/payment/booking; social/ratings; group dining (3+); real-time menu scanning/OCR at unknown restaurants; the production database (Phase 4); the discovery/ingestion pipeline (Phase 4/5). Don't build these; don't stub elaborate hooks for them.
+User accounts/history/personalization; native apps; multi-city; reservations/payment/booking; social/ratings; group dining (3+); real-time menu scanning/OCR at *unknown/arbitrary* restaurants (the batch import-time vision-OCR in `extractMenu.ts` is built and in scope — this is the live-at-request kind); the production database (Phase 4). Don't build these; don't stub elaborate hooks for them. (The discovery/ingestion pipeline, originally Phase 4/5, has been brought forward and is built — see the status section.)
 
 ## Composition: route on venue_format AND menu_completeness
 
@@ -135,6 +135,6 @@ Setup: `npm install`; copy `.env.example` → `.env.local` and set `ANTHROPIC_AP
 
 `data/restaurants.json` + `data/embeddings.json` are generated but **checked in** (precompute, per project_plan §8). Re-run `build:catalog` + `build:embeddings` after any menu/enrichment change. `scripts/extract_seed.py` (one-time) lifts the Excel seed → `data/seed_attributes.json`.
 
-## Data status (so you don't trust the seed blindly)
+## Data status (so you don't trust the source blindly)
 
-Of the 95 seed rows, ~25 are dead/closed/parked/hijacked and ~70 are live. Full menus are the minority; expect JS-rendered, PDF, image, tasting, and external-platform sources. Run the website-liveness check before trusting any row (see `project_plan.md` §5). For Phase 1, work from the restaurants that already have structured menus in `menu/*.json` plus whatever you ingest; you do NOT need all 90 to prove the engine — ~10–15 across venue formats is enough.
+Current catalog is **88 rooms / 66 active**, built from the 297-room Seattle discovery list (`data/worklist.json`), not the original 95-row Excel seed (that seed lives on only as hand-curated attributes for a handful of wave-1 rooms). Expect dead/closed/parked sources throughout; full menus are the minority (JS-rendered, PDF, image, tasting, external-platform). The pipeline already guards this: liveness classification, Places `business_status` closure suppression, and `curation:"hide"`. **Trust `data/restaurants.json` (the built catalog), not raw rows.** The remaining `~190` un-worked viable rooms in the worklist are the pool for growing toward 100 — most are harder (image/bot-blocked/big-menu) cases now (see Next Steps).
