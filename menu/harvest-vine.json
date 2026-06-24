@@ -1,0 +1,486 @@
+{
+  "restaurant": "Harvest Vine",
+  "neighborhood": "North Capitol Hill",
+  "cuisine": "Spanish / Tapas",
+  "venue_format": "share-plate",
+  "menu_completeness": "partial",
+  "source_url": "https://www.harvestvine.com/eat",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "html (rendered)",
+  "notes": "Full food menu captured including cold and hot raciones, desserts, and dessert wines (vinos dulces by the glass/pour). Full wine list not present in raw text; only dessert wines were included so they are captured here. No by-the-glass or cocktail list was present in the raw text.",
+  "dishes": [
+    {
+      "course_type": "plate",
+      "name": "Tres Aceitunas",
+      "description": "A trio of uniquely marinated Spanish olives",
+      "price_cents": 850,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Remolachas",
+      "description": "Red & golden beet salad with sherry vinegar, olive oil & garlic",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Gilda",
+      "description": "Vinegar cured anchovy skewer with piparra peppers & anchovy stuffed olives",
+      "price_cents": 475,
+      "price_note": "$4.75 each",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Mojama",
+      "description": "Cured tuna loin with marcona almonds & olive oil",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Jamón Serrano",
+      "description": "Dry-cured serrano ham",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Plato de Chacineria",
+      "description": "A special selection of Spanish dry cured meats",
+      "price_cents": 2600,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Pan con Aceite",
+      "description": "Baguette with a Spanish olive oil — manzanilla cacarena extra virgin olive oil",
+      "price_cents": 700,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Quesos — Selection of Four",
+      "description": "A selection of four cheeses with accompaniments",
+      "price_cents": 2600,
+      "price_note": "Also available at $6.75/oz per individual cheese",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Mahón",
+      "description": "Cow's milk cheese with marcona almonds",
+      "price_cents": null,
+      "price_note": "$6.75/oz",
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Bleu de Basque",
+      "description": "Sheep's milk blue cheese with candied walnuts",
+      "price_cents": null,
+      "price_note": "$6.75/oz",
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Garrotxa",
+      "description": "Goat's milk cheese with red wine cherries",
+      "price_cents": null,
+      "price_note": "$6.75/oz",
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Manchego",
+      "description": "Olive oil marinated sheep's milk cheese with quince",
+      "price_cents": null,
+      "price_note": "$6.75/oz",
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Tortilla Española",
+      "description": "Warm potato onion omelette with alioli",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Arroz Cremosa",
+      "description": "Porcini bomba rice with smoked sheep's milk cream",
+      "price_cents": 2200,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Berenjena",
+      "description": "Roasted eggplant with fried tomato sauce, sheep cheese & anchovy",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Judias Verde",
+      "description": "Sautéed green beans with onion confit & tomato frito",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Pulpo a la Plancha",
+      "description": "Spanish octopus with garbanzo purée, pimentón & arbequina oil",
+      "price_cents": 3000,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Gambas",
+      "description": "Seared prawns with chorizo saffron bomba rice & piquillo vinaigrette",
+      "price_cents": 2600,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Vieiras",
+      "description": "Pan seared scallops with English peas & burnt lemon vinaigrette",
+      "price_cents": 2800,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Lubina con Samfaina",
+      "description": "Pan roasted Mediterranean sea bass with eggplant, peppers & tomato vinaigrette",
+      "price_cents": 3400,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Ibérico de Bellota",
+      "description": "Grilled acorn fed pata negra pig with panadera potatoes & cider sauce",
+      "price_cents": 3400,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Txistorra",
+      "description": "Grilled Navarran style pork sausage with grilled bread",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Morcilla",
+      "description": "Pan seared blood sausage with piquillo pepper",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Vaca",
+      "description": "Grilled beef shoulder with sautéed morels, leeks & red wine demi",
+      "price_cents": 3400,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Flan de Vainilla",
+      "description": "Creamy Spanish style vanilla bean custard",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Helado",
+      "description": "Three scoops of housemade ice cream",
+      "price_cents": 1450,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Tarta de Queso",
+      "description": "Burnt Basque style cheesecake with almond scented cherries in coulis",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Tarta de Chocolate",
+      "description": "Flourless chocolate cake with chocolate-caramel sauce & whipped cream",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Tarta de Aceite",
+      "description": "Olive oil wine cake with roasted rhubarb & whipped cream",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": [
+    {
+      "type": "wine",
+      "name": "Oremus 5 Puttonyos 2014 500ml",
+      "style": "Dessert — Tokaji Aszú",
+      "glass_cents": 3500,
+      "bottle_cents": null,
+      "region": "Tokaj, Hungary",
+      "vintage": "2014",
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Jorge Ordóñez No. 2 Victoria Moscatel 500ml",
+      "style": "Dessert — Moscatel",
+      "glass_cents": 1600,
+      "bottle_cents": null,
+      "region": "Málaga, Spain",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Poley Cream",
+      "style": "Dessert — Cream Sherry",
+      "glass_cents": 1350,
+      "bottle_cents": null,
+      "region": "Jerez, Spain",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Don PX 1993",
+      "style": "Dessert — Pedro Ximénez Sherry",
+      "glass_cents": 2900,
+      "bottle_cents": null,
+      "region": "Montilla-Moriles, Spain",
+      "vintage": "1993",
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Cesar Florido Especial Moscatel 375ml",
+      "style": "Dessert — Moscatel",
+      "glass_cents": 900,
+      "bottle_cents": null,
+      "region": "Jerez, Spain",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "El Maestro PX 375ml",
+      "style": "Dessert — Pedro Ximénez Sherry",
+      "glass_cents": 1300,
+      "bottle_cents": null,
+      "region": "Jerez, Spain",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Bodegas Ximénez-Spinola Cosecha Delicado PX 500ml",
+      "style": "Dessert — Pedro Ximénez",
+      "glass_cents": 1400,
+      "bottle_cents": null,
+      "region": "Jerez, Spain",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Bodegas Ximénez-Spinola PX Muy Viejo 750ml",
+      "style": "Dessert — Pedro Ximénez Muy Viejo",
+      "glass_cents": 2000,
+      "bottle_cents": null,
+      "region": "Jerez, Spain",
+      "vintage": null,
+      "flavor_tags": []
+    }
+  ]
+}

@@ -1,0 +1,1003 @@
+{
+  "restaurant": "Shiro’s Sushi",
+  "neighborhood": "Belltown",
+  "cuisine": "Japanese / Sushi",
+  "venue_format": "full-menu",
+  "menu_completeness": "full",
+  "source_url": "https://order.toasttab.com/online/shiros-sushi-2401-2nd-avenue",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "html (rendered)",
+  "notes": "Takeout/online ordering menu captured in full including combos, sashimi, à la carte nigiri, rolls, kitchen dishes, desserts, sake, and wine bottles. No by-the-glass wine available; full bottle wine list included as it was short enough. Several items marked out of stock at time of capture.",
+  "dishes": [
+    {
+      "course_type": "plate",
+      "name": "19pc Chef's Omakase Nigiri",
+      "description": "19 piece chef's choice nigiri assortment.",
+      "price_cents": 9000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Salmon & Tuna Nigiri Combo",
+      "description": "5 pieces Bluefin Tuna Nigiri & 5 pieces Salmon Nigiri",
+      "price_cents": 4200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "12pc Nigiri Assortment",
+      "description": "12 piece chef's choice nigiri assortment.",
+      "price_cents": 4500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Salmon Combo",
+      "description": "4 piece salmon, 1 Ikura, 1 sockeye salmon and salmon roll",
+      "price_cents": 3500,
+      "price_note": "Out of stock at time of capture",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Tuna Combo",
+      "description": "5pc Bluefin tuna (Fatty tuna, medium fatty tuna, zuke tuna, tuna, negitoro) with Tuna roll",
+      "price_cents": 3800,
+      "price_note": "Out of stock at time of capture",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Salmon Bowl",
+      "description": "Salmon, Ikura, Shiso leaf and Egg placed on top of rice",
+      "price_cents": 2500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Bluefin Tuna Bowl",
+      "description": "Tuna, Seared Fatty tuna, Negitoro, Shiso leaf, Sesame and Egg placed on top of rice",
+      "price_cents": 4200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Shiro's Chirashi Bowl",
+      "description": "Tuna, Fatty tuna, Salmon, Yellowtail, White fish, Sweet shrimp, Scallop, Ikura, Unagi and Egg placed on top of rice.",
+      "price_cents": 4500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Spring Sushi Platter",
+      "description": "10 types of nigiri, 4 pieces each, for a total of 40 pieces. Please place an order at least 1 hour before preferred pick-up time.",
+      "price_cents": 19500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Vegetable Combo",
+      "description": "Avocado & Cucumber Roll, 6 pc vegetable Nigiri sushi",
+      "price_cents": 2500,
+      "price_note": "Out of stock at time of capture",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Kappa Roll",
+      "description": "Cucumber",
+      "price_cents": 600,
+      "price_note": "Out of stock at time of capture",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Avocado Roll",
+      "description": "Avocado, Sesame",
+      "price_cents": 700,
+      "price_note": "Out of stock at time of capture",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Avocado Cucumber Roll",
+      "description": "Avocado, Cucumber, Sesame",
+      "price_cents": 1300,
+      "price_note": "Out of stock at time of capture",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Asparagus & Red Cabbage Roll",
+      "description": "Asparagus Tempura, Pickled Red Cabbage, Pickled Ginger, Sesame",
+      "price_cents": 1300,
+      "price_note": "Out of stock at time of capture",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "15pc Sashimi Assortment",
+      "description": "15pc Chef's choice assorted Sashimi",
+      "price_cents": 4500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "30pc Sashimi Assortment",
+      "description": "30pc chef's choice assorted Sashimi",
+      "price_cents": 8500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Albacore Sashimi",
+      "description": "5pc albacore sashimi",
+      "price_cents": 1750,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Salmon Sashimi",
+      "description": "5pc salmon sashimi",
+      "price_cents": 2000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Sockeye Salmon Sashimi",
+      "description": "5pc sockeye salmon sashimi",
+      "price_cents": 2000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Tuna Sashimi",
+      "description": "5pc tuna sashimi",
+      "price_cents": 2750,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Medium Fatty Tuna Sashimi",
+      "description": "5pc medium fatty tuna sashimi",
+      "price_cents": 3500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Fatty Tuna Sashimi",
+      "description": "5pc fatty tuna sashimi",
+      "price_cents": 4250,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Zuke Tuna Sashimi",
+      "description": "5pc soy sauce marinated tuna sashimi",
+      "price_cents": 3500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Kanpachi Sashimi",
+      "description": "5pc amberjack sashimi",
+      "price_cents": 2750,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Sea Bass Sashimi",
+      "description": "5pc sea bass sashimi",
+      "price_cents": 2000,
+      "price_note": "Out of stock at time of capture",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Shimaaji Sashimi",
+      "description": "5pc striped jack sashimi",
+      "price_cents": 2750,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Hokkaido Scallop Sashimi",
+      "description": "5pc sea scallop (from Hokkaido, Japan) sashimi",
+      "price_cents": 3000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Sweet Shrimp Sashimi",
+      "description": "5pc sweet shrimp sashimi",
+      "price_cents": 3000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Unagi Sashimi",
+      "description": "5pc fresh water eel sashimi",
+      "price_cents": 1750,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Ikura Sashimi",
+      "description": "50g of salmon roe sashimi",
+      "price_cents": 3000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Buri Sashimi",
+      "description": "5pc buri (yellowtail) sashimi",
+      "price_cents": 3000,
+      "price_note": "Out of stock at time of capture",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Organic Tofu Miso",
+      "description": "Organic miso soup with Tofu, hint of Yuzu",
+      "price_cents": 400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Local Clam Miso",
+      "description": "Organic miso soup with local Manila clam, hint of Yuzu",
+      "price_cents": 650,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Edamame",
+      "description": "Edamame",
+      "price_cents": 475,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Shiro's Chicken Karaage",
+      "description": "Japanese style crispy fried chicken",
+      "price_cents": 950,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Tempura Assortment",
+      "description": "Shrimp and vegetable tempura served with dipping sauce",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Vegetable Tempura",
+      "description": "Assorted vegetable tempura served with dipping sauce",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Salmon Kama (Shioyaki)",
+      "description": "Broiled salmon collar",
+      "price_cents": 1550,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Black Cod",
+      "description": "Shiro's original, miso and sake lees marinated black cod. Broiled to perfection.",
+      "price_cents": 2050,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Egg Omelet Nigiri",
+      "description": "Egg omelet nigiri (tamago)",
+      "price_cents": 350,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Albacore Tuna Nigiri",
+      "description": "Single piece albacore tuna nigiri",
+      "price_cents": 350,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Fresh Water Eel Nigiri",
+      "description": "Single piece fresh water eel nigiri",
+      "price_cents": 350,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Salmon Nigiri",
+      "description": "Single piece salmon nigiri",
+      "price_cents": 400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Sea Bass Nigiri",
+      "description": "Single piece sea bass nigiri",
+      "price_cents": 400,
+      "price_note": "Out of stock at time of capture",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Sockeye Salmon Nigiri",
+      "description": "Single piece sockeye salmon nigiri",
+      "price_cents": 450,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Tuna Nigiri",
+      "description": "Single piece tuna nigiri",
+      "price_cents": 550,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Sea Bream Nigiri",
+      "description": "Single piece sea bream nigiri",
+      "price_cents": 500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Kanpachi Nigiri",
+      "description": "Single piece amberjack nigiri",
+      "price_cents": 550,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Shimaaji Nigiri",
+      "description": "Single piece striped jack nigiri",
+      "price_cents": 550,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Ikura Nigiri",
+      "description": "Single piece salmon roe nigiri",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Scallop Nigiri",
+      "description": "Single piece scallop nigiri",
+      "price_cents": 750,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Sweet Shrimp Nigiri",
+      "description": "Single piece sweet shrimp nigiri",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Medium Fatty Tuna Nigiri",
+      "description": "Single piece medium fatty tuna nigiri",
+      "price_cents": 700,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Zuke Tuna Nigiri",
+      "description": "Single piece soy sauce marinated tuna nigiri",
+      "price_cents": 700,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Fatty Tuna Nigiri",
+      "description": "Single piece fatty tuna nigiri",
+      "price_cents": 850,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Sea Urchin Nigiri (From Japan)",
+      "description": "Single piece sea urchin nigiri, imported from Japan",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Buri Nigiri",
+      "description": "Single piece yellowtail nigiri",
+      "price_cents": 650,
+      "price_note": "Out of stock at time of capture",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Flounder Nigiri",
+      "description": "Single piece flounder nigiri",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Negitoro Roll",
+      "description": "Chopped fatty tuna, green onion",
+      "price_cents": 850,
+      "price_note": "Out of stock at time of capture",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Tekka Roll",
+      "description": "Tuna",
+      "price_cents": 850,
+      "price_note": "Out of stock at time of capture",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Salmon Roll",
+      "description": "Salmon uramaki",
+      "price_cents": 850,
+      "price_note": "Out of stock at time of capture",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Shrimp Tempura Roll",
+      "description": "Shrimp tempura, asparagus, sesame seed",
+      "price_cents": 1300,
+      "price_note": "Out of stock at time of capture",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Soft Shell Crab Roll",
+      "description": "Deep fried soft shell crab, cucumber, shiso leaf",
+      "price_cents": 1600,
+      "price_note": "Out of stock at time of capture",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Shiro's Matcha Tiramisu",
+      "description": "Shiro's original recipe using traditional Japanese Matcha, seasonal fruits",
+      "price_cents": 950,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Warabimochi",
+      "description": "Soft, chewy and jelly-like cinnamon flavored mochi made from tapioca starch, covered in Kinako (soybean powder) with Kuromitsu (brown sugar syrup) on the side.",
+      "price_cents": 700,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Side Sushi Rice",
+      "description": "Side of sushi rice",
+      "price_cents": 700,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": [
+    {
+      "type": "sake",
+      "name": "Suigei \"Drunken Whale\" 300ml",
+      "style": "Tokubetsu Junmai",
+      "glass_cents": null,
+      "bottle_cents": 2880,
+      "region": "Kochi, Japan",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "sake",
+      "name": "Yuki No Bosha 300ml",
+      "style": "Junmai Ginjo",
+      "glass_cents": null,
+      "bottle_cents": 3040,
+      "region": "Akita, Japan",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "sake",
+      "name": "Kubota 300ml",
+      "style": "Junmai Daiginjo",
+      "glass_cents": null,
+      "bottle_cents": 3200,
+      "region": "Niigata, Japan",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "sake",
+      "name": "Dassai Sparkling 45 360ml",
+      "style": "Junmai Daiginjo Sparkling",
+      "glass_cents": null,
+      "bottle_cents": 3200,
+      "region": "Yamaguchi, Japan",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "sake",
+      "name": "Kinushiro Nigori 500ml",
+      "style": "Junmai Unfiltered (Nigori)",
+      "glass_cents": null,
+      "bottle_cents": 3200,
+      "region": "Akita, Japan",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "sake",
+      "name": "Masumi \"Shiro\" 720ml",
+      "style": "Junmai Ginjo",
+      "glass_cents": null,
+      "bottle_cents": 5200,
+      "region": "Nagano, Japan",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "sake",
+      "name": "Hakkaisan 720ml",
+      "style": "Junmai Daiginjo",
+      "glass_cents": null,
+      "bottle_cents": 7600,
+      "region": "Niigata, Japan",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "sake",
+      "name": "Onikoroshi \"Demon Slayer\" 720ml",
+      "style": "Junmai Daiginjo",
+      "glass_cents": null,
+      "bottle_cents": 8800,
+      "region": "Shizuoka, Japan",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Gruet",
+      "style": "Sparkling",
+      "glass_cents": null,
+      "bottle_cents": 3840,
+      "region": "New Mexico",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Cuvee Aurora Rose",
+      "style": "Rosé",
+      "glass_cents": null,
+      "bottle_cents": 5600,
+      "region": "Italy",
+      "vintage": "2019",
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Elouan Pinot Noir",
+      "style": "Pinot Noir",
+      "glass_cents": null,
+      "bottle_cents": 3840,
+      "region": "Oregon",
+      "vintage": "2022",
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "North Valley – Compass Pinot Noir",
+      "style": "Pinot Noir",
+      "glass_cents": null,
+      "bottle_cents": 5760,
+      "region": "Oregon",
+      "vintage": "2021",
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Cline Cabernet Sauvignon",
+      "style": "Cabernet Sauvignon",
+      "glass_cents": null,
+      "bottle_cents": 3760,
+      "region": "California",
+      "vintage": "2022",
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Craggy Range Sauvignon Blanc",
+      "style": "Sauvignon Blanc",
+      "glass_cents": null,
+      "bottle_cents": 4160,
+      "region": "New Zealand",
+      "vintage": "2024",
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Groth Sauvignon Blanc",
+      "style": "Sauvignon Blanc",
+      "glass_cents": null,
+      "bottle_cents": 5600,
+      "region": "California",
+      "vintage": "2023",
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Pacific Rim Solstice Vineyard Riesling",
+      "style": "Riesling",
+      "glass_cents": null,
+      "bottle_cents": 3920,
+      "region": "Washington",
+      "vintage": "2017",
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Rainstorm Pinot Gris",
+      "style": "Pinot Gris",
+      "glass_cents": null,
+      "bottle_cents": 3760,
+      "region": "Oregon",
+      "vintage": "2022",
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Livio Felluga Pinot Gris",
+      "style": "Pinot Gris",
+      "glass_cents": null,
+      "bottle_cents": 5760,
+      "region": "Italy",
+      "vintage": "2022",
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Coca-Cola",
+      "style": "Soft Drink",
+      "glass_cents": 350,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Diet Coke",
+      "style": "Soft Drink",
+      "glass_cents": 350,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Ginger Ale",
+      "style": "Soft Drink",
+      "glass_cents": 350,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Sprite",
+      "style": "Soft Drink",
+      "glass_cents": 350,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Aqua Panna 1L",
+      "style": "Still Water",
+      "glass_cents": 800,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "San Pellegrino 750ml",
+      "style": "Sparkling Water",
+      "glass_cents": 650,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    }
+  ]
+}

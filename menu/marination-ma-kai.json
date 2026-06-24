@@ -1,0 +1,366 @@
+{
+  "restaurant": "Marination Ma Kai",
+  "neighborhood": "Alki",
+  "cuisine": "Hawaiian-Korean",
+  "venue_format": "counter",
+  "menu_completeness": "full",
+  "source_url": "https://static1.squarespace.com/static/5495bcb6e4b027d892329413/t/6a36c29c44f2a4486c5864e4/1781973660685/downtown-menu.pdf",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "static",
+  "extraction_method": "html (rendered)",
+  "notes": "Full counter-service menu captured from Marination Ma Kai. Protein choices are modifiers, not standalone dishes; mapped to the dishes they serve. Happy Hour pricing noted where distinct. No bottle list present.",
+  "dishes": [
+    {
+      "course_type": "plate",
+      "name": "Taco 2-Pack",
+      "description": "Choice of protein (kalua pork, kalbi beef, miso ginger chicken, spicy pork, or sexy tofu) in corn tortillas with signature slaw, Nunya sauce, homemade pickled jalapeños, sesame seeds.",
+      "price_cents": 750,
+      "price_note": "Kalbi beef add $0.50. Happy Hour weekdays 2–5PM: $7.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Slider 2-Pack",
+      "description": "Choose SPAM or kalua pork on a Hawaiian-style sweet roll with Nunya sauce and signature slaw.",
+      "price_cents": 750,
+      "price_note": "Happy Hour weekdays 2–5PM: $7.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Katsu Slider 2-Pack",
+      "description": "Katsu-style sliders. Happy Hour special item.",
+      "price_cents": null,
+      "price_note": "Happy Hour weekdays 2–5PM: $7; regular price not listed.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Lū'au Plate",
+      "description": "Choice of protein served with signature slaw, mac salad, white rice, and a Hawaiian-style sweet roll.",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Taco Salad",
+      "description": "Choice of protein with signature slaw, Nunya sauce, and all the fixings of a taco except the tortillas.",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Kimchi Fried Rice",
+      "description": "Kimchi fried rice topped with a sunny-up egg, green onions, and furikake. Add protein for +$3.",
+      "price_cents": 1100,
+      "price_note": "Add protein +$3.",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Pork Katsu Sandwich",
+      "description": "Pork cutlet with panko crust on ciabatta with mayo, 'Bulldog' sauce, red onions, and tangy slaw.",
+      "price_cents": 1475,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Chicken Katsu Sandwich",
+      "description": "Chicken cutlet with panko crust on ciabatta with mayo, 'Bulldog' sauce, red onions, and tangy slaw.",
+      "price_cents": 1475,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Korean Cheesesteak",
+      "description": "Kalbi beef with grilled kimchi, onion, jalapeño, melted cheese, mayo on a Macrina demi-baguette.",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Kimchi Quesadilla",
+      "description": "Flour tortilla with kimchi, cheese, Korean-style crema, chopped slaw, and homemade pickled jalapeños. Add kalua pork for +$1.",
+      "price_cents": 1000,
+      "price_note": "Add kalua pork +$1.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Loco Moco",
+      "description": "Beef patty with brown gravy over white rice topped with two sunny-up eggs.",
+      "price_cents": 1350,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Spicy Pork Torta",
+      "description": "Spicy pork on a Macrina demi-baguette with holla and Nunya sauce, slaw, hibiscus pickled peppers, and onion.",
+      "price_cents": 1325,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Aloha Tots",
+      "description": "Tater tots topped with kalua pork, kimchi sauce, mayo, scallions, and a fried egg.",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Hangover Tots",
+      "description": "Kalua pork over handcut fries with brown gravy, cheddar, scallions, and a sunny-up egg.",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Spam Musubi",
+      "description": "Classic Hawaiian SPAM musubi.",
+      "price_cents": 475,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Miso Caesar Salad",
+      "description": "Miso Caesar salad. Add protein for +$6, add katsu pork or chicken for +$7.",
+      "price_cents": 800,
+      "price_note": "Add protein +$6; add katsu pork or chicken +$7.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Mac Salad",
+      "description": "Hawaiian-style macaroni salad.",
+      "price_cents": 325,
+      "price_note": "Small $3.25 / Large $6.",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Signature Slaw",
+      "description": "House signature slaw.",
+      "price_cents": 325,
+      "price_note": "Small $3.25 / Large $6.",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Tots",
+      "description": "Tater tots.",
+      "price_cents": 450,
+      "price_note": "Small $4.50 / Large $7.50.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Kid's Cheese Quesadilla",
+      "description": "Kids' cheese quesadilla.",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Kid's Protein & Rice",
+      "description": "Kids' choice of protein served with rice.",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Malasada — Plain",
+      "description": "Classic Hawaiian fried dough malasada.",
+      "price_cents": 300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Malasada with Filling",
+      "description": "Hawaiian malasada filled with a sweet filling.",
+      "price_cents": 450,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": [
+    {
+      "type": "na",
+      "name": "Island Iced Tea",
+      "style": "Non-alcoholic iced tea",
+      "glass_cents": 700,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Mango Lemonade",
+      "style": "Non-alcoholic lemonade",
+      "glass_cents": 700,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Pineapple Coconut Slushee",
+      "style": "Frozen blended drink",
+      "glass_cents": 800,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Hawaiian Sun Soda",
+      "style": "Canned soda",
+      "glass_cents": 350,
+      "bottle_cents": null,
+      "region": "Hawaii",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "La Croix",
+      "style": "Sparkling water",
+      "glass_cents": 275,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Water",
+      "style": "Still water",
+      "glass_cents": 225,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Stoup: Rotating",
+      "style": "Rotating draft beer",
+      "glass_cents": 800,
+      "bottle_cents": null,
+      "region": "Seattle, WA",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Rotating Cider",
+      "style": "Rotating cider",
+      "glass_cents": 800,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Rainier Tall Boy",
+      "style": "American lager — tall boy can",
+      "glass_cents": 500,
+      "bottle_cents": null,
+      "region": "Pacific Northwest",
+      "vintage": null,
+      "flavor_tags": []
+    }
+  ]
+}

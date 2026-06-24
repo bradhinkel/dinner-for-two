@@ -1,0 +1,211 @@
+{
+  "restaurant": "Khyber Pass",
+  "neighborhood": "Wallingford",
+  "cuisine": "Afghan",
+  "venue_format": "full-menu",
+  "menu_completeness": "partial",
+  "source_url": "https://khyberpassrestaurant.com/oak-park/",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "unknown",
+  "extraction_method": "html (rendered)",
+  "notes": "Only the appetizers section was captured from what appears to be Khyber Pass Oak Park (Indian cuisine, not Afghan/Wallingford/Seattle as described). Soups & Salads, Entrees, Bread/Rice/Sides, and Desserts & Beverages sections were not included in the raw text. No beverage data captured.",
+  "dishes": [
+    {
+      "course_type": "appetizer",
+      "name": "Samosa (3)",
+      "description": "Deep fried golden crisp flour patties filled with delicately spiced potatoes and green peas.",
+      "price_cents": 595,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Vegetable Pakora",
+      "description": "Vegetable fritters dipped in chick pea flour batter and deep fried.",
+      "price_cents": 695,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Aaloo Tikka",
+      "description": "Patties made of potatoes with little red chilles.",
+      "price_cents": 550,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Aaloo Chole",
+      "description": "Garbanzo beans, potatoes, onions, tomatoes in a delicately spiced yogurt sauce. Served cold.",
+      "price_cents": 695,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Cheese Pakora",
+      "description": "Thin strips of homemade cheese, lightly mixed with spices, dipped in chick pea flour batter and fried.",
+      "price_cents": 695,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Bhel",
+      "description": "Puffed rice, mixed with potatoes, onions and specially prepared sauces and garnished with fresh coriander.",
+      "price_cents": 795,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Chicken Pakora",
+      "description": "Tender pieces of marinated chicken, dipped in chick pea flour and fried.",
+      "price_cents": 795,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Chicken Kabob",
+      "description": "Pieces of chicken breast, tomatoes, onions, bell peppers, marinated with vinegar, spices and dry methi leaves, charbroiled.",
+      "price_cents": 895,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Gosht Kabob",
+      "description": "Tender pieces of lamb with vegetables, marinated in vinegar and herbs, charbroiled.",
+      "price_cents": 1095,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Assorted Vegetable Snacks",
+      "description": "A full platter of different vegetarian appetizers. Serves 2-3 people.",
+      "price_cents": 1195,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Assorted Khyber Snacks",
+      "description": "A platter of our vegetarian and non-vegetarian selections of appetizers. Serves 2-3 people.",
+      "price_cents": 1395,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Samosa Chat",
+      "description": "Vegetable samosas with yogurt, tomatoes and garbanzo beans. A true street food.",
+      "price_cents": 795,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Keema Samosas (3)",
+      "description": "Deep fried, golden crisp flour patties stuffed with ground lamb and spices.",
+      "price_cents": 695,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Papadum",
+      "description": "Thin lentil wafers topped with tamarind and mint chutneys.",
+      "price_cents": 495,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Masala Papadum",
+      "description": "Thin lentil wafers topped with chopped onion, tomatoes and fresh cilantro.",
+      "price_cents": 695,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Baingan Bharta Dip",
+      "description": "Crushed grilled eggplant served with slices of naan. Served cold.",
+      "price_cents": 995,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Shrimp Masala",
+      "description": "Lightly sauteed shrimp with methi leaves, served on a bed of lettuce.",
+      "price_cents": 1395,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

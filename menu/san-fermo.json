@@ -1,0 +1,181 @@
+{
+  "restaurant": "San Fermo",
+  "neighborhood": "Ballard",
+  "cuisine": "Italian",
+  "venue_format": "full-menu",
+  "menu_completeness": "partial",
+  "source_url": "https://36cfa903-0221-4327-82c5-f68ce09c0a5c.filesusr.com/ugd/bd2c68_065b23c52bfc4d539a2fac0f95cbdc88.pdf",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "html (rendered)",
+  "notes": "Sample menu captured with antipasti and primi/secondi sections; no desserts or beverage list present. Asterisks appear on some items but no key is provided — likely indicates chef recommendations or allergen markers.",
+  "dishes": [
+    {
+      "course_type": "appetizer",
+      "name": "Sea Wolf Bakery Baguette",
+      "description": "les pres sales butter, sea salt",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Castelvetrano Olives",
+      "description": "fennel pollen, citrus, rosemary",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Marcona Almonds",
+      "description": "fried rosemary, sea salt",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Farinata",
+      "description": "chickpea flatbread, house cagliata, seasonal preserve, sea salt",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "House Caesar",
+      "description": "anchovy, parmigiano reggiano, red wine croutons",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Farm House Salad",
+      "description": "shaved red onion, pickled onion, charred spring onion, burnt onion vinaigrette",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Burrata",
+      "description": "spring peas, pea puree, mint, dill, bresaola, crostini",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Chilled Nettle Vichyssoise",
+      "description": "leek, potato, cream, vegetable stock, creme fraiche, chive oil",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Swan House Bolognese",
+      "description": "saffron spaghetti, pork, beef, rosemary, fennel, tomato, parmigiano reggiano",
+      "price_cents": 3200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Mafaldine",
+      "description": "italian sausage, morel mushroom, ramp, lemon, butter, parmigiano reggiano",
+      "price_cents": 3100,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Tartufo Nero",
+      "description": "fresh egg tagliatelle, summer truffle, butter, parmigiano reggiano",
+      "price_cents": 2600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Paccheri alla Carbonara",
+      "description": "guanciale, black pepper, swan house farm egg yolk, pecorino romano",
+      "price_cents": 2800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Risotto Funghi",
+      "description": "marinated maitake mushrooms, marjoram, goat cheese, garlic",
+      "price_cents": 2900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Pan Roasted Halibut",
+      "description": "new potatoes, asparagus, ramps, parsley, lovage caper honey",
+      "price_cents": 3800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Pure Country Pork Chop",
+      "description": "polenta, charred spring onion, rhubarb mostarda",
+      "price_cents": 4200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

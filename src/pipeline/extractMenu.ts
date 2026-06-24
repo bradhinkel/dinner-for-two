@@ -115,10 +115,32 @@ export async function extractMenu(rawText: string, meta: ExtractMeta): Promise<M
   return buildMenuFile(r, meta);
 }
 
+const UA =
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36";
+
+// Download an image to a base64 block. URL-source images are fetched by Anthropic's
+// server, which 400s on hosts with hotlink protection / odd headers (e.g. some CDNs);
+// fetching the bytes ourselves (with a browser UA) is host-independent. Returns null
+// on failure or if too large (>4.5MB encoded — under the 5MB/image cap) so the caller
+// can fall back to a URL source.
+async function imageBlockFromUrl(url: string): Promise<any | null> {
+  try {
+    const res = await fetch(url, { headers: { "User-Agent": UA, Referer: new URL(url).origin }, redirect: "follow" });
+    if (!res.ok) return null;
+    const ct = (res.headers.get("content-type") || "").split(";")[0]!.trim();
+    if (!/^image\/(png|jpe?g|gif|webp)$/.test(ct)) return null;
+    const buf = Buffer.from(await res.arrayBuffer());
+    const data = buf.toString("base64");
+    if (data.length > 4_500_000) return null;
+    return { type: "image", source: { type: "base64", media_type: ct, data } };
+  } catch {
+    return null;
+  }
+}
+
 // Vision OCR path — for menus published as images or scanned (no-text-layer) PDFs,
 // where the text pipeline captured nothing usable. Sonnet reads the attached
-// image(s)/PDF directly (image via URL source, scanned PDF via base64 document
-// block — Sonnet 4.6 OCRs both natively). Same schema as the text path.
+// image(s)/PDF directly (Sonnet 4.6 OCRs both natively). Same schema as the text path.
 export async function extractMenuFromVision(sources: VisionSource[], meta: ExtractMeta): Promise<MenuFile> {
   // Cap attachments to bound tokens/cost; biggest images come first from fetchMenu.
   const content: any[] = [];
@@ -129,7 +151,9 @@ export async function extractMenuFromVision(sources: VisionSource[], meta: Extra
         source: { type: "base64", media_type: "application/pdf", data: s.data },
       });
     } else if (s.kind === "image_url" && s.url) {
-      content.push({ type: "image", source: { type: "url", url: s.url } });
+      // Prefer fetching the bytes ourselves (host-independent); fall back to URL source.
+      const block = (await imageBlockFromUrl(s.url)) ?? { type: "image", source: { type: "url", url: s.url } };
+      content.push(block);
     }
   }
   if (!content.length) throw new Error("no usable vision sources");

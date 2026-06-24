@@ -1,0 +1,456 @@
+{
+  "restaurant": "The Ram Northgate",
+  "neighborhood": "Northgate",
+  "cuisine": "Gastropub",
+  "venue_format": "full-menu",
+  "menu_completeness": "partial",
+  "source_url": "https://stonehouseidaho.com/menu_july_2025.pdf",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "static",
+  "extraction_method": "html (rendered)",
+  "notes": "This is a catering/banquet menu for The Ram Northgate (gastropub, Seattle), covering buffet packages, chafer-style breakfast/theme menus, and à la carte party tray appetizers. Some text appears to bleed in from a separate Stonehouse (Boise) venue's event info page, which has been noted but not inventoried as dishes. No regular à la carte dinner menu or beverage list was captured. Slider bun add-on price was illegible ('$??') and marked null.",
+  "dishes": [
+    {
+      "course_type": "salad",
+      "name": "Caesar Salad",
+      "description": "Crisp romaine, garlic croutons, tossed with caesar dressing and Parmesan.",
+      "price_cents": 900,
+      "price_note": "Per-person party tray pricing",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Mixed Green Salad",
+      "description": "Mixed greens topped with diced tomatoes, sliced red onion, garlic croutons. Choice of dressing: Buttermilk Ranch, Honey-mustard, Thousand Island, Italian.",
+      "price_cents": 800,
+      "price_note": "Per-person party tray pricing",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Fiesta Layered Dip",
+      "description": "Layers of black beans, sour cream, cheddar and jack cheese, tomatoes, roasted jalapeños, green chiles, avocado crema, pico de gallo. Served with tortilla chips.",
+      "price_cents": 1000,
+      "price_note": "Per-person party tray pricing",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Spinach & Artichoke Dip",
+      "description": "Spinach, artichoke hearts, onion in a creamy sauce with Parmesan and romano cheese. Served with tortilla chips. (Vegetarian)",
+      "price_cents": 1100,
+      "price_note": "Per-person party tray pricing",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Domestic Cheese & Crackers",
+      "description": "Cheddar, Swiss, Pepperjack cheese served with gourmet crackers.",
+      "price_cents": 1200,
+      "price_note": "Per-person party tray pricing",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Veggies & Dip",
+      "description": "Fresh seasonal vegetables with buttermilk ranch dressing for dipping.",
+      "price_cents": 1200,
+      "price_note": "Per-person party tray pricing",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Mini Soft Taco Bar",
+      "description": "Barbacoa Beef or Adobo Chicken, lettuce, cheddarjack cheese, sour cream, guacamole, pico de gallo, green chiles, salsa and tortillas. Beef & Chicken Combo available.",
+      "price_cents": 1600,
+      "price_note": "Per-person party tray pricing; Beef & Chicken Combo $21pp",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Combo Sub Platter",
+      "description": "Corned beef, turkey, roast beef, Swiss, cheddar, mayonnaise, mustard, lettuce, tomato, and onion on French baguette.",
+      "price_cents": 2000,
+      "price_note": "Per-person party tray pricing",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Bone-In Chicken Wings",
+      "description": "All-natural wings, blue cheese dressing and celery sticks. Choice of two sauces: Buffalo, Ram BBQ, Teriyaki, Honey-Sriracha.",
+      "price_cents": 1300,
+      "price_note": "Per-person party tray pricing",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Turkey & Bacon Wraps",
+      "description": "Thinly sliced turkey breast, applewood-smoked bacon, cream cheese, iceberg lettuce, tomato, mayonnaise and havarti cheese wrapped in a flour tortilla.",
+      "price_cents": 1500,
+      "price_note": "Per-person party tray pricing",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Fresh Fruit Medley",
+      "description": "Fresh seasonal variety of fruit.",
+      "price_cents": 1000,
+      "price_note": "Per-person party tray pricing",
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Meatballs",
+      "description": "Meatballs with your choice of BBQ, marinara, Swedish style or Teriyaki sauce. Slider buns available as add-on.",
+      "price_cents": 1300,
+      "price_note": "Per-person party tray pricing; slider bun add-on price illegible",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Hummus & Veggies",
+      "description": "Chickpeas, roasted garlic, red pepper, sesame tahini and fresh lemon. Served with fresh cut vegetables and naan flat bread.",
+      "price_cents": 1100,
+      "price_note": "Per-person party tray pricing",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Bruschetta",
+      "description": "Garlic baguette topped with tomato, red onion, basil, artichoke, garlic, balsamic vinegar, olive oil and parmesan.",
+      "price_cents": 1100,
+      "price_note": "Per-person party tray pricing",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Chimichurri Chicken",
+      "description": "Buffet entrée option (Build Your Own Buffet, signature tier).",
+      "price_cents": null,
+      "price_note": "Included in $26/person Build Your Own Buffet (25-guest minimum); choose 2 signature entrées",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Mac & Cheese with Roasted Vegetables",
+      "description": "Buffet entrée option (Build Your Own Buffet, signature tier).",
+      "price_cents": null,
+      "price_note": "Included in $26/person Build Your Own Buffet (25-guest minimum); choose 2 signature entrées",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "BBQ Pork Carnitas with Fresh Baked Buns",
+      "description": "Buffet entrée option (Build Your Own Buffet, signature tier).",
+      "price_cents": null,
+      "price_note": "Included in $26/person Build Your Own Buffet (25-guest minimum); choose 2 signature entrées",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Grilled BBQ Chicken",
+      "description": "Buffet entrée option (Build Your Own Buffet, signature tier).",
+      "price_cents": null,
+      "price_note": "Included in $26/person Build Your Own Buffet (25-guest minimum); choose 2 signature entrées",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Ram Burger",
+      "description": "Burger with mayo, lettuce, tomato, onion, swiss and cheddar. Buffet entrée option (Build Your Own Buffet, signature tier).",
+      "price_cents": null,
+      "price_note": "Included in $26/person Build Your Own Buffet (25-guest minimum); choose 2 signature entrées",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Grilled Sirloin Steak",
+      "description": "Premium buffet entrée option (Build Your Own Buffet, premium tier).",
+      "price_cents": null,
+      "price_note": "$32/person premium upgrade in Build Your Own Buffet",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Slow-Roasted Big Red Baby Back Ribs",
+      "description": "Premium buffet entrée option (Build Your Own Buffet, premium tier).",
+      "price_cents": null,
+      "price_note": "$35/person premium upgrade in Build Your Own Buffet",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Blackened or Simply Grilled Salmon",
+      "description": "Premium buffet entrée option (Build Your Own Buffet, premium tier).",
+      "price_cents": null,
+      "price_note": "$35/person premium upgrade in Build Your Own Buffet",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Amber Ale Broccoli Gratinée",
+      "description": "Premium side option for Build Your Own Buffet.",
+      "price_cents": null,
+      "price_note": "$7/person add-on in Build Your Own Buffet",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Potatoes Au Gratin",
+      "description": "Premium side option for Build Your Own Buffet.",
+      "price_cents": null,
+      "price_note": "$7/person add-on in Build Your Own Buffet",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Parmesan Mashed Potatoes",
+      "description": "Included side option in Build Your Own Buffet (choose two sides).",
+      "price_cents": null,
+      "price_note": "Included in $26/person Build Your Own Buffet; choose 2 sides",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Seasonal Rice",
+      "description": "Included side option in Build Your Own Buffet (choose two sides).",
+      "price_cents": null,
+      "price_note": "Included in $26/person Build Your Own Buffet; choose 2 sides",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Seasonal Vegetables",
+      "description": "Included side option in Build Your Own Buffet (choose two sides).",
+      "price_cents": null,
+      "price_note": "Included in $26/person Build Your Own Buffet; choose 2 sides",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Southwestern Corn",
+      "description": "Included side option in Build Your Own Buffet (choose two sides).",
+      "price_cents": null,
+      "price_note": "Included in $26/person Build Your Own Buffet; choose 2 sides",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Zesty Coleslaw",
+      "description": "Buffet salad/side option.",
+      "price_cents": null,
+      "price_note": "Included in buffet packages",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Dessert Selection (Choice of One)",
+      "description": "Choose one: Apple Bread Pudding, Cheesecake, Carrot Cake, or Chocolate Cake.",
+      "price_cents": null,
+      "price_note": "$10/person add-on for buffet packages",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Early Riser Breakfast Package",
+      "description": "Juice, coffee, muffins and mini bagels, whipped cream cheese.",
+      "price_cents": null,
+      "price_note": "$12/person chafer-style package, 25-guest minimum",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Continental Buffet Breakfast Package",
+      "description": "Fresh seasonal fruit platter, juices and a variety of pastries including muffins, mini bagels, whipped cream cheese.",
+      "price_cents": null,
+      "price_note": "$16/person chafer-style package, 25-guest minimum",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Classic Breakfast Buffet Package",
+      "description": "Fluffy scrambled eggs, applewood-smoked bacon, sausage patty, hashbrowns, fresh seasonal fruit and juice. Optional Eggs Benedict add-on.",
+      "price_cents": null,
+      "price_note": "$22/person chafer-style package, 25-guest minimum; Eggs Benedict add-on $3/person",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "BBQ Buffet Package",
+      "description": "BBQ chicken and BBQ pulled pork. Served with kernel corn and zesty coleslaw.",
+      "price_cents": null,
+      "price_note": "$30/person chafer-style package, 25-guest minimum",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "All American Buffet Package",
+      "description": "Grilled burgers and chicken breasts served with assorted cheeses, sautéed mushrooms and onions, tomatoes, lettuce, bacon, BBQ sauce and mayonnaise. Served with potato chips and green salad.",
+      "price_cents": null,
+      "price_note": "$35/person chafer-style package, 25-guest minimum",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Southwestern Buffet Package",
+      "description": "Beef and chicken fajitas with onions, red peppers, green chiles, Barbacoa Beef Enchiladas, served with sour cream, cheddarjack cheese, guacamole, flour tortillas, lettuce, tomatoes, jalapeños, seasonal rice and black beans. With chips and salsa.",
+      "price_cents": null,
+      "price_note": "$38/person chafer-style package, 25-guest minimum",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Italian Buffet Package",
+      "description": "Spaghetti and meatballs, lasagna and chicken parmesan. Accompanied by garlic bread and caesar salad.",
+      "price_cents": null,
+      "price_note": "$35/person chafer-style package, 25-guest minimum",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

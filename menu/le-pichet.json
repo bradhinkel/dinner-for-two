@@ -1,0 +1,232 @@
+{
+  "restaurant": "Le Pichet",
+  "neighborhood": "Belltown",
+  "cuisine": "French",
+  "venue_format": "full-menu",
+  "menu_completeness": "partial",
+  "source_url": "https://www.lepichetseattle.com/casse-croute",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "html (rendered)",
+  "notes": "Casse Croûte (breakfast/morning) menu only captured; Déjeuner and Dîner menus not included. Some prices show two tiers (e.g. $25/$17 likely full/half portions) noted in price_note. Baguette pricing appears garbled in source ('$4.00 / $.00' and 'Additional 3') — best-effort reconstruction applied. No beverage list present in this section.",
+  "dishes": [
+    {
+      "course_type": "appetizer",
+      "name": "Baguette de Grand Central Bakery",
+      "description": "Half baguette with butter and house-made jam",
+      "price_cents": 500,
+      "price_note": "Complimentary baguette and butter offered with meal; half baguette with butter and jam $5. Source pricing garbled.",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Les olives ou amandes à grignoter",
+      "description": "Mixed olives marinated with pastis and orange, or almonds sautéed in olive oil with Spanish paprika and sea salt",
+      "price_cents": 900,
+      "price_note": "Olives $6, almonds $9 — menu lists both under apparent combined entry; $9 used as listed price",
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Beignets au fromage de chèvre saupoudrés de sucre épicé",
+      "description": "Goat cheese doughnuts tossed in spiced sugar",
+      "price_cents": 1000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Pain au chocolat « à l'ancienne »",
+      "description": "Bittersweet dark chocolate melted on baguette",
+      "price_cents": 1000,
+      "price_note": "Listed twice on menu (once at $10, once at $9 in desserts section); $10 used as primary price",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Yaourt fabrication maison au miel et noix",
+      "description": "House-made yogurt with organic honey and walnuts",
+      "price_cents": 800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Deux oeufs durs servis avec mayonaise",
+      "description": "Two eggs boiled, served with mayonnaise and cornichons",
+      "price_cents": 900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Salade verte",
+      "description": "Bibb lettuce salad with mustard and hazelnut vinaigrette",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Salade de gemmes avec vinaigrette d'anchois et citron garnie de croutons",
+      "description": "Gem lettuce, spring onions, garlic croutons and anchovy, lemon and parmesan vinaigrette",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Œufs plats, jambon et fromage",
+      "description": "Two eggs broiled with Paris ham and gruyère",
+      "price_cents": 1700,
+      "price_note": "Contains undercooked egg per WA health department notice",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Gâteau au foie de volaille",
+      "description": "Smooth chicken liver terrine",
+      "price_cents": 1700,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Pâté albigeois",
+      "description": "Country style pork pâté with honey and walnuts",
+      "price_cents": 1700,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Rillettes de pork",
+      "description": "Confit of pork spread served with cornichons, whole-grain and Dijon mustard",
+      "price_cents": 1700,
+      "price_note": "Menu lists $25/$17 — likely large/small portion; $17 used as base",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Assiette de jambon de Bayonne",
+      "description": "Air-dried ham from the French Basque country, served with cornichons",
+      "price_cents": 1700,
+      "price_note": "Menu lists $25/$17 — likely large/small portion; $17 used as base",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Assiette de charcuterie",
+      "description": "Chef's selection of house-made and artisan cured meats, sausages, pâtés and terrines, with cornichons",
+      "price_cents": 1700,
+      "price_note": "Menu lists $25/$17 — likely large/small portion; $17 used as base",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Les tartines",
+      "description": "Open-faced country bread with mustard, cornichons and one choice of charcuterie board item, or with warm chèvre, butter and cornichons",
+      "price_cents": 1500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Assiette de fromages",
+      "description": "A selection from the cheese board or by the ounce",
+      "price_cents": null,
+      "price_note": "$25 for selection / $9 per ounce",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Dessert du jour",
+      "description": "Seasonal dessert inspired by the French countryside. Ask your server for today's choice",
+      "price_cents": 1100,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Glace ou sorbet à la boule",
+      "description": "Two scoops of house-made ice cream or sorbet, served with a cookie. Ask your server for today's seasonal flavors. Ice creams are GF; VG sorbets are GF and vegan.",
+      "price_cents": 900,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Chocolat chaud",
+      "description": "Parisian-style hot chocolate made to order, served with whipped cream",
+      "price_cents": 1000,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

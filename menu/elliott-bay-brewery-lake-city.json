@@ -1,0 +1,398 @@
+{
+  "restaurant": "Elliott Bay Brewery Lake City",
+  "neighborhood": "Lake City",
+  "cuisine": "Gastropub",
+  "venue_format": "full-menu",
+  "menu_completeness": "partial",
+  "source_url": "https://elliottbaybrewing.com/events/",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "image (vision OCR)",
+  "notes": "Weekend breakfast menu only (Saturday & Sunday, 9 AM–12 PM) captured from Elliott Bay Brewing Co. Seattle; the first image is a food photo (not a menu) and was ignored. Full dinner/lunch menu and bottle/tap list not included.",
+  "dishes": [
+    {
+      "course_type": "entree",
+      "name": "Brewhouse Breakfast",
+      "description": "Two eggs cooked your way, sausage patty, two slices of bacon, and country style potatoes. Served with a slice of sourdough toast and strawberry jam.",
+      "price_cents": 1775,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Malted Banana Blueberry Pancakes",
+      "description": "Three malted buttermilk pancakes with fresh banana slices and blueberries, cinnamon butter, powdered sugar, and maple syrup.",
+      "price_cents": 1395,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Buttermilk Pancake Plate",
+      "description": "Two malted buttermilk pancakes, served with two slices of bacon, butter and maple syrup.",
+      "price_cents": 1395,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Biscuit Sandwich – Sausage",
+      "description": "One buttermilk biscuit, folded scrambled egg, and melted cheddar cheese with sausage.",
+      "price_cents": 1295,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Biscuit Sandwich – Bacon",
+      "description": "One buttermilk biscuit, folded scrambled egg, and melted cheddar cheese with bacon.",
+      "price_cents": 1295,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Biscuit Sandwich – Andouille",
+      "description": "One buttermilk biscuit, folded scrambled egg, and melted cheddar cheese with andouille sausage.",
+      "price_cents": 1395,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Biscuit Sandwich – Egg & Cheese Only",
+      "description": "One buttermilk biscuit, folded scrambled egg, and melted cheddar cheese.",
+      "price_cents": 1095,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Biscuit Sandwich – Veggie",
+      "description": "One buttermilk biscuit, folded scrambled egg, and melted cheddar cheese topped with sprouts, tomato slice and avocado.",
+      "price_cents": 1095,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Biscuits & Country Gravy",
+      "description": "Two buttermilk biscuits covered with house-made gravy. Add two eggs for $4.50.",
+      "price_cents": 1595,
+      "price_note": "Add two eggs +$4.50",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Corned Beef Potato Hash",
+      "description": "Corned beef and country style potatoes, bell peppers, onions with shredded parmesan, green onions, and two eggs cooked your way.",
+      "price_cents": 1695,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Avocado Toast",
+      "description": "Toasted sourdough with garlic sauce, sliced avocado, shredded parmesan, sprouts and green onion served with grilled tomato topped with queso fresco and pickled red onions on side. Add egg $2.50.",
+      "price_cents": 1295,
+      "price_note": "Add egg +$2.50",
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Yogurt Bowl",
+      "description": "Greek yogurt with granola, fruit, almonds, toasted coconut, chia seeds and drizzled with honey.",
+      "price_cents": 1350,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Kids Mini Cakes",
+      "description": "Mini cakes with butter and maple syrup and one slice of bacon.",
+      "price_cents": 795,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Kids Breakfast Plate",
+      "description": "One egg, one slice of bacon, country potatoes, toast and strawberry jam.",
+      "price_cents": 895,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Crispy Bacon Two Slices",
+      "description": "Two slices of crispy bacon.",
+      "price_cents": 495,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Sausage Patty",
+      "description": "One sausage patty.",
+      "price_cents": 495,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Side Of Gravy",
+      "description": "Side of house-made gravy.",
+      "price_cents": 425,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Add One Egg",
+      "description": "One egg cooked your way (scrambled, over easy, over hard, or sunny side up).",
+      "price_cents": 250,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Side Country Style Potatoes",
+      "description": "Side of country style potatoes.",
+      "price_cents": 495,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "One Buttermilk Pancake",
+      "description": "One buttermilk pancake.",
+      "price_cents": 495,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Biscuit, Butter & Jam",
+      "description": "One buttermilk biscuit served with butter and jam.",
+      "price_cents": 350,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Slice of Toast",
+      "description": "One slice of toast.",
+      "price_cents": 200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Cup of Plain Yogurt with Blueberries and Honey",
+      "description": "Cup of plain yogurt topped with blueberries and honey.",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": [
+    {
+      "type": "cocktail",
+      "name": "Mimosa",
+      "style": "Sparkling wine cocktail",
+      "glass_cents": 1200,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Mimosa Flight",
+      "style": "Assorted mimosa flight",
+      "glass_cents": 1600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Peach Bellini",
+      "style": "Sparkling wine cocktail",
+      "glass_cents": 1200,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Bloody Mary Mug",
+      "style": "Bloody Mary",
+      "glass_cents": 1400,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Coffee Stout",
+      "style": "Coffee Stout",
+      "glass_cents": 850,
+      "bottle_cents": null,
+      "region": "Seattle, WA",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Red Beer",
+      "style": "Red Ale",
+      "glass_cents": 850,
+      "bottle_cents": null,
+      "region": "Seattle, WA",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Coffee",
+      "style": "Hot coffee",
+      "glass_cents": 425,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Milk",
+      "style": "Milk",
+      "glass_cents": 425,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Chocolate Milk",
+      "style": "Chocolate Milk",
+      "glass_cents": 425,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Apple Juice",
+      "style": "Juice",
+      "glass_cents": 500,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Orange Juice",
+      "style": "Juice",
+      "glass_cents": 500,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Cranberry Juice",
+      "style": "Juice",
+      "glass_cents": 500,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    }
+  ]
+}

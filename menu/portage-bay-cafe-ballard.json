@@ -1,0 +1,647 @@
+{
+  "restaurant": "Portage Bay Café Ballard",
+  "neighborhood": "Ballard",
+  "cuisine": "Brunch / American",
+  "venue_format": "full-menu",
+  "menu_completeness": "full",
+  "source_url": "https://static1.squarespace.com/static/544ab456e4b0f3ba72eb800a/t/6a2b1e25e2bbef777e58e42d/1781210661659/june+10%2C+2026.pdf",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "html (rendered)",
+  "notes": "Full Ballard brunch menu captured including eggs/benedicts, griddle items, house favorites (lunch), sides, grains, and weekday small plates. No beverage list present in the raw text; beverages section is empty. Some column-bleed ordering in raw text reconstructed by section headers.",
+  "dishes": [
+    {
+      "course_type": "entree",
+      "name": "Huevos Rancheros",
+      "description": "2 organic corn tortillas, 2 eggs, house-made mole verde sauce, spicy 3 bean mix, queso fresco, pickled onion. Add avocado +2.75, add carnitas or Uli's chorizo +3.50. Served with herb-roasted organic potatoes or organic green salad.",
+      "price_cents": 1850,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Rancher's Breakfast",
+      "description": "3 eggs, choice of Hill's pepper bacon, Uli's maple pork or rosemary chicken sausage, choice of classic pancakes or french toast plus trip to berry bar. Substitute a full classic pancakes or different griddle item +2.00–3.00. Served with herb-roasted organic potatoes or organic green salad.",
+      "price_cents": 2475,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Phil's Breakfast",
+      "description": "3 eggs, choice of Hill's pepper bacon or Uli's maple pork or rosemary chicken sausage, house-made honey wheat toast. Served with herb-roasted organic potatoes or organic green salad.",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Joe's Scramble",
+      "description": "Beecher's Flagship cheddar, organic spinach, sautéed mushrooms, 3 eggs, choice of maple pork or rosemary chicken sausage, house-made honey wheat toast. Served with herb-roasted organic potatoes or organic green salad.",
+      "price_cents": 2000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Goat Cheese Omelette",
+      "description": "3 eggs, herbed goat cheese, baby spinach, sautéed mushrooms, cherry tomatoes, scallions, house-made honey wheat toast. Add Dungeness crab +12.00. Served with herb-roasted organic potatoes or organic green salad.",
+      "price_cents": 1975,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Carnitas Benedict",
+      "description": "Pork carnitas, 2 poached organic eggs, adobo hollandaise, pickled onion garnish, house-made organic Yukon Gold potato English muffin. Add avocado +2.75. Served with herb-roasted organic potatoes or organic salad.",
+      "price_cents": 2200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Classic Benedict",
+      "description": "Thinly sliced ham, fresh hollandaise, paprika garnish, house-made organic Yukon Gold potato English muffin. Served with herb-roasted organic potatoes or organic salad.",
+      "price_cents": 2100,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Seattle Benedict",
+      "description": "Dungeness crab (cold), organic arugula, avocado (cold), fresh hollandaise, dill garnish, house-made organic Yukon Gold potato English muffin. Served with herb-roasted organic potatoes or organic salad.",
+      "price_cents": 3000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Mushroom Benedict",
+      "description": "Sautéed wild mushrooms, organic butternut squash, herbed goat cheese, house-made fig jam, fresh hollandaise, microgreen garnish, house-made organic Yukon Gold potato English muffin. Served with herb-roasted organic potatoes or organic salad.",
+      "price_cents": 2200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Smoked Salmon Benedict",
+      "description": "Cold-smoked wild salmon from Oregon, capers, Samish Bay Creamery vache cheese, dill, fresh hollandaise, chive garnish, house-made organic Yukon Gold potato English muffin. Served with herb-roasted organic potatoes or organic salad.",
+      "price_cents": 2600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Lemon Ricotta Pancakes",
+      "description": "Gluten-free lemon ricotta pancakes, raspberry-lemon curd, organic whipped cream. Includes trip to berry bar.",
+      "price_cents": 2100,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Vegan Banana Pancakes",
+      "description": "Rice flour, rice milk, bananas, powdered sugar garnish. Includes trip to berry bar.",
+      "price_cents": 1950,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Swedish Pancakes",
+      "description": "Rice and tapioca flour pancakes, lingonberry compote, lingonberry compound butter. Includes trip to berry bar.",
+      "price_cents": 1850,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Pancakes",
+      "description": "Heirloom wheat pancakes, yogurt, brown sugar, vanilla. Includes trip to berry bar.",
+      "price_cents": 1875,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "French Toast",
+      "description": "House-made challah, vanilla egg batter, powdered sugar garnish. Includes trip to berry bar.",
+      "price_cents": 1875,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Bananas Foster French Toast",
+      "description": "House-made challah, vanilla egg batter, bananas, rum caramel sauce, powdered sugar garnish. Includes trip to berry bar.",
+      "price_cents": 1925,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Gluten-Free French Toast",
+      "description": "House-made gluten-free bread, vanilla egg batter, powdered sugar garnish. Includes trip to berry bar.",
+      "price_cents": 2000,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Migas",
+      "description": "3 scrambled eggs, cheddar, basil, chipotle, cumin, cilantro-lime crema, house-made salsa, organic flour tortilla, guacamole, choice of herb-roasted organic potatoes or organic salad. Add carnitas or Uli's chorizo +3.50.",
+      "price_cents": 1975,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Mole Verde Burrito",
+      "description": "House-made carnitas, Uli's chorizo, 3 bean mix, organic potatoes, sour cream, organic flour tortilla, molé verde, sunny-side up egg, queso fresco, green onion garnish.",
+      "price_cents": 2000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Farmer's Hash Bowl",
+      "description": "Seasonal mix of roasted organic vegetables, roasted onion, fingerling potatoes, Tuscan herb blend, 3 over easy eggs, house-made honey wheat toast. Add Hill's pepper bacon, Uli's pork or chicken sausage +3.50. Vegan version available with sautéed mushrooms and tofu substitution for egg +1.00.",
+      "price_cents": 1950,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Halal Lamb Scramble",
+      "description": "Sautéed Uli's halal certified lamb sausage, Schreiber Farms organic asparagus, sautéed mushroom mix, 3 eggs, topped with herbed goat cheese, chives, Aleppo pepper. Choice of herb-roasted potatoes or organic green salad, house-made honey wheat toast. Entire dish can be cooked in a separate clean pan for halal.",
+      "price_cents": 2100,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Biscuits & Gravy",
+      "description": "House-made cheddar biscuit, roasted potatoes, 2 eggs, house-made pork sausage gravy.",
+      "price_cents": 1875,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Double Smash Burger",
+      "description": "Royal Ranch beef patties, Beecher's Flagship cheddar, brioche bun, caramelized onion, organic tomato, arugula, house-made burger sauce. Choice of herb-roasted organic potatoes or organic house salad. Add Hill's pepper bacon +3.00 or fried egg +2.75.",
+      "price_cents": 1850,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Buddha Bowl",
+      "description": "Spiced chickpeas, organic squash, turmeric-roasted cauliflower, mini sweet peppers, pickled red onions, red cabbage, organic salad greens, lemon tahini dressing, choice of fried egg or Island Spring organic tofu, house-made rustic bread. Also available as a wrap.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Breakfast Sandwich",
+      "description": "Scrambled eggs, fig jam, Hill's pepper bacon, arugula, aged gouda, house-made potato bread. Choice of herb-roasted organic potatoes or organic green salad.",
+      "price_cents": 1950,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Grilled Cheese & Tomato Soup",
+      "description": "Beecher's Flagship cheddar, aged gouda, house-made potato bread, house-made creamy tomato basil soup.",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Halloumi Avocado Toast",
+      "description": "Smashed avocado, grilled halloumi cheese, sautéed cherry tomatoes, organic arugula, house-made organic rustic bread, house-made chimichurri. Choice of herb-roasted organic potatoes or green salad. Add a poached egg +2.75.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Chicken Sandwich",
+      "description": "Roasted organic chicken, Hill's pepper bacon, organic tomato, iceberg lettuce, garlic aioli, house-made potato bread. Choice of herb-roasted organic potatoes or organic green salad. Add avocado +2.75.",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Half Avocado",
+      "description": "Half avocado side.",
+      "price_cents": 275,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Hill's Pepper Bacon",
+      "description": "Side of Hill's pepper bacon.",
+      "price_cents": 675,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "House-Made Cheddar Biscuit",
+      "description": "House-made cheddar biscuit.",
+      "price_cents": 500,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Side Organic Eggs",
+      "description": "Side of organic eggs.",
+      "price_cents": 275,
+      "price_note": "price is per egg",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Side Seasonal Fruit",
+      "description": "Side of fresh seasonal fruit.",
+      "price_cents": 575,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "House-Made Pork Gravy",
+      "description": "Side of house-made pork sausage gravy.",
+      "price_cents": 350,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "House-Made Guacamole",
+      "description": "Side of house-made guacamole.",
+      "price_cents": 400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Side Hash Veggies",
+      "description": "Side of hash vegetables.",
+      "price_cents": 550,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Fresh Hollandaise",
+      "description": "Side of fresh hollandaise sauce.",
+      "price_cents": 250,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Sautéed Mushrooms",
+      "description": "Side of sautéed mushrooms.",
+      "price_cents": 325,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Roasted Organic Potatoes",
+      "description": "Side of herb-roasted organic potatoes.",
+      "price_cents": 475,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Organic House Salad",
+      "description": "Side organic house salad.",
+      "price_cents": 550,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Fresh Salsa",
+      "description": "Side of fresh salsa.",
+      "price_cents": 300,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Uli's Sausage",
+      "description": "Side of Uli's sausage; choice of rosemary chicken, maple pork, or chorizo.",
+      "price_cents": 750,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "House-Made Toast",
+      "description": "Choice of organic honey wheat, potato, rustic, or English muffin.",
+      "price_cents": 450,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "House-Made Gluten-Free Toast",
+      "description": "House-made gluten-free toast.",
+      "price_cents": 500,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Island Springs Organic Tofu",
+      "description": "Side of Island Springs organic tofu.",
+      "price_cents": 500,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN",
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Side Organic Yogurt",
+      "description": "Side of organic yogurt.",
+      "price_cents": 375,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Trip to the Berry Bar",
+      "description": "Access to the berry bar with fresh berries, other fruit, organic whipped cream, and other toppings.",
+      "price_cents": 1200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Organic Steel Cut Oats",
+      "description": "Slow cooked oats, choice of soy, oat, or 2% milk, house-made granola garnish, fresh fruit.",
+      "price_cents": 1175,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Granola & Yogurt",
+      "description": "Toasted oats, cacao nibs, dried cherries, walnuts, coconut, chia seeds, Greek yogurt, honey garnish, fresh fruit.",
+      "price_cents": 1200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Mini Bene",
+      "description": "Weekday only. Half order of classic or mushroom benedict. Choice of herb-roasted organic potatoes or organic salad.",
+      "price_cents": 1200,
+      "price_note": "Available weekdays only",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Half-Hash Job",
+      "description": "Weekday only. Smaller portion of the Farmer's Hash, one egg, house-made honey wheat toast.",
+      "price_cents": 1100,
+      "price_note": "Available weekdays only",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "The Handheld",
+      "description": "Weekday only. Hill's pepper bacon, gouda cheese, 1 over-medium egg, organic arugula, fig jam, house-made Yukon Gold potato English muffin, herb-roasted organic potatoes.",
+      "price_cents": 1200,
+      "price_note": "Available weekdays only",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Fun-Sized Phil's",
+      "description": "Weekday only. 2 eggs, roasted organic potatoes, slice of house-made honey wheat toast. Add half portion of Hill's pepper bacon, Uli's chicken or pork sausage +3.50.",
+      "price_cents": 1100,
+      "price_note": "Available weekdays only",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Small-Sized Buddha",
+      "description": "Weekday only. Spiced chickpeas, organic squash, turmeric-roasted cauliflower, mini sweet peppers, pickled red onions, red cabbage, organic salad greens, lemon tahini dressing, house-made rustic bread. Add an egg +2.75 or organic tofu +3.00.",
+      "price_cents": 1200,
+      "price_note": "Available weekdays only",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}

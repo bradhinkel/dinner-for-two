@@ -1,0 +1,801 @@
+{
+  "restaurant": "Ben Paris",
+  "neighborhood": "Downtown",
+  "cuisine": "New American",
+  "venue_format": "full-menu",
+  "menu_completeness": "full",
+  "source_url": "https://cdn.colhosp.com/button1-6-a7zqgsm2zv-ben-paris-dinner-menu-6.10.26.pdf",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "html (rendered)",
+  "notes": "Full menu captured including snacks/sides, small plates, mains, desserts, cocktails, mocktails, wine by the glass, and draft/canned beer. Market fish is chef's selection with no fixed price. A family-style chef's selection at $85/person is listed. Bottle list skipped per instructions (Captain's List referenced). Minor PDF column bleed around section headers reconstructed sensibly.",
+  "dishes": [
+    {
+      "course_type": "plate",
+      "name": "Grilled Elote",
+      "description": "Grilled corn on the cob, cilantro lime crema, cotija cheese, pickled fresno chilis, aleppo spice, fried serrano chili, cilantro",
+      "price_cents": 1800,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Shrimp & Grits",
+      "description": "Creamy polenta, chili and herb chimichurri",
+      "price_cents": 2700,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Strawberry Salad",
+      "description": "Bitter greens, strawberries, shaved red onion, balsamic dressing, candied pecans, ricotta salata",
+      "price_cents": 2400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Fried Cauliflower",
+      "description": "Herb yogurt, wine plumped golden raisins, toasted pine nuts, parsley",
+      "price_cents": 1900,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Crab Cakes",
+      "description": "2 Dungeness crab cakes, caper lemon aioli, shaved vegetable slaw with grain mustard vinaigrette",
+      "price_cents": 3200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Grilled Octopus",
+      "description": "Octopus with harissa, corona beans, tomatoes, Mama Lil's chilis, chorizo",
+      "price_cents": 2800,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Cauliflower Caesar",
+      "description": "Lacinato kale, shaved cauliflower, lemon, focaccia breadcrumbs, parmesan",
+      "price_cents": 2100,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "plate",
+      "name": "Grilled Confit Mushrooms",
+      "description": "Confit maitake and cremini mushroom, truffle purée, parmesan, crispy shallots, chives",
+      "price_cents": 2400,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "8oz New York Strip",
+      "description": "Whipped feta, herbed baby potatoes, cipollini confit, black garlic molasses",
+      "price_cents": 4400,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "8oz Bone-In Pork Chop",
+      "description": "Grilled pork chop, sweet onion purée, grilled treviso, peach salsa, ramp oil",
+      "price_cents": 4100,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Short Rib Paccheri",
+      "description": "7oz short rib, beef ragu, Pasta Joe's fresh paccheri, parmesan, demi glace, fresh basil",
+      "price_cents": 4300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Vegetable Burrata Pasta",
+      "description": "Rotating pasta, pea shoot and pepita pesto, cherry tomatoes, asparagus, snap peas, parmesan, burrata",
+      "price_cents": 3800,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Grain Bowl",
+      "description": "Mixed greens, lentils, quinoa, roasted carrots, shallot vinaigrette, spicy peanut sauce, hazelnut dukkah",
+      "price_cents": 3400,
+      "price_note": null,
+      "dietary_tags": [
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Duck Leg Confit",
+      "description": "Bitter green salad, champagne vinaigrette, dark cherries, fromage blanc, toasted hazelnuts, cherry glaze",
+      "price_cents": 4600,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Buttermilk Fried Chicken",
+      "description": "House spices, sesame honey, Yukon gold potato salad, bell peppers, scallions, Greek yogurt and dill dressing",
+      "price_cents": 4000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Seared Scallop Risotto",
+      "description": "Leek soubise, roasted root vegetables, crispy prosciutto, chili oil",
+      "price_cents": 4600,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "8oz American Wagyu Beef Burger",
+      "description": "Smoked gouda, bacon onion jam, butter lettuce, aioli, fries",
+      "price_cents": 2900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Market Fish",
+      "description": "Chef's selection of fresh seafood and seasonal flavors. See server for details.",
+      "price_cents": null,
+      "price_note": "Market price — ask your server",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Chef's Family-Style Selection",
+      "description": "Chef's selection of featured dishes served family-style",
+      "price_cents": 8500,
+      "price_note": "$85 per person",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Flan",
+      "description": "Traditional custard, brûléed sugar, berry and mint garnish",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Carrot Cake",
+      "description": "Cream cheese icing, hazelnut crunch, and macaron",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Seasonal Ice Cream",
+      "description": "House-made seasonal ice cream with rotating scratch-made baked treat",
+      "price_cents": 1000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "dessert",
+      "name": "Affogato",
+      "description": "Caffe Vita espresso, vanilla bean ice cream",
+      "price_cents": 1000,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Marinated Olives & Almonds",
+      "description": "Marinated olives and almonds",
+      "price_cents": 1400,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Essential Baking Focaccia",
+      "description": "2 slices with sea salt, aleppo, parmesan and chives with spicy balsamic and garlic dipping oil",
+      "price_cents": 1200,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Parmesan Truffle Fries",
+      "description": "Parmesan truffle fries",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Buttermilk Hush Puppies",
+      "description": "Sweet corn, jalapeño, pimento cheese sauce",
+      "price_cents": 1200,
+      "price_note": null,
+      "dietary_tags": [
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Fried Halloumi",
+      "description": "Apricot-honey mostarda",
+      "price_cents": 1600,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEG"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "side",
+      "name": "Grilled Vegetable",
+      "description": "Olive oil, salt and pepper",
+      "price_cents": 1100,
+      "price_note": null,
+      "dietary_tags": [
+        "GF",
+        "VEGAN"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": [
+    {
+      "type": "cocktail",
+      "name": "Honey, I Bergamot the Gin",
+      "style": "Sour / Stirred",
+      "glass_cents": 1800,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Dr. Dave's Sundae",
+      "style": "Tropical / Frozen-style",
+      "glass_cents": 1600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Giddy Up",
+      "style": "Tropical / Tiki",
+      "glass_cents": 1900,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Scarlet Alpaca",
+      "style": "Sour / Nitro Foam",
+      "glass_cents": 1700,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Sangria of the Day",
+      "style": "Sangria",
+      "glass_cents": 1500,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Storm Breaker",
+      "style": "Spirit-Forward / Stirred",
+      "glass_cents": 2000,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Gin Griffey Juniper",
+      "style": "Spanish G&T",
+      "glass_cents": 1700,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Ben Paris Old Fashioned",
+      "style": "Old Fashioned",
+      "glass_cents": 1800,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Silk Road",
+      "style": "Exotic / Floral",
+      "glass_cents": 1600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "The Kennedy Package",
+      "style": "Mocktail",
+      "glass_cents": 1200,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Juice Box",
+      "style": "Mocktail",
+      "glass_cents": 1100,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Category Zero",
+      "style": "Mocktail",
+      "glass_cents": 1400,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "cocktail",
+      "name": "Citrus Zen-Rita",
+      "style": "Mocktail / CBD",
+      "glass_cents": 1200,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Archery Summit Pinot Gris",
+      "style": "Pinot Gris",
+      "glass_cents": 1300,
+      "bottle_cents": 5200,
+      "region": "Oregon",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Pazo Cilleiro Albariño",
+      "style": "Albariño",
+      "glass_cents": 1300,
+      "bottle_cents": 5200,
+      "region": "Spain",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Bonnamy Crémant de Loire Brut",
+      "style": "Sparkling / Crémant",
+      "glass_cents": 1400,
+      "bottle_cents": 5600,
+      "region": "Loire Valley, France",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Bonnamy Crémant de Loire Sparkling Rosé",
+      "style": "Sparkling Rosé",
+      "glass_cents": 1400,
+      "bottle_cents": 5600,
+      "region": "Loire Valley, France",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Languedoc H&B Rosé",
+      "style": "Rosé",
+      "glass_cents": 1400,
+      "bottle_cents": 5600,
+      "region": "Languedoc, France",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Juggernaut Sauvignon Blanc",
+      "style": "Sauvignon Blanc",
+      "glass_cents": 1500,
+      "bottle_cents": 6000,
+      "region": "New Zealand",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Benziger Running Wild Chardonnay",
+      "style": "Chardonnay",
+      "glass_cents": 1500,
+      "bottle_cents": 6000,
+      "region": "California",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Gilbert Cellars Rosé",
+      "style": "Rosé",
+      "glass_cents": 1500,
+      "bottle_cents": 6000,
+      "region": "Washington",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Greenwing Wines Pinot Noir",
+      "style": "Pinot Noir",
+      "glass_cents": 1500,
+      "bottle_cents": 6000,
+      "region": "Washington",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Cuarto Dominio Malbec",
+      "style": "Malbec",
+      "glass_cents": 1500,
+      "bottle_cents": 6000,
+      "region": "Argentina",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Malabaila Nebbiolo d'Alba",
+      "style": "Nebbiolo",
+      "glass_cents": 1600,
+      "bottle_cents": 6400,
+      "region": "Piedmont, Italy",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Louis Jadot Beaujolais-Villages",
+      "style": "Gamay / Beaujolais",
+      "glass_cents": 1700,
+      "bottle_cents": 6800,
+      "region": "Beaujolais, France",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "wine",
+      "name": "Abeja Cabernet Sauvignon",
+      "style": "Cabernet Sauvignon",
+      "glass_cents": 2400,
+      "bottle_cents": 9600,
+      "region": "Washington",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Fremont 'Ben Paris' Italian Pilsner",
+      "style": "Italian Pilsner",
+      "glass_cents": 1100,
+      "bottle_cents": null,
+      "region": "Seattle, WA",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Seapine Hefeweizen",
+      "style": "Hefeweizen",
+      "glass_cents": 1100,
+      "bottle_cents": null,
+      "region": "Seattle, WA",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Georgetown Brewing 'Manny's' Pale Ale",
+      "style": "Pale Ale",
+      "glass_cents": 1100,
+      "bottle_cents": null,
+      "region": "Seattle, WA",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Here Today 'Glitterpaw' Hazy IPA",
+      "style": "Hazy IPA",
+      "glass_cents": 1100,
+      "bottle_cents": null,
+      "region": "Seattle, WA",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Lucky Envelope 'Grapefruit Eniac' IPA",
+      "style": "Grapefruit IPA",
+      "glass_cents": 1100,
+      "bottle_cents": null,
+      "region": "Seattle, WA",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Tumalo Dry Cider",
+      "style": "Dry Cider",
+      "glass_cents": 1100,
+      "bottle_cents": null,
+      "region": "Bend, OR",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Old Stove 'Dark Passage' Stout",
+      "style": "Stout",
+      "glass_cents": 1100,
+      "bottle_cents": null,
+      "region": "Seattle, WA",
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Miller High Life Pony",
+      "style": "American Lager",
+      "glass_cents": 450,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Rainier Lager",
+      "style": "American Lager",
+      "glass_cents": 500,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Coors Light",
+      "style": "American Light Lager",
+      "glass_cents": 600,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Modelo Especial",
+      "style": "Mexican Lager",
+      "glass_cents": 750,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "Guinness Draught",
+      "style": "Irish Stout",
+      "glass_cents": 900,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "beer",
+      "name": "-196 Degrees Seltzer",
+      "style": "Hard Seltzer",
+      "glass_cents": 900,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "N/A Beer — Fremont Brewing IPA Athletic Brewing Golden Ale",
+      "style": "Non-Alcoholic Beer",
+      "glass_cents": 700,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Culture Shock Kombucha",
+      "style": "Kombucha",
+      "glass_cents": 800,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    },
+    {
+      "type": "na",
+      "name": "Ablis Draft CBD Seltzer",
+      "style": "CBD Seltzer",
+      "glass_cents": 1000,
+      "bottle_cents": null,
+      "region": null,
+      "vintage": null,
+      "flavor_tags": []
+    }
+  ]
+}

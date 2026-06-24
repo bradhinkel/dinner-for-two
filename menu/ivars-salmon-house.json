@@ -1,0 +1,360 @@
+{
+  "restaurant": "Ivar’s Salmon House",
+  "neighborhood": "Northlake",
+  "cuisine": "Seafood",
+  "venue_format": "full-menu",
+  "menu_completeness": "partial",
+  "source_url": "https://www.ivars.com/acres-menus",
+  "captured_at": "2026-06-20",
+  "menu_status": "complete",
+  "menu_volatility": "seasonal",
+  "extraction_method": "html (rendered)",
+  "notes": "Dinner menu captured for Ivar's Acres of Clams (not Salmon House, despite header); includes starters, soups/salads, classic fried items, simply-prepared fish, northwest favorites, and hand-helds. No beverage pricing captured — wine/bar/spirits menus listed as downloadable PDFs only, so beverages skipped.",
+  "dishes": [
+    {
+      "course_type": "appetizer",
+      "name": "Bread Basket",
+      "description": "Four Macrina Bakery sourdough rolls, whipped butter",
+      "price_cents": 600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Panko Crusted Crab Cakes",
+      "description": "Tomato relish, chipotle-lime aioli",
+      "price_cents": 2400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Coconut Crusted Shrimp",
+      "description": "Sweet chili sauce",
+      "price_cents": 2100,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Seared Fresh Ahi Tuna",
+      "description": "Sesame-red chili crust, sweet chili sauce, wasabi, pickled ginger",
+      "price_cents": 2200,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Fresh Sautéed Manila Clams",
+      "description": "White wine, butter, fennel, mirepoix, grilled toast points",
+      "price_cents": 2400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Crispy Calamari",
+      "description": "Chipotle-lime aioli",
+      "price_cents": 2100,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Crab & Goat Cheese Dip",
+      "description": "Parmesan cheese, cream cheese, panko, toasted crostini",
+      "price_cents": 2300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Fried Brussels Sprouts",
+      "description": "Balsamic glaze, Parmesan cheese",
+      "price_cents": 1700,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "appetizer",
+      "name": "Ivar's Famous White Clam Chowder",
+      "description": "Northwest-style clam chowder with bacon. Available as cup, bowl, or bread bowl.",
+      "price_cents": 1000,
+      "price_note": "Cup $10; Bowl $13; Bread Bowl $20",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "House Green Salad",
+      "description": "Spring mix, grape tomatoes, English cucumber, carrot threads, balsamic vinaigrette dressing. Available entrée size.",
+      "price_cents": 1100,
+      "price_note": "Side $11; Entrée size $18",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Classic Caesar Salad",
+      "description": "Romaine lettuce, anchovy-garlic dressing, shredded Parmesan cheese, garlic crostinis, Parmesan crisps. Available entrée size.",
+      "price_cents": 1200,
+      "price_note": "Side $12; Entrée size $20",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "Wedge Salad",
+      "description": "Iceberg lettuce, grape tomatoes, blue cheese crumbles, crispy bacon, blue cheese dressing",
+      "price_cents": 1300,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "salad",
+      "name": "PNW Protein Cobb",
+      "description": "Dungeness and rock crab, smoked scallops, bay shrimp, bacon, blue cheese crumbles, grape tomatoes, English cucumbers, sliced egg, avocado, Thousand Island dressing",
+      "price_cents": 3800,
+      "price_note": null,
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Ivar's World Famous True Cod Fish 'n Chips",
+      "description": "3-piece Alaska Cod, French fries. 4-piece also available.",
+      "price_cents": 2400,
+      "price_note": "3pc $24; 4pc $27",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Alaska Halibut 'n Chips",
+      "description": "Mac & Jack's Amber-panko crust. 2-, 3-, or 4-piece available.",
+      "price_cents": 3100,
+      "price_note": "2pc $31; 3pc $38; 4pc $46",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Cajun Salmon 'n Chips",
+      "description": "3-piece Alaska wild salmon, French fries. 4-piece also available.",
+      "price_cents": 2500,
+      "price_note": "3pc $25; 4pc $28",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Fried Northwest Platter",
+      "description": "Alaska cod, surf clam strips, jumbo prawns, Cajun salmon, French fries",
+      "price_cents": 3000,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Prawns 'n Chips",
+      "description": "Jumbo prawns, French fries. 6- or 10-piece available.",
+      "price_cents": 2400,
+      "price_note": "6pc $24; 10pc $31",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Alaska's Finest — Simply Prepared",
+      "description": "Choice of simply prepared fish served with red skinned mashed potatoes and seasonal vegetable. Options: Halibut, Cod, Coho Salmon, Weathervane Scallops, King Salmon, Salmon Duo (King & Coho), or Mixed Grill (Halibut & King Salmon).",
+      "price_cents": null,
+      "price_note": "Halibut $37; Cod $30; Coho Salmon $32; Weathervane Scallops $35; King Salmon $36; Salmon Duo $35; Mixed Grill Halibut & King Salmon $39",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Acres of Clams",
+      "description": "2-lb local Manila clams, fennel, potato, onion, carrot, celery, white wine, grilled baguette",
+      "price_cents": 3800,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Seafood Linguine",
+      "description": "Shrimp, clams, scallops, spicy marinara sauce, crispy garlic, parsley, grilled toast points",
+      "price_cents": 2900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Panko Crusted Crab Cakes (Entrée)",
+      "description": "Tomato relish, chipotle-lime aioli, red skinned mashed potatoes, seasonal vegetable",
+      "price_cents": 3600,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Pan Seared Crab Crusted Alaska Halibut",
+      "description": "Lemon-thyme beurre blanc, balsamic reduction, house specialty rice, seasonal vegetable",
+      "price_cents": 3900,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Seared Chicken Piccata",
+      "description": "Lightly breaded, panko, Parmesan cheese, lemon-butter sauce, white wine, capers, parsley, spaghetti, seasonal vegetable",
+      "price_cents": 2700,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "King Crab Legs",
+      "description": "Red skinned mashed potatoes, seasonal vegetable, drawn butter. Available in 1/2-lb or 1-lb.",
+      "price_cents": 6000,
+      "price_note": "1/2-lb $60; 1-lb $120",
+      "dietary_tags": [
+        "GF"
+      ],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Wagyu Blend Half Pound Cheeseburger",
+      "description": "Tillamook Cheddar, Thousand Island, lettuce, tomato, red onion, brioche bun, pickle, fries. Add bacon or fried egg for extra charge.",
+      "price_cents": 2500,
+      "price_note": "Add bacon +$3; Add fried egg +$3",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Grilled Columbia River Steelhead BLT",
+      "description": "Bacon, lettuce, fresh tomatoes, jalapeño-ginger tartar sauce, brioche bun, pickle, fries",
+      "price_cents": 2200,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "French Dip Sandwich",
+      "description": "Caramelized onion, provolone, French roll, creamy horseradish, au jus, fries. Add sautéed mushrooms for extra charge.",
+      "price_cents": 2500,
+      "price_note": "Add sautéed mushrooms +$4",
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Crab Cake Sandwich",
+      "description": "Brioche bun, chipotle-lime aioli, lettuce, tomato, pickle, fries",
+      "price_cents": 2400,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    },
+    {
+      "course_type": "entree",
+      "name": "Cod Tacos",
+      "description": "Lightly battered and fried, corn tortillas, Napa cabbage, Mexican crema, pico de gallo, cilantro, tortilla chips and salsa",
+      "price_cents": 2300,
+      "price_note": null,
+      "dietary_tags": [],
+      "key_ingredients": [],
+      "weight_score": null,
+      "richness_score": null
+    }
+  ],
+  "beverages": []
+}
